@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: muonDetectionSystem/muonDetectionSystem.aux
+A level-1 auxiliary file: DAQ/DAQ.aux
+A level-1 auxiliary file: orcaControl/orcaControl.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: IEEEtranSA.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: thesis.bib
+Warning--string name "jss" is undefined
+--line 4 of file thesis.bib
+-- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Sorting Alpha version - not for normal IEEE work.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--empty journal in becker2008a
+
+Done.
+You've used 1 entry,
+            5047 wiz_defined-function locations,
+            987 strings with 8855 characters,
+and the built_in function-call counts, 1108 in all, are:
+= -- 99
+> -- 32
+< -- 7
++ -- 14
+- -- 9
+* -- 77
+:= -- 189
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 7
+chr.to.int$ -- 16
+cite$ -- 2
+duplicate$ -- 57
+empty$ -- 59
+format.name$ -- 11
+if$ -- 217
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 29
+num.names$ -- 3
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 2
+skip$ -- 71
+stack$ -- 0
+substring$ -- 42
+swap$ -- 44
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 22
+warning$ -- 1
+while$ -- 7
+width$ -- 2
+write$ -- 37
+(There were 2 warnings)

@@ -90,7 +90,7 @@ introduction,
 content,
 DAQ/DAQ,
 orcaControl/orcaControl,
-muonDetectionSystem/muonDetectionSystem,
+muonDetectionSystem,
 %evaluation,
 conclusion,
 appendix
@@ -126,8 +126,8 @@ appendix
 \pagenumbering{arabic}
 \include{introduction}
 
-%\include{evaluation}
-\include{muonDetectionSystem/muonDetectionSystem}
+\include{evaluation}
+\include{muonDetectionSystem}
 \include{DAQ/DAQ}
 \include{orcaControl/orcaControl}
 \include{conclusion}
