@@ -3,17 +3,36 @@
 
 %% ==============
 \chapter{The muon detection system}
-\label{ch:Content1}
-%% ==============
-
-
+\label{ch:The muon detection system}
+%% ============== 
+  The need for low background rates at the main detector requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and asess muon related data, scintillator modules have been installed at both the monitor spectrometer and the main spectrometer. While the monitor spectrometer is equipped with only two rather small modules, at the larger main spectrometer, 8 modules have been installed at different positions enabling the user to cover different regions of the vessel. This freedom is enlarged by installing the detection system on three independently movable trolleys.
   %% ===========================
-  \section{Scintillators}
-  \label{ch:Content1:sec:Scintillator panels}
+  \section{Scintillator modules}
+  \label{ch:The muon detection system:sec:Scintillator modules}
   %% ===========================
+  The central part of the detection system are the eight scintillator modules. They are made of the synthetic material BC-412 which is utilized in applications requiring large area coverage \cite{scintillatorManual}. These have previously been used at  \todo{From Where?}. Every scintillator cuboid is read out by two sets of four photomultiplier tubes. Photons arriving at the short ends of the module are guided to the photomultiplier tubes via non-scintillating material which, away from that, exhibits similar optical properties. All other sides of the scintillator are covered in reflective foil to push detection efficiency to the maximum.
+  \begin{figure}[h]
+    \includegraphics[width = 0.9\textwidth]{../graphics/dummy.eps}	
+  \end{figure}
+  Of the eight photomultiplier tubes per scintillator module installed, 4 are read out via one FLT channel. Only coincident signals should be recorded by the DAQ, though, on some occasions, quite a lot of single side signals occur. To account for those, every dataset is first analysed by a search algorithm to filter those
 
+  
+  
   %% ===========================
   \section{Photomultipliers}
-  \label{ch:Content1:sec:Photomultipliers}
+  \label{ch:The muon detection system:sec:Photomultipliers}
   %% ===========================
+  Each Photomultiplier tube is made up of a layer of \todo{of what} where photons from scintillation ionize the layers' atoms leaving electrons with their initial Energy less the ionization energy 
+  $$E_{e^-} = E_{phot} - E_{ion}$$
+  The electron is then accellerated and guided by the electric field from dynode to dynode, cascading to more and more electrons, as each electron's energy rises by $e\cdot U_{acc}$ between each pair of dynodes.
+  \begin{figure}
+  	\includegraphics[width = 0.5 \textwidth]{../graphics/dummy.eps}
+  \end{figure}
 
+  
+  
+  %% ===========================
+  \section{Gains, Thresholds and Acceleration Voltages}
+  \label{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}
+  %% ===========================
+  \input{muonDetectionSystem/gainsThresholds}

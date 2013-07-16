@@ -7,6 +7,13 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: muonDetectionSystem/muonDetectionSystem.aux
 A level-1 auxiliary file: DAQ/DAQ.aux
 A level-1 auxiliary file: orcaControl/orcaControl.aux
+A level-1 auxiliary file: analysisSoftware/analysisSoftware.aux
+I couldn't open auxiliary file analysis/analysis.aux
+---line 24 of file thesis.aux
+ : \@input{analysis/analysis.aux
+ :                              }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: simulationSoftware/simulationSoftware.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: IEEEtranSA.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -15,8 +22,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis.bib
-Warning--string name "jss" is undefined
---line 4 of file thesis.bib
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -24,48 +29,47 @@ Warning--string name "jss" is undefined
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--empty journal in becker2008a
 
 Done.
-You've used 1 entry,
+You've used 2 entries,
             5047 wiz_defined-function locations,
-            987 strings with 8855 characters,
-and the built_in function-call counts, 1108 in all, are:
-= -- 99
-> -- 32
-< -- 7
-+ -- 14
-- -- 9
-* -- 77
-:= -- 189
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 7
-chr.to.int$ -- 16
+            997 strings with 9183 characters,
+and the built_in function-call counts, 1669 in all, are:
+= -- 160
+> -- 40
+< -- 8
++ -- 16
+- -- 11
+* -- 98
+:= -- 287
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 17
 cite$ -- 2
-duplicate$ -- 57
-empty$ -- 59
-format.name$ -- 11
-if$ -- 217
+duplicate$ -- 96
+empty$ -- 105
+format.name$ -- 15
+if$ -- 338
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 29
-num.names$ -- 3
-pop$ -- 22
+missing$ -- 16
+newline$ -- 32
+num.names$ -- 6
+pop$ -- 46
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 14
 quote$ -- 2
-skip$ -- 71
+skip$ -- 114
 stack$ -- 0
-substring$ -- 42
-swap$ -- 44
-text.length$ -- 2
-text.prefix$ -- 0
+substring$ -- 50
+swap$ -- 63
+text.length$ -- 3
+text.prefix$ -- 1
 top$ -- 6
-type$ -- 22
-warning$ -- 1
-while$ -- 7
-width$ -- 2
-write$ -- 37
-(There were 2 warnings)
+type$ -- 42
+warning$ -- 0
+while$ -- 9
+width$ -- 4
+write$ -- 48
+(There was 1 error message)

@@ -77,7 +77,8 @@
 % Kon-troll-in-stanz
 }
 
-
+\usepackage{siunitx}
+\usepackage{graphicx}
 %% ------------------------
 %% |    Including files   |
 %% ------------------------
@@ -86,12 +87,18 @@
 \includeonly{%
 titlepage,
 declaration,
-introduction,
+%
 content,
+introduction,
+%
 DAQ/DAQ,
 orcaControl/orcaControl,
 muonDetectionSystem/muonDetectionSystem,
+analysisSoftware/analysisSoftware,
+analysis/analysis,
+simulationSoftware/simulationSoftware,
 %evaluation,
+%
 conclusion,
 appendix
 }
@@ -130,6 +137,9 @@ appendix
 \include{muonDetectionSystem/muonDetectionSystem}
 \include{DAQ/DAQ}
 \include{orcaControl/orcaControl}
+\include{analysisSoftware/analysisSoftware}
+\include{analysis/analysis}
+\include{simulationSoftware/simulationSoftware}
 \include{conclusion}
 
 

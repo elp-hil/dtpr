@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  9 JUL 2013 12:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  16 JUL 2013 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,15 +629,418 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 \chapnolen=\skip65
 \chapparlen=\skip66
 \chapno=\box40
-) (./thesis.aux
-(./titlepage.aux) (./declaration.aux) (./introduction.aux
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count131
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
 
-LaTeX Warning: Label `ch:Introduction:sec:Massive neutrino' multiply defined.
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count132
+\l_tmpa_int=\count133
+\l_tmpb_int=\count134
+\l_tmpc_int=\count135
+\g_tmpa_int=\count136
+\g_tmpb_int=\count137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count139
+\l_iow_line_length_int=\count140
+\l_iow_target_length_int=\count141
+\l_iow_current_line_int=\count142
+\l_iow_current_word_int=\count143
+\l_iow_current_indentation_int=\count144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen165
+\l_tmpb_dim=\dimen166
+\l_tmpc_dim=\dimen167
+\g_tmpa_dim=\dimen168
+\g_tmpb_dim=\dimen169
+\l_tmpa_skip=\skip67
+\l_tmpb_skip=\skip68
+\l_tmpc_skip=\skip69
+\g_tmpa_skip=\skip70
+\g_tmpb_skip=\skip71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count145
+\l_keys_choice_int=\count146
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_million=\count147
+\c_one_hundred_million=\count148
+\c_five_hundred_million=\count149
+\c_one_thousand_million=\count150
+\c_fp_pi_by_four_decimal_int=\count151
+\c_fp_pi_by_four_extended_int=\count152
+\c_fp_pi_decimal_int=\count153
+\c_fp_pi_extended_int=\count154
+\c_fp_two_pi_decimal_int=\count155
+\c_fp_two_pi_extended_int=\count156
+\l_fp_count_int=\count157
+\l_fp_div_offset_int=\count158
+\l_fp_exp_integer_int=\count159
+\l_fp_exp_decimal_int=\count160
+\l_fp_exp_extended_int=\count161
+\l_fp_exp_exponent_int=\count162
+\l_fp_input_a_sign_int=\count163
+\l_fp_input_a_integer_int=\count164
+\l_fp_input_a_decimal_int=\count165
+\l_fp_input_a_exponent_int=\count166
+\l_fp_input_b_sign_int=\count167
+\l_fp_input_b_integer_int=\count168
+\l_fp_input_b_decimal_int=\count169
+\l_fp_input_b_exponent_int=\count170
+\l_fp_input_a_extended_int=\count171
+\l_fp_input_b_extended_int=\count172
+\l_fp_mul_a_i_int=\count173
+\l_fp_mul_a_ii_int=\count174
+\l_fp_mul_a_iii_int=\count175
+\l_fp_mul_a_iv_int=\count176
+\l_fp_mul_a_v_int=\count177
+\l_fp_mul_a_vi_int=\count178
+\l_fp_mul_b_i_int=\count179
+\l_fp_mul_b_ii_int=\count180
+\l_fp_mul_b_iii_int=\count181
+\l_fp_mul_b_iv_int=\count182
+\l_fp_mul_b_v_int=\count183
+\l_fp_mul_b_vi_int=\count184
+\l_fp_mul_output_int=\count185
+\l_fp_output_sign_int=\count186
+\l_fp_output_integer_int=\count187
+\l_fp_output_decimal_int=\count188
+\l_fp_output_exponent_int=\count189
+\l_fp_output_extended_int=\count190
+\l_fp_round_position_int=\count191
+\l_fp_round_target_int=\count192
+\l_fp_split_sign_int=\count193
+\l_fp_internal_int=\count194
+\l_fp_trig_octant_int=\count195
+\l_fp_trig_sign_int=\count196
+\l_fp_trig_decimal_int=\count197
+\l_fp_trig_extended_int=\count198
+\l_fp_internal_dim=\dimen170
+\l_fp_internal_skip=\skip72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box41
+\l_box_top_dim=\dimen171
+\l_box_bottom_dim=\dimen172
+\l_box_left_dim=\dimen173
+\l_box_right_dim=\dimen174
+\l_box_top_new_dim=\dimen175
+\l_box_bottom_new_dim=\dimen176
+\l_box_left_new_dim=\dimen177
+\l_box_right_new_dim=\dimen178
+\l_box_internal_box=\box42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box43
+\l_coffin_internal_dim=\dimen179
+\l_coffin_offset_x_dim=\dimen180
+\l_coffin_offset_y_dim=\dimen181
+\l_coffin_x_dim=\dimen182
+\l_coffin_y_dim=\dimen183
+\l_coffin_x_prime_dim=\dimen184
+\l_coffin_y_prime_dim=\dimen185
+\l_coffin_Depth_dim=\dimen186
+\l_coffin_Height_dim=\dimen187
+\l_coffin_TotalHeight_dim=\dimen188
+\l_coffin_Width_dim=\dimen189
+\c_empty_coffin=\box44
+\l_coffin_aligned_coffin=\box45
+\l_coffin_aligned_internal_coffin=\box46
+\l_coffin_bounding_shift_dim=\dimen190
+\l_coffin_left_corner_dim=\dimen191
+\l_coffin_right_corner_dim=\dimen192
+\l_coffin_bottom_corner_dim=\dimen193
+\l_coffin_top_corner_dim=\dimen194
+\l_coffin_scaled_total_height_dim=\dimen195
+\l_coffin_scaled_width_dim=\dimen196
+\l_coffin_display_coffin=\box47
+\l_coffin_display_coord_coffin=\box48
+\l_coffin_display_pole_coffin=\box49
+\l_coffin_display_offset_dim=\dimen197
+\l_coffin_display_x_dim=\dimen198
+\l_coffin_display_y_dim=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count199
+\g_cctab_stack_int=\count200
+))
+Package: siunitx 2012/05/03 v2.5c A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks30
+\ex@=\dimen200
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\extrarowheight=\dimen256
+\NC@list=\toks31
+\extratabsurround=\skip73
+\backup@length=\skip74
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\l_xparse_m_args_int=\count277
+\l_xparse_mandatory_args_int=\count278
+\l_xparse_processor_int=\count279
+\l_xparse_v_nesting_int=\count280
+)
+Package: l3keys2e 2012/04/23 v3570 LaTeX2e option processing using LaTeX3 keys
+)
+\l_siunitx_tmp_box=\box50
+\l_siunitx_tmp_dim=\dimen257
+\l_siunitx_tmp_int=\count281
+Variant \prop_get:NVNT already defined; not changing it on line 360
+Variant \prop_get:NVNF already defined; not changing it on line 361
+Variant \prop_get:NVNTF already defined; not changing it on line 362
+\l_siunitx_number_mantissa_length_int=\count282
+\l_siunitx_number_uncert_length_int=\count283
+\l_siunitx_round_int=\count284
+\l_siunitx_process_decimal_int=\count285
+\l_siunitx_process_uncertainty_int=\count286
+\l_siunitx_process_fixed_int=\count287
+\l_siunitx_process_integer_min_int=\count288
+\l_siunitx_process_precision_int=\count289
+\l_siunitx_group_min_int=\count290
+\l_siunitx_angle_marker_box=\box51
+\l_siunitx_angle_unit_box=\box52
+\l_siunitx_angle_marker_dim=\dimen258
+\l_siunitx_angle_unit_dim=\dimen259
+\l_siunitx_unit_int=\count291
+\l_siunitx_unit_denominator_int=\count292
+\l_siunitx_unit_numerator_int=\count293
+\l_siunitx_unit_prefix_int=\count294
+\l_siunitx_unit_prefix_base_int=\count295
+\l_siunitx_unit_prefix_gram_int=\count296
+\l_siunitx_number_product_int=\count297
+\c_siunitx_one_fill_skip=\skip75
+\l_siunitx_table_unit_align_skip=\skip76
+\l_siunitx_table_exponent_dim=\dimen260
+\l_siunitx_table_integer_dim=\dimen261
+\l_siunitx_table_mantissa_dim=\dimen262
+\l_siunitx_table_marker_dim=\dimen263
+\l_siunitx_table_result_dim=\dimen264
+\l_siunitx_table_uncert_dim=\dimen265
+\l_siunitx_table_fill_pre_dim=\dimen266
+\l_siunitx_table_fill_post_dim=\dimen267
+\l_siunitx_table_fill_mid_dim=\dimen268
+\l_siunitx_table_pre_box=\box53
+\l_siunitx_table_post_box=\box54
+\l_siunitx_table_mantissa_box=\box55
+\l_siunitx_table_result_box=\box56
+\l_siunitx_table_number_align_skip=\skip77
+\l_siunitx_table_text_align_skip=\skip78
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareBinaryPrefix with arg. spec. 'mmm' on line
+. 7037.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPostPower with arg. spec. 'mm' on line
+. 7040.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrefix with arg. spec. 'mmm' on line
+. 7043.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrePower with arg. spec. 'mm' on line
+. 7046.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIQualifier with arg. spec. 'mm' on line
+. 7049.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnit with arg. spec. 'O{}mm' on line
+. 7052.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnitWithOptions with arg. spec. 'mmm' on
+. line 7055.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \ang with arg. spec. 'o>{\SplitArgument {2}{;}}m'
+. on line 7070.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \num with arg. spec. 'om' on line 7078.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numlist with arg. spec. 'o>{\SplitList {;}}m' on
+. line 7086.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numrange with arg. spec. 'omm' on line 7094.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIlist with arg. spec. 'o>{\SplitList {;}}mm' on
+. line 7105.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIrange with arg. spec. 'ommm' on line 7116.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SI with arg. spec. 'omom' on line 7127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \sisetup with arg. spec. 'm' on line 7130.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \tablenum with arg. spec. 'om' on line 7142.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \si with arg. spec. 'om' on line 7153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_num:w with arg. spec. 'om' on
+. line 7197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_numrange:w with arg. spec. 'omm'
+. on line 7199.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_SI:w with arg. spec. 'omom' on
+. line 7201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_SIlist:w with arg. spec. 'omm'
+. on line 7203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_SIrange:w with arg. spec. 'ommm'
+. on line 7205.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \siunitx_bookmark_si:w with arg. spec. 'om' on
+. line 7206.
+.................................................
+\g_ior_internal_ior=\read2
+
+(/usr/share/texmf/tex/latex/beamer/base/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
+.tex))) (./thesis.aux (./titlepage.aux) (./declaration.aux) (./introduction.aux
+
+LaTeX Warning: Label `ch:Introduction:sec:The standard model' multiply defined.
+
+
+
+LaTeX Warning: Label `ch:Introduction:sec:The KATRIN experiment:subsec:sourceSi
+de' multiply defined.
 
 ) (./muonDetectionSystem/muonDetectionSystem.aux) (./DAQ/DAQ.aux
-
-LaTeX Warning: Label `ch:Content1' multiply defined.
-
 
 LaTeX Warning: Label `ch:Content2:sec:Section1' multiply defined.
 
@@ -654,37 +1057,38 @@ LaTeX Warning: Label `ch:Content2:sec:Section1' multiply defined.
 
 LaTeX Warning: Label `ch:Content2:sec:Section1' multiply defined.
 
-) (./conclusion.aux))
+) (./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
+(./simulationSoftware/simulationSoftware.aux) (./conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen165
-\scratchbox=\box41
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen166
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count298
+\scratchdimen=\dimen269
+\scratchbox=\box57
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen270
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -700,8 +1104,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 103.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -709,11 +1113,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count137
+\c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -739,9 +1143,28 @@ babelbib extension \btxifchangecaseoff added to \extrasngerman
 babelbib: Load BibTeX extensions \bibsngerman for ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
 babelbib: Set language for keywords in the bibliography fixed to ngerman
+
+(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
+onary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviations.c
+fg
+File: siunitx-abbreviations.cfg 2012/05/03 v2.5c siunitx: Abbreviated units
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/config/siunitx-binary.cfg
+File: siunitx-binary.cfg 2012/05/03 v2.5c siunitx: Binary units
+)
+\c_siunitx_mathsf_int=\count305
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 110.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 110.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 110.
+\c_siunitx_mathtt_int=\count306
 \openout2 = `titlepage.aux'.
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=99, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=171, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -776,17 +1199,6 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-)
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
-
-
 [3
 
 
@@ -794,11 +1206,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-] [4
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
 
-
-
-]
+ [4]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
@@ -816,6 +1228,9 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
+
+
+
 ]
 \openout2 = `muonDetectionSystem/muonDetectionSystem.aux'.
 
@@ -826,91 +1241,257 @@ Class scrbook Warning: \float@addtolists detected!
 
 ]
 Chapter 2.
-) [3]
+Package epstopdf Info: Source file: <../graphics/dummy.eps>
+(epstopdf)                    date: 2013-07-05 12:06:42
+(epstopdf)                    size: 0 bytes
+(epstopdf)             Output file: <../graphics/dummy-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=../graphics/dummy-eps-conv
+erted-to.pdf ../graphics/dummy.eps>
+(epstopdf)             \includegraphics on input line 15.
+runsystem(repstopdf --outfile=../graphics/dummy-eps-converted-to.pdf ../graphic
+s/dummy.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <../graphics/dummy-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../graphics/dummy-eps-converted-to.pdf' not f
+ound.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...th = 0.9\textwidth]{../graphics/dummy.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 15.
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <../graphics/dummy.eps>
+(epstopdf)                    date: 2013-07-05 12:06:42
+(epstopdf)                    size: 0 bytes
+(epstopdf)             Output file: <../graphics/dummy-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=../graphics/dummy-eps-conv
+erted-to.pdf ../graphics/dummy.eps>
+(epstopdf)             \includegraphics on input line 30.
+runsystem(repstopdf --outfile=../graphics/dummy-eps-converted-to.pdf ../graphic
+s/dummy.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <../graphics/dummy-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../graphics/dummy-eps-converted-to.pdf' not f
+ound.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...h = 0.5 \textwidth]{../graphics/dummy.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./muonDetectionSystem/gainsThresholds.tex [3]
+Package epstopdf Info: Source file: <../graphics/dummy.eps>
+(epstopdf)                    date: 2013-07-05 12:06:42
+(epstopdf)                    size: 0 bytes
+(epstopdf)             Output file: <../graphics/dummy-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=../graphics/dummy-eps-conv
+erted-to.pdf ../graphics/dummy.eps>
+(epstopdf)             \includegraphics on input line 9.
+runsystem(repstopdf --outfile=../graphics/dummy-eps-converted-to.pdf ../graphic
+s/dummy.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <../graphics/dummy-eps-converted-to.pdf>.
+
+
+! Package pdftex.def Error: File `../graphics/dummy-eps-converted-to.pdf' not f
+ound.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...th = 0.5 \textwidth]{../graphics/dummy.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../graphics/dummy.eps>
+(epstopdf)                    date: 2013-07-05 12:06:42
+(epstopdf)                    size: 0 bytes
+(epstopdf)             Output file: <../graphics/dummy-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=../graphics/dummy-eps-conv
+erted-to.pdf ../graphics/dummy.eps>
+(epstopdf)             \includegraphics on input line 15.
+runsystem(repstopdf --outfile=../graphics/dummy-eps-converted-to.pdf ../graphic
+s/dummy.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <../graphics/dummy-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../graphics/dummy-eps-converted-to.pdf' not f
+ound.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...h = 0.5 \textwidth]{../graphics/dummy.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)) [4] [5]
 \openout2 = `DAQ/DAQ.aux'.
 
- (./DAQ/DAQ.tex [4
+ (./DAQ/DAQ.tex [6
 
 
 
 
 ]
 Chapter 3.
-(./DAQ/FLTs.tex) (./DAQ/SLTs.tex)) [5]
+(./DAQ/FLTs.tex) (./DAQ/SLTs.tex)) [7]
 \openout2 = `orcaControl/orcaControl.aux'.
 
- (./orcaControl/orcaControl.tex [6
+ (./orcaControl/orcaControl.tex [8
 
 
 
 
 ]
 Chapter 4.
-) [7]
-\openout2 = `conclusion.aux'.
+) [9]
+\openout2 = `analysisSoftware/analysisSoftware.aux'.
 
- (./conclusion.tex [8
+ (./analysisSoftware/analysisSoftware.tex [10
 
 
 
 
 ]
 Chapter 5.
-[9] [10
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 19.
+(/usr/share/texlive/texmf-dist/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+ [11]) [12]
+\openout2 = `analysis/analysis.aux'.
+
+
+(./analysis/analysis.tex
+Chapter 6.
+) [13
+
+
 
 
 ]
-Chapter 6.
-) [11] [12
+\openout2 = `simulationSoftware/simulationSoftware.aux'.
+
+ (./simulationSoftware/simulationSoftware.tex [14
 
 
 
-] (./thesis.bbl) [13
+
+]
+Chapter 7.
+) [15]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex [16
 
 
-] [14
+
+
+]
+Chapter 8.
+[17] [18
+
+
+]
+Chapter 9.
+) [19] [20
+
+
+
+] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+[]\T1/aer/m/n/10.95 S.-G. Crys-tals, ``Pre-mium plas-tic scin-til-la-tors,'' []
+$http : / / www . detectors .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+\T1/aer/m/n/10.95 saint-[]gobain . com / uploadedFiles / SGdetectors / Document
+s / Product _ Data _
+ []
+
+) [21
+
+
+] [22
 
 
 ] (./appendix.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
- [15
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+ [23
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
- (./thesis.aux
-(./titlepage.aux) (./declaration.aux) (./introduction.aux)
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+ (./thesis.aux (./titlepage.aux)
+(./declaration.aux) (./introduction.aux)
 (./muonDetectionSystem/muonDetectionSystem.aux) (./DAQ/DAQ.aux)
-(./orcaControl/orcaControl.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+(./orcaControl/orcaControl.aux) (./analysisSoftware/analysisSoftware.aux)
+(./analysis/analysis.aux) (./simulationSoftware/simulationSoftware.aux)
+(./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 317ACA14EFAB9AE8DD6EAE840E8F1900;1413.
+(rerunfilecheck)             Checksum: 675479430E1DFE774F2809E90027C8F4;2676.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 16571 strings out of 493485
- 289296 string characters out of 3143527
- 393051 words of memory out of 3000000
- 19416 multiletter control sequences out of 15000+200000
- 44573 words of font info for 66 fonts, out of 3000000 for 9000
+ 24716 strings out of 493485
+ 480295 string characters out of 3143527
+ 529681 words of memory out of 3000000
+ 27370 multiletter control sequences out of 15000+200000
+ 56381 words of font info for 90 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 72i,11n,73p,475b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,11n,73p,789b,825s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvr8a.pfb>
-Output written on thesis.pdf (19 pages, 90687 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (27 pages, 178122 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

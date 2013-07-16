@@ -25,8 +25,13 @@
 \bibitem[BKR09]{becker2008a}
 \BIBentryALTinterwordspacing
 S.~Becker, H.~Koziolek, and R.~Reussner, ``{T}he {P}alladio component model for
-  model-driven performance prediction,'' vol.~82, pp. 3--22, 2009. [Online].
-  Available: \url{http://dx.doi.org/10.1016/j.jss.2008.03.066}
+  model-driven performance prediction,'' \emph{JSS}, vol.~82, pp. 3--22, 2009.
+  [Online]. Available: \url{http://dx.doi.org/10.1016/j.jss.2008.03.066}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Cry05]{scintillatorManual}
+S.-G. Crystals, ``Premium plastic scintillators,''
+  \url{http://www.detectors.saint-gobain.com/uploadedFiles/SGdetectors/Documents/Product_Data_Sheets/BC400-404-408-412-416-Data-Sheet.pdf},
+  2005.
 
 \end{thebibliography}

@@ -5,13 +5,39 @@
 \chapter{Analysis software}
 \label{ch:Analysis software}
 %% ==============
-
+  To analyse the data recorded by DAQ and ORCA software, completely new data structures fit to the needs of muon detection and coincidence analysis have been created. 
+  Methods have been implemented to further investigate data stored inside those structures.
   %% ===========================
   \section{Data structure}
   \label{ch:Analysis software:sec:Data structure}
   %% ===========================
-
-
+    All data from the IPE-servers arrives converted from ORCA-specific formatting to .root files. Hence, ROOT Methods are used to extract data from these structures, while most of these methods are implemented as part of the KaLi package in Kasper, which constitutes for a complete and closed data transfer protocol.
+    Through those structures, data will be cached locally and can be analysed.\\
+    Before heading to actual analysis, all data is stored in the runtime structures.
+    Here, the newly written class {\bf event} with the following members comes into play.
+    \begin{itemize}
+    	\item fADCValue
+    	\item fTimeSec
+    	\item fTimeSubSec
+    	\item fPanel
+    	\item fSide
+    \end{itemize}
+    For each member, corresponding set- and get-methods have been implemented. Furthermore, the operators "<", "<=", ">", ">=", "==", and "-" have been overloaded to compare the timestamps of the event class. This was useful especially since ADCValues are merely used for plausibility checking the data but not for quantitative analysis. Doing so, events and the classes derived from them can easily be compared and searching becomes cleaner and clearer.\\
+    Derived from the base event class are two more storage classes:\\
+    {\bf panelEvent} storing the second ADCValue
+    \begin{itemize}
+    	\item fADCValue2
+    \end{itemize}
+    and the common timestamp of events activating both panel sides and\\
+    {\bf coincidentEvent} storing ADCValues of simultaneous events in multiple modules and the number of modules involved:
+    \begin{itemize}
+    	\item std::vector fADCValues
+    	\item fnPanels
+    \end{itemize}
+    Every ORCA-run then utilizes the class {\bf run} storing the data of the .root files in vectors of events.    
+    Recorded events should already be filtered - only simultaneously occurring events on the two sides of the same module should be recorded. As, under conditions not known, single sided events are recorded as well, a software workaround is needed. All events of one side of the modules are scanned to find whether a corresponding event with the same timestamp exists on the other side. If so, a coincidentEvent is created and pushed back into the run's vector of coincident events corresponding to the module it occured in.
+    Now, the user can decide on which modules to analyse with the setPanels() function.
+  
   %% ===========================
   \section{Search Algorithms}
   \label{ch:Analysis software:sec:Search algorithms}

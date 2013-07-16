@@ -5,23 +5,48 @@
 \chapter{Introduction}
 \label{ch:Introduction}
 %% ==============================
-\section{The standard model}
-\label{ch:Introduction:sec:The standard model}
+    \section{The standard model}
+    \label{ch:Introduction:sec:The standard model}
 
-\section{Massive neutrinos}
-\label{ch:Introduction:sec:Massive neutrino}
+      \subsection{}
+      \label{ch:Introduction:sec:The standard model}
+    
+    \section{Massive neutrinos}
+    \label{ch:Introduction:sec:Massive neutrino}
 
-\section{The KATRIN experiment}
-\label{ch:Introduction:sec:Massive neutrino}
+    \section{The KATRIN experiment}
+    \label{ch:Introduction:sec:The KATRIN experiment}
+      
+      \subsection{Source Side and Transport Section}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:sourceSide}
+      
+      \subsection{Pre-Spectrometer}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:sourceSide}
+      
+      \subsection{Main Spectrometer}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:macE}
+      
+      \subsection{Focal Plane Detector System}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:mainDetectorSystem}
+      
+      \subsection{Solenoids}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:solenoids}
+      
+      \subsection{Air coil system}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:Air coil system}
+      
+      \subsection{}
+      \label{ch:Introduction:sec:The KATRIN experiment:subsec:}
+      
 
+    \section{Cosmic air showers}
+    \label{ch:Introduction:sec:Cosmic air showers}
 
-\section{Cosmic air showers}
-\label{ch:Introduction:sec:Cosmic air showers}
+    \section{Muon interaction with matter}
+    \label{ch:Introduction:sec:Muon interaction with matter}
 
-\section{Muon interaction with matter}
-\label{ch:Introduction:sec:Muon interaction with matter}
+    \section{}
 
-\section{}
 \cite{becker2008a}
 \dots
 

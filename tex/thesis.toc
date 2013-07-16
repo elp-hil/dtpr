@@ -1,22 +1,40 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The standard model}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Massive neutrinos}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Neutrino Oscillations}{1}{subsection.1.2.1}
 \contentsline {section}{\numberline {1.3}The KATRIN experiment}{1}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Source Side and Transport Section}{1}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Pre-Spectrometer}{1}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Main Spectrometer}{1}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Focal Plane Detector System}{1}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Solenoids}{1}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Air coil system}{1}{subsection.1.3.6}
 \contentsline {section}{\numberline {1.4}Cosmic air showers}{1}{section.1.4}
 \contentsline {section}{\numberline {1.5}Muon interaction with matter}{1}{section.1.5}
 \contentsline {chapter}{\numberline {2}The muon detection system}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Scintillators}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}Scintillator modules}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Photomultipliers}{3}{section.2.2}
-\contentsline {chapter}{\numberline {3}Data aquisition crate}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}First level trigger cards}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Second level triger cards}{5}{section.3.2}
-\contentsline {chapter}{\numberline {4}Orca control}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software Gains and Thresholds}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Run control}{7}{section.4.2}
-\contentsline {section}{\numberline {4.3}File handling}{7}{section.4.3}
-\contentsline {section}{\numberline {4.4}Orca Fit}{7}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}Outlook}{11}{chapter.6}
-\contentsline {chapter}{Bibliography}{13}{section*.2}
-\contentsline {chapter}{Appendix}{15}{chapter*.4}
-\contentsline {section}{\numberline {A}First Appendix Section}{15}{section.6.1}
+\contentsline {section}{\numberline {2.3}Gains, Thresholds and Acceleration Voltages}{4}{section.2.3}
+\contentsline {chapter}{\numberline {3}Data aquisition crate}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}First level trigger cards}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Second level triger cards}{7}{section.3.2}
+\contentsline {chapter}{\numberline {4}Orca control}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software Gains and Thresholds}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Run control}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}File handling}{9}{section.4.3}
+\contentsline {section}{\numberline {4.4}Orca Fit}{9}{section.4.4}
+\contentsline {chapter}{\numberline {5}Analysis software}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data structure}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Search Algorithms}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Module Stability}{12}{section.5.3}
+\contentsline {chapter}{\numberline {6}Analysis}{13}{chapter.6}
+\contentsline {chapter}{\numberline {7}Simulation software}{15}{chapter.7}
+\contentsline {section}{\numberline {7.1}Geant4}{15}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geometry setup}{15}{section.7.2}
+\contentsline {section}{\numberline {7.3}Muon generator}{15}{section.7.3}
+\contentsline {section}{\numberline {7.4}Hit counter}{15}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusion}{17}{chapter.8}
+\contentsline {chapter}{\numberline {9}Outlook}{19}{chapter.9}
+\contentsline {chapter}{Bibliography}{21}{section*.2}
+\contentsline {chapter}{Appendix}{23}{chapter*.4}
+\contentsline {section}{\numberline {A}First Appendix Section}{23}{section.9.1}
