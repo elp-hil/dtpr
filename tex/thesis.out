@@ -27,15 +27,35 @@
 \BOOKMARK [0][]{chapter.5}{5 Analysis software}{}% 27
 \BOOKMARK [1][-]{section.5.1}{5.1 Data structure}{chapter.5}% 28
 \BOOKMARK [1][-]{section.5.2}{5.2 Search Algorithms}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.3}{5.3 Module Stability}{chapter.5}% 30
-\BOOKMARK [0][]{chapter.6}{6 Analysis}{}% 31
-\BOOKMARK [0][]{chapter.7}{7 Simulation software}{}% 32
-\BOOKMARK [1][-]{section.7.1}{7.1 Geant4}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.2}{7.2 Geometry setup}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.3}{7.3 Muon generator}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.4}{7.4 Hit counter}{chapter.7}% 36
-\BOOKMARK [0][]{chapter.8}{8 Conclusion}{}% 37
-\BOOKMARK [0][]{chapter.9}{9 Outlook}{}% 38
-\BOOKMARK [0][]{section*.2}{Bibliography}{}% 39
-\BOOKMARK [0][]{chapter*.4}{Appendix}{}% 40
-\BOOKMARK [1][-]{section.9.1}{A First Appendix Section}{chapter*.4}% 41
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Frequency Search}{section.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Incremental Search}{section.5.2}% 31
+\BOOKMARK [1][-]{section.5.3}{5.3 Member Functions of the class run}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Constructor run\(\)}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Destructor run\(\)}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 getRun\(\)}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 getLocalRun\(\)}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 detectCoincidences\(\)}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.6}{5.3.6 channelCoincidences\(\)}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.7}{5.3.7 loopOverSides\(\)}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.8}{5.3.8 panelCoincidences\(\)}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.9}{5.3.9 findSmallest\(\)}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.10}{5.3.10 getSize\(\)}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.11}{5.3.11 readVetoEventData\(\) and readDetectorData\(\)}{section.5.3}% 43
+\BOOKMARK [0][]{chapter.6}{6 Analysis}{}% 44
+\BOOKMARK [1][-]{section.6.1}{6.1 Gain-, Threshold and Acceleration Voltage Settings}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{6.2 Finding the best filter settings}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{6.3 Modules in high magnetic fields}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.4}{6.4 Module Stability}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.5}{6.5 Module Efficiency}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.6}{6.6 Photo Multiplier Tube Test with 60Co source}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.7}{6.7 Coincidence Search between Muon- and Detector Events}{chapter.6}% 51
+\BOOKMARK [0][]{chapter.7}{7 Simulation software}{}% 52
+\BOOKMARK [1][-]{section.7.1}{7.1 Geant4}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.2}{7.2 Geometry setup}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.3}{7.3 Muon generator}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.4}{7.4 Hit counter}{chapter.7}% 56
+\BOOKMARK [0][]{chapter.8}{8 Conclusion}{}% 57
+\BOOKMARK [0][]{chapter.9}{9 Outlook}{}% 58
+\BOOKMARK [0][]{section*.14}{Bibliography}{}% 59
+\BOOKMARK [0][]{chapter*.16}{Appendix}{}% 60
+\BOOKMARK [1][-]{section.9.1}{A First Appendix Section}{chapter*.16}% 61

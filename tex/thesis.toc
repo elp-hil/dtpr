@@ -15,26 +15,46 @@
 \contentsline {section}{\numberline {2.1}Scintillator modules}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Photomultipliers}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Gains, Thresholds and Acceleration Voltages}{4}{section.2.3}
-\contentsline {chapter}{\numberline {3}Data aquisition crate}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}First level trigger cards}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Second level triger cards}{7}{section.3.2}
-\contentsline {chapter}{\numberline {4}Orca control}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software Gains and Thresholds}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Run control}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}File handling}{9}{section.4.3}
-\contentsline {section}{\numberline {4.4}Orca Fit}{9}{section.4.4}
-\contentsline {chapter}{\numberline {5}Analysis software}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data structure}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Search Algorithms}{12}{section.5.2}
-\contentsline {section}{\numberline {5.3}Module Stability}{12}{section.5.3}
-\contentsline {chapter}{\numberline {6}Analysis}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7}Simulation software}{15}{chapter.7}
-\contentsline {section}{\numberline {7.1}Geant4}{15}{section.7.1}
-\contentsline {section}{\numberline {7.2}Geometry setup}{15}{section.7.2}
-\contentsline {section}{\numberline {7.3}Muon generator}{15}{section.7.3}
-\contentsline {section}{\numberline {7.4}Hit counter}{15}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusion}{17}{chapter.8}
-\contentsline {chapter}{\numberline {9}Outlook}{19}{chapter.9}
-\contentsline {chapter}{Bibliography}{21}{section*.2}
-\contentsline {chapter}{Appendix}{23}{chapter*.4}
-\contentsline {section}{\numberline {A}First Appendix Section}{23}{section.9.1}
+\contentsline {chapter}{\numberline {3}Data aquisition crate}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}First level trigger cards}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Second level triger cards}{5}{section.3.2}
+\contentsline {chapter}{\numberline {4}Orca control}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software Gains and Thresholds}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Run control}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}File handling}{7}{section.4.3}
+\contentsline {section}{\numberline {4.4}Orca Fit}{7}{section.4.4}
+\contentsline {chapter}{\numberline {5}Analysis software}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data structure}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}Search Algorithms}{10}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Frequency Search}{10}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Incremental Search}{11}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Member Functions of the class {\bf run}}{11}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Constructor run()}{11}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Destructor \~ run()}{11}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}getRun()}{11}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}getLocalRun()}{11}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}detectCoincidences()}{12}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}channelCoincidences()}{12}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}loopOverSides()}{12}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}panelCoincidences()}{12}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}findSmallest()}{12}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}getSize()}{12}{subsection.5.3.10}
+\contentsline {subsection}{\numberline {5.3.11}readVetoEventData() and readDetectorData()}{12}{subsection.5.3.11}
+\contentsline {chapter}{\numberline {6}Analysis}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Gain-, Threshold and Acceleration Voltage Settings}{15}{section.6.1}
+\contentsline {section}{\numberline {6.2}Finding the best filter settings}{15}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modules in high magnetic fields}{15}{section.6.3}
+\contentsline {section}{\numberline {6.4}Module Stability}{15}{section.6.4}
+\contentsline {section}{\numberline {6.5}Module Efficiency}{15}{section.6.5}
+\contentsline {section}{\numberline {6.6}Photo Multiplier Tube Test with $\bf {^{60}Co}$ source}{15}{section.6.6}
+\contentsline {section}{\numberline {6.7}Coincidence Search between Muon- and Detector Events}{15}{section.6.7}
+\contentsline {chapter}{\numberline {7}Simulation software}{17}{chapter.7}
+\contentsline {section}{\numberline {7.1}Geant4}{17}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geometry setup}{17}{section.7.2}
+\contentsline {section}{\numberline {7.3}Muon generator}{17}{section.7.3}
+\contentsline {section}{\numberline {7.4}Hit counter}{17}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusion}{19}{chapter.8}
+\contentsline {chapter}{\numberline {9}Outlook}{21}{chapter.9}
+\contentsline {chapter}{Bibliography}{23}{section*.14}
+\contentsline {chapter}{Appendix}{25}{chapter*.16}
+\contentsline {section}{\numberline {A}First Appendix Section}{25}{section.9.1}
