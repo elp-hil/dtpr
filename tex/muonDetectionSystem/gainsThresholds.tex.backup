@@ -1,0 +1,16 @@
+% gainsThresholds.tex
+%
+
+To achieve the best possible event detection, the photomultipliers' acceleration voltages as well as the software gains and thresholds in Orca had to be adjusted.
+The focus here was to obtain landau peaks with equal heigt and width, as the rates throughout the modules can be considered equal.
+At first, the acceleration voltages were kept low to limit the signal peaks' heigts to aroud \SI{2}{\volt}. Carefully setting the mentioned parameters, one achieved the following, well alligned curves:
+
+\begin{figure}
+	\includegraphics[width = 0.5 \textwidth]{../graphics/dummy.eps}
+\end{figure}
+
+Later in the comissioning process, it got clear form the handbooks that the photomultiplier tubes hat to be operated at accelleration voltages of \SI{1.5}{\kilo\volt} and above. To keep the singnals height as small as possible, most of the tubes were limited to this minimal voltage, wheras the sides \todo{which ones} were set to \SI{1.6}{\kilo\volt} over showing lower rates than the others. Following this procedure, the tubes seemed much more stable and comparable, as all the gains and thresholds could now be set to the same values while still showing aligned peak positions:
+
+\begin{figure}
+	\includegraphics[width = 0.5 \textwidth]{../graphics/dummy.eps}
+\end{figure}
