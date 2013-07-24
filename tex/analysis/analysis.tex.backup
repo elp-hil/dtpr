@@ -5,13 +5,82 @@
 \chapter{Analysis}
 \label{ch:Analysis}
 %% ==============
+  Using data obtained by the muon modules and the detector as well as all the subsystems' data, 
 
   %% ===========================
-  \section{Module Stability}
+  \section{Gain-, Threshold and Acceleration Voltage Settings}
   \label{ch:Analysis software:sec:Module Stability}
   %% ===========================  
   
   %% ===========================
-  \section{}
+  \section{Finding the best filter settings}
+  \label{ch:Analysis software:sec:Finding the best filter settings}
+  %% ===========================  
+  As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a pulser has been set up to create events at known frequency and peak heigth. The signal form \todo{what form} was chosen as closely to the actual shape as possible
+ 
+  \begin{figure}
+	\caption{Pulser shape compared to actual signal shape}
+  	\includegraphics[width = 0.9\textwidth]{graphics/dummy.eps}
+  \end{figure}
+  
+  Now, to evaluate filter goodness, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be monoenergetic, was analysed for each filter setting. This resulted in the following set of data:
+  
+  \begin{table}
+	\caption{Energy resolution at different filter settings}
+	\centering
+	standard filter
+	\begin{tabular}{c}
+	\SI{50}{\nano\second} gap, \SI{0}{\second} shaping time\\
+	
+  	\begin{tabular}{ccc}
+  		1& 2& 3\\
+  		1& 2& 3\\
+  		1& 2& 3\\
+  		1& 2& 3\\
+  	\end{tabular}
+  	\end{tabular}\\
+  	boxcar filter
+  	\begin{tabular}{ccc}
+  		1& 2& 3\\
+  		1& 2& 3\\
+  		1& 2& 3\\
+  		1& 2& 3\\
+  	\end{tabular}
+
+  \end{table}
+  On average, the boxcar filter at shaping lengths \todo{was it shaping?} of \SI{150}{\nano\second} looks most promising. This concurs with the settings chosen for the active fpd veto; here slightly longer (around \SI{30}{\nano\second}) but comparable signals occur, showing best results at the same filter settings\cite{KevinWierman}.
+  
+  %% ===========================
+  \section{Modules in high magnetic fields}
+  \label{ch:Analysis software:sec:Modules in high magnetic fields}
+  %% ===========================  
+  
+  %% ===========================
+  \section{Module Stability}
+  \label{ch:Analysis software:sec:Module Stability}
+  %% ===========================  
+
+  %% ===========================
+  \section{Module Efficiency}
+  \label{ch:Analysis software:sec:Module Efficiency}
+  %% ===========================  
+  
+  %% ===========================
+  \section{Photo Multiplier Tube Test with $\bf{^{60}Co}$ source}
   \label{ch:Analysis:sec:}
   %% ===========================
+  
+  With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{60}Co$ source to trigger events was used to check functionality. A source holder was constructed from acrylic glass to fix the source to the modules and to shield the user from radiation.
+  
+  %% ===========================
+  \section{Coincidence Search between Muon- and Detector Events}
+  \label{ch:Analysis software:sec:Monitor Spectrometer Measurements}
+  %% ===========================  
+  If one wants to actually detect background induced by myonic events registered by the muon modules, those events need to be correlated to detector events timewise. For this purpose, the analysis code's class run was extended by the member functions TOFHist()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} and TOFMuonDet()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}, where the former is used for monitor spectrometer analysis and the latter for the main spectrometer. 
+  
+  %% =========================
+  \subsection{Monitor Spectrometer}
+  \label{ch:Analysis software:sec:Monitor Spectrometer Measurements:subsec:Monitor Spectrometer}
+  %% =========================
+  
+  Measurements at the monitor spectrometer are easily managable due to the good accessibility and the 

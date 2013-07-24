@@ -104,8 +104,8 @@
     \end{figure}
     
     %% ===========================
-    \subsection{Destructor \~ run()}
-    \label{ch:Analysis software:sec:methods of the class run:subsec:Constructor}
+    \subsection{Destructor $\tilde{}$ run()}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:destructor}
     %% ===========================
     The destructor deletes all the contents of the vectors of events and inherited classes and clears them afterwards before deleting the member RUN which in fact frees all the memory reserved by the KaLi classes.
     
@@ -151,6 +151,40 @@
     As mentioned above, the first algorithm to search for coincidences between different panels was based on the average event frequency and its standard deviation, soon beeing replaced by a simpler, more efficient incremental algorithm:
     This features a storage for the smallest timestamp in a group of events. \todo{change code to overl.ops} This is set to the smallest timestamp of the first event of all the modules analysed. Now, all the events are compared to the smallest one. This has the advantage, that one does not need to cross check every event with every other one but can simply compare every event to the smallest in a linear way. If simultaneous events are found, they are pushed back into the coincidentEvents vector together with the timestamp and their ADC values, nPanels is risen by one. Subsequently, the index of the smallest event storage is incremented and the new smallest event in the changed pool is searched for via the member function findSmallest(). This is repeated until all the event storages have reached their last entry.
     The return value is the number of events fulfilling the requirement passed through nPanels to panelCoincidences: if it is zero, every coincident event with two or more modules involved is counted, for every other number, only the number of event with exactly this number of modules is counted.
+
+    %% ===========================
+    \subsection{findSmallest()}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:findSmallest()}
+    %% ===========================  
+    
+    Setting the smallest event's timestamp through references, the findSmalles function requires only the steppoints of the different modules and returns the one with the smallest timestamp. 
+    
+    %% ===========================
+    \subsection{TOFHist()}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}
+    %% ===========================  
+    
+    Setting the modules to be analysed to one and two, this function was designed to analyse monitor spectrometer data. This also reflects in the fact, that both muon data and detector data are expected to be stored within the same mosxxxxxxxx run file. The function then runs channelCoincidences() and panelCoincidences() before shifting throug all the muon events searching for following detector events in a certain time interval.
+    
+    %% ===========================
+    \subsection{TOFMuonDet()}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}
+    %% ===========================  
+    
+    In contrary to the TOFHist function, this one reads muon and detector data from different files as it is designed for the needs of the main spectrometer. Here, two DAQs record muon and electron detections to myoxxxxxxxx and fpdxxxxxxxx files respectively. That is why the function reads a muon run and requires a guess as to where corresponding detector data is located. It then loads on detector run after the other to check whether there's events inside a time window after each muon event. If so, a histogram is filled with the data aquired to inspect it for cumulation at particular times. 
+    
+    %% ===========================
+    \subsection{determineEfficiency}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:determineEfficiency}
+    %% ===========================      
+    
+    Efficiencies of modules can be determined through three of them located coextensively in front of each other. Then, all events recognised in both the uppermost and the lowest module have to - leaving geometrical inaccuracies unaccounted for - pass the middle module as well. By comparing the counts one can determine an efficiency for the module:
+    \begin{equation}
+    	\%_{eff} = \frac{\wedge_{68}}{{\wedge_{678}}}
+    \end{equation}
+    
+    
+    %To rate the detection efficiencies of the modules, the one of module seven located in between the two other, coextensive modules six and %eight was determined. 
     
     %% ===========================
     \subsection{getSize()}
@@ -171,10 +205,12 @@
     \todo{default nonsense, reimplement}
     
     %% ===========================
-    \subsection{readVetoEventData() and readDetectorData()}
-    \label{ch:Analysis software:sec:methods of the class run:subsec:Member Functions readVetoEventData() and readDetectorData()}
+    \subsection{readVetoEventData(), readDetectorData() and readMOSDetectorData()}
+    \label{ch:Analysis software:sec:methods of the class run:subsec:readVetoEventData(), readDetectorData() and readMOSDetectorData()}
     %% ===========================  
-    Depending on the toggle choice in the constructor, either one of the two or both of the functions are called. While the readDetectorData() function reads all recorded KaLi::\-KLEnergy\-Events (only the FPD records those), the readVetoEventData() function reads all the KaLi::KLVetoEvents from cards three, six and nine. This can never interfere with veto data recorded directly around the FPD vor active vetoing, as cards 15 and 16 are used here. 
+    Depending on the toggle choice in the constructor, either one of the two or both of the functions are called. While the readDetectorData() function reads all recorded KaLi::\-KLEnergy\-Events (only the FPD records those), the readVetoEventData() function reads all the KaLi::KLVetoEvents from cards three, six and nine. This can never interfere with veto data recorded directly around the FPD vor active vetoing of detector signals, as cards 15 and 16 are used here.
+    For analysis of monitor spectrometer data, a function readMOSDetectorData() has been implemented reading all energy events of card one independent of channel, while of course single channels can easily be excluded. The pulser usually active at the monitor spectrometer creating KaLi::KLEnergyEvents at constant frequency is standardly excluded from analysis.
+    All the member functions reading data require the passage of an instance of the KaLi::KLRunEvents, usually the member of the same class set in the getRun() function.\ref{ch:Analysis software:sec:methods of the class run:subsec:getRun()}
 
     
     

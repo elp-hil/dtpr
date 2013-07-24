@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: titlepage.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: theKATRINexperiment/theKATRINexperiment.aux
 A level-1 auxiliary file: muonDetectionSystem/muonDetectionSystem.aux
 A level-1 auxiliary file: DAQ/DAQ.aux
 A level-1 auxiliary file: orcaControl/orcaControl.aux
@@ -29,42 +30,42 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Done.
 You've used 2 entries,
             5047 wiz_defined-function locations,
-            998 strings with 9212 characters,
-and the built_in function-call counts, 1715 in all, are:
-= -- 167
-> -- 40
-< -- 8
-+ -- 16
-- -- 11
-* -- 101
-:= -- 297
-add.period$ -- 4
+            995 strings with 9105 characters,
+and the built_in function-call counts, 1159 in all, are:
+= -- 109
+> -- 16
+< -- 2
++ -- 4
+- -- 4
+* -- 57
+:= -- 203
+add.period$ -- 3
 call.type$ -- 2
-change.case$ -- 13
-chr.to.int$ -- 17
+change.case$ -- 10
+chr.to.int$ -- 2
 cite$ -- 2
-duplicate$ -- 99
-empty$ -- 106
-format.name$ -- 15
-if$ -- 348
+duplicate$ -- 74
+empty$ -- 85
+format.name$ -- 8
+if$ -- 226
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 32
+missing$ -- 15
+newline$ -- 30
 num.names$ -- 6
-pop$ -- 47
+pop$ -- 54
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 12
 quote$ -- 2
-skip$ -- 117
+skip$ -- 80
 stack$ -- 0
-substring$ -- 52
-swap$ -- 66
-text.length$ -- 3
-text.prefix$ -- 1
+substring$ -- 17
+swap$ -- 34
+text.length$ -- 2
+text.prefix$ -- 2
 top$ -- 6
-type$ -- 42
+type$ -- 40
 warning$ -- 0
-while$ -- 9
-width$ -- 4
-write$ -- 49
+while$ -- 4
+width$ -- 3
+write$ -- 43

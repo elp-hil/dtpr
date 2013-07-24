@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.3
-lastDocument=tex/titlepage.tex
+lastDocument=tex/thesis.tex
 masterDocument=tex/thesis.tex
 name=dtPR
 pkg_extIsRegExp=false
@@ -25,7 +25,7 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
-[document-settings,item:tex/analysis/analysis.tex]
+[document-settings,item:tex/DAQ/FLTs.tex]
 Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
@@ -34,8 +34,26 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
-[document-settings,item:tex/analysisSoftware/analysisSoftware.tex]
+[document-settings,item:tex/DAQ/SLTs.tex]
 Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:tex/analysis/analysis.tex]
+Bookmarks=33
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:tex/analysisSoftware/analysisSoftware.tex]
+Bookmarks=219
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
@@ -79,6 +97,15 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
+[document-settings,item:tex/muonDetectionSystem/gainsThresholds.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
 [document-settings,item:tex/muonDetectionSystem/muonDetectionSystem.tex]
 Bookmarks=
 Encoding=UTF-8
@@ -106,6 +133,33 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
+[document-settings,item:tex/theKATRINexperiment/theKATRINexperiment.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:tex/thesis.aux]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=None
+Indentation Mode=normal
+Mode=
+
+[document-settings,item:tex/thesis.bib]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=BibTeX
+Indentation Mode=normal
+Mode=BibTeX
+
 [document-settings,item:tex/thesis.tex]
 Bookmarks=127
 Encoding=UTF-8
@@ -126,50 +180,50 @@ Mode=LaTeX
 
 [item:tex/DAQ/DAQ.tex]
 archive=true
+column=18
+encoding=UTF-8
+highlight=LaTeX
+line=18
+mode=LaTeX
+open=true
+order=10
+
+[item:tex/DAQ/FLTs.tex]
+archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=6
-
-[item:tex/DAQ/FLTs.tex]
-archive=true
-column=2
-encoding=
-highlight=
-line=0
-mode=
-open=false
-order=-1
+order=14
 
 [item:tex/DAQ/SLTs.tex]
 archive=true
-column=1
-encoding=
-highlight=
+column=0
+encoding=UTF-8
+highlight=LaTeX
 line=0
-mode=
-open=false
-order=-1
+mode=LaTeX
+open=true
+order=12
 
 [item:tex/analysis/analysis.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=41
+line=68
 mode=LaTeX
 open=true
 order=1
 
 [item:tex/analysisSoftware/analysisSoftware.tex]
 archive=true
-column=6
+column=240
 encoding=UTF-8
 highlight=LaTeX
-line=179
+line=212
 mode=LaTeX
 open=true
 order=2
@@ -182,7 +236,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=4
+order=8
 
 [item:tex/conclusion.tex]
 archive=true
@@ -192,17 +246,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=5
-
-[item:tex/content.tex]
-archive=true
-column=1
-encoding=
-highlight=
-line=0
-mode=
-open=false
-order=-1
+order=9
 
 [item:tex/declaration.tex]
 archive=true
@@ -212,19 +256,19 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=7
-
-[item:tex/evaluation.tex]
-archive=true
-column=1
-encoding=
-highlight=
-line=0
-mode=
-open=false
-order=-1
+order=11
 
 [item:tex/introduction.tex]
+archive=true
+column=24
+encoding=UTF-8
+highlight=LaTeX
+line=12
+mode=LaTeX
+open=true
+order=6
+
+[item:tex/muonDetectionSystem/gainsThresholds.tex]
 archive=true
 column=0
 encoding=UTF-8
@@ -232,14 +276,14 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=8
+order=4
 
 [item:tex/muonDetectionSystem/muonDetectionSystem.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=14
+line=15
 mode=LaTeX
 open=true
 order=3
@@ -249,10 +293,10 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=13
 mode=LaTeX
 open=true
-order=9
+order=13
 
 [item:tex/simulationSoftware/simulationSoftware.tex]
 archive=true
@@ -261,15 +305,45 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=10
+
+[item:tex/theKATRINexperiment/theKATRINexperiment.tex]
+archive=true
+column=58
+encoding=UTF-8
+highlight=LaTeX
+line=22
+mode=LaTeX
+open=true
+order=7
+
+[item:tex/thesis.aux]
+archive=true
+column=0
+encoding=UTF-8
+highlight=None
+line=0
+mode=
+open=false
+order=16
+
+[item:tex/thesis.bib]
+archive=true
+column=40
+encoding=UTF-8
+highlight=BibTeX
+line=26
+mode=BibTeX
+open=true
+order=5
 
 [item:tex/thesis.tex]
 archive=true
-column=27
+column=42
 encoding=UTF-8
 highlight=LaTeX
-line=32
+line=135
 mode=LaTeX
 open=true
 order=0
@@ -281,10 +355,22 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=11
 
 [view-settings,view=0,item:tex/DAQ/DAQ.tex]
+CursorColumn=18
+CursorLine=18
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:tex/DAQ/FLTs.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:tex/DAQ/SLTs.tex]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -292,15 +378,15 @@ ViMarks=
 
 [view-settings,view=0,item:tex/analysis/analysis.tex]
 CursorColumn=0
-CursorLine=41
+CursorLine=68
 JumpList=
-ViMarks=
+ViMarks=a,33,1
 
 [view-settings,view=0,item:tex/analysisSoftware/analysisSoftware.tex]
-CursorColumn=6
-CursorLine=179
+CursorColumn=240
+CursorLine=212
 JumpList=
-ViMarks=
+ViMarks=a,219,6
 
 [view-settings,view=0,item:tex/appendix.tex]
 CursorColumn=0
@@ -321,6 +407,12 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/introduction.tex]
+CursorColumn=24
+CursorLine=12
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:tex/muonDetectionSystem/gainsThresholds.tex]
 CursorColumn=0
 CursorLine=0
 JumpList=
@@ -328,13 +420,13 @@ ViMarks=
 
 [view-settings,view=0,item:tex/muonDetectionSystem/muonDetectionSystem.tex]
 CursorColumn=0
-CursorLine=14
+CursorLine=15
 JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/orcaControl/orcaControl.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=13
 JumpList=
 ViMarks=
 
@@ -344,11 +436,29 @@ CursorLine=0
 JumpList=
 ViMarks=
 
-[view-settings,view=0,item:tex/thesis.tex]
-CursorColumn=27
-CursorLine=32
+[view-settings,view=0,item:tex/theKATRINexperiment/theKATRINexperiment.tex]
+CursorColumn=58
+CursorLine=22
 JumpList=
-ViMarks=a,127,0
+ViMarks=
+
+[view-settings,view=0,item:tex/thesis.aux]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:tex/thesis.bib]
+CursorColumn=40
+CursorLine=26
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:tex/thesis.tex]
+CursorColumn=42
+CursorLine=135
+JumpList=
+ViMarks=a,127,0,b,127,0
 
 [view-settings,view=0,item:tex/titlepage.tex]
 CursorColumn=0

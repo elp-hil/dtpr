@@ -81,18 +81,18 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{caption}
+%\usepackage{beramono}
 %% ------------------------
 %% |    Including files   |
 %% ------------------------
 % Only files listed here will be included!
 % Userful command for partially translating the document (for bug-fixing e.g.)
-\includeonly{%
+\includeonly{
 titlepage,
 declaration,
-%
 content,
 introduction,
-%
+theKATRINexperiment/theKATRINexperiment,
 DAQ/DAQ,
 orcaControl/orcaControl,
 muonDetectionSystem/muonDetectionSystem,
@@ -134,8 +134,7 @@ appendix
 \mainmatter
 \pagenumbering{arabic}
 \include{introduction}
-
-%\include{evaluation}
+\include{theKATRINexperiment/theKATRINexperiment}
 \include{muonDetectionSystem/muonDetectionSystem}
 \include{DAQ/DAQ}
 \include{orcaControl/orcaControl}
@@ -161,13 +160,13 @@ appendix
 
 \bibliography{thesis}
 
-
 %% ----------------
 %% |   Appendix   |
 %% ----------------
+
 \cleardoublepage
 
-\input{appendix}
+\input{appendix}	
 
 
 \end{document}
