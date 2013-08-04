@@ -56,13 +56,14 @@
 \BOOKMARK [1][-]{section.7.6}{7.6 Photo Multiplier Tube Test with 60Co source}{chapter.7}% 56
 \BOOKMARK [1][-]{section.7.7}{7.7 Coincidence Search between Muon- and Detector Events}{chapter.7}% 57
 \BOOKMARK [2][-]{subsection.7.7.1}{7.7.1 Monitor Spectrometer}{section.7.7}% 58
-\BOOKMARK [0][]{chapter.8}{8 Simulation software}{}% 59
-\BOOKMARK [1][-]{section.8.1}{8.1 Geant4}{chapter.8}% 60
-\BOOKMARK [1][-]{section.8.2}{8.2 Geometry setup}{chapter.8}% 61
-\BOOKMARK [1][-]{section.8.3}{8.3 Muon generator}{chapter.8}% 62
-\BOOKMARK [1][-]{section.8.4}{8.4 Hit counter}{chapter.8}% 63
-\BOOKMARK [0][]{chapter.9}{9 Conclusion}{}% 64
-\BOOKMARK [0][]{chapter.10}{10 Outlook}{}% 65
-\BOOKMARK [0][]{section*.16}{Bibliography}{}% 66
-\BOOKMARK [0][]{chapter*.18}{Appendix}{}% 67
-\BOOKMARK [1][-]{section.10.1}{A First Appendix Section}{chapter*.18}% 68
+\BOOKMARK [2][-]{subsection.7.7.2}{7.7.2 Main Spectrometer}{section.7.7}% 59
+\BOOKMARK [0][]{chapter.8}{8 Simulation software}{}% 60
+\BOOKMARK [1][-]{section.8.1}{8.1 Geant4}{chapter.8}% 61
+\BOOKMARK [1][-]{section.8.2}{8.2 Geometry setup}{chapter.8}% 62
+\BOOKMARK [1][-]{section.8.3}{8.3 Muon generator}{chapter.8}% 63
+\BOOKMARK [1][-]{section.8.4}{8.4 Hit counter}{chapter.8}% 64
+\BOOKMARK [0][]{chapter.9}{9 Conclusion}{}% 65
+\BOOKMARK [0][]{chapter.10}{10 Outlook}{}% 66
+\BOOKMARK [0][]{section*.21}{Bibliography}{}% 67
+\BOOKMARK [0][]{chapter*.23}{Appendix}{}% 68
+\BOOKMARK [1][-]{section.10.1}{A First Appendix Section}{chapter*.23}% 69

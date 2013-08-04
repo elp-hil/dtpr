@@ -29,13 +29,14 @@
 \bibdata{thesis}
 \bibcite{scintillatorManual}{Cry05}
 \bibcite{KevinWierman}{Wie13}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{27}{section*.21}}
-\@writefile{toc}{\contentsline {chapter}{Appendix}{29}{chapter*.23}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{21}{section*.16}}
+\@writefile{toc}{\contentsline {chapter}{Appendix}{23}{chapter*.18}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {A}First Appendix Section}{29}{section.10.1}}
-\newlabel{Anhang-Implementierung}{{A}{29}{First Appendix Section\relax }{section.10.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure\relax }}{29}{figure.caption.24}}
-\newlabel{fig:BPMNBeispiela}{{A.1}{29}{A figure\relax \relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}First Appendix Section}{23}{section.8.1}}
+\newlabel{Anhang-Implementierung}{{A}{23}{First Appendix Section\relax }{section.8.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure\relax }}{23}{figure.caption.19}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:BPMNBeispiela}{{A.1}{23}{A figure\relax \relax }{figure.caption.19}{}}
 \global\@altsecnumformattrue

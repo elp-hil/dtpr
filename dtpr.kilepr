@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.3
-lastDocument=tex/thesis.tex
+lastDocument=tex/analysis/analysis.tex
 masterDocument=tex/thesis.tex
 name=dtPR
 pkg_extIsRegExp=false
@@ -161,7 +161,7 @@ Indentation Mode=normal
 Mode=BibTeX
 
 [document-settings,item:tex/thesis.tex]
-Bookmarks=127
+Bookmarks=128
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
@@ -185,7 +185,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=18
 mode=LaTeX
-open=true
+open=false
 order=10
 
 [item:tex/DAQ/FLTs.tex]
@@ -195,7 +195,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=14
 
 [item:tex/DAQ/SLTs.tex]
@@ -205,7 +205,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=12
 
 [item:tex/analysis/analysis.tex]
@@ -213,17 +213,17 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=68
+line=113
 mode=LaTeX
 open=true
 order=1
 
 [item:tex/analysisSoftware/analysisSoftware.tex]
 archive=true
-column=240
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=212
+line=106
 mode=LaTeX
 open=true
 order=2
@@ -235,7 +235,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=8
 
 [item:tex/conclusion.tex]
@@ -245,7 +245,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=9
 
 [item:tex/declaration.tex]
@@ -255,15 +255,15 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=11
 
 [item:tex/introduction.tex]
 archive=true
-column=24
+column=17
 encoding=UTF-8
 highlight=LaTeX
-line=12
+line=10
 mode=LaTeX
 open=true
 order=6
@@ -295,7 +295,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=13
 mode=LaTeX
-open=true
+open=false
 order=13
 
 [item:tex/simulationSoftware/simulationSoftware.tex]
@@ -310,10 +310,10 @@ order=10
 
 [item:tex/theKATRINexperiment/theKATRINexperiment.tex]
 archive=true
-column=58
+column=47
 encoding=UTF-8
 highlight=LaTeX
-line=22
+line=10
 mode=LaTeX
 open=true
 order=7
@@ -340,10 +340,10 @@ order=5
 
 [item:tex/thesis.tex]
 archive=true
-column=42
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=135
+line=141
 mode=LaTeX
 open=true
 order=0
@@ -378,13 +378,13 @@ ViMarks=
 
 [view-settings,view=0,item:tex/analysis/analysis.tex]
 CursorColumn=0
-CursorLine=68
+CursorLine=113
 JumpList=
 ViMarks=a,33,1
 
 [view-settings,view=0,item:tex/analysisSoftware/analysisSoftware.tex]
-CursorColumn=240
-CursorLine=212
+CursorColumn=28
+CursorLine=106
 JumpList=
 ViMarks=a,219,6
 
@@ -407,8 +407,8 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/introduction.tex]
-CursorColumn=24
-CursorLine=12
+CursorColumn=17
+CursorLine=10
 JumpList=
 ViMarks=
 
@@ -437,8 +437,8 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/theKATRINexperiment/theKATRINexperiment.tex]
-CursorColumn=58
-CursorLine=22
+CursorColumn=47
+CursorLine=10
 JumpList=
 ViMarks=
 
@@ -455,10 +455,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/thesis.tex]
-CursorColumn=42
-CursorLine=135
+CursorColumn=0
+CursorLine=141
 JumpList=
-ViMarks=a,127,0,b,127,0
+ViMarks=a,128,0,b,128,0
 
 [view-settings,view=0,item:tex/titlepage.tex]
 CursorColumn=0

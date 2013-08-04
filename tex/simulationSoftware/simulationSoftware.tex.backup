@@ -42,5 +42,5 @@
   \label{ch:Simulation software:sec:Hit counter}
   %% ===========================
   
-  For comparing the simulation to real data, of all the events generated, those hitting modules were counted. Each event containing at least one hit is written into a file for further analysis. This made it possible to compare the rates of the single modules, showning that the generator works fine. furthermore, it allowed for a estimation of muons hitting the modules compared to the total of inciding muons.
+  For comparing the simulation to real data, of all the events generated, those hitting modules were counted. Each event containing at least one hit is written into a file for further analysis. This made it possible for the 
   

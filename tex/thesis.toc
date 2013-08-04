@@ -49,19 +49,20 @@
 \contentsline {chapter}{\numberline {7}Analysis}{17}{chapter.7}
 \contentsline {section}{\numberline {7.1}Gain-, Threshold and Acceleration Voltage Settings}{17}{section.7.1}
 \contentsline {section}{\numberline {7.2}Finding the best filter settings}{17}{section.7.2}
-\contentsline {section}{\numberline {7.3}Modules in high magnetic fields}{17}{section.7.3}
-\contentsline {section}{\numberline {7.4}Module Stability}{17}{section.7.4}
-\contentsline {section}{\numberline {7.5}Module Efficiency}{17}{section.7.5}
-\contentsline {section}{\numberline {7.6}Photo Multiplier Tube Test with $^{60}$Co source}{17}{section.7.6}
-\contentsline {section}{\numberline {7.7}Coincidence Search between Muon- and Detector Events}{18}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Monitor Spectrometer}{18}{subsection.7.7.1}
-\contentsline {chapter}{\numberline {8}Simulation software}{19}{chapter.8}
-\contentsline {section}{\numberline {8.1}Geant4}{19}{section.8.1}
-\contentsline {section}{\numberline {8.2}Geometry setup}{19}{section.8.2}
-\contentsline {section}{\numberline {8.3}Muon generator}{19}{section.8.3}
-\contentsline {section}{\numberline {8.4}Hit counter}{19}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{21}{chapter.9}
-\contentsline {chapter}{\numberline {10}Outlook}{23}{chapter.10}
-\contentsline {chapter}{Bibliography}{25}{section*.16}
-\contentsline {chapter}{Appendix}{27}{chapter*.18}
-\contentsline {section}{\numberline {A}First Appendix Section}{27}{section.10.1}
+\contentsline {section}{\numberline {7.3}Modules in high magnetic fields}{18}{section.7.3}
+\contentsline {section}{\numberline {7.4}Module Stability}{18}{section.7.4}
+\contentsline {section}{\numberline {7.5}Module Efficiency}{18}{section.7.5}
+\contentsline {section}{\numberline {7.6}Photo Multiplier Tube Test with $^{60}$Co source}{18}{section.7.6}
+\contentsline {section}{\numberline {7.7}Coincidence Search between Muon- and Detector Events}{19}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Monitor Spectrometer}{19}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Main Spectrometer}{20}{subsection.7.7.2}
+\contentsline {chapter}{\numberline {8}Simulation software}{21}{chapter.8}
+\contentsline {section}{\numberline {8.1}Geant4}{21}{section.8.1}
+\contentsline {section}{\numberline {8.2}Geometry setup}{21}{section.8.2}
+\contentsline {section}{\numberline {8.3}Muon generator}{22}{section.8.3}
+\contentsline {section}{\numberline {8.4}Hit counter}{22}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{23}{chapter.9}
+\contentsline {chapter}{\numberline {10}Outlook}{25}{chapter.10}
+\contentsline {chapter}{Bibliography}{27}{section*.21}
+\contentsline {chapter}{Appendix}{29}{chapter*.23}
+\contentsline {section}{\numberline {A}First Appendix Section}{29}{section.10.1}
