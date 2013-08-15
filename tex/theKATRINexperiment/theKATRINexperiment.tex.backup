@@ -3,23 +3,32 @@
 
     \chapter{The KATRIN experiment}
     \label{ch:The KATRIN experiment}
-      
+    The KATRIN experiment is on its way to measure the neutrino mass or set new upper limits at precisions never achieved before. It will reach a sensitivity of $\frac{\SI{500}{\milli\electronvolt}}{c^2}$ excelling the previously best experiments by a factor of \todo{how much?}. Major challenges of the project are the requirement of ultra high vacuum, the exat knowledge of all magnetic and electic fields as well as external influences on those, the required high luminosity of the Tritium source and the reduction of background sources.
+      \section{Measurement principle}
+      \label{ch:The KATRIN experiment:sec:Measurement Principle}
+      A generally easy principle is used to find information on the neutrino mass: The energy of electrons from tritium decay is measured with high precision and compared to the standard model's presumption for a massless neutrino: 
+      \begin{equation}
+      	\ce{^3_1T -> ^3_1H^+ + e^- + \bar{\nu}_e}
+      \end{equation}
+      As the decay's energy is distributed between the constant masses of electron end neutrino and their kinectic energies respectively, the decay electrons will show a continous spectrum. The difference between standard model's calculated electron energy and to the extrapolated maximum electron energy from the spectrum then equals the neutrino mass.
+      A different light is shed on the easiness of the task when considering the needed accuracy of the electron's energy.
+      \subsection{MAC-E Filter}
+      \label{ch:The KATRIN experiment:sec:MAC-E}
+      A high luminousity is a major requirement for good statistics at the KATRIN experiment. This makes it impossible to use some kind of aperture to filter for electrons from Tritium decay with one momentum direction as they are emitted uniformly from the source volume and the largest amount of electrons would never reach the main spectrometer. That is why another strategy is used at KATRIN: The MAC-E filter - magnetic adiabatic collimation with electrostatic filter - utilises the fact that, under small enough magnetic field changes, the magnetic momnetum of a particle is constant and the particle is considered adiabatic. 
       \section{Source Side and Transport Section}
       \label{ch:The KATRIN experiment:sec:sourceSide}
       
       \section{Pre-Spectrometer}
-      \label{ch:The KATRIN experiment:sec:sourceSide}
-      
+      \label{ch:The KATRIN experiment:sec:PreSpectrometer}
+      The pre-spectrometer was built in Munster and works on the same principle as the main spectrometer, although being a lot smaller. It is installed to reduce the flux to the main spectrometer, and by that the possible amount of stored electrons inside the main vessel. The pre-spectrometer has a one layered inner electrode to shield against externally induced electrons.
       \section{Main Spectrometer}
-      \label{ch:The KATRIN experiment:sec:macE}
+      \label{ch:The KATRIN experiment:sec:MainSpec}
       
       \section{Focal Plane Detector System}
       \label{ch:The KATRIN experiment:sec:mainDetectorSystem}
-      
+      The main detector is located at the very north of the experiment. It is made up of a silicon wafer divided into 148 pixels; every pixel has the same surface area.
       \section{Solenoids}
       \label{ch:The KATRIN experiment:sec:solenoids}
       
       \section{Air coil system}
       \label{ch:The KATRIN experiment:sec:Air coil system}
-
-\cite{becker2008a}

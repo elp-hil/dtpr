@@ -1,68 +1,70 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}The standard model}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}The Standard Model Neutrino}{1}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}Massive neutrinos}{1}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Neutrino Oscillations}{1}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Measuring Neutrino Mass}{1}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Cosmic air showers}{1}{section.1.3}
-\contentsline {section}{\numberline {1.4}Muon interaction with matter}{1}{section.1.4}
+\contentsline {section}{\numberline {1.1}Neutrinos in the standard model}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Neutrino Oscillations}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Indirect measurement of neutrino mass}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Direct measurement of neutrino mass}{1}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Cosmic muons and their interaction with matter}{1}{section.1.2}
 \contentsline {chapter}{\numberline {2}The KATRIN experiment}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Source Side and Transport Section}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}Measurement principle}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}MAC-E Filter}{3}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Pre-Spectrometer}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Main Spectrometer}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Focal Plane Detector System}{3}{section.2.4}
-\contentsline {section}{\numberline {2.5}Solenoids}{3}{section.2.5}
-\contentsline {section}{\numberline {2.6}Air coil system}{3}{section.2.6}
+\contentsline {section}{\numberline {2.2}Source Side and Transport Section}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pre-Spectrometer}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Main Spectrometer}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Focal Plane Detector System}{4}{section.2.5}
+\contentsline {section}{\numberline {2.6}Solenoids}{4}{section.2.6}
+\contentsline {section}{\numberline {2.7}Air coil system}{4}{section.2.7}
 \contentsline {chapter}{\numberline {3}The muon detection system}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Scintillator modules}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Photomultipliers}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Gains, Thresholds and Acceleration Voltages}{6}{section.3.3}
-\contentsline {chapter}{\numberline {4}Data aquisition crate}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}First level trigger cards}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Second level triger cards}{7}{section.4.2}
-\contentsline {chapter}{\numberline {5}Orca control}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}Software Gains and Thresholds}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}Run control}{9}{section.5.2}
-\contentsline {section}{\numberline {5.3}File handling}{9}{section.5.3}
-\contentsline {section}{\numberline {5.4}Orca Fit}{9}{section.5.4}
-\contentsline {chapter}{\numberline {6}Analysis software}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}Data structure}{11}{section.6.1}
-\contentsline {section}{\numberline {6.2}Search Algorithms}{12}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Frequency Search}{12}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Incremental Search}{13}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Member Functions of the class {\bf run}}{13}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Constructor run()}{13}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Destructor ~run()}{13}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}getRun()}{13}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}getLocalRun()}{13}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}detectCoincidences()}{14}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}channelCoincidences()}{14}{subsection.6.3.6}
-\contentsline {subsection}{\numberline {6.3.7}loopOverSides()}{14}{subsection.6.3.7}
-\contentsline {subsection}{\numberline {6.3.8}panelCoincidences()}{14}{subsection.6.3.8}
-\contentsline {subsection}{\numberline {6.3.9}findSmallest()}{14}{subsection.6.3.9}
-\contentsline {subsection}{\numberline {6.3.10}TOFHist()}{14}{subsection.6.3.10}
-\contentsline {subsection}{\numberline {6.3.11}TOFMuonDet()}{15}{subsection.6.3.11}
-\contentsline {subsection}{\numberline {6.3.12}determineEfficiency}{15}{subsection.6.3.12}
-\contentsline {subsection}{\numberline {6.3.13}getSize()}{15}{subsection.6.3.13}
-\contentsline {subsection}{\numberline {6.3.14}readVetoEventData(), readDetectorData() and readMOSDetectorData()}{15}{subsection.6.3.14}
-\contentsline {chapter}{\numberline {7}Analysis}{17}{chapter.7}
-\contentsline {section}{\numberline {7.1}Gain-, Threshold and Acceleration Voltage Settings}{17}{section.7.1}
-\contentsline {section}{\numberline {7.2}Finding the best filter settings}{17}{section.7.2}
-\contentsline {section}{\numberline {7.3}Modules in high magnetic fields}{18}{section.7.3}
-\contentsline {section}{\numberline {7.4}Module Stability}{18}{section.7.4}
-\contentsline {section}{\numberline {7.5}Module Efficiency}{18}{section.7.5}
-\contentsline {section}{\numberline {7.6}Photo Multiplier Tube Test with $^{60}$Co source}{18}{section.7.6}
-\contentsline {section}{\numberline {7.7}Coincidence Search between Muon- and Detector Events}{19}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Monitor Spectrometer}{19}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Main Spectrometer}{20}{subsection.7.7.2}
-\contentsline {chapter}{\numberline {8}Simulation software}{21}{chapter.8}
-\contentsline {section}{\numberline {8.1}Geant4}{21}{section.8.1}
-\contentsline {section}{\numberline {8.2}Geometry setup}{21}{section.8.2}
-\contentsline {section}{\numberline {8.3}Muon generator}{22}{section.8.3}
-\contentsline {section}{\numberline {8.4}Hit counter}{22}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{23}{chapter.9}
-\contentsline {chapter}{\numberline {10}Outlook}{25}{chapter.10}
-\contentsline {chapter}{Bibliography}{27}{section*.21}
-\contentsline {chapter}{Appendix}{29}{chapter*.23}
-\contentsline {section}{\numberline {A}First Appendix Section}{29}{section.10.1}
+\contentsline {section}{\numberline {3.1}Data aquisition crate}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}First level trigger cards}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Second level triger cards}{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Orca control}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Software Gains and Thresholds}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Run control}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}File handling}{6}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Orca Fit}{7}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Scintillator modules}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Photomultipliers}{7}{section.3.4}
+\contentsline {section}{\numberline {3.5}Gains, Thresholds and Acceleration Voltages}{7}{section.3.5}
+\contentsline {chapter}{\numberline {4}Analysis software}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data structure}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Search Algorithms}{12}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Frequency Search}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Incremental Search}{13}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Member Functions of the class {\bf run}}{13}{section.4.3}
+\contentsline {paragraph}{Constructor run()}{13}{section*.14}
+\contentsline {paragraph}{Destructor ~run()}{13}{section*.16}
+\contentsline {paragraph}{getRun()}{14}{section*.17}
+\contentsline {paragraph}{getLocalRun()}{14}{section*.18}
+\contentsline {paragraph}{detectCoincidences()}{14}{section*.19}
+\contentsline {paragraph}{channelCoincidences()}{14}{section*.20}
+\contentsline {paragraph}{loopOverSides()}{14}{section*.21}
+\contentsline {paragraph}{panelCoincidences()}{14}{section*.22}
+\contentsline {paragraph}{findSmallest()}{15}{section*.23}
+\contentsline {paragraph}{TOFHist()}{15}{section*.24}
+\contentsline {paragraph}{TOFMuonDet()}{15}{section*.25}
+\contentsline {paragraph}{determineEfficiency}{15}{section*.26}
+\contentsline {paragraph}{getSize()}{15}{section*.27}
+\contentsline {paragraph}{readVetoEventData(), readDetectorData() and readMOSDetectorData()}{15}{section*.29}
+\contentsline {chapter}{\numberline {5}Comissioning measurements and analysis}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Rate instability due to charging effects}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Gain-, Threshold and Acceleration Voltage Settings}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Finding the best filter settings}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Moun module's rates}{18}{section.5.4}
+\contentsline {section}{\numberline {5.5}Modules in high magnetic fields}{20}{section.5.5}
+\contentsline {section}{\numberline {5.6}Module Stability}{20}{section.5.6}
+\contentsline {section}{\numberline {5.7}Module Efficiency}{22}{section.5.7}
+\contentsline {section}{\numberline {5.8}Photo Multiplier Tube Test with $^{90}$Sr source}{22}{section.5.8}
+\contentsline {section}{\numberline {5.9}Synchronisation of moun module and FPD DAQs}{23}{section.5.9}
+\contentsline {section}{\numberline {5.10}Coincidence Search between Muon- and Detector Events}{24}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Monitor Spectrometer}{24}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Main Spectrometer}{25}{subsection.5.10.2}
+\contentsline {chapter}{\numberline {6}Simulation of muon induced background}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Geant4}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Geometry setup}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Muon generator}{30}{section.6.3}
+\contentsline {section}{\numberline {6.4}Hit counter}{30}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusion}{31}{chapter.7}
+\contentsline {chapter}{\numberline {8}Outlook}{33}{chapter.8}
+\contentsline {chapter}{Bibliography}{35}{section*.51}
+\contentsline {chapter}{Appendix}{37}{chapter*.53}
+\contentsline {section}{\numberline {A}First Appendix Section}{37}{section.8.1}

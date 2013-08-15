@@ -7,16 +7,18 @@
 %% ==============
   To analyse the data recorded by DAQ and ORCA software, completely new data structures fit to the needs of muon detection and coincidence analysis have been created. 
   Methods have been implemented to further investigate data stored inside those structures.
+  A cmake file has been created making it possible to install the program on any machine used for analysis. All the sources including the main programs are available on the svn repository \todo{move program(s) to svn repository}.
+  Doing so, external programs can be modified for custom analysis that shall include muon data making it very modular.
   %% ===========================
   \section{Data structure}
   \label{ch:Analysis software:sec:Data structure}
   %% ===========================
-    All data from the IPE-servers arrives converted from ORCA-specific formatting to .root files. Hence, ROOT Methods are used to extract data from these structures, while most of these methods are implemented as part of the KaLi package in Kasper, which constitutes for a complete and closed data transfer protocol.
-    Through those structures, data will be cached locally and can be analysed.\\
-    Before heading to actual analysis, all data is stored in the runtime structures.
+    All data from the IPE-servers arrives converted from ORCA-specific formatting to .root files compatible with CERN's analysis software ROOT. Hence, ROOT Methods are used to extract data from these structures, while most of these methods are implemented as part of the KaLi package in Kasper, which constitutes for a complete and closed data transfer protocol.
+    Through those structures, data specified by the user will be cached locally and can be analysed afterwards.//
+    For analysis with the classes described here, all data is transfered from the cached files to runtime storage. 
     Here, the newly written class {\bf event} with the following members comes into play.
-    \begin{figure}
-      \caption*{{\bf event} class members}
+    \begin{figure}[H]
+      \caption*{{\bf event} private class members}
       \begin{itemize}
 	\item fADCValue
     	\item fTimeSec
@@ -25,19 +27,19 @@
     	\item fSide
       \end{itemize}
     \end{figure}
-    For each member, corresponding set- and get-methods have been implemented. Furthermore, the operators "<", "<=", ">", ">=", "==", and "-" have been overloaded to compare the timestamps of the event class. This was useful especially since ADCValues are merely used for plausibility checking the data but not for quantitative analysis. Doing so, events and the classes derived from them can easily be compared and searching becomes cleaner and clearer.\\
+    For each member, corresponding set- and get-methods have been implemented making them accessible to the programmer. Furthermore, the operators "<", "<=", ">", ">=", "==", and "-" have been overloaded to compare the timestamps of the event class. This was useful especially since ADCValues are merely used for plausibility checking of the data but not for quantitative analysis. Doing so, events and the classes derived can easily be compared and searching becomes cleaner and clearer.\\
     Derived from the base event class are two more storage classes:\\
-    {\bf panelEvent} storing the second ADCValue
-    \begin{figure}
+    {\bf panelEvent} storing a second ADCValue
+    \begin{figure}[H]
       \caption*{{\bf coincidentEvent} additional member}
       \begin{itemize}
 	\item fADCValue2
       \end{itemize}
     \end{figure}
 	
-    and the common timestamp of events activating both panel sides and\\
+    and the common timestamp of events activating both panel sides and
     {\bf coincidentEvent} storing ADCValues of simultaneous events in multiple modules and the number of modules involved:
-    \begin{figure}
+    \begin{figure}[H]
       \caption*{{\bf coincidentEvent} additional members}
 	\begin{itemize}
 	  \item std::vector fADCValues
@@ -89,7 +91,7 @@
   %% ===========================  
   
     %% ===========================
-    \subsection{Constructor run()}
+    \paragraph{Constructor run()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:Constructor}
     %% ===========================  
     Whenever a new instance of "run" is created, the constructor is called. Arguments to be passed are a KaLi::KLRunIdentifier, basically a string distinctively naming the run to be analysed, such as "myo00000001", KaLi::KLDataManger, a class handling the download of the Files form IPE-servers and a toggle variable telling the constructor which data to read via the member function getRun() and what member functions to call afterwards:
@@ -104,47 +106,47 @@
     \end{figure}
     
     %% ===========================
-    \subsection{Destructor ~run()}
+    \paragraph{Destructor ~run()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:destructor}
     %% ===========================
     The destructor deletes all the contents of the vectors of events and inherited classes and clears them afterwards before deleting the member RUN which in fact frees all the memory reserved by the KaLi classes.
     
     %% ===========================
-    \subsection{getRun()}
+    \paragraph{getRun()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:getRun()}
     %% ===========================  
     
     This sets the member KaLi::KLRun through the KaLi::KLDataManager and then returns its KaLi::KLRunEvents - these include all recorded events meaning also both the relevant KaLi::KLEnergyEvents and KaLi::KLVetoEvents. The getRun() function is used for example in the constructor to read the run's data.
     
     %% ===========================
-    \subsection{getLocalRun()}
+    \paragraph{getLocalRun()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:getLocalRun()}
     %% ===========================  
     
     It is not always possible to read data from the file servers, example given were files too big leading to timeouts at least in older KaLi versions. That is why the getLocalRun() function was introduced reading data from the local filesystem via the KaLi::KLRunIdentifier. The path to the files needs to be adapted in the source code \todo{environment variable?}.
     
     %% ===========================
-    \subsection{detectCoincidences()}
+    \paragraph{detectCoincidences()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:detectCoincidences()}
     %% ===========================      
     
     After calling the member function channelCoincidences(), panelCoincidences(nPanels) is returned where nPanels defines, how many modules have to show coincidences for the counter to increment. 
     
     %% ===========================
-    \subsection{channelCoincidences()}
+    \paragraph{channelCoincidences()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:channelCoincidences()}
     %% ===========================  
     This {\bf always} clears the vector eventsByPanels before filling it according to the current selectedPanels settings. To do so, it loops over all entries of selectedPanels, calling loopOverSides() of the current module.
     
     %% ===========================
-    \subsection{loopOverSides()}
+    \paragraph{loopOverSides()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:loopOverSides()}
     %% ===========================  
     
     Analysing only one of the modules for coincident events between the two sides, the function runs through all the events of one panel side using the operators "<" and "==" overloaded for the class run to compare event times. For the search itself, the "A" side's index is incremented step by step while the "B" side's index is pushed up as long as its event time is smaller than A's. Every time that condition changes, it checks whether the events occured at the same time - pushing a coincidentEvent with both the events ADCValues and the timestamp into the vector for the corresponding module if so - and then going on incrementing A's index.
     
     %% ===========================
-    \subsection{panelCoincidences()}
+    \paragraph{panelCoincidences()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:panelCoincidences()}
     %% ===========================  
 
@@ -153,28 +155,28 @@
     The return value is the number of events fulfilling the requirement passed through nPanels to panelCoincidences: if it is zero, every coincident event with two or more modules involved is counted, for every other number, only the number of event with exactly this number of modules is counted.
 
     %% ===========================
-    \subsection{findSmallest()}
+    \paragraph{findSmallest()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:findSmallest()}
     %% ===========================  
     
     Setting the smallest event's timestamp through references, the findSmalles function requires only the steppoints of the different modules and returns the one with the smallest timestamp. 
     
     %% ===========================
-    \subsection{TOFHist()}
+    \paragraph{TOFHist()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}
     %% ===========================  
     
     Setting the modules to be analysed to one and two, this function was designed to analyse monitor spectrometer data. This also reflects in the fact, that both muon data and detector data are expected to be stored within the same mosxxxxxxxx run file. The function then runs channelCoincidences() and panelCoincidences() before shifting throug all the muon events searching for following detector events in a certain time interval.
     
     %% ===========================
-    \subsection{TOFMuonDet()}
+    \paragraph{TOFMuonDet()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}
     %% ===========================  
     
     In contrary to the TOFHist function, this one reads muon and detector data from different files as it is designed for the needs of the main spectrometer. Here, two DAQs record muon and electron detections to myoxxxxxxxx and fpdxxxxxxxx files respectively. That is why the function reads a muon run and requires a guess as to where corresponding detector data is located. It then loads on detector run after the other to check whether there's events inside a time window after each muon event. If so, a histogram is filled with the data aquired to inspect it for cumulation at particular times. 
     
     %% ===========================
-    \subsection{determineEfficiency}
+    \paragraph{determineEfficiency}
     \label{ch:Analysis software:sec:methods of the class run:subsec:determineEfficiency}
     %% ===========================      
     
@@ -187,7 +189,7 @@
     %To rate the detection efficiencies of the modules, the one of module seven located in between the two other, coextensive modules six and %eight was determined. 
     
     %% ===========================
-    \subsection{getSize()}
+    \paragraph{getSize()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:getSize()}
     %% ===========================  
     The getSize() function returns the size of one of the vectors storing events or one of the inherited classes depending on the passed integer "what":
@@ -205,7 +207,7 @@
     \todo{default nonsense, reimplement}
     
     %% ===========================
-    \subsection{readVetoEventData(), readDetectorData() and readMOSDetectorData()}
+    \paragraph{readVetoEventData(), readDetectorData() and readMOSDetectorData()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:readVetoEventData(), readDetectorData() and readMOSDetectorData()}
     %% ===========================  
     Depending on the toggle choice in the constructor, either one of the two or both of the functions are called. While the readDetectorData() function reads all recorded KaLi::\-KLEnergy\-Events (only the FPD records those), the readVetoEventData() function reads all the KaLi::KLVetoEvents from cards three, six and nine. This can never interfere with veto data recorded directly around the FPD vor active vetoing of detector signals, as cards 15 and 16 are used here.

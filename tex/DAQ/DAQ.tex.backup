@@ -1,0 +1,18 @@
+%% DAQ.tex
+%%
+
+%% ==============
+\chapter{Data aquisition crate}
+\label{ch:DAQ}
+%% ==============
+The Data acquisition crate, short DAQ, is the central part of event recording and by that the interface between hardware muon modules and software based ORCA machine. It features first and second level trigger cards that are described in detail in the following chapters. The linux based system runs on an external hard drive connected to the second level trigger card via USB. Here, a screen and keyboard can be connected for network setup, then, access via ssh is possible. The DAQ can be connected to and controlled by the ORCA software.
+  %% ===========================
+  \section{First level trigger cards}
+  \label{ch:DAQ:sec:FLTs}
+  %% ===========================
+  The FLT cards directly receive the signal output of the photomultiplier tubes via coaxial cabling. They then do first parts of data analysis to reduce data flow to the ORCA machine. In this case, only events with occur simultaneously on both sides of any module are passed on. This reduces the rate from \todo{look up non veto rate} to around \SI{250}{\hertz}. The FLT cards are made up of a large main card and a smaller connector card. 
+  %% ===========================
+  \section{Second level triger cards}
+  \label{ch:DAQ:sec:SLTs}
+  %% ===========================
+  Only one second level trigger card is installed on each DAQ. all the Signals from the FLT cards are stacked here and passed on to the the ORCA machine. Networking runs directly through the SLT card. 

@@ -81,7 +81,15 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{mhchem}
 %\usepackage{beramono}
+\usepackage{microtype,textcomp}
+\DeclareSIUnit\gauss{G}
+\DeclareSIUnit\cps{cps}
+%\sisetup{math-micro=\text{µ},text-micro=µ}
+
 %% ------------------------
 %% |    Including files   |
 %% ------------------------
@@ -93,8 +101,6 @@ declaration,
 content,
 introduction,
 theKATRINexperiment/theKATRINexperiment,
-DAQ/DAQ,
-orcaControl/orcaControl,
 muonDetectionSystem/muonDetectionSystem,
 analysisSoftware/analysisSoftware,
 analysis/analysis,
@@ -136,8 +142,8 @@ appendix
 \include{introduction}
 \include{theKATRINexperiment/theKATRINexperiment}
 \include{muonDetectionSystem/muonDetectionSystem}
-\include{DAQ/DAQ}
-\include{orcaControl/orcaControl}
+% \include{DAQ/DAQ}
+% \include{orcaControl/orcaControl}
 \include{analysisSoftware/analysisSoftware}
 \include{analysis/analysis}
 \include{simulationSoftware/simulationSoftware}

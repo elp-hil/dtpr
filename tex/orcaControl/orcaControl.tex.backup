@@ -1,0 +1,29 @@
+%% OrcaControl.tex
+%%
+
+%% ==============
+\chapter{Orca control}
+\label{ch:OrcaControl}
+%% ==============
+    ORCA is the central software for data acquisition. 
+
+    %% ===========================
+    \section{Software Gains and Thresholds}
+    \label{ch:OrcaControl:sec:SoftwareGainsThresholds}
+    %% ===========================
+    
+    
+    %% ===========================
+    \section{Run control}
+    \label{ch:OrcaControl:sec:RunControl}
+    %% ===========================
+    
+      %% ===========================
+    \section{File handling}
+    \label{ch:OrcaControl:sec:FileHandling}
+    %% ===========================
+
+    %% ===========================
+    \section{Orca Fit}
+    \label{ch:OrcaControl:sec:OrcaFit}
+    %% ===========================
