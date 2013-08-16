@@ -124,7 +124,7 @@
   \begin{equation}
   	\Phi = \eta \frac{1}{\SI{}{\square\centi\meter}\SI{60}{\second}}A_{\mathrm{eff}} = \SI{225}{\hertz}
   \end{equation}
-
+  It compares well to measured rates of \todo{calculate actual rates} ~ 250.
   \begin{equation}
   	\Phi_{meas.} = \frac{250}{\SI{}{\second}} \frac{1}{A_{\mathrm eff}}\eta= 
   \end{equation}
@@ -193,7 +193,8 @@
   has been written.
   The principle is the following: considering the small change in momentum direction high energy muons achieve through interaction with matter, one can assume straight-lined paths. From that follows, that if two parallel planes, that can be used to describe the scintillating volumes, are hit, any other, also parallel plane, in between those two will be hit as well. Keeping this in mind, one can analyse data for events registered in both modules 6 and 8 and cross check whether a event has been detected in module 7 as well. The quota of events in all three modules compared to those detected in 6 and 8 - but including the triple events - shows the efficiency of module 7.
   It shows that during the measurement period end of 2012, the efficiencies were at \todo{rerun} \SI{94 }{\percent} which is less than one would expect at a scintillator thickness of \SI{5}{\centi\meter} for muons perpendicular to the largest module surface, even more for any other.
-  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of 150 ns from the before used \todo{exact name} filter. This lead to an increase in efficiency of about \todo{x percent}.
+  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of 150 ns from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable, the average efficiencies before and after are within the margin of error of the other.
+  To examine the problem further, another idea came up: modules 3, 4 and 5, that are located next to each other could be used for efficiency measurements as well considering theiy are stacked in a upright way. Using the program on those three led to an even worse result: 
   As the efficiency is still below expected values, a possible improvement would be to use preamplifiers before signals arrive at the DAQ, which would then need to have a higher sampling frequency and widen the signal timewise.
   
   %% ===========================
