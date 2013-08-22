@@ -6,8 +6,6 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: theKATRINexperiment/theKATRINexperiment.aux
 A level-1 auxiliary file: muonDetectionSystem/muonDetectionSystem.aux
-A level-1 auxiliary file: DAQ/DAQ.aux
-A level-1 auxiliary file: orcaControl/orcaControl.aux
 A level-1 auxiliary file: analysisSoftware/analysisSoftware.aux
 A level-1 auxiliary file: analysis/analysis.aux
 A level-1 auxiliary file: simulationSoftware/simulationSoftware.aux
@@ -26,46 +24,48 @@ Database file #1: thesis.bib
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--missing publisher in highEnergyCosmicRays
 
 Done.
-You've used 2 entries,
+You've used 8 entries,
             5047 wiz_defined-function locations,
-            995 strings with 9105 characters,
-and the built_in function-call counts, 1159 in all, are:
-= -- 109
-> -- 16
-< -- 2
-+ -- 4
-- -- 4
-* -- 57
-:= -- 203
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 10
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 74
-empty$ -- 85
-format.name$ -- 8
-if$ -- 226
+            1035 strings with 10198 characters,
+and the built_in function-call counts, 5364 in all, are:
+= -- 549
+> -- 114
+< -- 15
++ -- 41
+- -- 33
+* -- 266
+:= -- 909
+add.period$ -- 14
+call.type$ -- 8
+change.case$ -- 46
+chr.to.int$ -- 23
+cite$ -- 9
+duplicate$ -- 350
+empty$ -- 383
+format.name$ -- 49
+if$ -- 1131
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 15
-newline$ -- 30
-num.names$ -- 6
-pop$ -- 54
+missing$ -- 60
+newline$ -- 54
+num.names$ -- 24
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 53
 quote$ -- 2
-skip$ -- 80
+skip$ -- 401
 stack$ -- 0
-substring$ -- 17
-swap$ -- 34
-text.length$ -- 2
-text.prefix$ -- 2
+substring$ -- 114
+swap$ -- 203
+text.length$ -- 10
+text.prefix$ -- 6
 top$ -- 6
-type$ -- 40
-warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 43
+type$ -- 156
+warning$ -- 1
+while$ -- 23
+width$ -- 10
+write$ -- 117
+(There was 1 warning)

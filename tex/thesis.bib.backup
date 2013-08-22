@@ -1,11 +1,94 @@
+
 @ARTICLE{becker2008a,
   author = {Steffen Becker and Heiko Koziolek and Ralf Reussner},
   title = {{T}he {P}alladio component model for model-driven performance prediction},
-  journal = JSS,
+  journal = {JSS},
   year = {2009},
   volume = {82},
   pages = {3--22},
   doi = {10.1016/j.jss.2008.03.066},
   publisher = {Elsevier Science Inc.},
   url = {http://dx.doi.org/10.1016/j.jss.2008.03.066}
+}
+
+@MISC{
+  scintillatorManual,
+  author = {Saint-Gobain Crystals},
+  title = {Premium Plastic Scintillators},
+  year = {2005},
+  howpublished = "\url{http://www.detectors.saint-gobain.com/uploadedFiles/SGdetectors/Documents/Product_Data_Sheets/BC400-404-408-412-416-Data-Sheet.pdf}",
+  note = "[Online; accessed 11-07-2013]"
+}
+
+@MISC{
+  KevinWierman,
+  author = {Kevin Wierman},
+  year = {2013},
+  howpublished = "personal conversation"
+}
+
+@MISC{
+  neutrinoMassScheme,
+  author = {asdf},
+  title = {Neutino mass hierarchy},
+  year = {2012},
+  howpublished = "\url{http://scienceblogs.com/startswithabang/files/2012/01/mass-hierarchy.jpg}",
+  note = "[Online; accessed 21-08-2013]"
+}
+
+@article{PhysRevLett.110.181802,
+  title = {Evidence for the Appearance of Atmospheric Tau Neutrinos in Super-Kamiokande},
+  author = {Abe, K. et al},
+  collaboration = {Super-Kamiokande Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {110},
+  issue = {18},
+  pages = {181802},
+  numpages = {7},
+  year = {2013},
+  month = {May},
+  doi = {10.1103/PhysRevLett.110.181802},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.110.181802},
+  publisher = {American Physical Society}
+}
+
+@MISC{
+  DTArlinghaus,
+  author = {Henrik Arlinghaus},
+  title = {Investigation of the muon-induced
+secondary electron background in the
+KATRIN Experiment},
+  year = {2009},
+  howpublished = "\url{http://www.uni-muenster.de/Physik.KP/AGWeinheimer/Files/theses/Diplom_Henrik_Arlinghaus.pdf}",
+  note = "[Online; accessed 21-08-2013]"
+}
+
+@article{PhysRevLett.100.221803,
+  title = {Precision Measurement of Neutrino Oscillation Parameters with KamLAND},
+  author = {Abe, S. et al},
+  collaboration = {The KamLAND Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {100},
+  issue = {22},
+  pages = {221803},
+  numpages = {5},
+  year = {2008},
+  month = {Jun},
+  doi = {10.1103/PhysRevLett.100.221803},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.100.221803},
+  publisher = {American Physical Society}
+}
+@book{highEnergyCosmicRays,
+  title = {High Energy Cosmic Rays},
+  author = {Todor Stanev},
+  issue = {2},
+  year = {2004},
+  numpages = {301},
+  pages = {105}
+}
+@article{currentNeutrinoSearches,
+  title = {Current Direct Neutrino Mass Experiments},
+  author = {G. Drexlin, V. Hannen, S. Mertens, C. Weinheimer},
+  url = {http://arxiv.org/abs/1307.0101},
+  year = {2013}
 }

@@ -122,20 +122,16 @@
   \end{equation}
   Further taking into account detection efficiencies $\eta$ discussed in \ref{ch:Analysis:sec:Module Efficiency}, we receive an estimation of effective rate of
   \begin{equation}
-  	\Phi = \eta \frac{1}{\SI{}{\square\centi\meter}\SI{60}{\second}}A_{\mathrm{eff}} = \SI{225}{\hertz}
+  	\Phi_{est} = \eta \frac{1}{\SI{}{\square\centi\meter}\SI{60}{\second}}A_{\mathrm{eff}} = \SI{225}{\hertz}
   \end{equation}
-  It compares well to measured rates of \todo{calculate actual rates} ~ 250.
-  \begin{equation}
-  	\Phi_{meas.} = \frac{250}{\SI{}{\second}} \frac{1}{A_{\mathrm eff}}\eta= 
-  \end{equation}
-
+  It compares well to measured rates of \todo{calculate actual rates} ~ \SI{250}{\hertz}.
   
   %% ===========================
   \section{Modules in high magnetic fields}
   \label{ch:Analysis:sec:Modules in high magnetic fields}
   %% ===========================  
-  For there is the need of moving the muon modules as close to the spectrometer tank as possible to register mostly muons that indeed went through the vessel, they are aligned closely to the air coil system. This brought up the problem of photomultiplier tubes having to work in high magnetic fields. Photomultipliers, as mentioned before, use electrons cascading in electric fields to generate amplified signals. Additional magnetic fields can keep the electrons from reaching the dynodes stopping the cascade thus keeping single events from being registered. As rate decreases strongly under these conditions \todo{are there runs showing that? ask nancy}, a solution needed to be found. As a simple, yet efficient passive counter measurement, a layer of mu-metal was wrapped around the modules. Mu-metal is a magnetically highly permeable material (here, $\mu_r\approx $\todo{find out permeability}) that guides the magnetic field lines inside itself. In doing so, the fields inside a mu-metal surrounded volume 
-  drastically reduces.
+  For there is the need of moving the muon modules as close to the spectrometer tank as possible to register mostly muons that indeed went through the vessel, they are aligned closely to the air coil system. This brought up the problem of photomultiplier tubes having to work in high magnetic fields. Photomultipliers, as mentioned before, use electrons cascading in electric fields to generate amplified signals. Additional magnetic fields can keep the electrons from reaching the dynodes stopping the cascade thus keeping single events from being registered. As rate decreases strongly under these conditions \todo{are there runs showing that? ask nancy}, a solution needed to be found. As a simple, yet efficient passive counter measurement, a layer of mu-metal was wrapped around the modules. Mu-metal is a magnetically highly permeable material (here, $\mu_r\approx $\todo{find out permeability}) that guides the magnetic field lines inside itself. In doing so, the remaining flux inside a mu-metal surrounded volume, 
+and with it the field strengths, drastically reduces.
   To test the improvement the mu metal coverage produces, measurements with rising aircoil currents have been performed.
   Steps in the size of tenths of the maximum current of mostly \SI{100}{\ampere}, in some cases only \SI{70}{\ampere}, were used to record rates over half an hour at each value.
   During the first run, due to a slow control problem, the current was not raised between two steps. Although displaying the expected behaviour - rates dropped much less than before - the measurement was repeated with the correct currents.
@@ -144,8 +140,8 @@
 
   \centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/aircoilCounts/aircoilsCountsCurrent.eps}
-  	  \label{fig:aircoilCountsCurrent}
   	\caption{Counts over air coil currents, with a maximum of \SI{100}{\ampere}. A clear decrease in rate is recognisable in the last 5 data points.}
+  	\label{fig:aircoilCountsCurrent}
   \end{figure}
   
 
@@ -176,7 +172,7 @@
   	\rho = \frac{R}{M}\frac{p}{T}
   \end{equation}
   where $\rho$ is the density, R is the gas constant, M is the molar mass of air and p and T are pressure and temperature respectively.
-  If one looks at the data from \todo{find weather station data, see if it fits fluctuations}\todo{maybe cascade data to back it up?}
+  If one looks at the data from \todo{find weather station data, see if it fits fluctuations, maybe cascade data to back it up?}
   \begin{figure}
 	\centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
@@ -194,18 +190,30 @@
   The principle is the following: considering the small change in momentum direction high energy muons achieve through interaction with matter, one can assume straight-lined paths. From that follows, that if two parallel planes, that can be used to describe the scintillating volumes, are hit, any other, also parallel plane, in between those two will be hit as well. Keeping this in mind, one can analyse data for events registered in both modules 6 and 8 and cross check whether a event has been detected in module 7 as well. The quota of events in all three modules compared to those detected in 6 and 8 - but including the triple events - shows the efficiency of module 7.
   It shows that during the measurement period end of 2012, the efficiencies were at \todo{rerun} \SI{94 }{\percent} which is less than one would expect at a scintillator thickness of \SI{5}{\centi\meter} for muons perpendicular to the largest module surface, even more for any other.
   For that reason, the filter settings were checked and changed to the boxcar filter with a gap of 150 ns from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable, the average efficiencies before and after are within the margin of error of the other.
-  To examine the problem further, another idea came up: modules 3, 4 and 5, that are located next to each other could be used for efficiency measurements as well considering theiy are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50(3)}{\percent}.
-  As the efficiency is still below expected values, a possible improvement would be to use preamplifiers before signals arrive at the DAQ, which would then need to have a higher sampling frequency and widen the signal timewise.
+  To examine the problem further, another idea came up: modules 3, 4 and 5, that are located next to each other could be used for efficiency measurements as well considering theiy are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50(3)}{\percent}. This raises the question wheter this is not an effect of signal filtering, but a previously not considered physics effect. One thing comming to mind is deviation of the muon track from linear forms. This feature would comply with the seemingly lower efficiency at the upright stacked modules, where, at equal bending radii, the ratio of muons travelling around the middle module is higher due to the lower total area in stacking direction.
+  This thesis should be tested. This can be done both by simulating the cosmic muons including magentic fields and empirically by varying the distance between teh single modules. The latter is difficult not only because the modules are heavy and not made for lifting (no designated carrying structures), but also because movement always means potential danger to the photomultiplier tubes and their connection to the scintillators.
+  Furthermore, if all coils and solenoids were to be turned of simultaneously at some point, one could collect data then and see how efficicencies change during that (there have been runs taken when that was still the case, but only few modules were working properly at that point).
+  If the dependence on module distance turns out to be true, but the efficiencies are still below expected values at the lowest possible distances, a possible improvement would be to use preamplifiers before signals arrive at the DAQ. These would widen the signals timewise leading to a more easily detectable signal for the filters.
   
   %% ===========================
-  \section{Photo Multiplier Tube Test with $^{90}$Sr source} %$\bf{^{90}Sr}$
+  \section{Photo Multiplier Tube Test with Sr source}
   \label{ch:Analysis:sec:PhotoMultiplierTests}
   %% ===========================
   
   With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to see the source at any position but rates were expected to rise as the distance to any of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a non negligible part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier 
 tubes making it more difficult to distinguish between them. A first measurement was then to check for exactly that distinguishability.\todo{insert measurement for small steps over PMTs positions}.
+  \begin{figure}
+  	\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
+  \end{figure}
+
+  \begin{figure}
+  \centering
+  	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
+  	\caption{Decay mechanism of $^{90}$Sr: first a lower ernergetic decay to $^{90}$Y emitting \SI{544}{\kilo\electronvolt}/\SI{}{\square c} electrons, from that most probably a higher energetic decay to $^{90}$Zr ground state (\SI{2.29}{\mega\electronvolt}/\SI{}{\square c} electrons) or, with low probabilty, to one of two of its excited states.}
+  \end{figure}
+
   As one can see a rise in rate at the positions the tubes are located at, it was decided that four measurements per module and side were sufficient, especially as all measurements can afterwards be compared to each other.
-  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:CoRatesPMT} shows the result of these measurements. One can see that the gerneral shape of each side compares very well to the others. Exceptions are \todo{which ones different?}showing slight, but acceptable deviations off the norm.
+  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:SrRatesPMT} shows the result of these measurements. One can see that the gerneral shape of each side compares very well to the others. Exceptions are \todo{which ones different?}showing slight, but acceptable deviations off the norm.
   \begin{figure}
 	\centering
 	%\label{fig:CoRatesPMT}
@@ -270,6 +278,8 @@ tubes making it more difficult to distinguish between them. A first measurement 
 	
 	
   	%\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
+  	\caption{Measurements with source at different positions}
+  	\label{fig:SrRatesPMT}
   \end{figure}
 
     %% ===========================
@@ -313,7 +323,7 @@ signals via Cat 5 cable.
   
   Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run file through the mini crate.
   For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini DAQ and operated in veto mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position has been shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram mode to energy mode as the timestamps for every single event were needed for analysis. 
-  Several hourly runs have been taken under different magnetic field compositions. Both asymmetric magnetic \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field \ref{fig:monSpec:non axially symmetric magnetic field }configurations have been investigated: \todo{}
+  Several hourly runs have been taken under different magnetic field compositions. Both asymmetric magnetic \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field \ref{fig:monSpec:non axially symmetric magnetic field}configurations have been investigated: \todo{}
   \begin{table}
 	\centering
   	\begin{tabular}{c}
@@ -369,15 +379,16 @@ signals via Cat 5 cable.
   
   
   \begin{figure}
-	\label{fig:monSpec:asymmetric magnetic field}
+	\includegraphics{graphics/dummy.eps}
 	\caption{Flux tube at asymmetric magnetic fields. Electrons from processes at the walls are guided directly towards the detector as the largest part of the flux tubes surface ends in the monitor spectrometer's vessel's wall}
-  	\includegraphics{graphics/dummy.eps}
+  	\label{fig:monSpec:asymmetric magnetic field}
   \end{figure}
 
     \begin{figure}
-	\label{fig:monSpec:non axially symmetric magnetic field}
-	\caption{Flux tube at non axially symmetric fields. Although no direct guidance from the wall to the detector is given (the flux tube never touches the wall in this configuration), by adding a magnetic component perpendicular to z-direction, the probability for entrance into the flux tube rises strongly.}
-  	\includegraphics{graphics/dummy.eps}
+	
+	\includegraphics{graphics/dummy.eps}
+  	\caption{Flux tube at non axially symmetric fields. Although no direct guidance from the wall to the detector is given (the flux tube never touches the wall in this configuration), by adding a magnetic component perpendicular to z-direction, the probability for entrance into the flux tube rises strongly.}
+  	\label{fig:monSpec:non axially symmetric magnetic field}
   \end{figure}
   
   \begin{figure}
@@ -396,7 +407,7 @@ signals via Cat 5 cable.
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Main Spectrometer}
   %% =========================
   
-  Monitor spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during first light measurements, already during measurement M1, sone runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
+  Monitor spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to measurement M1, sone runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
   The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to much too low statistics, though it might be more conclusive as less different paths contibute to the single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
   
   \begin{figure}
@@ -434,9 +445,9 @@ signals via Cat 5 cable.
   Following that presumption, for M6 measurements, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
   \todo{flux tube including modules for horizontal and vertical view}
   \begin{figure}
-	\label{fig:newFluxTube}
+	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 	\caption{new flux tube}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+  	\label{fig:newFluxTube}
   \end{figure}
   \todo{If data will be taken add to analysis.}
   

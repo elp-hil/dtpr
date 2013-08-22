@@ -7,8 +7,25 @@
 %% ==============================
     \section{Neutrinos in the standard model}
     \label{ch:Introduction:sec:Neutrinos in the standard model}
-    During the second part of the 20th century, a model has been developed to describe a huge portion of phenomena stating 16 particle, that is six quarks, six leptons (both made up of three particle generations) and the four Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. In the standard model, neutrinos are considered massless. 
-    Many experiments have shown that the weightless neutrino is a wrong assumption. Most of these were experiments prooving neutrino oscillatinos with both reactor neutrinos and solar neutrinos such as \todo{add experiments}.
+    During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena, the standard model. It contains six quarks, six leptons (both made up of three particle generations) and four types of Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. 
+    For our universe, gravity, the graviton generated force, plays a major role for formation and stability af almost all larger structures. In particle physics however, it can mostly be neglected. Here, only the strong and weak as well as the electromagnetic interaction make for noticable contributions to phenomena observed.
+    Most of what we can observe with our bare eyes or in basic experiments is attributable to the electromagnetic force or gravity, however, strong and weak interaction do play a major role when it comes to high energy physics. Here, the limited reach of the two is overcome by small distances between interacting particles. In case of the neutrino, detection and by that the study of its characteristics is even more difficult as it interacts only gravitationally and weakly. Now, as mentioned before, gravity is indeed long range, but very weak in force. And although weak intraction is a lot stronger compared to gravity, it is still weak compared to both electromagnetic and strong interactions. That is why the neutrino is considered elusive, detection efficiencies are low and only large scale detectros are able to detect statistically relevant amounts of neutrinos.
+    In the standard model, neutrinos are considered massless. 
+    Many experiments have shown that the weightless neutrino is a wrong assumption. Most of these were experiments prooving neutrino oscillatinos with both reactor neutrinos and solar neutrinos such as Kamiokande\cite{PhysRevLett.110.181802} or \todo{add experiments}.
+    
+    Up till now, only the differences of the squared masses are known. This leads to different relations depending on how masses are distributed between the flavours, \ref{fig:massSchemes}, and how large they are absolutely \ref{fig:massHierarchy}. This problem is solved by the knowledge of one of the masses. KATRIN is on the verge of finding the $\nu_e$'s mass.\cite{becker2008a}
+    
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{graphics/standardModel/massHierarchy.jpg}
+    	\caption{sadf\cite{neutrinoMassScheme}}
+    	\label{fig:massSchemes}
+    \end{figure}
+    \begin{figure}
+    \caption{asdf}
+    	\label{fig:massHierarchy}
+    \end{figure}
+
     
     \subsection{Neutrino Oscillations}
     \label{ch:Introduction:sec:Massive neutrino:subsec:neutrino Oscillations}
@@ -16,33 +33,44 @@
       
     \begin{equation}
 	\begin{array}{ccc}
-      	|\nu_e>		& = & |\nu_{m,e}>\\
-      	|\nu_\mu>	& = & |\nu_{m,\nu}>\\
-      	|\nu_\tau>	& = & |\nu_{m,\tau}>\\
+      	|\nu_e>		& = & |\nu_1>\\
+      	|\nu_\mu>	& = & |\nu_2>\\
+      	|\nu_\tau>	& = & |\nu_3>\\
     	 \end{array}
     \end{equation}
-    First doubts concerning this asumptions occured as inconsistencies between the measured and the calculated solar $\nu$-flux occured. As the counton $\nu_e$ was too low, the theory of neutrino oscillations emerged stating, that a mixture of flavours was possible as the flavours were made up of all three of the mass eigenstates. The Mixture is described by the so called Pontecorvo–Maki–Nakagawa–Sakata matrix:
+    First doubts concerning this asumptions occured as inconsistencies between the measured and the calculated solar $\nu$-flux occured. As the counton $\nu_e$ was too low, the theory of neutrino oscillations emerged stating, that a mixture of flavours was possible as the flavours were made up of all three of the mass eigenstates. The Mixture is described by the so called Pontecorvo-Maki-Nakagawa-Sakata matrix:
         \begin{equation}
+        \left(
         \begin{array}{c}
-	  |\nu_e>
-	  |\nu_\mu>
-	  |\nu_\tau>
+	  |\nu_e>\\
+	  |\nu_\mu>\\
+	  |\nu_\tau>\\
         \end{array}
-	 =
+        \right)
+	 = \left(
 	\begin{array}{ccc}
-      	|\nu_e>		& = & |\nu_{m,e}>\\
-      	|\nu_\mu>	& = & |\nu_{m,\nu}>\\
-      	|\nu_\tau>	& = & |\nu_{m,\tau}>\\
+      	\theta_{e,e} & \theta_{e,\mu} & \theta_{e,\tau}\\
+      	\theta_{\mu,e} & \theta_{\mu,\mu} & \theta_{\mu,\tau}\\
+      	\theta_{\tau,e} & \theta_{\tau,\mu} & \theta_{\tau,\tau}\\
+      	\end{array}
+	\right)
+	\left(
+	\begin{array}{c}
+      	|\nu_{m,e}>\\
+      	|\nu_{m,\nu}>\\
+      	|\nu_{m,\tau}>\\
     	 \end{array}
+    	 \right)
     \end{equation}
+    
+    \subsection{Direct measurement of neutrino mass}
+    \label{ch:Introduction:sec:Massive neutrino:subsec:direct Neutrino Mass measurement}
+    Direct measurements of the neutrino mass require a reaction known to include neutrinos in its equation. There are both spectrometric and bolometric approaches. 
      
     \subsection{Indirect measurement of neutrino mass}
-    \label{ch:Introduction:sec:Massive neutrino:subsec:Measuring Neutrino Mass}
-
-    \subsection{Direct measurement of neutrino mass}
-    \label{ch:Introduction:sec:Massive neutrino:subsec:Measuring Neutrino Mass}
-      
+    \label{ch:Introduction:sec:Massive neutrino:subsec:indirect Neutrino Mass measurement}
+    Another approach is using indirect ways of finding the neutrino mass. One possibility here is to search for neutrinoless double beta decay, $0\nu\beta\beta$, which can exist only if the neutrino is its own anti-particle, a so called majorana neutrino. Then, if two nuclei beta decay, the neutrino from one vertex can be absorbed in the second as an anti-neutrino - or vice versa. The decay would then not emit any neutrino, \cite{currentNeutrinoSearches}
     \section{Cosmic muons and their interaction with matter}
     \label{ch:introduction:sec:Cosmic Air Showers}
-
+    When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which are free protons, meaning Hydrogen ions. Helium nucleons' fluxes are already about a order of magnitude below that, higher mass number nuclei show even lower rates\cite{highEnergyCosmicRays}. By different interactions 
 

@@ -8,7 +8,6 @@
   The need for low background rates at the main detector requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and asess muon related data, scintillator modules have been installed at both the monitor spectrometer and the main spectrometer. While the monitor spectrometer is equipped with only two rather small modules, at the larger main spectrometer, 8 modules have been installed at different positions enabling the user to cover different regions of the vessel. This freedom is enlarged by installing the detection system on three independently movable trolleys.
   The modules have been connected to the DAQ one trolley per card, meaning modules one and two connect to card three, modules 3 through 5 to card six and modules 6 through 8 to card nine (\ref{tab:connectionsModulesCards})
   \begin{table}
-	\label{tab:connectionsModulesCards}
   	\centering
   	\begin{tabular}{| l | c c | c c | c c | c c |}
   	\hline
@@ -22,16 +21,17 @@
   		\hline
   	\end{tabular}
   	\caption{Assignment of module sides to cards and channels}
+  	\label{tab:connectionsModulesCards}
   \end{table}
   All connections from modules to DAQ are made of coaxial cabling of equal length. This ensures comparable timestamps which are assigned only after the analogue signals arrive at the DAQ. High voltage is provided by two supplies, one on the east and one on the west side of the main hall.
   All devices of the muon detection system are connected to two multiplugs that are both overcurrent protected and feature mains filters. These multiplugs have been modified \ref{fig:multiplug} to connect to a ground other than the outlet's. To ensure a common potential for all of the devices and the surrounding appliances this connection was made to the trough below the main vessel.
   
   \begin{figure}
   \centering
-  \label{fig:multiplug}
+  
   	\includegraphics[width = 0.4 \textwidth]{graphics/setup/multiplug.pdf}
-  	\caption{Added extension of the earthing contact to connect to any ground needed}
-  	
+  \caption{Added extension of the earthing contact to connect to any ground needed}
+  \label{fig:multiplug}
   \end{figure}
 \todo{insert photograph of multiplug}
 
@@ -126,8 +126,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
 	To achieve the best possible event detection, the photomultipliers' acceleration voltages as well as the software gains and thresholds in Orca had to be adjusted.
 	The focus here was to obtain landau peaks with equal heigt and width, as the rates throughout the modules can be considered equal over large time intervals compared to the inverse rate.
 	At first, the acceleration voltages were kept low to limit the signal peaks' heigts to aroud \SI{2}{\volt}. Carefully setting the mentioned parameters, one achieved the following, well alligned curves. A problem remaining at the time though was that the electronic noise set in pretty close to the peak position, only slightly shifted to lower energies. This meant that thresholds hat to be set close to the peak bin as well, loosing low energy events in the process.
-	\todo{root graph instead of orca}
-	\todo{move to commissioning measurements?}
+	\todo{root graph instead of orca, move to commissioning measurements?}
 	\begin{figure}
 		\centering
 		\includegraphics[width = 0.9 \textwidth]{graphics/setup/LandauPeaksRun660_old.eps}
