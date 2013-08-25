@@ -65,12 +65,29 @@
     
     \subsection{Direct measurement of neutrino mass}
     \label{ch:Introduction:sec:Massive neutrino:subsec:direct Neutrino Mass measurement}
-    Direct measurements of the neutrino mass require a reaction known to include neutrinos in its equation. There are both spectrometric and bolometric approaches. 
+    Direct measurements of the neutrino mass require a reaction known to include neutrinos in its equation. There are both spectrometric and calorimetric approaches. While the scale of spectrometers is getting bigger and bigger, calorimetric approaches seem to be a reasonable alternative, although the slow detector response - the detector material itself is decaying - requires for large arrays of detectors leading to extensive space requirements as well at some point. The luminosity of spectrometer experiments though is unachieved by any other. That is why the KATRIN collaboration is working on a setup to measure electrons from Tritium decay to determine the neutrino mass. 
      
     \subsection{Indirect measurement of neutrino mass}
     \label{ch:Introduction:sec:Massive neutrino:subsec:indirect Neutrino Mass measurement}
-    Another approach is using indirect ways of finding the neutrino mass. One possibility here is to search for neutrinoless double beta decay, $0\nu\beta\beta$, which can exist only if the neutrino is its own anti-particle, a so called majorana neutrino. Then, if two nuclei beta decay, the neutrino from one vertex can be absorbed in the second as an anti-neutrino - or vice versa. The decay would then not emit any neutrino, \cite{currentNeutrinoSearches}
+    Another approach is using indirect ways of finding the neutrino mass. One possibility here is to search for neutrinoless double beta decay, $0\nu\beta\beta$, which can exist only if the neutrino is its own anti-particle, a so called majorana neutrino. Then, if two nuclei beta decay, the neutrino from one vertex can be absorbed in the second as an anti-neutrino - or vice versa. The decay would then not emit any neutrino and the rate would be dependant on the "effective Majorana neutrino mass square" \cite{currentNeutrinoSearches}:
+    \begin{equation}
+    	\Gamma_{0\nu\beta\beta} \propto \left| \sum{U_{ei}^2m\left(\nu_i\right)}\right|^2
+    \end{equation}
+
+    
     \section{Cosmic muons and their interaction with matter}
     \label{ch:introduction:sec:Cosmic Air Showers}
-    When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which are free protons, meaning Hydrogen ions. Helium nucleons' fluxes are already about a order of magnitude below that, higher mass number nuclei show even lower rates\cite{highEnergyCosmicRays}. By different interactions 
+    When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which again are free protons, i.e. Hydrogen ions. Helium nucleons' fluxes are already about a order of magnitude below that, higher mass number nuclei show even lower rates\cite{highEnergyCosmicRays}. By different interactions, secondary partcles are created. Any particle satisfying the inequation \begin{equation}
+      E_{sec,kin} + m_{sec} c^2 < E_{prim,kin} + m_{prim}
+    \end{equation}
+    can be created. Mostly pions at first, those cascade further. Often through intermediate photons muons emerge. These travel towards the earths surface often close to the speed of light due to their small masses. Even at these high speeds, the muons' average decay time of around \SI{2.2}{\micro\second} \cite{muonLifetime} is too small for many muons to reach the earth's surface from our reference frame's point of view. In the most common production height of \SI{2}{\kilo\meter} \cite{muonProductionHeight}, the non relativistic time of flight for a \SI{90}{\percent} speed of light particle would be
+    \begin{equation}
+	t_{class} = \SI{2}{\kilo\meter} / 0.9\cdot c = 
+    \end{equation}
+    meaning only time dilation from special relativity makes the muon flux as large as ist is:
+    \begin{equation}
+    	t_{rel} = t_{class} / \sqrt{1-0.9^2}
+    \end{equation}
+    meaning from our reference frame, the lifetime is prolonged by a factor of around 5, being already enough to reach the surface from heights of \SI{3}{\kilo\meter}. Most muons have even higher energies, making it possible for them to reach surface from greater heigts and under non perpendicular angles.
+
 
