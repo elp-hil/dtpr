@@ -20,7 +20,7 @@
   		Channel	& 9	& 23	& 0	& 14	& 3	& 7	& 9	& 23	\\
   		\hline
   	\end{tabular}
-  	\caption{Assignment of module sides to cards and channels}
+  	\caption[Channel assignment]{Assignment of module sides to cards and channels}
   	\label{tab:connectionsModulesCards}
   \end{table}
   All connections from modules to DAQ are made of coaxial cabling of equal length. This ensures comparable timestamps which are assigned only after the analogue signals arrive at the DAQ. High voltage is provided by two supplies, one on the east and one on the west side of the main hall.
@@ -30,7 +30,7 @@
   \centering
   
   	\includegraphics[width = 0.4 \textwidth]{graphics/setup/multiplug.pdf}
-  \caption{Added extension of the earthing contact to connect to any ground needed}
+  \caption[Multiplug grounding]{Added extension of the earthing contact to connect to any ground needed}
   \label{fig:multiplug}
   \end{figure}
 \todo{insert photograph of multiplug}
@@ -51,7 +51,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
   The FLT cards directly receive the signal output of the photomultiplier tubes via coaxial cabling. They then do first parts of data analysis to reduce data flow to the ORCA machine. In this case, only events with occur simultaneously on both sides of any module are passed on. This reduces the rate from \todo{look up non veto rate} to around \SI{250}{\hertz}. The FLT cards are made up of a large main card and a smaller connector card entered at the back side. Every card has 28\todo{28?} channels sectioned into three groups. Every group consist of one sum channel that can be read out in coincidence with any other or multiple other channels from the group. In case of the muon modules, 1-fold coincidence is sufficient.
   \begin{figure}
 	  %\includegraphics[width=0.5\textwidth]{graphics/DAQ/FLTBack.}
-	  \caption{FLT back panel card with channel numbering scheme. Readout groups are 0,1,2,3,4,5,6,7 with 14 as the sum channel,}
+	  \caption[FLT back panel card]{FLT back panel card with channel numbering scheme. Readout groups are 0,1,2,3,4,5,6,7 with 14 as the sum channel,}
 	  \label{fig:DAQ:FLTBack}
   \end{figure}
   \todo{channel numbers}\ref{fig:DAQ:FLTBack}
@@ -97,7 +97,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
     
     \begin{figure}
     	%\includegraphics[width = 0.5\textwidth]{graphics/ORCA/dataStorage}
-    	\caption{Data storage obect in ORCA. Marked is the dropdown for setting paths for data, logs and ...}
+    	\caption[ORCA data object]{Data storage obect in ORCA. Marked is the dropdown for setting paths for data, logs and ...}
     	\label{fig:ORCA:dataStorage}
     \end{figure}
 
@@ -133,7 +133,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
   \begin{figure}
   	\centering
   	\includegraphics[width = 0.5 \textwidth]{graphics/setup/PMT.pdf}
-  	\caption{Schematic view of a photomultiplier tube with incident photons and photo-electrons emerging. Note the nested dynode structure for cascading purposes.}
+  	\caption[Photomultiplier tube]{Schematic view of a photomultiplier tube with incident photons and photo-electrons emerging. Note the nested dynode structure for cascading purposes.}
   \end{figure}
 
   
@@ -150,7 +150,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
 	\begin{figure}
 		\centering
 		\includegraphics[width = 0.9 \textwidth]{graphics/setup/LandauPeaksRun660_old.eps}
-		\caption{The landau peak at acceleration voltages around \SI{1200}{\volt}. All channels show similar width and height. Note that the threshols had to be set pretty close to the peak position as noise was a huge issue under the conditions.}
+		\caption[Landau peak \SI{1200}{\volt} acceleration voltage]{The landau peak at acceleration voltages around \SI{1200}{\volt}. All channels show similar width and height. Note that the threshols had to be set pretty close to the peak position as noise was a huge issue under the conditions.}
 		\label{fig:allPeaksBefore}
 	\end{figure}\\
 	Later in the comissioning process, it got clear from the handbooks that the photomultiplier tubes had to be operated at accelleration voltages of \SI{1.5}{\kilo\volt} and above. To keep the singnals' height as small as possible, most of the tubes were limited to this minimal voltage, wheras the sides \todo{which ones} were set to \SI{1.6}{\kilo\volt} over showing lower rates than the others. Following this procedure, the tubes seemed much more stable and comparable, as all the gains and thresholds could now be set to the same values of \todo{enter values} and respectively, while still showing aligned peak positions \ref{fig:allPeaksAfter}. This is a huge advance to before when gains varied by a factor of up to almost four as it reduces potential non-linearities in amplification. Also, gains are left at lower values to begin with, leaving a larger part of the al in all amplification to the photomultiplier tubes known for their linear behaviour and relatively low noise.
@@ -158,7 +158,7 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
 	\begin{figure}
 		\centering
 		\includegraphics[width = 0.9 \textwidth]{graphics/setup/LandauPeaksRun1097_new.eps}
-		\caption{Landau peaks after raising acceleration voltages to \SI{1.5}{\kilo\volt} or else \SI{1.6}{\kilo\volt}. Note that this pattern was achieved solely by raising two module's side's acceleration voltages to \SI{1.6}{\kilo\volt} leaving gains and thresholds at the same low level for all channels. }
+		\caption[Landau peak \SI{1500}{\volt} acceleration voltage]{Landau peaks after raising acceleration voltages to \SI{1.5}{\kilo\volt} or else \SI{1.6}{\kilo\volt}. Note that this pattern was achieved solely by raising two module's side's acceleration voltages to \SI{1.6}{\kilo\volt} leaving gains and thresholds at the same low level for all channels. }
 		\label{fig:allPeaksAfter}
 	\end{figure}
 

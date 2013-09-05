@@ -5,7 +5,7 @@
 \chapter{Simulation of muon induced background}
 \label{ch:Simulation of muon induced background}
 %% ==============
-  To compare the data aquired to theoretically expected values, a Geant4 simulation of cosmic showers has been set up including the geometry of the main spectrometer as well as the muon modules. Using this software, any number of inciding muons can be simulated and the effect on the main spectrometer and the muon modules can be evaluated.
+  To compare the data aquired to theoretically expected values, a Geant4 simulation of cosmic showers has been set up including the geometry of the main spectrometer as well as the muon modules. Using this software, any number of inciding muons can be simulated and the effect on the main spectrometer and the muon modules can be evaluated. It was especially relevant to achieve estimations on which amount of the muons travelling through the main spectrometer would be registered by the muon modules. This would then make it possible to estimate the overall rate and probabilities for muons inciding to also induce electrons etering the spectrometer.
   %% ===========================
   \section{Geant4}
   \label{ch:Simulation software:sec:Geant4}
@@ -19,8 +19,7 @@
   	\item Tracking action
   	\item Stepping action
   \end{itemize}
-  For user interaction, for each item above, classes with the addition 'user' to the base classes name are called before or after the standard action class, e.g. G4UserTrackingAction invoked after each call of G4TrackingAction. Through those, it is possible to change behaviour of the simulation or extract data needed.
-  
+  For user interaction, for each item above, classes with the addition 'user' to the base classes name can be called before or after the standard action class. An example is the class G4UserEventAction invoked before and after each call of G4TrackingAction. It contains two member classes, namely BeginOfEventAction and EndOfEventAction that let the user decide what to do at this point. Through those, it is possible to change behaviour of the simulation or extract data needed. In this case, for every event, if more than one module has been hit, the copy numbers of those are pushed back to a vector of event data.  
   Running the simulation, one can either interactively enter commands or write those to a .mac file, by default the vis.mac file, which are then sequentially executed. 
 
 
@@ -37,12 +36,24 @@
   \label{ch:Simulation software:sec:Muon generator}
   %% ===========================  
   
-  Muon generation was realised through the primary generator action. The angular distribution suggested by Henrik Arlinghaus \todo{cite} was implemented. The angular rate dependance is shown in \todo{ref figure}.The energy was set to \todo{reasonable value} disregarding the actual anergy distribution as this was mainly about flight paths that are not strongly dependant on energy at high energies. Starting positions were spherically distributed, with the direction towards the origin, which is in the center of the main spectrometer. Positions were then randomly moved in a volume surrounding the spectrometer to account for the non-point like structure of the detection system as a whole, while the distribution describes a single point in space.
-  
+  Muon generation was realised through the primary generator action. The angular distribution suggested by Henrik Arlinghaus \cite{DTArlinghaus} was implemented. The angular rate dependance is shown in \ref{fig:rateDependance}.The energy was set to \todo{reasonable value} disregarding the actual anergy distribution as this was mainly about flight paths that are not strongly dependant on energy at high energies. Starting positions were spherically distributed, with the direction towards the origin, which is in the center of the main spectrometer. Positions were then randomly moved in a volume surrounding the spectrometer to account for the non-point like structure of the detection system as a whole, while the distribution describes a single point in space.
+  \begin{figure}
+  	\caption[Muon rate dependance on zenith angle]{Dependance of muon rate on zenith angle.}
+  	\label{fig:rateDependance}
+  \end{figure}
+
   %% ===========================
   \section{Hit counter}
   \label{ch:Simulation software:sec:Hit counter}
   %% ===========================
   
-  For comparing the simulation to real data, of all the events generated, those hitting modules were counted. Each event containing at least one hit is written into a file for further analysis. This made it possible to compare the rates of the single modules, showning that the generator works fine. furthermore, it allowed for a estimation of muons hitting the modules compared to the total of inciding muons.
+  For comparing the simulation to real data, of all the events generated, those hitting modules were counted. Each event containing at least one hit is written into a file for further analysis. To do so, the functions \todo{exact names} are used handing the information up from function to function. This made it possible to compare the rates of the single modules, showning that the generator works fine. furthermore, it allowed for a estimation of muons hitting the modules compared to the total of inciding muons.
+  
+  
+    %% ===========================
+  \section{Visualisation - the vis.mac file}
+  \label{ch:Simulation software:sec:Visualisation}
+  %% ===========================
+  
+  To display results of a the calculations made, the tracks of all particles can be displayed as well as the geometry setup itself. This can be done interactively after running the program, though the faster approach is to use *.mac files, standardly the vis.mac file. Here, different parameters can be changed and simple visualisation settings like viewing angles and zooms can be chosen.
   

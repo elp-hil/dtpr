@@ -17,6 +17,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis.bib
+Warning--entry type for "DTArlinghaus" isn't style-file defined
+--line 56 of file thesis.bib
+Warning--entry type for "radonGoerhard" isn't style-file defined
+--line 162 of file thesis.bib
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -28,45 +32,45 @@ Warning--empty title in How09
 Warning--missing publisher in highEnergyCosmicRays
 
 Done.
-You've used 13 entries,
+You've used 14 entries,
             5047 wiz_defined-function locations,
-            1068 strings with 11085 characters,
-and the built_in function-call counts, 9450 in all, are:
-= -- 974
-> -- 224
-< -- 30
-+ -- 88
-- -- 67
-* -- 473
-:= -- 1553
-add.period$ -- 23
-call.type$ -- 13
-change.case$ -- 77
-chr.to.int$ -- 49
-cite$ -- 15
-duplicate$ -- 620
-empty$ -- 662
-format.name$ -- 92
-if$ -- 2032
+            1075 strings with 11287 characters,
+and the built_in function-call counts, 9987 in all, are:
+= -- 1033
+> -- 232
+< -- 31
++ -- 90
+- -- 69
+* -- 491
+:= -- 1639
+add.period$ -- 24
+call.type$ -- 14
+change.case$ -- 82
+chr.to.int$ -- 50
+cite$ -- 16
+duplicate$ -- 657
+empty$ -- 703
+format.name$ -- 96
+if$ -- 2148
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 104
-newline$ -- 71
-num.names$ -- 39
-pop$ -- 299
+missing$ -- 112
+newline$ -- 74
+num.names$ -- 42
+pop$ -- 320
 preamble$ -- 1
-purify$ -- 89
+purify$ -- 95
 quote$ -- 2
-skip$ -- 716
+skip$ -- 764
 stack$ -- 0
-substring$ -- 222
-swap$ -- 382
-text.length$ -- 18
-text.prefix$ -- 8
+substring$ -- 231
+swap$ -- 399
+text.length$ -- 19
+text.prefix$ -- 9
 top$ -- 6
-type$ -- 264
+type$ -- 288
 warning$ -- 2
-while$ -- 41
-width$ -- 16
-write$ -- 177
-(There were 2 warnings)
+while$ -- 43
+width$ -- 17
+write$ -- 187
+(There were 4 warnings)

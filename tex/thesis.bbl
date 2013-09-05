@@ -36,11 +36,6 @@ H.~Arlinghaus, ``Investigation of the muon-induced secondary electron
   \url{http://www.uni-muenster.de/Physik.KP/AGWeinheimer/Files/theses/Diplom_Henrik_Arlinghaus.pdf},
   2009, [Online; accessed 21-08-2013].
 
-\bibitem[asd12]{neutrinoMassScheme}
-asdf, ``Neutino mass hierarchy,''
-  \url{http://scienceblogs.com/startswithabang/files/2012/01/mass-hierarchy.jpg},
-  2012, [Online; accessed 21-08-2013].
-
 \bibitem[BKR09]{becker2008a}
 \BIBentryALTinterwordspacing
 S.~Becker, H.~Koziolek, and R.~Reussner, ``{T}he {P}alladio component model for
@@ -71,6 +66,12 @@ F.~Gl\"uck \emph{et~al.}, ``Air coil system \& magnetic field sensor system,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d530439/Air%20Coil%20System%20and%20Magnetic%20Field%20Sensor%20System.pdf},
   2009, [Online; accessed 24-08-2013].
 
+\bibitem[G\"10]{radonGoerhard}
+S.~G\"orhardt, ``Reduktion der durch radon induzierten untergrundprozesse in
+  den katrin spektrometern,''
+  \url{http://www.katrin.kit.edu/publikationen/dth-goerhardt.pdf}, 2010,
+  [Online; accessed 27-08-2013].
+
 \bibitem[{Gor}13]{muonLifetime}
 T.~P. {Gorringe}, ``{MuLan Measurement of the Positive Muon Lifetime and
   Determination of the Fermi Constant},'' \emph{ArXiv e-prints}, Jan. 2013.
@@ -86,6 +87,10 @@ M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle, ``Status of
   vol.~68, p. 113010, Dec 2003. [Online]. Available:
   \url{http://link.aps.org/doi/10.1103/PhysRevD.68.113010}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Sch13]{airShower}
+A.~Schaeffer, \url{http://cds.cern.ch/record/1345733/files/Cosmic_image.jpg},
+  2013, [Online; accessed 01-09-2013].
 
 \bibitem[Sta04]{highEnergyCosmicRays}
 T.~Stanev, \emph{High Energy Cosmic Rays}, 2004.

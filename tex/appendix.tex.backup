@@ -1,0 +1,120 @@
+%% appendix.tex
+%%
+
+%% ==============================
+%\chapter{Appendix}
+%\label{ch:Appendix}
+%% ==============================
+
+\appendix
+
+\iflanguage{english}
+{\addchap{Appendix}}	% english style
+{\addchap{Anhang}}	% german style
+
+
+\section{First Appendix Section}
+		\label{appendix}
+		
+\setcounter{figure}{0}
+		
+\begin{figure} [ht]
+  \centering
+   ein Bild
+  \caption{A figure}
+  \label{fig:BPMNBeispiela}
+\end{figure}
+
+
+\begin{figure} [ht]
+  \centering
+    %\includegraphics{graphics/ORCA/script}
+  \caption{Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. }
+  \label{fig:ORCA:script}
+\end{figure}
+
+
+
+\begin{table}
+			\begin{tabular}{C{\textwidth}}
+			{\bf non-axially symmetric magnetic field}\\
+		\end{tabular}\\
+		\begin{tabularx}{\textwidth}{|>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering\arraybackslash}X|}
+			\hline
+			\centering
+			solenoid source &solenoid detector &inner aircoil & outer aircoil &outer cent. aircoil &emcs x	&emcs y\\
+			\hline
+			25	&25	&7	&-7	&5	&0	&-14\\
+			\hline
+		\end{tabularx}
+		\begin{tabularx}{\textwidth}{|l|X|}
+		\hline
+			mos00159753- & Two horizontal loops at \SI{100}{\ampere}\\
+			mos00159754 &\\
+			\hline
+			mos00159755-& Two horizontal loops at \SI{-100}{\ampere}\\
+			mos00159758 &\\
+			\hline
+			mos00159759-& No current in horizontal loops - background measurement\\
+			mos00159771 &\\
+			\hline
+			mos00159772-& Two horizontal loops at \SI{100}{\ampere}\\
+			mos00159773 &\\
+			\hline
+		\end{tabularx}
+		\vspace{0.5cm}
+		
+		\begin{tabularx}{\textwidth}{|>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering\arraybackslash}X|}
+			\hline
+			\centering
+			solenoid source &solenoid detector &inner aircoil & outer aircoil &outer cent. aircoil &emcs x	&emcs y\\
+			\hline
+			12.5	&12.5	&3.5	&-3.5	&2.5	&0	&0\\
+			\hline
+		\end{tabularx}
+		\begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			mos00160661- & Two horizontal loops at \SI{50}{\ampere}\\
+			mos00160666 &\\
+			\hline
+			mos00160667-&No current in horizontal loops - background measurement\\
+			mos00160682 &\\
+			\hline
+			mos00160684-& Two horizontal loops at \SI{-50}{\ampere}\\
+			mos00160687 &\\
+			\hline
+		\end{tabularx}
+		\vspace{0.5cm}
+		
+		\begin{tabularx}{\textwidth}{|>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering\arraybackslash}X|}
+			\hline
+			\centering
+			solenoid source &solenoid detector &inner aircoil & outer aircoil &outer cent. aircoil &emcs x	&emcs y\\
+			\hline
+			6.2 & 6.2 & 1.7 & -1.7 & 1.2 & 0 & 0\\
+			\hline
+		\end{tabularx}
+				\begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			mos00160688- & Two horizontal loops at \SI{25}{\ampere}\\
+			mos00160691 &\\
+			\hline
+			mos00160692-&No current in horizontal loops - background measurement\\
+			mos00160706 &\\
+			\hline
+			mos00160707-& Two horizontal loops at \SI{-25}{\ampere}\\
+			mos00160711 &\\
+			\hline
+		\end{tabularx}
+		
+\end{table}
+
+\begin{figure}
+	\includegraphics[width = 0.9\textwidth]{graphics\monSpec\}
+\end{figure}
+
+
+\dots
+
+
+

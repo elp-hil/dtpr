@@ -79,15 +79,23 @@
 }
 
 \usepackage[separate-uncertainty=true]{siunitx}
-\usepackage{graphicx}
+\usepackage{multirow, graphicx}
 \usepackage{caption}
+\usepackage{tabularx}
+\usepackage{longtable}
 %\usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage[version = 3]{mhchem}
 %\usepackage{beramono}
 \usepackage{microtype,textcomp}
+\usepackage{url}
+\usepackage{supertabular}
 \DeclareSIUnit\gauss{G}
 \DeclareSIUnit\cps{cps}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 %\sisetup{math-micro=\text{µ},text-micro=µ}
 
 %% ------------------------
@@ -139,6 +147,8 @@ appendix
 %% -----------------
 \mainmatter
 \pagenumbering{arabic}
+\listoffigures
+\listoftables
 \include{introduction}
 \include{theKATRINexperiment/theKATRINexperiment}
 \include{muonDetectionSystem/muonDetectionSystem}
