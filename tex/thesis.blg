@@ -18,9 +18,13 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis.bib
 Warning--entry type for "DTArlinghaus" isn't style-file defined
---line 56 of file thesis.bib
+--line 111 of file thesis.bib
 Warning--entry type for "radonGoerhard" isn't style-file defined
---line 162 of file thesis.bib
+--line 323 of file thesis.bib
+"{" immediately follows a field part---line 717 of file thesis.bib
+ :  howpublished = \url
+ :                     {http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}
+I'm skipping whatever remains of this entry
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -28,49 +32,51 @@ Warning--entry type for "radonGoerhard" isn't style-file defined
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--empty journal in fermi
+Warning--empty year in fermi
 Warning--empty title in How09
 Warning--missing publisher in highEnergyCosmicRays
 
 Done.
-You've used 14 entries,
+You've used 27 entries,
             5047 wiz_defined-function locations,
-            1075 strings with 11287 characters,
-and the built_in function-call counts, 9987 in all, are:
-= -- 1033
-> -- 232
-< -- 31
-+ -- 90
-- -- 69
-* -- 491
-:= -- 1639
-add.period$ -- 24
-call.type$ -- 14
-change.case$ -- 82
-chr.to.int$ -- 50
-cite$ -- 16
-duplicate$ -- 657
-empty$ -- 703
-format.name$ -- 96
-if$ -- 2148
-int.to.chr$ -- 1
+            1152 strings with 13512 characters,
+and the built_in function-call counts, 18967 in all, are:
+= -- 1957
+> -- 433
+< -- 65
++ -- 170
+- -- 124
+* -- 909
+:= -- 3097
+add.period$ -- 50
+call.type$ -- 27
+change.case$ -- 166
+chr.to.int$ -- 113
+cite$ -- 31
+duplicate$ -- 1247
+empty$ -- 1338
+format.name$ -- 174
+if$ -- 4085
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 112
-newline$ -- 74
-num.names$ -- 42
-pop$ -- 320
+missing$ -- 223
+newline$ -- 117
+num.names$ -- 81
+pop$ -- 666
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 183
 quote$ -- 2
-skip$ -- 764
+skip$ -- 1417
 stack$ -- 0
-substring$ -- 231
-swap$ -- 399
-text.length$ -- 19
-text.prefix$ -- 9
+substring$ -- 473
+swap$ -- 750
+text.length$ -- 36
+text.prefix$ -- 20
 top$ -- 6
-type$ -- 288
-warning$ -- 2
-while$ -- 43
-width$ -- 17
-write$ -- 187
-(There were 4 warnings)
+type$ -- 554
+warning$ -- 4
+while$ -- 77
+width$ -- 34
+write$ -- 335
+(There was 1 error message)

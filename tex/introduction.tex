@@ -5,10 +5,34 @@
 \chapter{Introduction}
 \label{ch:Introduction}
 %% ==============================
+	The neutrino was not discovered in the conventional meaning but postulated by Wolfgang Pauli, then under the name neutron, as a explanation for the spectrum of the beta decay showing a continous energy distribution which did not concur with the idea of a two body decay \cite{fermi}. 
+	\begin{equation}
+		\ce{p -> n + e^-}
+	\end{equation}
+	Coservation laws of energy, momentum and angular momentum were violated.
+	The neutrino solved this problem by being a carrier of different kinetic energies thus allowing for a continuous spectrum.
+	\begin{equation}
+		\ce{p -> n + e^- + \bar\nu_e}
+	\end{equation}
+	To be compliant with the laws of conversation, the new particle needed to be of spin 1/2 and chargeless.
+	The first experimental evindence for this particle was then given by Cowan and Reines \cite{neutrinoEvidence} who observed the reaction of electron-anti-neutrinos and free protons in the large neutrino flux of a nearby nuclear reactor.
+	\begin{equation}
+		\ce{\bar\nu_e + p -> e^+ + n}
+	\end{equation}
+	They then looked for two events: a pair of \SI{511}{\kilo\electronvolt} photons from electron-positron anihilation as well as the $\gamma$ from neutron capture some \SI{}{\micro\second} afterwards.
+	Following the electron neutrino, both other known neutrino gernations have been attested for in various experiments, the first ones to find evidence for $\nu_\mu$ and $\nu_\tau$ were to be Danby and Gaillard \cite{muNeutrino} and the DONUT experiment \cite{tauNeutrino} respectively.
+	
     \section{Neutrinos in the standard model}
     \label{ch:Introduction:sec:Neutrinos in the standard model}
     During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena, the standard model. It contains six quarks, six leptons (both made up of three particle generations) and four types of Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. 
-    For our universe, gravity, the graviton generated force, plays a major role for formation and stability af almost all larger structures. In particle physics however, it can mostly be neglected. Here, only the strong and weak as well as the electromagnetic interaction make for noticable contributions to phenomena observed. That is why, in the standard model, gravity as well as its carrier, the graviton, are neglected.
+    For our universe, gravity, the graviton generated force, plays a major role for formation and stability af almost all larger structures. In particle physics however, it can mostly be neglected. Here, only the strong and weak as well as the electromagnetic interaction make for noticable contributions to phenomena observed. That is why, in the standard model, gravity as well as its carrier, the graviton, are disregarded.
+    \begin{figure}
+    	\centering
+    	\includegraphics[width = 0.6\textwidth]{graphics/standardModel/particles.png}
+    	\caption[standard model particles]{Particles stated in the standard model. On the upper left quarks, on the lower left leptonic particles. The very right row contains the bosonic force particles. Note the absence of the graviton.\cite{particlesSM}}
+    	\label{fig:standardModel:particles}
+    \end{figure}
+	
     Most of what we can observe with our bare eyes or in basic experiments is attributable to the electromagnetic force or gravity, however, strong and weak interaction do play a major role when it comes to high energy physics. Here, the limited reach of the two is overcome by small distances between interacting particles. In case of the neutrino, detection and by that the study of its characteristics is even more difficult as it interacts only gravitationally and weakly. Now, as mentioned before, gravity is indeed long range, but very weak in force. And although weak intraction is a lot stronger compared to gravity, it is still weak compared to both electromagnetic and strong interactions. That is why the neutrino is considered elusive, detection efficiencies are low and only large scale detectors are able to detect statistically relevant amounts of neutrinos.
     One method used quite frequently is the Cherenkov radiation emitted while travelling through matter at speeds above the speed of light. This light, comparable to the supersonic cones planes cause in air, can be detected by standard photomiltiplier tubes. The problem is that, as mentioned above, the volumes to be able to make dependable statements on directions and energies need to be large. This is why most experiments make use of ``natural'' detectors such as water \todo{cite MARE+ICE Cube} or even ice.
     Other approaches are to catch neutrinos in reactions where those are required such as inverse beta decays:
@@ -21,16 +45,18 @@
     Many experiments though have shown that the weightless neutrino is a wrong assumption. Most of these were experiments prooving neutrino oscillatinos with both reactor neutrinos and solar neutrinos such as Kamiokande\cite{PhysRevLett.110.181802} or SNO \cite{SNOOscillations} \todo{add experiments}.
     Important for those experiments is the known source location making baseline analysis possible.
     
-    Up till now, only the differences of the squared masses are known. This leads to different relations depending on how masses are distributed between the flavours, \ref{fig:massSchemes}, and how large they are absolutely \ref{fig:massHierarchy}. This problem is solved by the knowledge of one of the masses. KATRIN is on the verge of finding the $\nu_e$'s mass.\cite{becker2008a}
+    Up till now, only the differences of the squared masses are known. This leads to different relations depending on how masses are distributed between the flavours, see figure \ref{fig:massSchemes}, and how large they are absolutely, see figure \ref{fig:massHierarchy}. This problem is solved by the knowledge of one of the masses. KATRIN is on the verge of finding the $\nu_e$'s mass. Two mass schemes are possible: the normal and the inverted one. Normal means that the smallest number also describes the smallest mass state, i.e. $m_{\nu_1} < m_{\nu_2} < m_{\nu_3}$. In the inverted scheme, the squared mass difference of eigenstates two and three is not directed upwards, but pushes the $m_{\nu_3}$ mass below the two others.
     
     \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{graphics/standardModel/massHierarchy.jpg}
-    	 \caption[Neutrino mass hierarchy]{The possible mass hierarchies for neutrinos.}
+    	 \caption[Neutrino mass hierarchy]{The possible mass hierarchies for neutrinos. Left, the normal scheme with $m_{\nu_1} < m_{\nu_2} < m_{\nu_3}$, on the right the normal scheme where $m_{\nu_1} < m_{\nu_2}$ is still true, though both $m_{\nu_3} < m_{\nu_1}$ and $m_{\nu_3} < m_{\nu_2}$ }. The coloured bars represent the matrix elements for each flavour, i.e. the probabilities, or composition of each flavour eigenstate.
     	\label{fig:massSchemes}
     \end{figure}
     \begin{figure}
-	\caption[Neutrino mass areas]{Possible mass areas}
+    \centering
+    \includegraphics[width = 0.5 \textwidth]{graphics/standardModel/massSchemes.png}
+	\caption[Effective neutrino mass]{The possible effective masses for neutrinos depending on the lightest neutrino mass $m_{min}$ shown on the x-axis. Normal and inverted scheme are marked NS and IS. The current bound from $0\nu\beta\beta$ decay is displayed as well as cosmological limitations. }
     	\label{fig:massHierarchy}
     \end{figure}
 

@@ -29,7 +29,7 @@
 \begin{figure} [ht]
   \centering
     %\includegraphics{graphics/ORCA/script}
-  \caption{Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. }
+  \caption[ORCA script LFCS coils]{Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. }
   \label{fig:ORCA:script}
 \end{figure}
 
@@ -146,8 +146,37 @@
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/monSpec/nonAxiallySym/{BG_25_25}.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_12.5_12.5.eps}
+	\label{fig:nonAxiallySym:BG_25_25.eps}
 \end{figure}
+
+
+\begin{table}
+\centering
+	\begin{tabular}{| l | cc | cc| cc |}
+	\hline
+	Date & T$_{low}$ [K] & T$_{high}$ [K] & p$_{low}$ [kPa] & p$_{high}$ [kPa] & p$_l$ / T$_l$ & p$_h$ / T $_h$ \\
+	\hline
+	21.12.12 & 274.95 & 281.25 & 1010.10 & 1018.20 & 3.67 & 3.62\\
+	22.12.12 & 278.55 & 282.15 & 1009.50 & 1020.60 & 3.62 & 3.62\\
+	23.12.12 & 282.85 & 287.25 & 1009.50 & 1013.70 & 3.57 & 3.53\\
+	24.12.12 & 277.05 & 287.15 & 1007.40 & 1013.50 & 3.64 & 3.53\\
+	25.12.12 & 276.05 & 288.35 & 1004.00 & 1010.30 & 3.64 & 3.50\\
+	26.12.12 & 281.25 & 282.85 & 1010.40 & 1016.40 & 3.59 & 3.59\\
+	27.12.12 & 280.75 & 283.25 & 1004.80 & 1014.70 & 3.58 & 3.58\\
+	28.12.12 & 279.65 & 281.85 & 1016.20 & 1029.50 & 3.63 & 3.65\\
+	29.12.12 & 276.05 & 284.55 & 1014.90 & 1026.00 & 3.68 & 3.61\\
+	30.12.12 & 279.05 & 282.85 & 1015.90 & 1024.60 & 3.64 & 3.62\\
+	31.12.12 & 277.05 & 283.15 & 1011.60 & 1024.40 & 3.65 & 3.62\\
+	01.01.13 & 274.45 & 281.45 & 1008.10 & 1016.90 & 3.67 & 3.61\\
+	02.01.13 & 272.25 & 279.15 & 1017.50 & 1033.00 & 3.74 & 3.70\\
+	03.01.13 & 273.65 & 280.45 & 1033.10 & 1038.30 & 3.78 & 3.70\\
+	\hline
+	
+	\end{tabular}
+	\caption[Temperature and pressure Rheinstetten]{Temperature and pressure data from the weather station in Rheinstetten. Daily high and low were given, included are the ratio of pressure and temperature for both the high and the low values. This ratio is proportional to the air's density . Bare in mind that this data is only for the low atmospheric layer and the station is also around \SI{20}{\kilo\meter} away  from the KATRIN muon modules.}
+	\label{fig:weatherData}
+\end{table}
+
 
 \dots
 

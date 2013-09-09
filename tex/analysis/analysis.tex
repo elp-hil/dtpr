@@ -163,16 +163,20 @@ and with it the field strengths, drastically reduces.
     &&&&&&&&\\
     \hline
    \end{tabular}
-  \caption[LFCS settings stability measurement]{Runtime settings for air coils as proposed and for the comissionig measurements. These were kept static over the two weeks end 2012/beginning 2013}
+  \caption[LFCS settings stability measurement]{Runtime settings for air coils as proposed and for the commissioning measurements. These were kept static over the two weeks end 2012/beginning 2013}
   \label{tab:airCoilSettingsChristmas}
   \end{table}
-
-  The time slot was chosen for the lowly frequented spectrometer hall's sake to minimise external impacts on data taking. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in \ref{fig:moduleStability}. The observable fluctuation is well describable by fluctuations in atmospheric density, i.e. pressure and temperature, as ideally, air could be described by
+  The time slot was chosen for the lowly frequented spectrometer hall's sake to minimize external impacts on data taking. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in \ref{fig:moduleStability}. The observable fluctuation is well describable by fluctuations in atmospheric density, i.e. pressure and temperature, as ideally, air could be described by
   \begin{equation}
   	\rho = \frac{R}{M}\frac{p}{T}
   \end{equation}
   where $\rho$ is the density, R is the gas constant, M is the molar mass of air and p and T are pressure and temperature respectively.
-  If one looks at the data from \todo{find weather station data, see if it fits fluctuations, maybe cascade data to back it up?}
+  If one looks at the data from \cite{wetterCom} the fluctuations, only available on a daily basis, are comparable to the ones visible in the data of the stability measurements. To make graphs more comparable, the data has been analyzed again, now with daily binning. It has to be kept in mind that the weather data was obtained from a weather station in Rheinstetten, about \SI{20}{\kilo\meter} from KIT campus north, and represents only the lowest atmospheric layer while muons are generated mostly in the upper layers of the atmosphere.
+  \begin{figure}
+	\includegraphics[width = 0.9 \textwidth]{graphics/setup/stability.eps}
+  	\caption[Muon module stability]{Rate per five minutes over the course of about two weeks (21-12-2012 to 03-01-2013). }
+  \end{figure}
+
   \begin{figure}
 	\centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
@@ -228,34 +232,34 @@ tubes making it more difficult to distinguish between them. A first measurement 
 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
 	\end{minipage}
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/2B.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2B.eps}
 	\end{minipage}\newline
 	
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/3A.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/3A.eps}
 	\end{minipage}
 \begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/3B.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/3B.eps}
 	\end{minipage}
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/4A.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/4A.eps}
 	\end{minipage}
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/4B.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/4B.eps}
 	\end{minipage}\newline
 	
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/5A.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/5A.eps}
 	\end{minipage}
 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  %\includegraphics[width=\textwidth]{graphics/cobalt/modules/5B.eps}
+% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
+		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/5B.eps}
 	\end{minipage}
 	\begin{minipage}[d]{0.24 \textwidth}
 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/6A.eps}
@@ -279,7 +283,7 @@ tubes making it more difficult to distinguish between them. A first measurement 
 	
 	
   	%\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
-  	\caption[Testing of all modules with cobalt source]{Measurements with source at different positions}
+  	\caption[Testing of muon modules with Sr source]{Measurements with source at four different positions. All modules }
   	\label{fig:SrRatesPMT}
   \end{figure}
 
@@ -291,22 +295,73 @@ tubes making it more difficult to distinguish between them. A first measurement 
 signals via Cat 5 cable.
   \begin{figure}
   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+%   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/GPSclock.jpg}
+  	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
+  	\label{fig:analysis:outOfSync}
   \end{figure}
 
   
   To test the setup, the muon DAQ was moved to the detector platform. Both crates were fed by a pulser signal. Runs at different frequencies were recorded to test both the synchronisation and the detection of events. To synchronize timestamps to an external signal, the FLT cards drop down menu needs to be set to \todo{look up} and the SLT needs to be set to \todo{lookup too}.
   At first, manually triggered signals were used in minute runs to check the timestamps equality. Several runs were taken, all showing that the events were shifted by several \SI{}{\micro\second}
   \begin{figure}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-  	\caption[Synchronisation old firmware]{Subsecond time differences before firmware update: Large differences between the events, }
+	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+% 	\includegraphics[width = 0.9 \textwidth]{graphics/sync/nonSynced.eps}
+  	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
+  	\label{fig:analysis:outOfSync}
   \end{figure}
 
   In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in Orca resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behaviour:
   \begin{figure}
 	\caption[Synchronisation new firmware]{Time differences between events after firmware upgrades. Differences between the event times are within one \SI{50}{\nano\second} bin}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+	%   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/synced.eps}
   \end{figure}
-  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \todo{find maximum}. All the test worked fine including starting one DAQ's run way ahead of the other. Those events recorded in both run files were always well synchronized.
+  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \SI{10}{\kilo\hertz}. Doing so, differen recording modes and filter settings were applied - see table \ref{tab:syncTests}. All the tests worked fine including starting one DAQ's run way ahead of the other. Those events recorded in both run files were always well synchronized.
+  \begin{table}
+  \centering
+  	\begin{tabularx}{0.9 \textwidth}{|X|cc|}
+  	\hline
+  		\bf{Settings} & \bf{fpd run} & \bf{myo run}\\	
+  		\hline
+  		\multicolumn{3}{|c|}{Pulser voltage 250mV, freq (sampling) 100000, waveform: needle negative}\\
+  		\hline
+		as before, but 300sec runs & 4174 & 710 \\
+		as before, but 300sec runs and energy+trace mode (sync) & 4175 & 711 \\
+		5 random pulses within 60sec run & 4176 & 712 \\
+		pulser frequency: 1 Hz, 60sec run & 4177 & 713 \\
+		pulser frequency: 10 Hz, 60sec run & 4178 & 714 \\
+		pulser frequency: 100 Hz, 60sec run & 4180 & 715 \\
+		pulser frequency: 1 kHz, 60sec run & 4181 & 716 \\
+		pulser frequency: 10 kHz, 60sec run & 4182 & 717 \\
+		Pulser:&&\\
+		\hline
+		\multicolumn{3}{|c|}{Pulser voltage 150mV, Freq (sampling) 1000, waveform: Pin diode negative}\\
+		\hline
+		5 random pulses within 60sec run & 4184 & 719 \\
+		increased thresholds from 500 to 1000 (both)
+		pulser frequency: 1 Hz, 60sec run & 4185 & 720 \\
+		pulser frequency: 10 Hz, 60sec run & 4186 & 721 \\
+		pulser frequency: 10 Hz, 300sec run & 4187 & 722 \\
+		pulser frequency: 100 Hz, 300sec run & 4188 & 723 \\
+		pulser frequency: 10 Hz, 300sec run & 4189 & 724 \\
+		\hline
+		\multicolumn{3}{|c|}{ Removing CAT5 cables from synchronization clock and }\\
+		\multicolumn{3}{|c|}{ installing fiber optic cables + converter boxes}\\
+		
+		\hline
+		pulser frequency: 0.2 Hz, 60sec run & 4190 & 725 \\
+		5 random pulses within 60sec run, both energy mode & 4191 & 726 \\
+		pulser frequency: 1 Hz, both energy mode, 60sec run & 4192 & 727 \\
+		pulser frequency: 10 Hz, both energy mode, 60sec run & 4193 & 728 \\
+		pulser frequency: 10 Hz, both energy mode, 300sec run & 4194 & 729 \\
+		pulser frequency: 100 Hz, both energy mode, 300sec run & 4195 & 730 \\
+		pulser frequency: 10 Hz, both energy+trace (sync) mode, 300sec run & 4196 & 731 \\
+  		\hline
+  	\end{tabularx}
+	\caption[Synchronisation test Settings]{All settings including run numbers tested with the two DAQs from detector system and muon modules. In the leftmost column, pulser settings and run lengths are described. In front of the different parts the pulser settings kept constant for the following measurements are described.}
+	\label{tab:syncTests}
+  \end{table}
+
   Afterwards, the muon DAQ was moved back to its original position and the optical fibers were stowed in wire-ways guiding it from the detector platform down to the basement where the muon detection system is located. Another problem occurred here, as signal transmission was impaired by a kink at one of the turns, but was quickly resolved by smooth rewiring.
   Concluding, it can be said that the clock runs continuously without any problems throughout all the measurements - including main spectrometer commissioning measurements.
 
@@ -455,7 +510,7 @@ signals via Cat 5 cable.
   \begin{figure}
   \centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/mainSpec/mainSpecRings.eps}
-  	\caption[Time difference Histogram for all rings]{Time differences of muon events followed by a detector event. From left to right and top down for every single detector ring, 0 being the innermost and 12 being the outermost ring.}
+  	\caption[Time difference Histogram for all rings]{Time differences of muon events followed by a detector event. From left to right and top down for every single detector ring, 0 being the innermost and 12 being the outermost ring. No clear indication of a time of flight for electrons induced by muons visible.}
   	\label{fig:mainSpec:allRings}
   \end{figure}
 
@@ -468,18 +523,19 @@ signals via Cat 5 cable.
   \begin{equation}
   	\theta < \arcsin{\frac{B_{min}}{B_{max}}} = \arcsin{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}} = \SI{0.004}{\degree}
   \end{equation}
-  will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
-  As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages. At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. 
-  These measurements should be repeated when high voltage can be applied to the main vessel.
-
-  
-    Following that presumption, for M6 measurements, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
+	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
+	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
+	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analysed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The relevant energies were \SI{25.6}{\kilo\electronvolt} to \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \todo{add PAE voltage}.
+	To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
+	Following that presumption, for measurements \todo{Name measurements}, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
     
+
+
     
   \todo{flux tube including modules for horizontal and vertical view}
   \begin{figure}
 	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-	\caption[Flux tube P12.M8]{New flux tube}
+	\caption[Flux tube P12.M8]{Flux tube as proposed in \cite{proposalM12}}
   	\label{fig:newFluxTube}
   \end{figure}
   \todo{If data will be taken add to analysis.}
@@ -495,6 +551,34 @@ signals via Cat 5 cable.
   \end{figure}
 
   
+All measurements that have been taken with the main spectrometer for muon induced backgroud analysis are listed in \ref{tab:mainSPecSettings}.
 
+\begin{table}
+	\centering
+	\begin{tabular}{|c|cc|cc|}
+		\hline
+		measurement & myo & & fpd & \\
+		& start & end & start & end\\
+		\hline
+		& 6401 & 6404 & 1226 & 1229\\
+		A& 6405 & 6408 & 1230 & 1233\\
+		& 6409 & 6412 & 1234 & 1237\\
+		\hline
+		
+		& & & 1090 & 1096\\
+		& 6308 & 6311 & 1097 & 1104\\
+		& 6312 & 6315 & 1105 & 1112\\
+		B& 6316 & 6321 & 1113 & 1124\\
+		& 6322 & 6327 & 1125 & 1136\\
+		& 6328 & 6333 & 1137 & 1148\\
+		\hline
+		
+		C& 7111 & 7134 & 1301 & 1325\\
+		\hline
+
+	\end{tabular}
+	\caption[Main spectrometer runs]{Main spectrometer Runs taken split into groups of same magnetic field settings. For individual settings, see appendix. All group member have different inner electrode voltages, refer to appendix for those as well.}
+	\label{tab:mainSPecSettings}
+\end{table}
   
   

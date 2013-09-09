@@ -1,53 +1,58 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Neutrino mass hierarchy}}{6}{figure.caption.4}
-\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces Neutrino mass areas}}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces Cosmic ray composition}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces standard model particles}}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces Neutrino mass hierarchy}}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces Effective neutrino mass}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 1.4}{\ignorespaces Cosmic ray composition}}{9}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Schematic tritium energy spectrum}}{10}{figure.caption.7}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces KATRIN beam line}}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Main spectrometer and wire electrodes}}{12}{figure.caption.9}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces MAC E Filter}}{13}{figure.caption.11}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Focal plane detector system}}{14}{figure.caption.12}
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Detector wafer}}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Schematic tritium energy spectrum}}{12}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces KATRIN beam line}}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces DPS and CPS}}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces DPS and CPS}}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Main spectrometer and wire electrodes}}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces MAC E Filter}}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Focal plane detector system}}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Detector wafer}}{17}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Multiplug grounding}}{18}{figure.caption.15}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces FLT back panel card}}{18}{figure.caption.16}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces ORCA data object}}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Photomultiplier tube}}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Landau peak \SI {1200}{\volt } acceleration voltage}}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Landau peak \SI {1500}{\volt } acceleration voltage}}{21}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Multiplug grounding}}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces FLT back panel card}}{20}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces ORCA data object}}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Photomultiplier tube}}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Landau peak \SI {1200}{\volt } acceleration voltage}}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Landau peak \SI {1500}{\volt } acceleration voltage}}{23}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Frequency search algorithm}}{25}{figure.caption.26}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Incremental search algorithm}}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Frequency search algorithm}}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Incremental search algorithm}}{27}{figure.caption.29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Muon modules' rate: noise problems}}{29}{figure.caption.44}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces 6 channel energy Histogram with noise}}{30}{figure.caption.45}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Pulser and signal shape}}{30}{figure.caption.47}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Rate dependance on magnetic fields}}{33}{figure.caption.49}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Atmospheric density stability measurement}}{34}{figure.caption.51}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Rate scanning with cobalt source}}{35}{figure.caption.52}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Cobalt decay mechanisms}}{36}{figure.caption.53}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Testing of all modules with cobalt source}}{36}{figure.caption.54}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Synchronisation old firmware}}{37}{figure.caption.56}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Synchronisation new firmware}}{37}{figure.caption.57}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Asymmetric magnetic field flux tube}}{38}{figure.caption.61}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Non-axially symmetric magnetic flux tube}}{39}{figure.caption.62}
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Time difference histogram}}{39}{figure.caption.63}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Non-axially symmetric magnetic flux tube monitor spectrometer}}{39}{figure.caption.64}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Time difference Histogram for all rings}}{40}{figure.caption.65}
-\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Flux tube P12.M8}}{41}{figure.caption.66}
-\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Flux tube M12.8}}{41}{figure.caption.67}
-\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Inner electrode field emission}}{41}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Muon modules' rate: noise problems}}{31}{figure.caption.46}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces 6 channel energy Histogram with noise}}{32}{figure.caption.47}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Pulser and signal shape}}{32}{figure.caption.49}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Rate dependance on magnetic fields}}{35}{figure.caption.51}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Muon module stability}}{36}{figure.caption.53}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Atmospheric density stability measurement}}{36}{figure.caption.54}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Rate scanning with cobalt source}}{38}{figure.caption.55}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Cobalt decay mechanisms}}{38}{figure.caption.56}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Testing of muon modules with Sr source}}{39}{figure.caption.57}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Unsynced DAQs}}{39}{figure.caption.58}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Unsynced DAQs}}{39}{figure.caption.59}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Synchronisation new firmware}}{40}{figure.caption.60}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Asymmetric magnetic field flux tube}}{43}{figure.caption.65}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Non-axially symmetric magnetic flux tube}}{43}{figure.caption.66}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Time difference histogram}}{44}{figure.caption.67}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Non-axially symmetric magnetic flux tube monitor spectrometer}}{44}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Time difference Histogram for all rings}}{44}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Flux tube P12.M8}}{45}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Flux tube M12.8}}{45}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Inner electrode field emission}}{45}{figure.caption.72}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Muon rate dependance on zenith angle}}{44}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Muon rate dependance on zenith angle}}{48}{figure.caption.74}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure\relax }}{51}{figure.caption.73}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. \relax }}{51}{figure.caption.74}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces \SI {50}{\ampere } loops}}{53}{figure.caption.76}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \SI {-50}{\ampere } loops}}{53}{figure.caption.77}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces \SI {25}{\ampere } loops}}{54}{figure.caption.78}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces \SI {-25}{\ampere } loops}}{54}{figure.caption.79}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \SI {50}{\ampere } loops}}{55}{figure.caption.80}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces \SI {50}{\ampere } loops}}{55}{figure.caption.81}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure\relax }}{55}{figure.caption.78}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces ORCA script LFCS coils}}{55}{figure.caption.79}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces \SI {50}{\ampere } loops}}{57}{figure.caption.81}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \SI {-50}{\ampere } loops}}{57}{figure.caption.82}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces \SI {25}{\ampere } loops}}{58}{figure.caption.83}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces \SI {-25}{\ampere } loops}}{58}{figure.caption.84}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \SI {50}{\ampere } loops}}{59}{figure.caption.85}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces \SI {50}{\ampere } loops}}{59}{figure.caption.86}

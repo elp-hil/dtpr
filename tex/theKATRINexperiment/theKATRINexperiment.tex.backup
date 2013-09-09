@@ -37,11 +37,31 @@
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:sourceSide}
       The required high luminousity is achieved by using a gaseous Tritium source. In a solid, most electrons from decays inside the structure would be resorbed quickly and be unavailable for analysis. The gase's large advantage is that not only the surface facing the detector emits electrons at the desired spectrum, but the whole volume covered by the magnetic flux tube arriving at the detector can be utilised. Of course, new challenges arise from the decision to use gas instead of solids: The spectrometers further downstream require for ultra high vacuum, for the main spectrometer in the order of \SI{e-11}{\milli\bar}. As the Tritium pressure is in the order of \SI{10e-3}{\milli\bar} and the source needs to be windowless - as no electron transparent window is known to stand such pressure differences - the pressure must be reduced to desired values without any physical barrier. 
       For that purpose, after being allowed to decay inside the WGTS, the windowless gaseous tritium source, electrons fly on through DPS and CPS, the differential- and cryogenic pumping sections. 
+      
+     \begin{figure}
+		\begin{minipage}{0.49\textwidth}
+				\includegraphics[width = 1.0\textwidth]{graphics/katrinExperiment/rearSection.png}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width = 1.0\textwidth]{graphics/katrinExperiment/CPS.jpg}
+		\end{minipage}
+		\caption[DPS and CPS]{}
+		\label{fig:sourceSide}
+      \end{figure}
+      
+      
       \subsection{Transport and Pumping Section}
       
-      
-      
-      In the DPS, pressure is actively reduced by the use of turbo pumps. These need to be tested thoroughly to withstand the constant radiation by tritium decays. Afterwards, the CPS uses strongly cooled walls to freeze residual gas, always keeping the information carrying electrons away from those by magnetic guidance.
+      In the DPS, pressure is actively reduced by the use of turbo pumps. These need to be tested thoroughly to withstand the constant radiation by tritium decays \cite{tritiumTests}. Afterwards, the CPS uses strongly cooled walls to freeze residual gas, always keeping the information carrying electrons away from those by magnetic guidance.
+      \begin{figure}
+		\begin{minipage}{0.49\textwidth}
+				\includegraphics[width = 1.0\textwidth]{graphics/katrinExperiment/DPS.jpg}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width = 1.0\textwidth]{graphics/katrinExperiment/CPS.jpg}
+		\end{minipage}
+		\caption[DPS and CPS]{Differential and cryogenic pumping sections, left the DPS with pumping ports all over the structure. All of the ports are isolated against the surroundings (yellow boxes) to protect against potential radiation leaks. On the right the CPS with its coolable wall structure to capture free particle as well as standard pumping ports \cite{DPS},\cite{CPS}.}
+      \end{figure}
       
       \subsection{Pre-Spectrometer}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:PreSpectrometer}
@@ -58,14 +78,14 @@
       	\begin{minipage}{0.29\textwidth}
       		\includegraphics[angle = 90, width = \textwidth]{graphics/katrinExperiment/wireElectrodes.png}
       	\end{minipage}
-      	\caption[Main spectrometer and wire electrodes]{On the left, the main spectrometer of the KATRIN experiment. It is divided into a central, cylindric shape to which two flat cones, disemboguing in the steep cones, are attached. Also visible in this image are the 3 large pump ports on le lower right and the three-legged holding structures. On the right a image of the comb structure of the inner electrodes with both layers of wires visible.}
+      	\caption[Main spectrometer and wire electrodes]{On the left, the main spectrometer of the KATRIN experiment \cite{mainSpecStatus}. It is divided into a central, cylindric shape to which two flat cones, disemboguing in the steep cones, are attached. Also visible in this image are the 3 large pump ports on le lower right and the three-legged holding structures. On the right a image of the comb structure of the inner electrodes with both layers of wires visible. The white structures on both top and bottom of the combs are the insulation of the wires \cite{collabWireElectrodes}.}
       	\label{fig:mainSpec}
       \end{figure}
 		
-      \begin{figure}
-      	
-      \end{figure}
-
+      \subsection{Monitor spectrometer}
+      \label{ch:theKATRINexperiment:sec:experimentalSetup:subsec:monSpec}
+      
+      The monitor spectrometer is, next to the high precision voltage surveillance, a second tool to ensure the quality of the high voltage.
 
       \subsection{MAC-E Filter}
       \label{ch:The KATRIN experiment:sec:MAC-E}
@@ -92,27 +112,33 @@
       
             \begin{figure}
 	\centering
-      	\includegraphics[width = 0.9 \textwidth]{graphics/katrinExperiment/macEFilter.jpg}
-      	\caption[MAC E Filter]{Fuctionality of a MAC E filter. The angluar momentum of an electron not starting parallel to the magnetic field lines is converted mostly to linear kinectic energy up to the point of lowest fields. Here, the energy is analysed before the particle is guided towards the detector.}
-      	\label{fig:katrinExperiment:tritiumSpectrum}
+      	\includegraphics[width = 0.6 \textwidth]{graphics/katrinExperiment/macEFilter.jpg}
+      	\caption[MAC E Filter]{Fuctionality of a MAC E filter. The angluar momentum of an electron not starting parallel to the magnetic field lines is converted mostly to linear kinectic energy up to the point of lowest fields. Here, the energy is analysed before the particle is guided towards the detector \cite{macEFilter}.}
+      	\label{fig:katrinExperiment:macEFilter}
       \end{figure}
       
       \subsection{Focal Plane Detector System}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:FPD system}
       The main detector is located at the very north of the experiment. It is made up of a silicon wafer divided into 148 pixels attached to the readout electronics by pin connectors. The pattern is dartboard-like, multiple pixels with the same distance to the center form rings. Every pixel has the same surface area, making rates more easily comparable - that is if the magnetic flux through the wafer is as homogenous as in this experiment.
       The detector system is roughly divided into two chambers: one connected to the ultra high vacuum of the main spectrometer and one with a lower grade vacuum on the detectors readout side.
+      
+      
       \begin{figure}
       \centering
 	\includegraphics[width = 0.8 \textwidth]{graphics/katrinExperiment/detectorHousing.pdf}
-	\caption[Focal plane detector system]{The focal plane detector system including the flux tube (green). One can make out the different grade vaccum sections: extremely high vaccum (XHV) and medium high vacuum (MHV). The post accelleration electrode is visible left of the actual detector and ist signal feed trough on the very right. Multiple flanges and connectors are shown, not in this image are the calibration source holders.}
+	\caption[Focal plane detector system]{The focal plane detector system including the flux tube (green). One can make out the different grade vaccum sections: extremely high vaccum (XHV) and medium high vacuum (MHV). The post accelleration electrode is visible left of the actual detector and ist signal feed trough on the very right. Multiple flanges and connectors are shown, not in this image are the calibration source holders \cite{FPD}.}
 	\label{fig:katrinExperiment:detectorHousing}
       \end{figure}
+      
       \begin{figure}
 %       	\includegraphics[width = 0.9 \textwidth]{graphics/katrinExperiment/detectorWafer.pdf}
 	  \caption[Detector wafer]{The detector wafer as installed in the FPD system. Note the ``dartboard pattern'' with the four pixel bullseye in the center on the left side.}
 	  \label{fig:katrinExperiment:detectorWafer}
       \end{figure}
+      
+      
       For background reduction, the detector system features both a passive shielding and an active veto system read out by the same data crate as the detector itself. It allows to discriminate externally triggered events. due to the high magnetic fields from detector and pinch magnet, semiconductor readout electronics had to be used instead of conventional photomultiplier tubes.
+      As it may be necessary to investigate electrons with energies below the detector threshold, especially for background investigations, a post accelleration electrode has been installed - also visible in \ref{fig:katrinExperiment:detectorHousing} that can raise the energies through an electric field of known strength.
       \subsection{Solenoids, LFCS and EMCS system}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:Solenoids, LFCS and EMCS system}
       

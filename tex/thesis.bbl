@@ -36,11 +36,21 @@ H.~Arlinghaus, ``Investigation of the muon-induced secondary electron
   \url{http://www.uni-muenster.de/Physik.KP/AGWeinheimer/Files/theses/Diplom_Henrik_Arlinghaus.pdf},
   2009, [Online; accessed 21-08-2013].
 
-\bibitem[BKR09]{becker2008a}
+\bibitem[Asd13]{proposalM12}
+M.~Asda, ``Katrin sds measurements - proposal m12,''
+  \url{http://www.katrin.kit.edu}, 2013.
+
+\bibitem[Bor13]{DPS}
+L.~Bornschein, ``24th katrin collaboration meeting - status of dps,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774094/95-TRP-5405-S2-LBornschein.ppt},
+  2013, [Online; accessed 01-09-2013].
+
+\bibitem[CRH{\etalchar{+}}56]{neutrinoEvidence}
 \BIBentryALTinterwordspacing
-S.~Becker, H.~Koziolek, and R.~Reussner, ``{T}he {P}alladio component model for
-  model-driven performance prediction,'' \emph{JSS}, vol.~82, pp. 3--22, 2009.
-  [Online]. Available: \url{http://dx.doi.org/10.1016/j.jss.2008.03.066}
+C.~L. Cowan, F.~Reines, F.~B. Harrison, H.~W. Kruse, and A.~D. McGuire,
+  ``Detection of the free neutrino: a confirmation,'' \emph{Science}, vol. 124,
+  no. 3211, pp. 103--104, 1956, [Online, accessed 06-09-2013]. [Online].
+  Available: \url{http://www.sciencemag.org/content/124/3212/103.full.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem[Cry05]{scintillatorManual}
@@ -54,12 +64,25 @@ P.~{Doll}, W.~D. {Apel}, J.~C. {Arteaga}, and {et al.}, ``{Muon Production
   Cosmic Ray Conference}, ser. International Cosmic Ray Conference, vol.~4,
   2008, pp. 115--118.
 
+\bibitem[DGG{\etalchar{+}}62]{muNeutrino}
+\BIBentryALTinterwordspacing
+G.~Danby, J.-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
+  and J.~Steinberger, ``Observation of high-energy neutrino reactions and the
+  existence of two kinds of neutrinos,'' \emph{Phys. Rev. Lett.}, vol.~9, pp.
+  36--44, Jul 1962. [Online]. Available:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.9.36}
+\BIBentrySTDinterwordspacing
+
 \bibitem[DHMW13]{currentNeutrinoSearches}
 \BIBentryALTinterwordspacing
 G.~{Drexlin}, V.~{Hannen}, S.~{Mertens}, and C.~{Weinheimer}, ``{Current Direct
   Neutrino Mass Experiments},'' \emph{ArXiv e-prints}, Jun. 2013. [Online].
   Available: \url{http://arxiv.org/abs/1307.0101}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Fer]{fermi}
+E.~Fermi, ``Versuch einer theorie der $\beta$ strahlen,'' [Online, accessed
+  06-09-2013].
 
 \bibitem[G{\etalchar{+}}09]{airCoilSystem}
 F.~Gl\"uck \emph{et~al.}, ``Air coil system \& magnetic field sensor system,''
@@ -72,6 +95,12 @@ S.~G\"orhardt, ``Reduktion der durch radon induzierten untergrundprozesse in
   \url{http://www.katrin.kit.edu/publikationen/dth-goerhardt.pdf}, 2010,
   [Online; accessed 27-08-2013].
 
+\bibitem[Gil13]{CPS}
+W.~Gil, ``24th katrin collaboration meeting - status of cryogenic pumping
+  section,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774107/95-TRP-5406-S2-WGIL.pptx},
+  2013, [Online; accessed 01-09-2013].
+
 \bibitem[{Gor}13]{muonLifetime}
 T.~P. {Gorringe}, ``{MuLan Measurement of the Positive Muon Lifetime and
   Determination of the Fermi Constant},'' \emph{ArXiv e-prints}, Jan. 2013.
@@ -79,6 +108,21 @@ T.~P. {Gorringe}, ``{MuLan Measurement of the Positive Muon Lifetime and
 \bibitem[{{How}}09]{How09}
 {{Howe},~M.~A. }{\em{et al.}}, \emph{TUNL Progress Report}, vol. XLVIII, p.
   179, 2009.
+
+\bibitem[KAT06]{macEFilter}
+KATRIN, ``Mac e filter,''
+  \url{http://www.katrin.kit.edu/img/mace_electrodes_rdax_1200x1200.gif}, 2006.
+
+\bibitem[Kle12]{wetterCom}
+M.~Klemann, ``pressure and temperature data from wetter.com,'' 2012.
+
+\bibitem[KUA{\etalchar{+}}01]{tauNeutrino}
+\BIBentryALTinterwordspacing
+K.~Kodama, N.~Ushida, C.~Andreopoulos \emph{et~al.}, ``Observation of tau
+  neutrino interactions,'' \emph{Physics Letters B}, vol. 504, no.~3, pp. 218
+  -- 224, 2001. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269301003070}
+\BIBentrySTDinterwordspacing
 
 \bibitem[MSTV03]{SNOOscillations}
 \BIBentryALTinterwordspacing
@@ -88,14 +132,42 @@ M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle, ``Status of
   \url{http://link.aps.org/doi/10.1103/PhysRevD.68.113010}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Sch13]{airShower}
+\bibitem[Pri13]{tritiumTests}
+F.~Priester, ``24th katrin collaboration meeting - tritium test experiments,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774076/95-TRP-5403-S1-FPriester.pptx},
+  2013, [Online; accessed 01-09-2013].
+
+\bibitem[Rod13]{particlesSM}
+W.~Rodejohann, ``standard model elementary particles,''
+  \url{http://www.mpi-hd.mpg.de/manitop/StandardModel/pics/standard_model_elementary_particles.png},
+  2013, [Online, accessed 05-09-2013].
+
+\bibitem[Sch13a]{airShower}
 A.~Schaeffer, \url{http://cds.cern.ch/record/1345733/files/Cosmic_image.jpg},
+  2013, [Online; accessed 01-09-2013].
+
+\bibitem[Sch13b]{FPD}
+J.~Schwarz, ``24th katrin collaboration meeting - the focal-plane detector
+  system,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774296/95-TRP-5414-S4-JSchwarz.pdf},
   2013, [Online; accessed 01-09-2013].
 
 \bibitem[Sta04]{highEnergyCosmicRays}
 T.~Stanev, \emph{High Energy Cosmic Rays}, 2004.
 
+\bibitem[Th{\"u}13]{mainSpecStatus}
+T.~Th{\"u}mmler, ``24th katrin collaboration meeting - sds status \&
+  spectrometer bake-out,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774576/95-TRP-5409-S3-TThuemmler.pdf},
+  2013, [Online; accessed 01-09-2013].
+
 \bibitem[Wie13]{KevinWierman}
 K.~Wierman, personal conversation, 2013.
+
+\bibitem[Zac11]{collabWireElectrodes}
+M.~Zacher, ``20th katrin collaboration meeting - wire electrode system
+  installation status,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d694360/95-TRP-5006-S2-MZacher.pdf},
+  2011, [Online; accessed 01-09-2013].
 
 \end{thebibliography}

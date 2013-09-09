@@ -198,7 +198,7 @@ keywords = "MAC-E-Filter "
 @MISC{
   collabWireElectrodes,
   author = {M. Zacher},
-  title = {20th KATRIN collaboration meeting - Wire electrode system installation status}
+  title = {20th KATRIN collaboration meeting - Wire electrode system installation status},
   year = {2011},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d694360/95-TRP-5006-S2-MZacher.pdf}",
   note = "[Online; accessed 01-09-2013]"
@@ -207,7 +207,7 @@ keywords = "MAC-E-Filter "
 @MISC{
   rearSection,
   author = {M. Babutzka},
-  title = {24th KATRIN collaboration meeting - Status of the Rearsection}
+  title = {24th KATRIN collaboration meeting - Status of the Rearsection},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d847077/95-TRP-5401-S1-MBabutzka.pptx}",
   note = "[Online; accessed 01-09-2013]"
@@ -216,16 +216,16 @@ keywords = "MAC-E-Filter "
 @MISC{
   tritiumTests,
   author = {F. Priester},
-  title = {24th KATRIN collaboration meeting - Tritium Test Experiments}
+  title = {24th KATRIN collaboration meeting - Tritium Test Experiments},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774076/95-TRP-5403-S1-FPriester.pptx}",
   note = "[Online; accessed 01-09-2013]"
 }
 
 @MISC{
-  rearSection,
+  WGTS,
   author = {A. Kosmider},
-  title = {24th KATRIN collaboration meeting - The Windowless Gaseous Tritium Source}
+  title = {24th KATRIN collaboration meeting - The Windowless Gaseous Tritium Source},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774085/95-TRP-5404-S1-AKosmider.pptx}",
   note = "[Online; accessed 01-09-2013]"
@@ -233,27 +233,27 @@ keywords = "MAC-E-Filter "
 
 
 @MISC{
-  rearSection,
+  DPS,
   author = {L. Bornschein},
-  title = {24th KATRIN collaboration meeting - Status of DPS}
+  title = {24th KATRIN collaboration meeting - Status of DPS},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774094/95-TRP-5405-S2-LBornschein.ppt}",
   note = "[Online; accessed 01-09-2013]"
 }
 
 @MISC{
-  rearSection,
+  CPS,
   author = {W. Gil},
-  title = {24th KATRIN collaboration meeting - Status of Cryogenic Pumping Section}
+  title = {24th KATRIN collaboration meeting - Status of Cryogenic Pumping Section},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774107/95-TRP-5406-S2-WGIL.pptx}",
   note = "[Online; accessed 01-09-2013]"
 }
 
 @MISC{
-  rearSection,
-  author = {K.Schl\"osser and S. G\"orhardt},
-  title = {24th KATRIN collaboration meeting - monitor \& pre-spectrometer}
+  monitorPreSpec,
+  author = {K. Schl{\"o}sser and S. G{\"o}rhardt},
+  title = {24th KATRIN collaboration meeting - monitor \& pre-spectrometer},
   year = {2013},
   howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774116/95-TRP-5407-S2-KSchloesser-SGoerhardt.pptx}",
   note = "[Online; accessed 01-09-2013]"
@@ -261,10 +261,100 @@ keywords = "MAC-E-Filter "
 
 
 @MISC{
-  rearSection,
-  author = {W. Gil},
-  title = {24th KATRIN collaboration meeting - Status of Cryogenic Pumping Section}
+  mainSpecStatus,
+  author = {T. Th{\"u}mmler},
+  title = {24th KATRIN collaboration meeting - SDS Status \& Spectrometer Bake-out},
   year = {2013},
-  howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774107/95-TRP-5406-S2-WGIL.pptx}",
+  howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774576/95-TRP-5409-S3-TThuemmler.pdf}",
   note = "[Online; accessed 01-09-2013]"
+}
+
+@MISC{
+  FPD,
+  author = {J. Schwarz},
+  title = {24th KATRIN collaboration meeting - The Focal-Plane Detector System},
+  year = {2013},
+  howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774296/95-TRP-5414-S4-JSchwarz.pdf}",
+  note = "[Online; accessed 01-09-2013]"
+}
+
+@MISC{
+particlesSM,
+author = {W. Rodejohann},
+year = {2013},
+title = {standard model elementary particles},
+howpublished = {\url{http://www.mpi-hd.mpg.de/manitop/StandardModel/pics/standard_model_elementary_particles.png}},
+note = "[Online, accessed 05-09-2013]"
+}
+
+@MISC{
+proposalM12,
+author  = {M. Asda},
+year  = {2013},
+title = {Katrin SDS measurements - Proposal M12},
+howpublished = {\url{http://www.katrin.kit.edu}}
+}
+
+@MISC{
+macEFilter,
+author = {KATRIN},
+year = {2006},
+title = {MAC E Filter},
+howpublished = {\url{http://www.katrin.kit.edu/img/mace_electrodes_rdax_1200x1200.gif}}
+}
+
+@ARTICLE{
+fermi,
+author = {E. Fermi},
+title = {Versuch einer Theorie der $\beta$ Strahlen},
+howpublished = "\url{http://www.nssp.uni-saarland.de/lehre/Vorlesung/Kernphysik_SS13/History/Papers/Fermi_1.pdf}",
+note = "[Online, accessed 06-09-2013]"
+}
+
+@ARTICLE{
+neutrinoEvidence,
+author = {C. L. Cowan and F. Reines and F. B. Harrison and H. W. Kruse and A. D. McGuire},
+title = {Detection of the Free Neutrino: a Confirmation},
+journal = "Science ",
+volume = "124",
+number = "3211",
+pages = "103-104",
+year = "1956",
+url = "http://www.sciencemag.org/content/124/3212/103.full.pdf",
+note = "[Online, accessed 06-09-2013]"
+}
+
+@article{muNeutrino,
+  title = {Observation of High-Energy Neutrino Reactions and the Existence of Two Kinds of Neutrinos},
+  author = {Danby, G. and Gaillard, J-M. and Goulianos, K. and Lederman, L. M. and Mistry, N. and Schwartz, M. and Steinberger, J.},
+  journal = {Phys. Rev. Lett.},
+  volume = {9},
+  issue = {1},
+  pages = {36--44},
+  year = {1962},
+  month = {Jul},
+  doi = {10.1103/PhysRevLett.9.36},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.9.36},
+  publisher = {American Physical Society}
+}
+
+@article{tauNeutrino,
+title = "Observation of tau neutrino interactions ",
+journal = "Physics Letters B ",
+volume = "504",
+number = "3",
+pages = "218 - 224",
+year = "2001",
+note = "",
+issn = "0370-2693",
+doi = "http://dx.doi.org/10.1016/S0370-2693(01)00307-0",
+url = "http://www.sciencedirect.com/science/article/pii/S0370269301003070",
+author = "K. Kodama and N. Ushida and C. Andreopoulos and others"
+}
+@MISC{
+	wetterCom,
+	title = {pressure and temperature data from wetter.com},
+	year = "2012",
+	author = {Manfred Klemann},
+	howpublished = \url{http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}
 }
