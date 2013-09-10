@@ -355,6 +355,6 @@ author = "K. Kodama and N. Ushida and C. Andreopoulos and others"
 	wetterCom,
 	title = {pressure and temperature data from wetter.com},
 	year = "2012",
-	author = {Manfred Klemann},
+	author = "Manfred Klemann",
 	howpublished = \url{http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}
 }

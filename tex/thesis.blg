@@ -25,6 +25,11 @@ Warning--entry type for "radonGoerhard" isn't style-file defined
  :  howpublished = \url
  :                     {http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}
 I'm skipping whatever remains of this entry
+Illegal end of database file---line 724 of file thesis.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -79,4 +84,4 @@ warning$ -- 4
 while$ -- 77
 width$ -- 34
 write$ -- 335
-(There was 1 error message)
+(There were 2 error messages)

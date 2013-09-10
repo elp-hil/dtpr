@@ -20,10 +20,16 @@
 		\ce{\bar\nu_e + p -> e^+ + n}
 	\end{equation}
 	They then looked for two events: a pair of \SI{511}{\kilo\electronvolt} photons from electron-positron anihilation as well as the $\gamma$ from neutron capture some \SI{}{\micro\second} afterwards.
+	Following the electron neutrino, both other known neutrino gernations have been attested for in various experiments, the first ones to find evidence for $\nu_\mu$ and $\nu_\tau$ were to be Danby and Gaillard \cite{muNeutrino} and the DONUT experiment \cite{tauNeutrino} respectively.
+	
+	\section{Neutrino sources}
+	\label{ch:Introduction:sec:neutrinoSources}
+	
+	
 	
     \section{Neutrinos in the standard model}
     \label{ch:Introduction:sec:Neutrinos in the standard model}
-    During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena, the standard model. It contains six quarks, six leptons (both made up of three particle generations) and four types of Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. 
+    During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena, the standard model. It contains six isquarks, six leptons (both made up of three particle generations) and four types of Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. 
     For our universe, gravity, the graviton generated force, plays a major role for formation and stability af almost all larger structures. In particle physics however, it can mostly be neglected. Here, only the strong and weak as well as the electromagnetic interaction make for noticable contributions to phenomena observed. That is why, in the standard model, gravity as well as its carrier, the graviton, are disregarded.
     \begin{figure}
     	\centering
@@ -65,11 +71,11 @@
       If the neutrinos were without mass, its mass eigenstates would equal its flavour eigenstates:
       
     \begin{equation}
-	\begin{array}{ccc}
-      	|\nu_e>		& = & |\nu_1>\\
-      	|\nu_\mu>	& = & |\nu_2>\\
-      	|\nu_\tau>	& = & |\nu_3>\\
-    	 \end{array}
+% 	\begin{array}{ccc}
+%       	|\nu_e>		& = & |\nu_1>\\
+%       	|\nu_\mu>	& = & |\nu_2>\\
+%       	|\nu_\tau>	& = & |\nu_3>\\
+%     	 \end{array}
     \end{equation}
     First doubts concerning this asumptions occured as inconsistencies between the measured and the calculated solar $\nu$-flux occured. As the count on $\nu_e$ was too low, the theory of neutrino oscillations emerged, stating that a mixture of flavours was possible as the flavours were made up of all three of the mass eigenstates. The mixture is described by the so called Pontecorvo-Maki-Nakagawa-Sakata matrix:
         \begin{equation}
@@ -82,9 +88,9 @@
         \right)
 	 = \left(
 	\begin{array}{ccc}
-      	\theta_{e,1} & \theta_{e,2} & \theta_{e,3}\\
-      	\theta_{\mu,1} & \theta_{\mu,2} & \theta_{\mu,3}\\
-      	\theta_{\tau,1} & \theta_{\tau,2} & \theta_{\tau,3}\\
+      	U^*_{e,1} & U^*_{e,2} & U^*_{e,3}\\
+      	U^*_{\mu,1} & U^*_{\mu,2} & U^*_{\mu,3}\\
+      	U^*_{\tau,1} & U^*_{\tau,2} & U^*_{\tau,3}\\
       	\end{array}
 	\right)
 	\left(
@@ -95,6 +101,59 @@
     	 \end{array}
     	 \right)
     \end{equation}
+    In this equation, the matrix U can be parametrized through a combination of three rotation matrices and a complex phase factor $\delta_D$ as well as two complex majorana phases $\delta_M$
+    
+    \begin{equation}
+	\centering
+	\begin{split}
+     U = \left(
+	\begin{array}{ccc}
+      	1 & 0 & 0\\
+      	0 & c_{23} & s_{23}\\
+      	0 & -s_{23} & c_{23}\\
+   	\end{array}
+	\right)
+	\left(
+	\begin{array}{ccc}
+      	c_{13} & 0 & s_{13}e^{-i\delta_D}\\
+      	0 & 1 & 0\\
+      	-s_{13}e^{-i\delta_D} & 0 & c_{13}\\
+      	\end{array}
+	\right)\cdot\\
+	\cdot\left(
+	\begin{array}{ccc}
+      	c_{12} & s_{12} & 0\\
+      	-s_{12} & c_{12} & 0\\
+      	0 & 0 & 1\\
+      	\end{array}
+	\right)
+		\left(
+	\begin{array}{ccc}
+      	e^{i\delta_{M1}} & 0 & 0\\
+      	0 & e^{i\delta_{M2}} & 0\\
+      	0 & 0 & 1\\
+      	\end{array}
+	\right)
+	\end{split}
+    \end{equation}
+    where $c_{ij}=\cos{\theta_{ij}}$ and $s_{ij}=\sin{\theta_{ij}}$.\\
+	Now the pure eigenstate of a neutrino for t=0 can be described by three matrix elements and the corresponding mass eigenstates.
+	\begin{equation}
+		\left|\nu(t=0)\right> = \left|\nu_\alpha\right> = U^*_{\alpha1} \left|\nu_1\right> + U^*_{\alpha2} \left|\nu_2\right> + U^*_{\alpha3} \left|\nu_3\right> 
+	\end{equation}
+	The time evolution of this state now reveals the oscillations of the neutrino from flavour to flavour, as the time evoluted states are not flavour eigenstate for every point in time.
+	\begin{equation}
+		\left|\nu_\alpha(t>0)\right> = U^*_{\alpha1} e^{-iE_{\alpha1}t}\left|\nu_1\right> + U^*_{\alpha2} e^{-iE_{\alpha2}t}\left|\nu_2\right> + U^*_{\alpha3}e^{-iE_{\alpha3}t} \left|\nu_3\right> \neq \left|\nu_\alpha\right> 
+	\end{equation}
+	
+	\begin{equation}
+		\left|\nu_\alpha(t)\right> = \sum_{k = 1,2,3} U_{\alpha k}\exp\left(-iE_k t\right)\left|\nu_k\right>
+	\end{equation}
+	for every state $\left|\nu_\alpha\right>$ where the mass eigenstates have in turn been expressed as a mixture of flavour eigenstates.
+
+	The probability for a flavour $\left|\nu_i\right>$ to exist after a certain period of time is given by the multiplication with the 
+	
+    
     
     \subsection{Direct measurement of neutrino mass}
     \label{ch:Introduction:sec:Massive neutrino:subsec:direct Neutrino Mass measurement}
@@ -108,7 +167,7 @@
     \end{equation}
 
     
-    \section{Cosmic muons and their interaction with matter}
+    \section{Cosmic muons and their interaction with matter from the viewpoint of KATRIN}
     \label{ch:introduction:sec:Cosmic Air Showers}
     When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which again are free protons, i.e. Hydrogen ions. Helium nucleons' fluxes are already about a order of magnitude below that, higher mass number nuclei show even lower rates\cite{highEnergyCosmicRays}. 
     \begin{figure}
