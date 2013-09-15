@@ -67,45 +67,64 @@
    \end{tabular}
   \caption[Gains - thresholds - acceleration voltages]{{\bf Gains, thresholds and voltages:} These are the settings that appeared to be reasonable for each panel side; furthermore, the table displays the card and channel each side is associated with in the DAQ card system}
   \end{table}
+  As the detection efficiencies \ref{ch:Analysis:sec:Module Efficiency} for the modules were not as high as expected, one assumption was that the acceleration voltages set lower than denoted in the user manual leads to loss of data in the low energy range. That is why the acceleration voltages were raised to \SI{1.5}{\kilo\volt} except for two channels, those of modules 2B and 6A, that were even ramped to \SI{1.6}{\kilo\volt} on account of showing lower overall rates as described in \ref{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}. 
   
   %% ===========================
   \section{Finding the best filter settings}
   \label{ch:Analysis:sec:Finding the best filter settings}
   %% ===========================  
-  As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a pulser has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
+  As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a function generator has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
  
   \begin{figure}
-	\includegraphics[width = 0.9\textwidth]{graphics/dummy.eps}
+	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
+	\caption[Muon signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
+  \end{figure}
+	\begin{figure}
+	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
 	\caption[Pulser and signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
   \end{figure}
-
   
-  Now, to evaluate filter goodness, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be monoenergetic, was analysed for each filter setting. This resulted in the following set of data:
+  To evaluate filter goodness, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be mono-energetic, was analyzed for each filter setting. For analysis, the width of the contributing ADC bins and their absolute position as well as the pulse height and the filter settings were noted. 
   
   \begin{table}
-	\caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings}
-	\centering
-	standard filter
 	\begin{tabular}{c}
-	\SI{50}{\nano\second} gap, \SI{0}{\second} shaping time\\
-	
-  	\begin{tabular}{ccc}
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
+	\SI{0}{\nano\second} gap, \SI{0}{\second} shaping time\\
+	\end{tabular}
+  	\begin{tabular}{|c|c|c|c|c|}
+  		\hline
+  		Voltage[V] & Boxcar length [ns] & width & position & threshold\\
+  		\hline
+  		\multirow{4}{*}{1} & 50 & 33 & 2160 & 2100\\
+  		 & 100 & 37 & 2140 & 4200\\
+  		 & 150 & 13 & 2140 & 6300\\
+  		 & 200 & 10 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{2} & 40 & 25 & 2160 & 2100\\
+  		 & 100 & 78 & 2140 & 4200\\
+  		 & 150 & 78 & 2140 & 6300\\
+  		 & 200 & 77 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{3} & 59 & 25 & 2160 & 2100\\
+  		 & 100 & 113 & 2140 & 4200\\
+  		 & 150 & 110 & 2140 & 6300\\
+  		 & 200 & 112 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{4} & 80 & 25 & 2160 & 2100\\
+  		 & 100 & 145 & 2140 & 4200\\
+  		 & 150 & 147 & 2140 & 6300\\
+  		 & 200 & 149 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{5} & 94 & 25 & 2160 & 2100\\
+  		 & 100 & 180 & 2140 & 4200\\
+  		 & 150 & 185 & 2140 & 6300\\
+  		 & 200 & 41 & 2141 & 8400\\
+  		 \hline	
   	\end{tabular}
-  	\end{tabular}\\
-  	boxcar filter
-  	\begin{tabular}{ccc}
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  	\end{tabular}
-
+  \caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings. A function generator has been used to simulate a muon module pulse.}
+	\centering
   \end{table}
-  On average, the boxcar filter at shaping lengths of \SI{150}{\nano\second} shows the most promising results, i.e. the sharpest peaks for any signal height. This concurs with the settings chosen for the active fpd veto; here slightly longer (around \SI{30}{\nano\second}) but comparable signals enter the DAQ, showing best results at the same filter settings\cite{KevinWierman}.
+  
+  On average, the boxcar filter at shaping lengths of \SI{150}{\nano\second} shows the most promising results, i.e. the sharpest energy resolutions for any signal height. This concurs with the settings chosen for the active fpd veto; here slightly longer (around \SI{30}{\nano\second}) but comparable signals enter the DAQ's FLT cards showing best results at the same filter settings\cite{KevinWierman}.
   That is why, for any measurements after \todo{run \& date}, the new filter settings were used, bringing up the need for new threshold and gain adaptions \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}. 
   
   %% ===========================
@@ -307,7 +326,7 @@ signals via Cat 5 cable.
 	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 % 	\includegraphics[width = 0.9 \textwidth]{graphics/sync/nonSynced.eps}
   	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
-  	\label{fig:analysis:outOfSync}
+  	\label{fig:analysis:inSync}
   \end{figure}
 
   In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in Orca resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behaviour:

@@ -20,16 +20,7 @@ Database file #1: thesis.bib
 Warning--entry type for "DTArlinghaus" isn't style-file defined
 --line 111 of file thesis.bib
 Warning--entry type for "radonGoerhard" isn't style-file defined
---line 323 of file thesis.bib
-"{" immediately follows a field part---line 717 of file thesis.bib
- :  howpublished = \url
- :                     {http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}
-I'm skipping whatever remains of this entry
-Illegal end of database file---line 724 of file thesis.bib
- : 
- : 
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 355 of file thesis.bib
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -37,51 +28,52 @@ I'm skipping whatever remains of this entry
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--missing publisher in bethgeKernphysik
 Warning--empty journal in fermi
 Warning--empty year in fermi
 Warning--empty title in How09
-Warning--missing publisher in highEnergyCosmicRays
+Warning--empty title in superallowance
 
 Done.
-You've used 27 entries,
+You've used 39 entries,
             5047 wiz_defined-function locations,
-            1152 strings with 13512 characters,
-and the built_in function-call counts, 18967 in all, are:
-= -- 1957
-> -- 433
-< -- 65
-+ -- 170
-- -- 124
-* -- 909
-:= -- 3097
-add.period$ -- 50
-call.type$ -- 27
-change.case$ -- 166
-chr.to.int$ -- 113
-cite$ -- 31
-duplicate$ -- 1247
-empty$ -- 1338
-format.name$ -- 174
-if$ -- 4085
+            1239 strings with 16309 characters,
+and the built_in function-call counts, 30607 in all, are:
+= -- 3083
+> -- 863
+< -- 126
++ -- 365
+- -- 250
+* -- 1554
+:= -- 4893
+add.period$ -- 73
+call.type$ -- 39
+change.case$ -- 264
+chr.to.int$ -- 248
+cite$ -- 44
+duplicate$ -- 1953
+empty$ -- 2067
+format.name$ -- 315
+if$ -- 6634
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 223
-newline$ -- 117
-num.names$ -- 81
-pop$ -- 666
+missing$ -- 348
+newline$ -- 161
+num.names$ -- 117
+pop$ -- 1011
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 291
 quote$ -- 2
-skip$ -- 1417
+skip$ -- 2245
 stack$ -- 0
-substring$ -- 473
-swap$ -- 750
-text.length$ -- 36
-text.prefix$ -- 20
+substring$ -- 851
+swap$ -- 1259
+text.length$ -- 56
+text.prefix$ -- 23
 top$ -- 6
-type$ -- 554
-warning$ -- 4
-while$ -- 77
-width$ -- 34
-write$ -- 335
-(There were 2 error messages)
+type$ -- 802
+warning$ -- 5
+while$ -- 127
+width$ -- 43
+write$ -- 486
+(There were 7 warnings)

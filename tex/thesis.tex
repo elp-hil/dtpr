@@ -90,7 +90,10 @@
 \usepackage{microtype,textcomp}
 \usepackage{url}
 \usepackage{supertabular}
+\usepackage{nth}
 \DeclareSIUnit\gauss{G}
+\DeclareSIUnit\year{a}
+\DeclareSIUnit\CL{C.L.}
 \DeclareSIUnit\cps{cps}
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -131,6 +134,7 @@ appendix
 \frontmatter
 \pagenumbering{roman}
 \include{titlepage}
+\blankpage
 \include{declaration}
 \blankpage
 
@@ -146,9 +150,9 @@ appendix
 %% |   Main part   |
 %% -----------------
 \mainmatter
-\pagenumbering{arabic}
 \listoffigures
 \listoftables
+\pagenumbering{arabic}
 \include{introduction}
 \include{theKATRINexperiment/theKATRINexperiment}
 \include{muonDetectionSystem/muonDetectionSystem}

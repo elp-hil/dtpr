@@ -5,7 +5,14 @@
 \chapter{Introduction}
 \label{ch:Introduction}
 %% ==============================
-	The neutrino was not discovered in the conventional meaning but postulated by Wolfgang Pauli, then under the name neutron, as a explanation for the spectrum of the beta decay showing a continous energy distribution which did not concur with the idea of a two body decay \cite{fermi}. 
+	Ever since the beginning of the \nth{19} century science in general but especially the field of physics has been undergoing an unbelievably quick and vast development. The possibilities arising from automated analysis through the use of advanced computation grids connected to the optimization of manufacturing processes for detectors leave the world - and even scientist - amazed. Nevertheless, with more and more phenomena well understood, the remaining tasks often require huge projects and large collaborations. One of these projects, and a magnificent one at that, is the KATRIN experiment.
+	Working on the project is a liaison of 15 universities and research facilities with over 150 coworkers aspiring to find the absolute neutrino mass scale. So at first, a introduction covering the postulation and discovery of the neutrino as well as latest results from research is given.
+	\\
+	Another important topic for this thesis are cosmic rays: Both the particle most significant for KATRIN, the neutrino, and the background inducing muon are generated in different interactions with the atmosphere. That is why a part of this introduction will be devoted to the description of air showers.
+	
+	\section{Neutrinos - the early years}
+	\label{ch:Introduction:sec:Neutrino-theEarlyYears}
+	The neutrino was not discovered in the conventional meaning but postulated by Wolfgang Pauli, then under the name of ``neutron'', as a explanation for the spectrum of the beta decay showing a continous energy distribution which did not concur with the idea of a two body decay \cite{fermi}. 
 	\begin{equation}
 		\ce{p -> n + e^-}
 	\end{equation}
@@ -20,24 +27,81 @@
 		\ce{\bar\nu_e + p -> e^+ + n}
 	\end{equation}
 	They then looked for two events: a pair of \SI{511}{\kilo\electronvolt} photons from electron-positron anihilation as well as the $\gamma$ from neutron capture some \SI{}{\micro\second} afterwards.
-	Following the electron neutrino, both other known neutrino gernations have been attested for in various experiments, the first ones to find evidence for $\nu_\mu$ and $\nu_\tau$ were to be Danby and Gaillard \cite{muNeutrino} and the DONUT experiment \cite{tauNeutrino} respectively.
+	Following the electron neutrino, both other known neutrino gernations have been attested for in various experiments, the first ones to find evidence for $\nu_\mu$ and $\nu_\tau$ were to be Danby and Gaillard \cite{muNeutrino} and the DONUT experiment \cite{tauNeutrino} respectively.\\
+
 	
 	\section{Neutrino sources}
 	\label{ch:Introduction:sec:neutrinoSources}
+	Next to the first indicator of neutrinos, the beta decay with its continuous spectrum, many other reactions produce neutrinos besides easily detectable products. An overview over natural sources crating the largest flux through earth as well as experimental sources is given below, figure 
+	\begin{figure}
+		\begin{minipage}{0.65\textwidth}
+			\includegraphics[width=\textwidth]{graphics/neutrinos/neutrinoSpectrum.png}
+		\end{minipage}
+		\begin{minipage}{0.34\textwidth}
+		\caption[Neutrino sources]{~}A graph for different neutrino sources both natural and artificial. In the upper left, solar reactions creating a large integral flux. In the upper mid, the supernovae type II. Peaking at around $10^5$ \SI{}{\per\second} \SI{}{\per\square\centi\meter\per\mega\electronvolt}, geoneutrinos. Right of it reactor neutrinos and $^8$B, the $\beta^+$ decaying boron isotope. Following below are the diffuse super novae background, another solar reaction, hep, and, last and least, the atmospheric neutrinos.
+		\label{fig:neutrinos:neutrinoSources}	
+		\end{minipage}
+
+		
+	\end{figure}
+
 	\begin{itemize}
-		\item Primordial neutrinos\\
-		Lingering around since the ``Big Bang'', neutrinos with rather low, thermal energies form a cosmic neutrino background. 
-		
-		\item Solar Neutrinos
-		
-		\item Reactor neutrinos
+	\item {\bf Primordial neutrinos}\\
+		Lingering around since the ``Big Bang'', neutrinos with rather low, thermal energies form a cosmic neutrino background at $T_\nu\approx \SI{1.95}{\kelvin}$. These neutrinos discoupled shortly after the Big Bang when densities rapidly dropped and with it the weak force's reaction rate that before kept an equilibrium between protons, neutrons electrons and neutrinos. This process of ``freezing out'' alone leads to a static number density of \SI{336}{\per\cubic\centi\meter} for the sum over all three neutrino flavors.
+	\item {\bf Supernovae neutrinos}
+		Supernovae type II, which occur less often than the type I and only in stars with $M> 8M_\odot$, are known to produce large quantities of neutrinos. Inside the burned out collapsing star, the electrons' degeneracy pressure leads to de-leptonization of the core by electron capture.
+		\begin{equation}
+			\ce{e- + p -> n + \nu_e}
+		\end{equation}
+		This process produces high energy neutrinos leaving the core and carrying away energy in the process - and large quantities of that: about \SI{99}{\percent} of the energy released during a type II supernova cooling pase is carried away by neutrinos.
+
+	\item {\bf Solar Neutrinos}\\
+		Our sun's $pp$ reaction chain equation (\ref{ppChain}) - dominant in its energy production - produces neutrinos in a continuous energy range (upper energy limit given) together with other, less dominant reactions.
+
+		\begin{align}
+		\label{ppChain}
+			\ce{^1He + ^1 He} & \ce{ -> ^2 He + e+ + \nu_e} && (\SI{0.42}{\mega\electronvolt})\\
+			\ce{^8B } & \ce{-> ^8Be+ e+ + \nu_e} && (\SI{14.06}{\mega\electronvolt})\\
+			\ce{^3He + p } & \ce{ -> ^4He + e+ + \nu_e} && (\SI{18.77}{\mega\electronvolt})
+		\end{align}
+
+		Further on, electron capture processes add line spectra to the picture
+		\begin{equation}
+			\ce{^7Be + e- -> ^7Li + \nu_e}
+			\label{eq:Berillium}
+		\end{equation}
+		\begin{equation}
+			\ce{^1H + ^1H + e- -> ^2H + \nu_e} (\SI{1.55}{\mega\electronvolt})
+		\end{equation}
+		where $^7Be$ emits at two energies: mostly at \SI{0.86}{\mega\electronvolt}(\SI{90}{\percent}) and another, lower energy line at \SI{0.38}{\mega\electronvolt} (\SI{10}{\percent}) \cite{bethgeKernphysik}.
+		These reactions are responsible for the largest part of the solar neutrino flux through the earth. Predictions on this flux are shown in figure \ref{fig:neutrinos:solarNeutrinos} together with other model calculations on flux expectations.
+		Solar neutrinos were essential for oscillation research and by that for the proof that neutrinos are in fact massive (see chapter \ref{ch:Introduction:sec:neutrino Oscillations}).
+		\begin{figure}
+		\centering
+			\includegraphics[width=0.8\textwidth]{graphics/neutrinos/solarNeutrinos.eps}
+			\caption[Solar neutrino Flux]{The graph shows the theoretical solar neutrino flux in \SI{}{\per\square\centi\meter \per\second \per\mega\electronvolt} over the neutrino energy - for line sources in \SI{}{\per\square\centi\meter \per\second}. Different processes are shown, the dominant pp process is visible in the upper left. CNO fluxes are dropped in this figure.}
+			\label{fig:neutrinos:solarNeutrinos}
+		\end{figure}
+
+	\item {\bf Atmospheric neutrinos}\\
+		As described in section \ref{ch:Introduction:sec:Cosmic Air Showers} cosmic rays, consisting mostly of hadrons, which, in turn, are mostly protons, constantly impact onto the upper layers of the atmosphere. Here, they create air showers, cascades of the initially high energy particles into thousands of particles of lower energies. In that process, not only muons relevant considering background processes in KATRIN, but also neutrinos originate raising the flux through earth.
+	\item {\bf Reactor neutrinos}\\
+		Nuclear fission produces large quantities of neutrons that decay following 
+		\begin{equation}
+			\ce{n -> p + e- + \bar\nu_e}
+		\end{equation}
+
+		A fission reactor, in which many of these reactions concur, is hence a strong source of neutrinos, depending on the reactor's size of course. On an average \SI{}{\giga\watt} reactor, around 6 neutrinos per fission reaction emerge. These sources are used in many experiments, among other things to prove the existence of neutrino oscillations (see chapter \ref{ch:Introduction:sec:Massive neutrino:subsec:neutrino Oscillations}). The Daya Bay experiment for example was able to attest the disapperance of $\bar\nu_e$ in a baseline experiment \cite{dayaBay}.
+	\item {\bf Neutrinos from $\beta$ decays}\\
+		Very important for the KATRIN experiment are neutrinos from beta decays, more precisely the Tritium beta decay. 
 	\end{itemize}
 
 	
 	
     \section{Neutrinos in the standard model}
     \label{ch:Introduction:sec:Neutrinos in the standard model}
-    During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena, the standard model. It contains six isquarks, six leptons (both made up of three particle generations) and four types of Gauge Bosons. The latter are carriers of the standard models interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons. 
+    During the second part of the 20th century, a model stating 16 particles has been developed to describe a huge portion of known phenomena - the standard model. It contains six quarks and six leptons (both made up of three particle generations) making up the matter as well as four types of Gauge Bosons. The latter are carriers of the standard model's interactions of the former particles, meaning all interactions of matter are based on the exchange of one or more of the Gauge Bosons.
+    Lately, proof for the Higgs particle, a scalar boson, stated as a carrier of mass seems to have been found at CERN. It is the last particle to complete the standard model.
     For our universe, gravity, the graviton generated force, plays a major role for formation and stability af almost all larger structures. In particle physics however, it can mostly be neglected. Here, only the strong and weak as well as the electromagnetic interaction make for noticable contributions to phenomena observed. That is why, in the standard model, gravity as well as its carrier, the graviton, are disregarded.
     \begin{figure}
     	\centering
@@ -58,34 +122,26 @@
     Many experiments though have shown that the weightless neutrino is a wrong assumption. Most of these were experiments prooving neutrino oscillatinos with both reactor neutrinos and solar neutrinos such as Kamiokande\cite{PhysRevLett.110.181802} or SNO \cite{SNOOscillations} \todo{add experiments}.
     Important for those experiments is the known source location making baseline analysis possible.
     
-    Up till now, only the differences of the squared masses are known. This leads to different relations depending on how masses are distributed between the flavours, see figure \ref{fig:massSchemes}, and how large they are absolutely, see figure \ref{fig:massHierarchy}. This problem is solved by the knowledge of one of the masses. KATRIN is on the verge of finding the $\nu_e$'s mass. Two mass schemes are possible: the normal and the inverted one. Normal means that the smallest number also describes the smallest mass state, i.e. $m_{\nu_1} < m_{\nu_2} < m_{\nu_3}$. In the inverted scheme, the squared mass difference of eigenstates two and three is not directed upwards, but pushes the $m_{\nu_3}$ mass below the two others.
+    Up till now, only the differences of the squared masses are known. This leads to different relations depending on how masses are distributed between the flavours, see figure \ref{fig:massSchemes}, and how large they are absolutely, see figure \ref{fig:massHierarchy}. This problem is solved by the knowledge of one of the masses. KATRIN is on the verge of finding the $\nu_e$'s mass. Two mass schemes are possible: the normal and the inverted one. Normal means that the smallest number also describes the smallest mass state, i.e. $m_{\nu_1} < m_{\nu_2} < m_{\nu_3}$. In the inverted scheme, the squared mass difference of eigenstates two and three is not directed upwards, but pushes the $m_{\nu_3}$ mass below the other two.
     
     \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{graphics/standardModel/massHierarchy.jpg}
+    \includegraphics[width=0.7\textwidth]{graphics/standardModel/massHierarchy.jpg}
     	 \caption[Neutrino mass hierarchy]{The possible mass hierarchies for neutrinos. Left, the normal scheme with $m_{\nu_1} < m_{\nu_2} < m_{\nu_3}$, on the right the normal scheme where $m_{\nu_1} < m_{\nu_2}$ is still true, though both $m_{\nu_3} < m_{\nu_1}$ and $m_{\nu_3} < m_{\nu_2}$ }. The coloured bars represent the matrix elements for each flavour, i.e. the probabilities, or composition of each flavour eigenstate.
     	\label{fig:massSchemes}
     \end{figure}
     \begin{figure}
     \centering
-    \includegraphics[width = 0.5 \textwidth]{graphics/standardModel/massSchemes.png}
+    \includegraphics[width = 0.7 \textwidth]{graphics/standardModel/massSchemes.png}
 	\caption[Effective neutrino mass]{The possible effective masses for neutrinos depending on the lightest neutrino mass $m_{min}$ shown on the x-axis. Normal and inverted scheme are marked NS and IS. The current bound from $0\nu\beta\beta$ decay is displayed as well as cosmological limitations. }
     	\label{fig:massHierarchy}
     \end{figure}
 
     
-    \subsection{Neutrino Oscillations}
-    \label{ch:Introduction:sec:Massive neutrino:subsec:neutrino Oscillations}
-      If the neutrinos were without mass, its mass eigenstates would equal its flavour eigenstates:
-      
-    \begin{equation}
-% 	\begin{array}{ccc}
-%       	|\nu_e>		& = & |\nu_1>\\
-%       	|\nu_\mu>	& = & |\nu_2>\\
-%       	|\nu_\tau>	& = & |\nu_3>\\
-%     	 \end{array}
-    \end{equation}
-    First doubts concerning this asumptions occured as inconsistencies between the measured and the calculated solar $\nu$-flux occured. As the count on $\nu_e$ was too low, the theory of neutrino oscillations emerged, stating that a mixture of flavours was possible as the flavours were made up of all three of the mass eigenstates. The mixture is described by the so called Pontecorvo-Maki-Nakagawa-Sakata matrix:
+    \section{Neutrino Oscillations}
+    \label{ch:Introduction:sec:neutrino Oscillations}
+      If the neutrinos were without mass, its mass eigenstates would equal its flavour eigenstates.
+    First doubts concerning this asumptions occured as inconsistencies between the measured and the calculated solar $\nu$-flux occured at the Homestake mines \cite{}. As the count on $\nu_e$ was too low, the theory of neutrino oscillations emerged, stating that a mixture of flavours was possible as the flavours were made up of all three of the mass eigenstates. The mixture is described by the so called Pontecorvo-Maki-Nakagawa-Sakata matrix:
         \begin{equation}
         \left(
         \begin{array}{c}
@@ -149,35 +205,81 @@
 	\begin{equation}
 		\left|\nu(t=0)\right> = \left|\nu_\alpha\right> = U^*_{\alpha1} \left|\nu_1\right> + U^*_{\alpha2} \left|\nu_2\right> + U^*_{\alpha3} \left|\nu_3\right> 
 	\end{equation}
-	The time evolution of this state now reveals the oscillations of the neutrino from flavour to flavour, as the time evoluted states are not flavour eigenstate for every point in time.
+	The time evolution of this state now reveals the oscillations of the neutrino from flavour to flavour, as the time evoluted states are not flavour eigenstates for every point in time. 
 	\begin{equation}
 		\left|\nu_\alpha(t>0)\right> = U^*_{\alpha1} e^{-iE_{\alpha1}t}\left|\nu_1\right> + U^*_{\alpha2} e^{-iE_{\alpha2}t}\left|\nu_2\right> + U^*_{\alpha3}e^{-iE_{\alpha3}t} \left|\nu_3\right> \neq \left|\nu_\alpha\right> 
 	\end{equation}
-	
+	This means that the probability to find a state different from the initial one is non-zero for most times.
 	\begin{equation}
-		\left|\nu_\alpha(t)\right> = \sum_{k = 1,2,3} U_{\alpha k}\exp\left(-iE_k t\right)\left|\nu_k\right>
+		\begin{split}
+			\left|\nu_\alpha(t)\right> = \sum_{k = 1,2,3} U^*_{\alpha k}\exp\left(-iE_k t\right)\left|\nu_k\right>
+		\end{split}
 	\end{equation}
-	for every state $\left|\nu_\alpha\right>$ where the mass eigenstates have in turn been expressed as a mixture of flavour eigenstates.
-
-	The probability for a flavour $\left|\nu_i\right>$ to exist after a certain period of time is given by the multiplication with the 
+	for every state $\left|\nu_\alpha\right>$ . If the mass eigenstates in turn are expressed as a mixture of flavour eigenstates, one can extract the prefactor of the sums components as the transition probability for each single flavour:
+	\begin{equation}
+		P(\nu_\alpha \rightarrow\nu_\beta) = \left| \left<\nu_\beta\right|\left.\nu_\alpha(t)\right>\right|= \left|\sum_{k=1,2,3}U^*_{\alpha k} \exp{\left(-iE_kt\right)}U_{\beta k}\right|^2
+	\end{equation}
+	Various baseline experiments have found results for all mixing angles except $\Theta_{23}$ for which a lower limit is known according to \cite{reviewOfParticlePhysics}
+	\begin{table}
+	\centering
+		\begin{tabular}{|c|c|}
+		\hline
+			parameter & value\\
+			\hline
+			$\sin{2\Theta_{12}}^2$& \SI{0.875\pm 0.024}{}\\
+			$\Delta {m^2}_{21}$&\SI{7.5 \pm 0.20 e -5}{\square\electronvolt}\\
+			$\sin{2\Theta_{23}}^2$& >\SI{0.95}{}\\
+			$\Delta {m^2}_{32}$ & \SI{2.32(12)}{\square\electronvolt} \\
+			$\sin{2\Theta_{13}}^2$ & \SI{0.095\pm0.010}{}\\
+			\hline
+		\end{tabular}
+		\caption[Neutrino parameters]{Given are the latest known mixing angles and squared mass differences. For $\sin{2\Theta_{23}}^2$, the lower limit is given.}
+		Though mixing angles are known pretty well, there are still experiments being built that challenge the current error margins such as the LENA experiment which might be able to raise the precision of the mixing angle $\Theta_{12}$ by a factor of 10 and  may even find the still unknown mixing angle $Theta_{13}$ (\cite{LENA}).
+		\label{tab:neutrinoParameters}
+	\end{table}
 	
-    
-    
-    \subsection{Direct measurement of neutrino mass}
-    \label{ch:Introduction:sec:Massive neutrino:subsec:direct Neutrino Mass measurement}
-    Direct measurements of the neutrino mass require a reaction known to include neutrinos in its equation. There are both spectrometric and calorimetric approaches. While the scale of spectrometers is getting bigger and bigger, calorimetric approaches seem to be a reasonable alternative, although the slow detector response - the detector material itself is decaying - requires for large arrays of detectors leading to extensive space requirements as well at some point. The luminosity of spectrometer experiments though is unachieved by any other. That is why the KATRIN collaboration is working on a setup to measure electrons from Tritium decay to determine the neutrino mass. 
-     
-    \subsection{Indirect measurement of neutrino mass}
+	    \section{Indirect measurement of neutrino mass}
     \label{ch:Introduction:sec:Massive neutrino:subsec:indirect Neutrino Mass measurement}
-    Another approach is using indirect ways of finding the neutrino mass. One possibility here is to search for neutrinoless double beta decay, $0\nu\beta\beta$, which can exist only if the neutrino is its own anti-particle, a so called majorana neutrino. Then, if two nuclei beta decay, the neutrino from one vertex can be absorbed in the second as an anti-neutrino - or vice versa. The decay would then not emit any neutrino and the rate would be dependant on the effective Majorana neutrino mass square'' \cite{currentNeutrinoSearches}:
+   	One approach to get access to the neutrino mass is on indirect ways, i.e. using data that is affected by neutrinos but does not directly involve them. Two main techniques are to be indicated here.\\\\
+   	First, the search for neutrinoless double beta decay, $0\nu\beta\beta$. The double beta decay $2\nu\beta\beta$ in which two neutrinos are emitted only occurs if the single $\\beta$ decay is prohibited by a heavier $^A_{Z+1}X$ core and follows the equation
+   	\begin{equation}
+   		\ce{^A_ZX -> ^A_{Z+2}X + 2 e- + 2 \bar\nu_e}.
+   	\end{equation}
+	Compared to this $2\nu\beta\beta$ decay the $0\nu\beta\beta$ decay can exist only if the neutrino is its own anti-particle, a so called Majorana neutrino. Then, if a nucleus double beta decays, the neutrino from one vertex can be absorbed in the second as an anti-neutrino with inversed helicity - or vice versa. As this change in helicity is only possible for a massive particle, the $0\nu\beta\beta$ decay would be further proof of a massive neutrino. Furthermore, as the probability for a helicity change is correlated to particle mass the rate, and with it the half life $t_{1/2}$, would depend on the effective Majorana neutrino mass square \cite{currentNeutrinoSearches}.
     \begin{equation}
     	\Gamma_{0\nu\beta\beta} \propto \left| \sum{U_{ei}^2m\left(\nu_i\right)}\right|^2
     \end{equation}
+	In this decay, parity is violated to the maximum as shown by Wu in 1957 \cite{Wu}.  The decay would not emit any neutrino and the rate, 
 
     
-    \section{Cosmic muons and their interaction with matter from the viewpoint of KATRIN}
-    \label{ch:introduction:sec:Cosmic Air Showers}
-    When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which again are free protons, i.e. Hydrogen ions. Helium nucleons' fluxes are already about a order of magnitude below that, higher mass number nuclei show even lower rates\cite{highEnergyCosmicRays}. 
+    
+    Secondly, the problem can be approached by calculations using astrophysical data.\\
+    For one, the formation of galaxies and other structures in the universe depends on the neutrino mass. In the formation, neutrinos wash out the structures as they act as hot dark matter. A galaxy's power spectrum's fluctuation is supressed by massive neutrinos. Using long term spectroscopic galaxy surveys like SDSS\cite{SDSS} or studying the CMWB and with it the WMAP\cite{WMAP}, a upper limit of \SI{0.6}{\electronvolt} on $\sum_\nu m_\nu$ can be given. \\
+    As the indirect methods for neutrino mass measurements depend at least to some point on model assumptions, the direct methods in the next section play a key role in finding standalone values or limits for neutrino mass.
+
+    
+    \section{Direct measurement of neutrino mass}
+    \label{ch:Introduction:sec:Massive neutrino:subsec:direct Neutrino Mass measurement}
+    Direct measurements of the neutrino mass require a reaction known to include neutrinos in its equation, usually the previously mentione $\beta$ decay. Advantageous for direct measurements is the only asumption made is the applicability of the relativistic energy-momentum-relation $E^2 = m^2c^4 + p^2c^2$. This makes the results mostly model independent. There are both spectrometric and calorimetric approaches. While the scale of spectrometers is getting bigger and bigger, calorimetric approaches seem to be a reasonable alternative, although the slow detector response - the detector material itself is decaying - requires for large arrays of detectors leading to extensive space requirements as well at some point. The luminosity of spectrometer experiments though is unachieved by any other. That is why the KATRIN collaboration is working on a setup to measure electrons from Tritium decay to determine the neutrino mass. 
+    Tritium is advantageous for several reasons listed below.
+    \begin{itemize}
+    	\item A high luminosity is ensured by the short half life of $t_{1/2} = 12.3 a$. This makes lower amounts of the emitter necessary to ensure good statistical results.
+    	\item At the same time, the inverse of the cubic endpoint energy ($1/E_0^3$) defines the amount of electrons emitted in the endpoint region (up to \SI {1}{\electronvolt} below the endpoint). Tritium's low endpoint energy of \SI{18.6}{\kilo\electronvolt}, undercut only by one $\beta$ emitter, rhenium, that has other disadvantages, ensures high luminosity at the detector.
+    	\item According to \cite{superallowance}, as the tritium beta decay is superallowed , the matrix element $\left|M_{had}\right|$ is energy independent making corrective energy calculations unnecessary. This simplifies analysis procedures.
+    	\item Another simplification compared to different emitters is the easily calculable electron shell configuration. Excited states and their energies are accessible in theory for all decaying particles.
+    	\item As far as scattering is concerned, tritium is a well suited material as well. Its low atomic number makes for small cross sections for inelastic scattering. This reduces energy smearing inside the source volume.
+    \end{itemize}
+    These reasons make tritium the element of choice for KATRIN.\\\\
+    The above mentioned rhenium is used in the calorimetric approach. Multiple experiments like \todo{cite} use rhenium in bolometers as both emitter and absorber. The lower endpoint energy of \SI{2.47}{\kilo\electronvolt} guarantees a large fraction of electrons with energies near the endpoint, but this is largely compensated for by the much longer half life of $t_{1/2} = $\SI{4.32 e 10}{\year}. This means that large amounts of rhenium are required to obtain statistically relevant results. The strategy is to split the radioactive material into many small pieces as readout is slow and by that reduce the rate per bolometer. Thermistors then sample the temperature catching peaks induced by electrons from $\beta$ decays scattering inside the solid source.
+    The experiment set up by the Milano collaboration has set upper limits of
+    \begin{equation}
+    	m_{\bar\nu_e} < \SI{15}{\electronvolt} ~ {\rm at}~ \SI{90}{\percent\CL}.
+    \end{equation}
+    This limit shall be pushed to \SI{0.2}{\electronvolt} according to \cite{MARE2007}.  
+
+	\section{Cosmic rays from the viewpoint of KATRIN}
+    \label{ch:Introduction:sec:Cosmic Air Showers}
+    When high energy particles hit the upper parts of the atmosphere, a cascade of particles generated from the interaction with atmospheric molecules and atoms follows. Most primary particles are nucleons, most of which again are free protons (85\%), i.e. Hydrogen ions, followed by $\alpha$ particles (15\%). Helium nucleons' fluxes are already about an order of magnitude below the hydrogen ones, higher mass number nuclei show even lower rates, see figure \ref{fig:Introduction:sec:CosmicRays} \cite{highEnergyCosmicRays}.
     \begin{figure}
 	\begin{minipage}[d]{0.49 \textwidth}
 		  \includegraphics[width=\textwidth]{graphics/cosmicRays/cosmicRays.jpg}
@@ -185,13 +287,52 @@
 	\begin{minipage}[d]{0.49 \textwidth}
 		  \includegraphics[width=\textwidth]{graphics/cosmicRays/energySpectrum.jpg}
 	\end{minipage}
-	\caption[Cosmic ray composition]{On the left, an artistic impression of various cosmic rays hitting the atmosphere \cite{airShower}. On the right, the measured composition for cosmic nuclei is shown: on top, the lightest particle, the proton. further down, all with orders of magnitude smaller rates, heavier ions.}
+	\caption[Cosmic ray composition]{On the left, an artistic impression of various cosmic rays hitting the atmosphere \cite{airShower}. On the right, the measured composition for cosmic nuclei is shown: on top, the lightest particle, the proton. further down, all with orders of magnitude smaller rates, heavier ions, figure from \cite{highEnergyCosmicRays}.}
+	\label{fig:Introduction:sec:CosmicRays}
     \end{figure}
     \todo{insert right side graphic from TODOR}
-    By different interactions, secondary partcles are created. Any particle satisfying the inequation \begin{equation}
-      E_{sec,kin} + m_{sec} c^2 < E_{prim,kin} + m_{prim}
-    \end{equation}
-    can be created. Mostly pions at first, those cascade further. Often through intermediate photons, muons emerge. These travel towards the earths surface mostly close to the speed of light due to their small masses though high energies. Even at these high speeds, the muons' average decay time of around \SI{2.2}{\micro\second} \cite{muonLifetime} is too small for many muons to reach the earth's surface from our reference frame's point of view. In the most common production height of \SI{2}{\kilo\meter} \cite{muonProductionHeight}, the non relativistic time of flight for a \SI{90}{\percent} speed of light particle would be
+    By different forms of interaction, roughly dividable into the three groups of electromagnetic, inelastic hadronic and nuclear phenomena, secondary particles are created \cite{highEnergyCosmicRays}. 
+    \begin{itemize}
+    	\item {\bf Nuclear fragmentation}\\
+    	For very high energy primary particles above the separation energy $E_s$ according to 
+		\begin{equation}
+			E_s \simeq E_b(N,Z) - E_b(N_F, Z_F) - E_b(N - N_F, N - Z_F) - \frac{Z_F(Z -Z_F)}{(A-F)^{1/3}}
+		\end{equation}
+		it is possible to fragment a nucleous. The first three terms describe the binding energies of the nuclei involved, the last term accounts for the coulomb barrier. Of course, especially for higher order nuclei, more effects become relevant and one has to rely on empirical descriptions of the problem.
+		\item{\bf Inelastic hadronic interaction}\\
+		For high energies, quantum chromo dynamics describe the interactions of particles pretty well, while for energies below \SI{1}{\TeV} one has to rely on phaenomenological descriptions. These interactions are prominent in the production of secondary particles like pions or kaons.
+		
+		\item{\bf Electromagnetic interaction}\\
+		The electromagnetic component is the main interaction channel for lighter, charged particles like muons or electrons but also for photons. As the propagation of muons is especially important here, these interactions will be described in some more detail.
+	\end{itemize}
+	\subsection{Electromagnetic interaction}
+	
+	\begin{itemize}
+		\item {\bf Coulomb scattering}\\
+		If one charged particle passes another, it is deflected in its field according to
+		\begin{equation}
+			\tan{\frac{\theta}{2}} = \frac{zZe^2}{Mv^2b}
+		\end{equation}
+		\item{\bf Ionization losses}\\
+		Through ionization and excitation of molecules, incident particles loose energy in a medium, in this case the atmosphere, according to
+		\begin{equation}
+			\frac{dE}{dx} = -\frac{N_AZ}{A}\frac{2\pi\left(ze^2\right)^2}{M'nu^2}\left[\ln{\frac{2Mv^2\gamma^2}W{I^2}}-2\beta^2}
+		\end{equation}
+		$Z$ is the atomic number, $A$ the mass number, $I$ the average ionization potential. $N_a$ is Avogadro's number, 
+		\item{\bf Compton scattering \& inverse compton effect}\\
+
+		\item{\bf Electron-positron creation}\\
+		
+		\item{\bf Bremsstrahlung}\\
+		
+		\item{\bf Synchrotron radiation}\\
+		
+		\item{\bf Cherenkov radiation}\\
+		
+		
+    \end{itemize}
+
+    Mostly pions at first, those cascade further. Often through intermediate photons, muons emerge. These travel towards the earths surface mostly close to the speed of light due to their small masses though high energies. Even at these high speeds, the muons' average decay time of around \SI{2.2}{\micro\second} \cite{muonLifetime} is too small for many muons to reach the earth's surface from our reference frame's point of view. In the most common production height of \SI{2}{\kilo\meter} \cite{muonProductionHeight}, the non relativistic time of flight for a \SI{90}{\percent} speed of light particle would be
     \begin{equation}
 	t_{class} = \SI{2}{\kilo\meter} / 0.9\cdot c = 
     \end{equation}
@@ -203,3 +344,5 @@
     For KATRIN, this poses a problem. A smaller flux would be advantageous, as muons may, through different kinds of interaction, cause emission of electrons from the spectrometer vessels surface. Shielding against muons is difficult as it requires thick layers of dense matter due to the muons high energies and the low deposition in matter in relations to those. 
     
 
+    
+   

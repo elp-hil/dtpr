@@ -72,38 +72,56 @@
   \section{Finding the best filter settings}
   \label{ch:Analysis:sec:Finding the best filter settings}
   %% ===========================  
-  As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a pulser has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
+  As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a function generator has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
  
   \begin{figure}
-	\includegraphics[width = 0.9\textwidth]{graphics/dummy.eps}
+	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
+	\caption[Muon signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
+  \end{figure}
+	\begin{figure}
+	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
 	\caption[Pulser and signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
   \end{figure}
-
   
   Now, to evaluate filter goodness, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be monoenergetic, was analysed for each filter setting. This resulted in the following set of data:
   
   \begin{table}
-	\caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings}
+	\caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings. A function generator has been used to simulate a muon module pulse.}
 	\centering
 	standard filter
 	\begin{tabular}{c}
-	\SI{50}{\nano\second} gap, \SI{0}{\second} shaping time\\
-	
-  	\begin{tabular}{ccc}
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
+	\SI{0}{\nano\second} gap, \SI{0}{\second} shaping time\\
+	\end{tabular}
+  	\begin{tabular}{|c|c|c|c|c|}
+  		\hline
+  		Voltage[V] & Boxcar length [ns] & width & position & threshold\\
+  		\hline
+  		\multirow{4}{*}{1} & 50 & 33 & 2160 & 2100\\
+  		 & 100 & 37 & 2140 & 4200\\
+  		 & 150 & 13 & 2140 & 6300\\
+  		 & 200 & 10 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{2} & 40 & 25 & 2160 & 2100\\
+  		 & 100 & 78 & 2140 & 4200\\
+  		 & 150 & 78 & 2140 & 6300\\
+  		 & 200 & 77 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{3} & 59 & 25 & 2160 & 2100\\
+  		 & 100 & 113 & 2140 & 4200\\
+  		 & 150 & 110 & 2140 & 6300\\
+  		 & 200 & 112 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{4} & 80 & 25 & 2160 & 2100\\
+  		 & 100 & 145 & 2140 & 4200\\
+  		 & 150 & 147 & 2140 & 6300\\
+  		 & 200 & 149 & 2141 & 8400\\
+  		 \hline
+  		 \multirow{4}{*}{5} & 94 & 25 & 2160 & 2100\\
+  		 & 100 & 180 & 2140 & 4200\\
+  		 & 150 & 185 & 2140 & 6300\\
+  		 & 200 & 41 & 2141 & 8400\\
+  		 \hline	
   	\end{tabular}
-  	\end{tabular}\\
-  	boxcar filter
-  	\begin{tabular}{ccc}
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  		1& 2& 3\\
-  	\end{tabular}
-
   \end{table}
   On average, the boxcar filter at shaping lengths of \SI{150}{\nano\second} shows the most promising results, i.e. the sharpest peaks for any signal height. This concurs with the settings chosen for the active fpd veto; here slightly longer (around \SI{30}{\nano\second}) but comparable signals enter the DAQ, showing best results at the same filter settings\cite{KevinWierman}.
   That is why, for any measurements after \todo{run \& date}, the new filter settings were used, bringing up the need for new threshold and gain adaptions \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}. 
@@ -174,7 +192,7 @@ and with it the field strengths, drastically reduces.
   If one looks at the data from \cite{wetterCom} the fluctuations, only available on a daily basis, are comparable to the ones visible in the data of the stability measurements. To make graphs more comparable, the data has been analyzed again, now with daily binning. It has to be kept in mind that the weather data was obtained from a weather station in Rheinstetten, about \SI{20}{\kilo\meter} from KIT campus north, and represents only the lowest atmospheric layer while muons are generated mostly in the upper layers of the atmosphere.
   \begin{figure}
 	\includegraphics[width = 0.9 \textwidth]{graphics/setup/stability.eps}
-  	\caption[Muon module stability]{Rate per hour over the course of about two weeks (21-12-2012 to 03-01-2013). }
+  	\caption[Muon module stability]{Rate per five minutes over the course of about two weeks (21-12-2012 to 03-01-2013). }
   \end{figure}
 
   \begin{figure}
@@ -307,7 +325,7 @@ signals via Cat 5 cable.
 	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 % 	\includegraphics[width = 0.9 \textwidth]{graphics/sync/nonSynced.eps}
   	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
-  	\label{fig:analysis:outOfSync}
+  	\label{fig:analysis:inSync}
   \end{figure}
 
   In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in Orca resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behaviour:
@@ -510,7 +528,7 @@ signals via Cat 5 cable.
   \begin{figure}
   \centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/mainSpec/mainSpecRings.eps}
-  	\caption[Time difference Histogram for all rings]{Time differences of muon events followed by a detector event. From left to right and top down for every single detector ring, 0 being the innermost and 12 being the outermost ring.}
+  	\caption[Time difference Histogram for all rings]{Time differences of muon events followed by a detector event. From left to right and top down for every single detector ring, 0 being the innermost and 12 being the outermost ring. No clear indication of a time of flight for electrons induced by muons visible.}
   	\label{fig:mainSpec:allRings}
   \end{figure}
 
@@ -523,15 +541,36 @@ signals via Cat 5 cable.
   \begin{equation}
   	\theta < \arcsin{\frac{B_{min}}{B_{max}}} = \arcsin{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}} = \SI{0.004}{\degree}
   \end{equation}
-  will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
-  As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
+	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
+	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
+	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analysed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The relevant energies were \SI{25.6}{\kilo\electronvolt} to \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \todo{add PAE voltage}.
+	To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
+	Following that presumption, for measurements \todo{Name measurements}, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
+    
+
+
+    
+  \todo{flux tube including modules for horizontal and vertical view}
+  \begin{figure}
+	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+	\caption[Flux tube P12.M8]{Flux tube as proposed in \cite{proposalM12}}
+  	\label{fig:newFluxTube}
+  \end{figure}
+  \todo{If data will be taken add to analysis.}
   
-  At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analysed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The relevant energies were \SI{25.6}{\kilo\electronvolt} to \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \todo{add PAE voltage}.
-  To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
+  \begin{figure}
+	\caption[Flux tube M12.8]{Flux tube in field configuration M12.8}
+  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+  \end{figure}
+  
+  \begin{figure}
+  	\caption[Inner electrode field emission]{Rate trend over inner electrode voltages}
+  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+  \end{figure}
 
   
-    Following that presumption, for measurements \todo{Name measurements}, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
-    
+All measurements that have been taken with the main spectrometer for muon induced backgroud analysis are listed in \ref{tab:mainSPecSettings}.
+
 \begin{table}
 	\centering
 	\begin{tabular}{|c|cc|cc|}
@@ -559,27 +598,5 @@ signals via Cat 5 cable.
 	\caption[Main spectrometer runs]{Main spectrometer Runs taken split into groups of same magnetic field settings. For individual settings, see appendix. All group member have different inner electrode voltages, refer to appendix for those as well.}
 	\label{tab:mainSPecSettings}
 \end{table}
-
-    
-  \todo{flux tube including modules for horizontal and vertical view}
-  \begin{figure}
-	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-	\caption[Flux tube P12.M8]{Flux tube as proposed in \cite{proposalM12}}
-  	\label{fig:newFluxTube}
-  \end{figure}
-  \todo{If data will be taken add to analysis.}
-  
-  \begin{figure}
-	\caption[Flux tube M12.8]{Flux tube in field configuration M12.8}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-  \end{figure}
-  
-  \begin{figure}
-  	\caption[Inner electrode field emission]{Rate trend over inner electrode voltages}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-  \end{figure}
-
-  
-
   
   

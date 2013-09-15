@@ -22,6 +22,21 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem[A{\etalchar{+}}12]{dayaBay}
+F.~An \emph{et~al.}, ``Observation of electron-antineutrino disappearance at
+  daya bay,'' \emph{Phys. Rev. Lett. 108}, vol. 108, 2012.
+
+\bibitem[AA{\etalchar{+}}07]{MARE2007}
+\BIBentryALTinterwordspacing
+E.~Andreotti, C.~Arnaboldi \emph{et~al.}, ``Mare, microcalorimeter arrays for a
+  rhenium experiment: A detector overview,'' \emph{Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment}, vol. 572, no.~1, pp. 208 -- 210, 2007, frontier
+  Detectors for Frontier Physics - Proceedings of the 10th Pisa Meeting on
+  Advanced Detectors. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S016890020602064X}
+\BIBentrySTDinterwordspacing
+
 \bibitem[Abe13]{PhysRevLett.110.181802}
 \BIBentryALTinterwordspacing
 K.~e.~a. Abe, ``Evidence for the appearance of atmospheric tau neutrinos in
@@ -39,6 +54,18 @@ H.~Arlinghaus, ``Investigation of the muon-induced secondary electron
 \bibitem[Asd13]{proposalM12}
 M.~Asda, ``Katrin sds measurements - proposal m12,''
   \url{http://www.katrin.kit.edu}, 2013.
+
+\bibitem[B{\etalchar{+}}12]{reviewOfParticlePhysics}
+J.~Beringer \emph{et~al.}, ``2012 review of particle physics,'' \emph{Phys.
+  Rev. D86}, vol. 010001, 2012.
+
+\bibitem[Bab13]{rearSection}
+M.~Babutzka, ``24th katrin collaboration meeting - status of the rearsection,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d847077/95-TRP-5401-S1-MBabutzka.pptx},
+  2013, [Online; accessed 01-09-2013].
+
+\bibitem[Bet06]{bethgeKernphysik}
+Bethge, \emph{Kernphysik}, 2006.
 
 \bibitem[Bor13]{DPS}
 L.~Bornschein, ``24th katrin collaboration meeting - status of dps,''
@@ -80,6 +107,11 @@ G.~{Drexlin}, V.~{Hannen}, S.~{Mertens}, and C.~{Weinheimer}, ``{Current Direct
   Available: \url{http://arxiv.org/abs/1307.0101}
 \BIBentrySTDinterwordspacing
 
+\bibitem[Dre12]{WGTSDrexlin}
+G.~Drexlin, ``Wgts,''
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d736434/95-TRP-5205-S2-GDrexlin.pptx},
+  2012.
+
 \bibitem[Fer]{fermi}
 E.~Fermi, ``Versuch einer theorie der $\beta$ strahlen,'' [Online, accessed
   06-09-2013].
@@ -114,7 +146,17 @@ KATRIN, ``Mac e filter,''
   \url{http://www.katrin.kit.edu/img/mace_electrodes_rdax_1200x1200.gif}, 2006.
 
 \bibitem[Kle12]{wetterCom}
-M.~Klemann, ``pressure and temperature data from wetter.com,'' 2012.
+M.~Klemann, ``pressure and temperature data from wetter.com,''
+  \url{http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}, 2012.
+
+\bibitem[KSD{\etalchar{+}}11]{WMAP}
+E.~{Komatsu}, K.~M. {Smith}, J.~{Dunkley}, C.~L. {Bennett}, B.~{Gold},
+  G.~{Hinshaw}, N.~{Jarosik}, D.~{Larson}, M.~R. {Nolta}, L.~{Page}, D.~N.
+  {Spergel}, M.~{Halpern}, R.~S. {Hill}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer},
+  N.~{Odegard}, G.~S. {Tucker}, J.~L. {Weiland}, E.~{Wollack}, and E.~L.
+  {Wright}, ``{Seven-year Wilkinson Microwave Anisotropy Probe (WMAP)
+  Observations: Cosmological Interpretation},'' \emph{apjs}, vol. 192, p.~18,
+  Feb. 2011.
 
 \bibitem[KUA{\etalchar{+}}01]{tauNeutrino}
 \BIBentryALTinterwordspacing
@@ -122,6 +164,17 @@ K.~Kodama, N.~Ushida, C.~Andreopoulos \emph{et~al.}, ``Observation of tau
   neutrino interactions,'' \emph{Physics Letters B}, vol. 504, no.~3, pp. 218
   -- 224, 2001. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0370269301003070}
+\BIBentrySTDinterwordspacing
+
+\bibitem[MDF{\etalchar{+}}13]{storedElectrons}
+\BIBentryALTinterwordspacing
+S.~Mertens, G.~Drexlin, F.~Fränkle, D.~Furse, F.~Glück, S.~Görhardt,
+  M.~Hötzel, W.~Käfer, B.~Leiber, T.~Thümmler, N.~Wandkowsky, and J.~Wolf,
+  ``Background due to stored electrons following nuclear decays in the
+  \{KATRIN\} spectrometers and its impact on the neutrino mass sensitivity,''
+  \emph{Astroparticle Physics}, vol.~41, no.~0, pp. 52 -- 62, 2013. [Online].
+  Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0927650512001892}
 \BIBentrySTDinterwordspacing
 
 \bibitem[MSTV03]{SNOOscillations}
@@ -136,6 +189,14 @@ M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle, ``Status of
 F.~Priester, ``24th katrin collaboration meeting - tritium test experiments,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774076/95-TRP-5403-S1-FPriester.pptx},
   2013, [Online; accessed 01-09-2013].
+
+\bibitem[R{\etalchar{+}}10]{SDSS}
+B.~A. Reid \emph{et~al.}, ``{Cosmological Constraints from the Clustering of
+  the Sloan Digital Sky Survey DR7 Luminous Red Galaxies},''
+  \emph{Mon.Not.Roy.Astron.Soc.}, vol. 404, pp. 60--85, 2010.
+
+\bibitem[RGHR88]{superallowance}
+D.~A.~K. R.~G. H.~Robertson, \emph{Annual Review of Nucear Science}, 1988.
 
 \bibitem[Rod13]{particlesSM}
 W.~Rodejohann, ``standard model elementary particles,''
@@ -153,13 +214,31 @@ J.~Schwarz, ``24th katrin collaboration meeting - the focal-plane detector
   2013, [Online; accessed 01-09-2013].
 
 \bibitem[Sta04]{highEnergyCosmicRays}
-T.~Stanev, \emph{High Energy Cosmic Rays}, 2004.
+\BIBentryALTinterwordspacing
+T.~Stanev, \emph{High energy cosmic rays : with 19 tab.}, 2nd~ed., ser.
+  Springer-Praxis books in astrophysics and astronomy.\hskip 1em plus 0.5em
+  minus 0.4em\relax Berlin: Springer, 2004, 2010 nochmals eine 2. ed.
+  erschienen. [Online]. Available:
+  \url{http://swbplus.bsz-bw.de/bsz111348072cov.htm}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Th{\"u}13]{mainSpecStatus}
 T.~Th{\"u}mmler, ``24th katrin collaboration meeting - sds status \&
   spectrometer bake-out,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774576/95-TRP-5409-S3-TThuemmler.pdf},
   2013, [Online; accessed 01-09-2013].
+
+\bibitem[W{\etalchar{+}}12]{LENA}
+M.~Wurm \emph{et~al.}, ``{The next-generation liquid-scintillator neutrino
+  observatory LENA},'' \emph{Astropart.Phys.}, vol.~35, pp. 685--732, 2012.
+
+\bibitem[WAH{\etalchar{+}}57]{Wu}
+\BIBentryALTinterwordspacing
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson,
+  ``Experimental test of parity conservation in beta decay,'' \emph{Phys.
+  Rev.}, vol. 105, pp. 1413--1415, Feb 1957. [Online]. Available:
+  \url{http://link.aps.org/doi/10.1103/PhysRev.105.1413}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Wie13]{KevinWierman}
 K.~Wierman, personal conversation, 2013.
