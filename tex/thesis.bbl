@@ -93,10 +93,9 @@ P.~{Doll}, W.~D. {Apel}, J.~C. {Arteaga}, and {et al.}, ``{Muon Production
 
 \bibitem[DGG{\etalchar{+}}62]{muNeutrino}
 \BIBentryALTinterwordspacing
-G.~Danby, J.-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
-  and J.~Steinberger, ``Observation of high-energy neutrino reactions and the
-  existence of two kinds of neutrinos,'' \emph{Phys. Rev. Lett.}, vol.~9, pp.
-  36--44, Jul 1962. [Online]. Available:
+G.~Danby, J.-M. Gaillard, K.~Goulianos \emph{et~al.}, ``Observation of
+  high-energy neutrino reactions and the existence of two kinds of neutrinos,''
+  \emph{Phys. Rev. Lett.}, vol.~9, pp. 36--44, Jul 1962. [Online]. Available:
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.9.36}
 \BIBentrySTDinterwordspacing
 
@@ -112,9 +111,9 @@ G.~Drexlin, ``Wgts,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d736434/95-TRP-5205-S2-GDrexlin.pptx},
   2012.
 
-\bibitem[Fer]{fermi}
-E.~Fermi, ``Versuch einer theorie der $\beta$ strahlen,'' [Online, accessed
-  06-09-2013].
+\bibitem[Fer34]{fermi}
+E.~Fermi, ``Versuch einer theorie der $\beta$ strahlen,'' 1934, [Online,
+  accessed 06-09-2013].
 
 \bibitem[G{\etalchar{+}}09]{airCoilSystem}
 F.~Gl\"uck \emph{et~al.}, ``Air coil system \& magnetic field sensor system,''
@@ -127,6 +126,14 @@ S.~G\"orhardt, ``Reduktion der durch radon induzierten untergrundprozesse in
   \url{http://www.katrin.kit.edu/publikationen/dth-goerhardt.pdf}, 2010,
   [Online; accessed 27-08-2013].
 
+\bibitem[GBH{\etalchar{+}}13]{temperatureWGTS}
+\BIBentryALTinterwordspacing
+S.~Grohmann, T.~Bode, M.~Hötzel, H.~Schön, M.~Süßer, and T.~Wahl, ``The
+  thermal behaviour of the tritium source in \{KATRIN\},'' \emph{Cryogenics},
+  vol. 55–56, no.~0, pp. 5 -- 11, 2013. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0011227513000076}
+\BIBentrySTDinterwordspacing
+
 \bibitem[Gil13]{CPS}
 W.~Gil, ``24th katrin collaboration meeting - status of cryogenic pumping
   section,''
@@ -136,6 +143,17 @@ W.~Gil, ``24th katrin collaboration meeting - status of cryogenic pumping
 \bibitem[{Gor}13]{muonLifetime}
 T.~P. {Gorringe}, ``{MuLan Measurement of the Positive Muon Lifetime and
   Determination of the Fermi Constant},'' \emph{ArXiv e-prints}, Jan. 2013.
+
+\bibitem[Gru05]{Grupen}
+\BIBentryALTinterwordspacing
+C.~Grupen, \emph{Astroparticle Physics}, 1st~ed.\hskip 1em plus 0.5em minus
+  0.4em\relax Berlin [u.a.]: Springer, 2005. [Online]. Available:
+  \url{http://swbplus.bsz-bw.de/bsz120196603cov.htm}
+\BIBentrySTDinterwordspacing
+
+\bibitem[{Hay}69]{Hayakawa}
+S.~{Hayakawa}, \emph{{Cosmic ray physics. Nuclear and astrophysical aspects}},
+  1969.
 
 \bibitem[{{How}}09]{How09}
 {{Howe},~M.~A. }{\em{et al.}}, \emph{TUNL Progress Report}, vol. XLVIII, p.
@@ -149,14 +167,10 @@ KATRIN, ``Mac e filter,''
 M.~Klemann, ``pressure and temperature data from wetter.com,''
   \url{http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309}, 2012.
 
-\bibitem[KSD{\etalchar{+}}11]{WMAP}
-E.~{Komatsu}, K.~M. {Smith}, J.~{Dunkley}, C.~L. {Bennett}, B.~{Gold},
-  G.~{Hinshaw}, N.~{Jarosik}, D.~{Larson}, M.~R. {Nolta}, L.~{Page}, D.~N.
-  {Spergel}, M.~{Halpern}, R.~S. {Hill}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer},
-  N.~{Odegard}, G.~S. {Tucker}, J.~L. {Weiland}, E.~{Wollack}, and E.~L.
-  {Wright}, ``{Seven-year Wilkinson Microwave Anisotropy Probe (WMAP)
-  Observations: Cosmological Interpretation},'' \emph{apjs}, vol. 192, p.~18,
-  Feb. 2011.
+\bibitem[KS{\etalchar{+}}11]{WMAP}
+E.~{Komatsu}, {Smith} \emph{et~al.}, ``{Seven-year Wilkinson Microwave
+  Anisotropy Probe (WMAP) Observations: Cosmological Interpretation},''
+  \emph{apjs}, vol. 192, p.~18, Feb. 2011.
 
 \bibitem[KUA{\etalchar{+}}01]{tauNeutrino}
 \BIBentryALTinterwordspacing
@@ -168,12 +182,10 @@ K.~Kodama, N.~Ushida, C.~Andreopoulos \emph{et~al.}, ``Observation of tau
 
 \bibitem[MDF{\etalchar{+}}13]{storedElectrons}
 \BIBentryALTinterwordspacing
-S.~Mertens, G.~Drexlin, F.~Fränkle, D.~Furse, F.~Glück, S.~Görhardt,
-  M.~Hötzel, W.~Käfer, B.~Leiber, T.~Thümmler, N.~Wandkowsky, and J.~Wolf,
-  ``Background due to stored electrons following nuclear decays in the
-  \{KATRIN\} spectrometers and its impact on the neutrino mass sensitivity,''
-  \emph{Astroparticle Physics}, vol.~41, no.~0, pp. 52 -- 62, 2013. [Online].
-  Available:
+S.~Mertens, G.~Drexlin, F.~Fränkle \emph{et~al.}, ``Background due to stored
+  electrons following nuclear decays in the \{KATRIN\} spectrometers and its
+  impact on the neutrino mass sensitivity,'' \emph{Astroparticle Physics},
+  vol.~41, no.~0, pp. 52 -- 62, 2013. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0927650512001892}
 \BIBentrySTDinterwordspacing
 
@@ -184,6 +196,11 @@ M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle, ``Status of
   vol.~68, p. 113010, Dec 2003. [Online]. Available:
   \url{http://link.aps.org/doi/10.1103/PhysRevD.68.113010}
 \BIBentrySTDinterwordspacing
+
+\bibitem[OBD{\etalchar{+}}02]{letterOfIntent}
+A.~Osipowicza, H.~Blueumer, G.~Drexlin, K.~Eitel \emph{et~al.}, ``Katrin: A
+  next generation tritium beta decay experimentwith sub-ev sensitivity for the
+  electron neutrino mass,'' 2002, [Online, accessed 16-09-2013].
 
 \bibitem[Pri13]{tritiumTests}
 F.~Priester, ``24th katrin collaboration meeting - tritium test experiments,''
@@ -212,6 +229,16 @@ J.~Schwarz, ``24th katrin collaboration meeting - the focal-plane detector
   system,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774296/95-TRP-5414-S4-JSchwarz.pdf},
   2013, [Online; accessed 01-09-2013].
+
+\bibitem[SRS{\etalchar{+}}13]{calibrationRaman}
+\BIBentryALTinterwordspacing
+M.~Schlösser, S.~Rupp, H.~Seitz, S.~Fischer \emph{et~al.}, ``Accurate
+  calibration of the laser raman system for the karlsruhe tritium neutrino
+  experiment,'' \emph{Journal of Molecular Structure}, vol. 1044, no.~0, pp. 61
+  -- 66, 2013, <ce:title>EUCMOS XXXI</ce:title> <ce:subtitle>EUCMOS
+  XXXI</ce:subtitle>. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0022286012010629}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Sta04]{highEnergyCosmicRays}
 \BIBentryALTinterwordspacing
@@ -242,6 +269,16 @@ C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson,
 
 \bibitem[Wie13]{KevinWierman}
 K.~Wierman, personal conversation, 2013.
+
+\bibitem[Wol10]{KATRINWolf}
+\BIBentryALTinterwordspacing
+J.~Wolf, ``The \{KATRIN\} neutrino mass experiment,'' \emph{Nuclear Instruments
+  and Methods in Physics Research Section A: Accelerators, Spectrometers,
+  Detectors and Associated Equipment}, vol. 623, no.~1, pp. 442 -- 444, 2010,
+  <ce:title>1st International Conference on Technology and Instrumentation in
+  Particle Physics</ce:title>. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900210005942}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Zac11]{collabWireElectrodes}
 M.~Zacher, ``20th katrin collaboration meeting - wire electrode system

@@ -20,7 +20,7 @@ Database file #1: thesis.bib
 Warning--entry type for "DTArlinghaus" isn't style-file defined
 --line 111 of file thesis.bib
 Warning--entry type for "radonGoerhard" isn't style-file defined
---line 355 of file thesis.bib
+--line 337 of file thesis.bib
 -- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -30,50 +30,51 @@ Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--missing publisher in bethgeKernphysik
 Warning--empty journal in fermi
-Warning--empty year in fermi
+Warning--missing publisher in Hayakawa
 Warning--empty title in How09
+Warning--empty journal in letterOfIntent
 Warning--empty title in superallowance
 
 Done.
-You've used 39 entries,
+You've used 45 entries,
             5047 wiz_defined-function locations,
-            1239 strings with 16309 characters,
-and the built_in function-call counts, 30607 in all, are:
-= -- 3083
-> -- 863
-< -- 126
-+ -- 365
-- -- 250
-* -- 1554
-:= -- 4893
-add.period$ -- 73
-call.type$ -- 39
-change.case$ -- 264
-chr.to.int$ -- 248
-cite$ -- 44
-duplicate$ -- 1953
-empty$ -- 2067
+            1284 strings with 17256 characters,
+and the built_in function-call counts, 34751 in all, are:
+= -- 3543
+> -- 858
+< -- 163
++ -- 355
+- -- 241
+* -- 1747
+:= -- 5630
+add.period$ -- 84
+call.type$ -- 45
+change.case$ -- 275
+chr.to.int$ -- 329
+cite$ -- 51
+duplicate$ -- 2241
+empty$ -- 2381
 format.name$ -- 315
-if$ -- 6634
+if$ -- 7556
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 348
-newline$ -- 161
-num.names$ -- 117
-pop$ -- 1011
+missing$ -- 374
+newline$ -- 187
+num.names$ -- 135
+pop$ -- 1021
 preamble$ -- 1
-purify$ -- 291
+purify$ -- 306
 quote$ -- 2
-skip$ -- 2245
+skip$ -- 2608
 stack$ -- 0
-substring$ -- 851
-swap$ -- 1259
-text.length$ -- 56
-text.prefix$ -- 23
+substring$ -- 1065
+swap$ -- 1451
+text.length$ -- 68
+text.prefix$ -- 26
 top$ -- 6
-type$ -- 802
-warning$ -- 5
-while$ -- 127
-width$ -- 43
-write$ -- 486
-(There were 7 warnings)
+type$ -- 910
+warning$ -- 6
+while$ -- 152
+width$ -- 49
+write$ -- 568
+(There were 8 warnings)

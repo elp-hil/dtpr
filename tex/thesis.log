@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  15 SEP 2013 14:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  17 SEP 2013 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,7 +1429,7 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 \c_siunitx_mathtt_int=\count330
 \openout2 = `titlepage.aux'.
 
- (./titlepage.tex <logos/KITLogo_RGB.pdf, id=268, 196.46399pt x 90.77916pt>
+ (./titlepage.tex <logos/KITLogo_RGB.pdf, id=264, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1587,7 +1587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
-[3] <graphics/neutrinos/neutrinoSpectrum.png, id=532, 240.9pt x 228.3732pt>
+[3] <graphics/neutrinos/neutrinoSpectrum.png, id=529, 240.9pt x 228.3732pt>
 File: graphics/neutrinos/neutrinoSpectrum.png Graphic file (type png)
 
 <use graphics/neutrinos/neutrinoSpectrum.png>
@@ -1802,7 +1802,7 @@ utrinos-eps-converted-to.pdf graphics/neutrinos/solarNeutrinos.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf, id=547, 617.30624pt x 
+<graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf, id=544, 617.30624pt x 
 406.51875pt>
 File: graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1831,7 +1831,7 @@ LaTeX Info: Redefining \tbond on input line 91.
 LaTeX Warning: Reference `ch:Introduction:sec:Massive neutrino:subsec:neutrino 
 Oscillations' on page 6 undefined on input line 94.
 
-<graphics/standardModel/particles.png, id=563, 301.125pt x 326.21875pt>
+<graphics/standardModel/particles.png, id=560, 301.125pt x 326.21875pt>
 File: graphics/standardModel/particles.png Graphic file (type png)
 
 <use graphics/standardModel/particles.png>
@@ -1854,7 +1854,7 @@ LaTeX Info: Redefining \bond on input line 117.
 LaTeX Info: Redefining \dbond on input line 117.
 LaTeX Info: Redefining \tbond on input line 117.
  [6]
-<graphics/standardModel/massHierarchy.jpg, id=577, 875.27pt x 499.8675pt>
+<graphics/standardModel/massHierarchy.jpg, id=574, 875.27pt x 499.8675pt>
 File: graphics/standardModel/massHierarchy.jpg Graphic file (type jpg)
 
 <use graphics/standardModel/massHierarchy.jpg>
@@ -1862,7 +1862,7 @@ Package pdftex.def Info: graphics/standardModel/massHierarchy.jpg used on input
  line 129.
 (pdftex.def)             Requested size: 299.20076pt x 170.87561pt.
 
-<graphics/standardModel/massSchemes.png, id=578, 578.16pt x 578.16pt>
+<graphics/standardModel/massSchemes.png, id=575, 578.16pt x 578.16pt>
 File: graphics/standardModel/massSchemes.png Graphic file (type png)
 
 <use graphics/standardModel/massSchemes.png>
@@ -1902,7 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
 
-<graphics/cosmicRays/cosmicRays.jpg, id=626, 1317.92375pt x 966.61125pt>
+<graphics/cosmicRays/cosmicRays.jpg, id=623, 1317.92375pt x 966.61125pt>
 File: graphics/cosmicRays/cosmicRays.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/cosmicRays.jpg>
@@ -1910,53 +1910,41 @@ Package pdftex.def Info: graphics/cosmicRays/cosmicRays.jpg used on input line
 285.
 (pdftex.def)             Requested size: 209.44379pt x 153.61375pt.
 
-<graphics/cosmicRays/energySpectrum.jpg, id=627, 586.19pt x 570.13pt>
+<graphics/cosmicRays/energySpectrum.jpg, id=624, 586.19pt x 570.13pt>
 File: graphics/cosmicRays/energySpectrum.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/energySpectrum.jpg>
 Package pdftex.def Info: graphics/cosmicRays/energySpectrum.jpg used on input l
 ine 288.
 (pdftex.def)             Requested size: 209.44379pt x 203.69814pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+ [11] [12 <./graphics/cosmicRays/cosmicRays.jpg> <./graphics/cosmicRays/energyS
+pectrum.jpg>]
+Package epstopdf Info: Source file: <graphics/cosmicRays/TMathLandauRoot.eps>
+(epstopdf)                    date: 2013-09-16 12:57:15
+(epstopdf)                    size: 7545 bytes
+(epstopdf)             Output file: <graphics/cosmicRays/TMathLandauRoot-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-09-16 12:58:00
+(epstopdf)                    size: 5475 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/cosmicRays/TMathL
+andauRoot-eps-converted-to.pdf graphics/cosmicRays/TMathLandauRoot.eps>
+(epstopdf)             \includegraphics on input line 359.
+Package epstopdf Info: Output file is already uptodate.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-[12 <./graphics/cosmicRays/cosmicRays.jpg> <./graphics/cosmicRays/energySpectru
-m.jpg>]) [13]
+<graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf, id=656, 569.12625pt 
+x 387.4475pt>
+File: graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/cosmicRays/TMathLandauRoot-eps-converted-to.p
+df used on input line 359.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+)
+[13] [14 <./graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf>]
 \openout2 = `theKATRINexperiment/theKATRINexperiment.aux'.
 
- (./theKATRINexperiment/theKATRINexperiment.tex [14
 
-
-
-
-]
+(./theKATRINexperiment/theKATRINexperiment.tex
 Chapter 2.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
@@ -1974,99 +1962,116 @@ LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
 
-<graphics/katrinExperiment/electronSpectrum.jpg, id=665, 289.08pt x 163.3302pt>
+<graphics/katrinExperiment/electronSpectrum.jpg, id=680, 289.08pt x 163.3302pt>
 File: graphics/katrinExperiment/electronSpectrum.jpg Graphic file (type jpg)
 <use graphics/katrinExperiment/electronSpectrum.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/electronSpectrum.jpg used on
- input line 17.
+ input line 19.
 (pdftex.def)             Requested size: 384.68576pt x 217.3585pt.
+ [15
 
-<graphics/katrinExperiment/beamLineHD.jpg, id=667, 3083.52pt x 1678.01906pt>
-File: graphics/katrinExperiment/beamLineHD.jpg Graphic file (type jpg)
 
-<use graphics/katrinExperiment/beamLineHD.jpg>
-Package pdftex.def Info: graphics/katrinExperiment/beamLineHD.jpg used on input
- line 29.
-(pdftex.def)             Requested size: 427.43153pt x 232.59106pt.
- [15] [16 <./graphics/katrinExperiment/electronSpectrum.jpg> <./graphics/katrin
-Experiment/beamLineHD.jpg>]
-<graphics/katrinExperiment/rearSection.png, id=677, 1927.2pt x 1204.5pt>
-File: graphics/katrinExperiment/rearSection.png Graphic file (type png)
 
-<use graphics/katrinExperiment/rearSection.png>
-Package pdftex.def Info: graphics/katrinExperiment/rearSection.png used on inpu
-t line 43.
-(pdftex.def)             Requested size: 299.20076pt x 186.98964pt.
 
-<graphics/katrinExperiment/WGTS.jpg, id=678, 853.443pt x 272.9835pt>
-File: graphics/katrinExperiment/WGTS.jpg Graphic file (type jpg)
-
-<use graphics/katrinExperiment/WGTS.jpg>
-Package pdftex.def Info: graphics/katrinExperiment/WGTS.jpg used on input line 
-46.
-(pdftex.def)             Requested size: 299.20076pt x 95.69977pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--48
-[]$[]$
- []
-
-<graphics/katrinExperiment/DPS.jpg, id=684, 796.8972pt x 445.665pt>
-File: graphics/katrinExperiment/DPS.jpg Graphic file (type jpg)
-
-<use graphics/katrinExperiment/DPS.jpg>
-Package pdftex.def Info: graphics/katrinExperiment/DPS.jpg used on input line 5
-8.
-(pdftex.def)             Requested size: 209.44379pt x 117.12822pt.
-
-<graphics/katrinExperiment/CPS.jpg, id=685, 536.0025pt x 429.85594pt>
-File: graphics/katrinExperiment/CPS.jpg Graphic file (type jpg)
-
-<use graphics/katrinExperiment/CPS.jpg>
-Package pdftex.def Info: graphics/katrinExperiment/CPS.jpg used on input line 6
-1.
-(pdftex.def)             Requested size: 209.44379pt x 167.96452pt.
-
-<graphics/katrinExperiment/mainSpectrometer.jpg, id=691, 698.61pt x 533.995pt>
-File: graphics/katrinExperiment/mainSpectrometer.jpg Graphic file (type jpg)
-
-<use graphics/katrinExperiment/mainSpectrometer.jpg>
-Package pdftex.def Info: graphics/katrinExperiment/mainSpectrometer.jpg used on
- input line 76.
-(pdftex.def)             Requested size: 286.37834pt x 218.89862pt.
-
-<graphics/katrinExperiment/wireElectrodes.png, id=692, 1204.5pt x 806.01125pt>
-File: graphics/katrinExperiment/wireElectrodes.png Graphic file (type png)
-
-<use graphics/katrinExperiment/wireElectrodes.png>
-Package pdftex.def Info: graphics/katrinExperiment/wireElectrodes.png used on i
-nput line 79.
-(pdftex.def)             Requested size: 1204.49707pt x 806.00928pt.
- [17 <./graphics/katrinExperiment/rearSection.png> <./graphics/katrinExperiment
-/WGTS.jpg>] [18 <./graphics/katrinExperiment/DPS.jpg> <./graphics/katrinExperim
-ent/CPS.jpg>]
-<graphics/katrinExperiment/macEFilter.jpg, id=711, 1204.5pt x 1204.5pt>
+] [16 <./graphics/katrinExperiment/electronSpectrum.jpg>]
+<graphics/katrinExperiment/macEFilter.jpg, id=695, 1204.5pt x 1204.5pt>
 File: graphics/katrinExperiment/macEFilter.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/macEFilter.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/macEFilter.jpg used on input
- line 115.
+ line 49.
 (pdftex.def)             Requested size: 256.46152pt x 256.46289pt.
- [19 <./graphics/katrinExperiment/mainSpectrometer.jpg> <./graphics/katrinExper
+
+<graphics/katrinExperiment/beamLineHD.jpg, id=699, 3083.52pt x 1678.01906pt>
+File: graphics/katrinExperiment/beamLineHD.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/beamLineHD.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/beamLineHD.jpg used on input
+ line 63.
+(pdftex.def)             Requested size: 427.43153pt x 232.59106pt.
+ [17 <./graphics/katrinExperiment/macEFilter.jpg>]
+<graphics/katrinExperiment/rearSectionFull1.png, id=711, 1324.95pt x 993.7125pt
+>
+File: graphics/katrinExperiment/rearSectionFull1.png Graphic file (type png)
+ <use graphics/katrinExperiment/rearSectionFull1.png>
+Package pdftex.def Info: graphics/katrinExperiment/rearSectionFull1.png used on
+ input line 83.
+(pdftex.def)             Requested size: 256.46152pt x 192.34027pt.
+
+<graphics/katrinExperiment/WGTS.jpg, id=712, 853.443pt x 272.9835pt>
+File: graphics/katrinExperiment/WGTS.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/WGTS.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/WGTS.jpg used on input line 
+86.
+(pdftex.def)             Requested size: 427.43153pt x 136.71634pt.
+
+<graphics/katrinExperiment/DPS.jpg, id=718, 796.8972pt x 445.665pt>
+File: graphics/katrinExperiment/DPS.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/DPS.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/DPS.jpg used on input line 9
+8.
+(pdftex.def)             Requested size: 209.44379pt x 117.12822pt.
+
+<graphics/katrinExperiment/CPS.jpg, id=719, 536.0025pt x 429.85594pt>
+File: graphics/katrinExperiment/CPS.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/CPS.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/CPS.jpg used on input line 1
+01.
+(pdftex.def)             Requested size: 209.44379pt x 167.96452pt.
+
+
+LaTeX Warning: Citation `statusPSWolf' on page 18 undefined on input line 108.
+
+[18 <./graphics/katrinExperiment/beamLineHD.jpg>] [19 <./graphics/katrinExperim
+ent/rearSectionFull1.png> <./graphics/katrinExperiment/WGTS.jpg> <./graphics/ka
+trinExperiment/DPS.jpg> <./graphics/katrinExperiment/CPS.jpg>]
+
+LaTeX Warning: Citation `wireElectrodeSystem' on page 20 undefined on input lin
+e 112.
+
+
+<graphics/katrinExperiment/mainSpectrometer.jpg, id=744, 698.61pt x 533.995pt>
+File: graphics/katrinExperiment/mainSpectrometer.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/mainSpectrometer.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/mainSpectrometer.jpg used on
+ input line 117.
+(pdftex.def)             Requested size: 286.37834pt x 218.89862pt.
+
+<graphics/katrinExperiment/wireElectrodes.png, id=745, 1204.5pt x 806.01125pt>
+File: graphics/katrinExperiment/wireElectrodes.png Graphic file (type png)
+
+<use graphics/katrinExperiment/wireElectrodes.png>
+Package pdftex.def Info: graphics/katrinExperiment/wireElectrodes.png used on i
+nput line 120.
+(pdftex.def)             Requested size: 1204.49707pt x 806.00928pt.
+ [20 <./graphics/katrinExperiment/mainSpectrometer.jpg> <./graphics/katrinExper
 iment/wireElectrodes.png>]
-<graphics/katrinExperiment/detectorHousing.pdf, id=725, 483.84766pt x 379.77884
+<graphics/katrinExperiment/detectorHousing.pdf, id=757, 483.84766pt x 379.77884
 pt>
 File: graphics/katrinExperiment/detectorHousing.pdf Graphic file (type pdf)
  <use graphics/katrinExperiment/detectorHousing.pdf>
 Package pdftex.def Info: graphics/katrinExperiment/detectorHousing.pdf used on 
-input line 128.
+input line 140.
 (pdftex.def)             Requested size: 341.94652pt x 268.39894pt.
- [20 <./graphics/katrinExperiment/macEFilter.jpg>] [21 <./graphics/katrinExperi
-ment/detectorHousing.pdf>]) [22]
+
+<graphics/katrinExperiment/detectorWafer.jpg, id=760, 742.775pt x 557.08125pt>
+File: graphics/katrinExperiment/detectorWafer.jpg Graphic file (type jpg)
+
+<use graphics/katrinExperiment/detectorWafer.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/detectorWafer.jpg used on in
+put line 147.
+(pdftex.def)             Requested size: 299.20076pt x 224.40112pt.
+ [21 <./graphics/katrinExperiment/detectorHousing.pdf>]) [22 <./graphics/katrin
+Experiment/detectorWafer.jpg>]
 \openout2 = `muonDetectionSystem/muonDetectionSystem.aux'.
 
- (./muonDetectionSystem/muonDetectionSystem.tex
+(./muonDetectionSystem/muonDetectionSystem.tex
 Chapter 3.
-<graphics/setup/multiplug.pdf, id=758, 1606.0pt x 1204.5pt>
+<graphics/setup/multiplug.pdf, id=786, 1606.0pt x 1204.5pt>
 File: graphics/setup/multiplug.pdf Graphic file (type pdf)
 
 <use graphics/setup/multiplug.pdf>
@@ -2089,7 +2094,7 @@ ed-to.pdf graphics/dummy.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/dummy-eps-converted-to.pdf, id=795, 145.54375pt x 1.00375pt>
+<graphics/dummy-eps-converted-to.pdf, id=823, 145.54375pt x 1.00375pt>
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
@@ -2097,7 +2102,7 @@ Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
  125.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
  [25]
-<graphics/setup/PMT.pdf, id=802, 309.155pt x 144.54pt>
+<graphics/setup/PMT.pdf, id=830, 309.155pt x 144.54pt>
 File: graphics/setup/PMT.pdf Graphic file (type pdf)
 
 <use graphics/setup/PMT.pdf>
@@ -2115,7 +2120,7 @@ Run660_old-eps-converted-to.pdf graphics/setup/LandauPeaksRun660_old.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=804, 569.12625pt
+<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=832, 569.12625pt
  x 387.4475pt>
 File: graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2138,7 +2143,7 @@ Run1097_new-eps-converted-to.pdf graphics/setup/LandauPeaksRun1097_new.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=822, 569.12625p
+<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=850, 569.12625p
 t x 387.4475pt>
 File: graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2172,7 +2177,7 @@ ps-converted-to.pdf graphics/frequencySearch.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/frequencySearch-eps-converted-to.pdf, id=854, 145.54375pt x 1.00375pt
+<graphics/frequencySearch-eps-converted-to.pdf, id=882, 145.54375pt x 1.00375pt
 >
 File: graphics/frequencySearch-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/frequencySearch-eps-converted-to.pdf>
@@ -2191,7 +2196,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/incrementalSearch-eps-converted-to.pdf, id=855, 145.54375pt x 1.00375
+<graphics/incrementalSearch-eps-converted-to.pdf, id=883, 145.54375pt x 1.00375
 pt>
 File: graphics/incrementalSearch-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/incrementalSearch-eps-converted-to.pdf>
@@ -2218,7 +2223,7 @@ s>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=895, 314.173
+<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=923, 314.173
 75pt x 118.4425pt>
 File: graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2240,7 +2245,7 @@ oise_problem-eps-converted-to.pdf graphics/setup/Histogram_noise_problem.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=896, 1587.9325
+<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=924, 1587.9325
 pt x 869.2475pt>
 File: graphics/setup/Histogram_noise_problem-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2269,7 +2274,7 @@ ec/muonSignal-eps-converted-to.pdf graphics/muonModules/monSpec/muonSignal.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=908, 569.1262
+<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=936, 569.1262
 5pt x 410.53375pt>
 File: graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2319,7 +2324,7 @@ rrent.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=938, 353
+<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=966, 353
 .32pt x 247.92625pt>
 File: graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2342,7 +2347,7 @@ ps-converted-to.pdf graphics/setup/stability.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/stability-eps-converted-to.pdf, id=962, 569.12625pt x 387.4475p
+<graphics/setup/stability-eps-converted-to.pdf, id=990, 569.12625pt x 387.4475p
 t>
 File: graphics/setup/stability-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/setup/stability-eps-converted-to.pdf>
@@ -2378,8 +2383,8 @@ el_good-eps-converted-to.pdf graphics/cobalt/876_parallel_good.eps>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/876_parallel_good-eps-converted-to.pdf, id=980, 477.785pt x 64
-0.3925pt>
+<graphics/cobalt/876_parallel_good-eps-converted-to.pdf, id=1009, 477.785pt x 6
+40.3925pt>
 File: graphics/cobalt/876_parallel_good-eps-converted-to.pdf Graphic file (type
  pdf)
  <use graphics/cobalt/876_parallel_good-eps-converted-to.pdf>
@@ -2398,8 +2403,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/Sr90_decay-eps-converted-to.pdf, id=981, 636.3775pt x 461.725p
-t>
+<graphics/cobalt/Sr90_decay-eps-converted-to.pdf, id=1010, 636.3775pt x 461.725
+pt>
 File: graphics/cobalt/Sr90_decay-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/Sr90_decay-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/Sr90_decay-eps-converted-to.pdf used o
@@ -2417,8 +2422,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/1A-eps-converted-to.pdf, id=983, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/1A-eps-converted-to.pdf, id=1012, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/1A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/1A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/1A-eps-converted-to.pdf used o
@@ -2436,8 +2441,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/1B-eps-converted-to.pdf, id=984, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/1B-eps-converted-to.pdf, id=1013, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/1B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/1B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/1B-eps-converted-to.pdf used o
@@ -2455,8 +2460,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/2A-eps-converted-to.pdf, id=985, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/2A-eps-converted-to.pdf, id=1014, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/2A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/2A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/2A-eps-converted-to.pdf used o
@@ -2474,8 +2479,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/2B-eps-converted-to.pdf, id=986, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/2B-eps-converted-to.pdf, id=1015, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/2B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/2B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/2B-eps-converted-to.pdf used o
@@ -2493,8 +2498,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/3A-eps-converted-to.pdf, id=987, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/3A-eps-converted-to.pdf, id=1016, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/3A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/3A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/3A-eps-converted-to.pdf used o
@@ -2512,8 +2517,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/3B-eps-converted-to.pdf, id=988, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/3B-eps-converted-to.pdf, id=1017, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/3B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/3B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/3B-eps-converted-to.pdf used o
@@ -2531,8 +2536,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/4A-eps-converted-to.pdf, id=989, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/4A-eps-converted-to.pdf, id=1018, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/4A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/4A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/4A-eps-converted-to.pdf used o
@@ -2550,8 +2555,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/4B-eps-converted-to.pdf, id=990, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/4B-eps-converted-to.pdf, id=1019, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/4B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/4B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/4B-eps-converted-to.pdf used o
@@ -2569,8 +2574,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 277.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/5A-eps-converted-to.pdf, id=991, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/5A-eps-converted-to.pdf, id=1020, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/5A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/5A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/5A-eps-converted-to.pdf used o
@@ -2588,8 +2593,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/5B-eps-converted-to.pdf, id=992, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/5B-eps-converted-to.pdf, id=1021, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/5B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/5B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/5B-eps-converted-to.pdf used o
@@ -2607,8 +2612,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/6A-eps-converted-to.pdf, id=993, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/6A-eps-converted-to.pdf, id=1022, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/6A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/6A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/6A-eps-converted-to.pdf used o
@@ -2626,8 +2631,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/6B-eps-converted-to.pdf, id=994, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/6B-eps-converted-to.pdf, id=1023, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/6B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/6B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/6B-eps-converted-to.pdf used o
@@ -2645,8 +2650,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/7A-eps-converted-to.pdf, id=995, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/7A-eps-converted-to.pdf, id=1024, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/7A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/7A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/7A-eps-converted-to.pdf used o
@@ -2664,8 +2669,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/7B-eps-converted-to.pdf, id=996, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/7B-eps-converted-to.pdf, id=1025, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/7B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/7B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/7B-eps-converted-to.pdf used o
@@ -2683,8 +2688,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/8A-eps-converted-to.pdf, id=997, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/8A-eps-converted-to.pdf, id=1026, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/8A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/8A-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/8A-eps-converted-to.pdf used o
@@ -2702,8 +2707,8 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/8B-eps-converted-to.pdf, id=998, 569.12625pt x 387.447
-5pt>
+<graphics/cobalt/modules/8B-eps-converted-to.pdf, id=1027, 569.12625pt x 387.44
+75pt>
 File: graphics/cobalt/modules/8B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/8B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/8B-eps-converted-to.pdf used o
@@ -3040,7 +3045,7 @@ Rings-eps-converted-to.pdf graphics/mainSpec/mainSpecRings.eps>
 (epstopdf)             \includegraphics on input line 531.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1192, 569.12625pt x 3
+<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1220, 569.12625pt x 3
 87.4475pt>
 File: graphics/mainSpec/mainSpecRings-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3159,33 +3164,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 110--113
 []\T1/aer/m/n/10.95 (+20) G. Drexlin, ``Wgts,'' []$http : / / fuzzy . fzk . de 
 / bscw / bscw . cgi / d736434 /
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 120--123
+Underfull \hbox (badness 3954) in paragraph at lines 119--122
 []\T1/aer/m/n/10.95 (+20) F. Glück \T1/aer/m/it/10.95 (+20) et al.\T1/aer/m/n/1
 0.95 (+20) , ``Air coil sys-tem & mag-netic field sen-sor sys-tem,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 []$\T1/aer/m/n/10.95 (+20) http : / / fuzzy . fzk . de / bscw / bscw . cgi / d5
 30439 / Air % 20Coil % 20System % 20and %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 \T1/aer/m/n/10.95 (+20) 20Magnetic % 20Field % 20Sensor % 20System . pdf$[], 20
 09, [On-line; ac-cessed
  []
 
-[60]) [61] [62
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ... T.~Bode, M.~HÃ¶tzel, H.~SchÃ¶n, M.~SÃ¼ÃŸ
+                                                  er, and T.~Wahl, ``The
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-] (./appendix.tex
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133   vol. 55â€
+                 “56, no.~0, pp. 5 -- 11, 2013. [Online]. Available:
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133   vol. 55â€“
+                  56, no.~0, pp. 5 -- 11, 2013. [Online]. Available:
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[60] [61]) [62] (./appendix.tex
 Overfull \hbox (12.0pt too wide) in paragraph at lines 39--66
 [][] 
  []
@@ -3204,7 +3245,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1318, 56
+<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1353, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3227,7 +3268,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1321, 56
+<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1356, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3250,7 +3291,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1324, 56
+<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1359, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3273,7 +3314,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1327, 56
+<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1362, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3296,7 +3337,7 @@ ySym/BG_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_12.5_1
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1330, 569
+<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1365, 569
 .12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3319,7 +3360,7 @@ ySym/BG_25_25-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_25_25.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1333, 569.126
+<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1368, 569.126
 25pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3331,6 +3372,8 @@ to.pdf used on input line 147.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
  [63
+
+
 
 
 ]
@@ -3350,7 +3393,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 392ADED0621A45A2CAB228CAD60C9353;4808.
+(rerunfilecheck)             Checksum: 682E8BBA0157E7C6578FDD2C8DFD77CE;4719.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3361,11 +3404,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 29755 strings out of 493485
- 571649 string characters out of 3143527
- 678534 words of memory out of 3000000
- 31648 multiletter control sequences out of 15000+200000
- 94096 words of font info for 428 fonts, out of 3000000 for 9000
+ 29789 strings out of 493485
+ 572480 string characters out of 3143527
+ 678846 words of memory out of 3000000
+ 31664 multiletter control sequences out of 15000+200000
+ 94776 words of font info for 434 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  72i,25n,73p,1194b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
@@ -3386,10 +3429,10 @@ s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (76 pages, 11487024 bytes).
+Output written on thesis.pdf (76 pages, 11445186 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 1273 compressed objects within 13 object streams
- 305 named destinations out of 1000 (max. 500000)
- 45864 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1559 PDF objects out of 1728 (max. 8388607)
+ 1306 compressed objects within 14 object streams
+ 314 named destinations out of 1000 (max. 500000)
+ 45866 words of extra memory for PDF output out of 51595 (max. 10000000)
 
