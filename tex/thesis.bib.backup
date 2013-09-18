@@ -433,15 +433,17 @@ howpublished = "\url{http://fuzzy.fzk.de/bscw/bscw.cgi/d736434/95-TRP-5205-S2-GD
 }
 @BOOK{
 bethgeKernphysik,
-author = "Bethge",
+author = "Bethge and Walter",
 title = "Kernphysik",
 year = "2006",
 issue = {1},
 pages = {342},
+publisher = "Springer",
 page = {233}
 }
 
 @article{superallowance,
+title = {Direct Measurements of Neutrino Mass},
 author = {R. G. H. Robertson, D. A. Knapp},
 journal = {Annual Review of Nucear Science},
 issue = {38},
@@ -449,33 +451,19 @@ year = "1988"
 }
 
 @article{MARE2007,
-
 title = "MARE, Microcalorimeter Arrays for a Rhenium Experiment: A detector overview ",
-
 journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
-
 volume = "572",
-
 number = "1",
-
 pages = "208 - 210",
-
 year = "2007",
-
 note = "Frontier Detectors for Frontier Physics - Proceedings of the 10th Pisa Meeting on Advanced Detectors",
-
 issn = "0168-9002",
-
 doi = "http://dx.doi.org/10.1016/j.nima.2006.10.198",
-
 url = "http://www.sciencedirect.com/science/article/pii/S016890020602064X",
-
 author = "E. Andreotti and C. Arnaboldi and others",
-
 keywords = "Neutrino mass",
-
 keywords = "Low temperature microcalorimeters "
-
 }
 
 
@@ -553,17 +541,16 @@ URL = {http://swbplus.bsz-bw.de/bsz120196603cov.htm},
 }
 
 @article{KATRINWolf,
-title = "The \{KATRIN\} neutrino mass experiment ",
+title = "The KATRIN neutrino mass experiment ",
 journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
+author = "Wolf, J.",
 volume = "623",
 number = "1",
 pages = "442 - 444",
 year = "2010",
-note = "<ce:title>1st International Conference on Technology and Instrumentation in Particle Physics</ce:title> ",
 issn = "0168-9002",
 doi = "http://dx.doi.org/10.1016/j.nima.2010.03.030",
 url = "http://www.sciencedirect.com/science/article/pii/S0168900210005942",
-author = "Joachim Wolf",
 keywords = "Neutrino mass",
 keywords = "Electro-static spectrometer",
 keywords = "Tritium "
@@ -607,7 +594,7 @@ note = "",
 issn = "0011-2275",
 doi = "http://dx.doi.org/10.1016/j.cryogenics.2013.01.001",
 url = "http://www.sciencedirect.com/science/article/pii/S0011227513000076",
-author = "S. Grohmann and T. Bode and M. Hötzel and H. Schön and M. Süßer and T. Wahl",
+author = "Grohmann, S. and Bode, T. and Hötzel, M. and others",
 keywords = "Neon",
 keywords = "Thermosiphon",
 keywords = "Temperature stability",
@@ -622,7 +609,6 @@ volume = "64",
 number = "2",
 pages = "291 - 293",
 year = "2010",
-note = "<ce:title>Neutrinos in Cosmology, in Astro, Particle and Nuclear Physics</ce:title> <xocs:full-name>International Workshop on Nuclear Physics, 31st course</xocs:full-name> ",
 issn = "0146-6410",
 doi = "http://dx.doi.org/10.1016/j.ppnp.2009.12.032",
 url = "http://www.sciencedirect.com/science/article/pii/S0146641009001100",
@@ -633,3 +619,68 @@ keywords = "Background reduction",
 keywords = "Screening wire electrode system "
 }
 
+@misc{
+statusPSWolf,
+author = "Joachim Wolf",
+year = 2004,
+title = "Status of the Pre-Spectrometer of the KATRIN Experiment",
+howpublished = "\url{http://www.katrin.kit.edu/publikationen/talk_DPG-2004-03-11-prespec.pdf}",
+note = "[Online, accessed 17-09-2013]"
+
+}
+
+@ARTICLE{WGTSPaper, 
+author={Gehring, R. and Bornschein, B. and Woo-Sik Gil and Grohmann, S. and Noe, M.}, 
+journal={Applied Superconductivity, IEEE Transactions on}, 
+title={The Windowless Gaseous Tritium Source for the KATRIN Experiment}, 
+year={2008}, 
+volume={18}, 
+number={2}, 
+pages={1459-1462}, 
+keywords={calibration;electron beams;electron guns;magnetic fields;neutrino mass;superconducting magnets;tritium;KATRIN experiment;Karlsruhe Tritium Neutrino experiment;absolute neutrino mass;beam tube;calibration modes;direct model-independent measurements;e-gun;electron beam;magnetic field;source system;superconducting magnet systems;temperature 30 K;windowless gaseous tritium source;Beam tube cooling;cooling;magnet}, 
+doi={10.1109/TASC.2008.920625}, 
+ISSN={1051-8223},}
+
+@article{mainSpecElectrodeDesign,
+title = "Electromagnetic design and inner electrode for the KATRIN main spectrometer ",
+journal = "Progress in Particle and Nuclear Physics ",
+volume = "57",
+number = "1",
+pages = "58 - 60",
+year = "2006",
+note = "<ce:title>International Workshop of Nuclear Physics 27th course</ce:title> <ce:subtitle>Neutrinos in Cosmology, in Astro, Particle and Nuclear Physics</ce:subtitle> <xocs:full-name>Ettore Majorana Center for Scientific Culture</xocs:full-name> ",
+issn = "0146-6410",
+doi = "http://dx.doi.org/10.1016/j.ppnp.2005.11.011",
+url = "http://www.sciencedirect.com/science/article/pii/S0146641005001353",
+author = "K. Valerius",
+keywords = "Direct neutrino mass determination "
+}
+
+@article{radonWandkowsky,
+title = "Radon induced background processes in the KATRIN pre-spectrometer ",
+journal = "Astroparticle Physics ",
+volume = "35",
+number = "3",
+pages = "128 - 134",
+year = "2011",
+note = "",
+issn = "0927-6505",
+doi = "http://dx.doi.org/10.1016/j.astropartphys.2011.06.009",
+url = "http://www.sciencedirect.com/science/article/pii/S0927650511001290",
+author = "F.M. Fränkle and L. Bornschein and G. Drexlin and others",
+keywords = "Radon",
+keywords = "Backgrounds",
+keywords = "MAC-E filter",
+keywords = "KATRIN"
+}
+
+@article{highVoltageDivider,
+  author={Th Thümmler and R Marx and Ch Weinheimer},
+  title={Precision high voltage divider for the KATRIN experiment},
+  journal={New Journal of Physics},
+  volume={11},
+  number={10},
+  pages={103007},
+  url={http://stacks.iop.org/1367-2630/11/i=10/a=103007},
+  year={2009}
+}

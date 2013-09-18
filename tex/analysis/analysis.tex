@@ -6,13 +6,13 @@
 \label{ch:Analysis}
 %% ==============
 
-  While the system was still under construction at the beginning of this thesis, first measurements were taken at the time with few modules under preliminary conditions to look into the behaviour of the modules. Step by step, the system was brought to completion and is now up and running. During this time, several measurements and test have been conducted to ensure the capabilities of the system meet the requirements for the KATRIN experiment. Starting at the setup of acceleration voltages, gains and thresholds, 
-  Using data obtained by the muon modules and the detector as well as other subsystems' data, the muon induced background rates and both spatial and energy distribution can be obtained. Before actual measurements, the modules had to be set up and calibrated, meaning high voltage and signal cabling needed to be installed and high voltage power supplies had to be found.
+  While the moun detection system had still been under construction at the beginning of my thesis-work, first measurements were taken at the time with some modules under preliminary conditions to look into the behaviour of these modules. Step by step, the system was completed and is now up and running. In the building phase, several measurements and test have been conducted to ensure the capabilities of the system meet the requirements for the KATRIN experiment. Starting with the setup of acceleration voltages, gains and thresholds, 
+  Using data obtained by the muon modules and the detector as well as other subsystems' data, the muon induced background rates and both spatial and energy distribution can be obtained. Before actual measurements were done, the modules had to be set up and calibrated, meaning high voltage and signal cabling needed to be installed and high voltage power supplies had to be acquired.
     %% ===========================
     \section{Rate instability due to charging effects}
     \label{ch:Analysis:sec:Rate instability due to charging effects}
   %% ===========================  
-  As the panels' rates were peaking over certain, short time intervals at some arbitrary frequency, it was not possible to set gains, thresholds and PMT voltages correctly as one had to be lucky to be able to identify the peak position in a calm period. It seemed there was some kind of electronic pileup. As this did not appear for all the modules it was not noticed until later into the commissioning process.
+  During the preliminary measurements, it became obvious that the panels' rates were peaking over certain, short time intervals at some arbitrary frequency. It was not possible to set gains, thresholds and PMT voltages correctly as one had to be lucky to be able to identify the peak position in a calm period. It seemed there was some kind of electronic pileup. As this did not appear for all the modules it was not noticed until later into the commissioning process.
   \begin{figure}
    \centering
    \includegraphics[width=5cm]{graphics/setup/Noise_Rate_Problem_cutout.eps}
@@ -22,17 +22,16 @@
   \begin{figure}
    \centering
    \includegraphics[width=0.9\textwidth]{graphics/setup/Histogram_noise_problem.eps}
-   \caption[6 channel energy Histogram with noise]{Energy histogram of 6 channels, counts over ADC-Value. Two channels show a lot of noise around the peak position while four are developing into nice looking Landau Peaks}
+   \caption[Six channel energy Histogram with noise]{Energy histogram of six channels, i.e. modules 6 through 8.Displayed are counts over ADC-Value. Two channels show a lot of noise at th low energy end of the histogram while four are developing nicely looking Landau Peaks.}
   \end{figure}
-  If the landau peaks were not identifiable due to prevalent electronic noise, the measurement was rendered useless as a lot of noise triggered events were recorded.
-  As a countermeasure, in cooperation with Sascha Wuestling, potential equalisation by connecting the modules to the huge trough below the main spectrometer has been established. After the installation of the grounding, the peaking did not occur any more so the issue seems to be resolved. Now, one could make a start on setting gains, thresholds and acceleration voltages \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}.
+  If the landau distributions (chapter \ref{ch:Introduction:sec:Cosmic Air Showers}) were not identifiable due to prevalent electronic noise, the measurement was rendered useless as a lot of noise triggered events were recorded.
+  As a countermeasure, in cooperation with Sascha Wuestling, potential equalisation by connecting the modules to the trough below the main spectrometer has been established. After the installation of the grounding, the peaking did not occur any more so the issue seems to be resolved. Now, one could make a start on setting gains, thresholds and acceleration voltages \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}.
   
   %% ===========================
   \section{Gain-, Threshold and Acceleration Voltage Settings}
   \label{ch:Analysis:sec:GainsThresholdsAccVoltages}
   %% ===========================  
-  
-  A first amplification - linear with acceleration voltage - of the scintillation photons occurs in the photomultiplier tubes. As signals at first seemed too high for the DAQ to handle at nominal values of the datasheet, these were reduced to around \SI{1200}{\volt}. Now, the software gains and thresholds in the ORCA software needed to be set. 
+  A first amplification - linear with acceleration voltage - of the scintillation photons occurs in the photomultiplier tubes. As signals at first seemed too high for the DAQ to handle at nominal values of the datasheet, these acceleration voltages were reduced to around \SI{1200}{\volt}. After that, the software gains and thresholds in the ORCA software needed to be set. 
     \begin{table}
     
     \centering
@@ -65,9 +64,9 @@
     
 
    \end{tabular}
-  \caption[Gains - thresholds - acceleration voltages]{{\bf Gains, thresholds and voltages:} These are the settings that appeared to be reasonable for each panel side; furthermore, the table displays the card and channel each side is associated with in the DAQ card system}
+  \caption[Gains - thresholds - acceleration voltages]{{\bf Gains, thresholds and voltages:} These are the settings found to be optimal for each panel side; furthermore, the table displays the card and channel each side is associated with in the DAQ card system}
   \end{table}
-  As the detection efficiencies \ref{ch:Analysis:sec:Module Efficiency} for the modules were not as high as expected, one assumption was that the acceleration voltages set lower than denoted in the user manual leads to loss of data in the low energy range. That is why the acceleration voltages were raised to \SI{1.5}{\kilo\volt} except for two channels, those of modules 2B and 6A, that were even ramped to \SI{1.6}{\kilo\volt} on account of showing lower overall rates as described in \ref{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}. 
+  As the detection efficiencies \ref{ch:Analysis:sec:Module Efficiency} for the modules were not as high as expected, one assumption was that the acceleration voltages set lower than denoted in the user manual leads to loss of data in the low energy range. Consequently, the acceleration voltages were raised to \SI{1.5}{\kilo\volt} except for two channels, those of modules 2B and 6A, that were even ramped to \SI{1.6}{\kilo\volt} on account of showing lower overall rates as described in \ref{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}. 
   
   %% ===========================
   \section{Finding the best filter settings}
@@ -84,7 +83,7 @@
 	\caption[Pulser and signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
   \end{figure}
   
-  To evaluate filter goodness, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be mono-energetic, was analyzed for each filter setting. For analysis, the width of the contributing ADC bins and their absolute position as well as the pulse height and the filter settings were noted. 
+  In order to evaluate filter's figure of merit, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be mono-energetic, was analyzed for each filter setting. For analysis, the width of the contributing ADC bins and their absolute position as well as the pulse height and the filter settings were noted. 
   
   \begin{table}
 	\begin{tabular}{c}
@@ -120,7 +119,7 @@
   		 & 200 & 41 & 2141 & 8400\\
   		 \hline	
   	\end{tabular}
-  \caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings. A function generator has been used to simulate a muon module pulse.}
+  \caption[Energy resolution dependant on filter setting]{Energy resolution at different filter settings. A function generator was used to simulate pulses from the muon modules.}
 	\centering
   \end{table}
   
@@ -131,11 +130,11 @@
   \section{Moun module's rates}
   \label{ch:Analysis:sec:Muon module's rates}
   %% ===========================  
-  A simple first check into the data is possible simply by comparing the rates measured to literature values. Here, a flux of around 1 per \SI{}{\minute} and \SI{}{\square\centi\meter} through an area parallel to the ground is stated. Measured rates are in the order of \SI{250}{\hertz}. The muon modules' area is
+  A simple first check into the data was possible simply by comparing the rates measured to literature values. Here, a flux of around 1 per \SI{}{\minute} and \SI{}{\square\centi\meter} through an area parallel to the ground is stated. Measured rates are in the order of \SI{250}{\hertz}. The muon modules' area is
   \begin{equation}
   	\SI{315}{\centi\meter} \cdot \SI{65}{\centi\meter} = \SI{2.05}{\square\meter}
   \end{equation}
-  Considering the \SI{45}{\degree} tilt of the modules towards the horizontal, this area reduces to an effective area of 
+  considering the \SI{45}{\degree} tilt of the modules towards the horizontal, this area reduces to an effective area of 
   \begin{equation}
   	A_{\mathrm{eff}} = \sin{\left(\SI{45}{\degree}\right)} A_{\mathrm{real}} = \SI{1.45}{\square\meter}
   \end{equation}
@@ -143,7 +142,7 @@
   \begin{equation}
   	\Phi_{est} = \eta \frac{1}{\SI{}{\square\centi\meter}\SI{60}{\second}}A_{\mathrm{eff}} = \SI{225}{\hertz}
   \end{equation}
-  It compares well to measured rates of \todo{calculate actual rates} ~ \SI{250}{\hertz}.
+  This compares well to measured rates of \todo{calculate actual rates} ~ \SI{250}{\hertz}.
   
   %% ===========================
   \section{Modules in high magnetic fields}
@@ -153,13 +152,13 @@
 and with it the field strengths, drastically reduces.
   To test the improvement the mu metal coverage produces, measurements with rising aircoil currents have been performed.
   Steps in the size of tenths of the maximum current of mostly \SI{100}{\ampere}, in some cases only \SI{70}{\ampere}, were used to record rates over half an hour at each value.
-  During the first run, due to a slow control problem, the current was not raised between two steps. Although displaying the expected behaviour - rates dropped much less than before - the measurement was repeated with the correct currents.
-  Measurements show that the rate still drops at currents close to the maximum, though only to around \SI{90}{\percent} of initial values \ref{fig:aircoilCountsCurrent}. As, under normal measurement conditions, the coil currents are mostly around half the maximum value or less, the problem could be solved, as here, the reduction in rate is within the order errors' order.
+  During the first run, due to a slow control problem, the current was not raised between two steps. Although displaying the expected behavior - rates dropped much less than before - the measurement was repeated with the correct currents.
+  Measurements show that the rate still drops at currents close to the maximum, though only to around \SI{90}{\percent} of initial values, see figure \ref{fig:aircoilCountsCurrent}. As, under normal measurement conditions, the coil currents are mostly around half the maximum value or less, the problem could be solved, as here, the reduction in rate is within the errors' order.
   \begin{figure}
 
   \centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/aircoilCounts/aircoilsCountsCurrent.eps}
-  	\caption[Rate dependance on magnetic fields]{Counts over air coil currents, with a maximum of \SI{100}{\ampere}. A clear decrease in rate is recognisable in the last 5 data points.}
+  	\caption[Rate dependence on magnetic fields]{Counts over air coil currents, with a maximum of \SI{100}{\ampere}. A clear decrease in rate is recognizable in the last 5 data points.}
   	\label{fig:aircoilCountsCurrent}
   \end{figure}
   
@@ -168,7 +167,7 @@ and with it the field strengths, drastically reduces.
   \section{Module Stability}
   \label{ch:Analysis:sec:Module Stability}
   %% ===========================  
-  If consistent factual statements on muon induced background are to be made, the modules need to work stable over the course of days, as rates are supposed to be comparable. For this reason, over the Christmas time 2012, a two-weekly measurement of half hourly runs has been taken, see \ref{tab:airCoilSettingsChristmas} for air coil settings used. Runs myo00000051 to myo00000675 contain the data of this measurement.
+  If consistent factual statements on muon induced background are to be made, the modules need to work stable over the course of days, as rates are supposed to be comparable. For this reason, over the Christmas time 2012, a two-weekly measurement of half hourly runs was taken, see table \ref{tab:airCoilSettingsChristmas} for air coil settings used. Runs myo00000051 to myo00000675 contain the data of this measurement.
   \begin{table}
   \centering
    \begin{tabular}{|l|ccccccc|c|}
@@ -210,13 +209,13 @@ and with it the field strengths, drastically reduces.
   The runs used for stability measurements, as well as any other run including modules six, seven and eight, can be used to check muon module seven for efficiency. For tests on other modules, the geometry would need to be changed so that the one to be checked is in between at least two other modules.
   For analysis, the function determineEfficiency() \ref{ch:Analysis software:sec:methods of the class run:subsec:determineEfficiency}
   has been written.
-  The principle is the following: considering the small change in momentum direction high energy muons achieve through interaction with matter, one can assume straight-lined paths. From that follows, that if two parallel planes, that can be used to describe the scintillating volumes, are hit, any other, also parallel plane, in between those two will be hit as well. Keeping this in mind, one can analyse data for events registered in both modules 6 and 8 and cross check whether a event has been detected in module 7 as well. The quota of events in all three modules compared to those detected in 6 and 8 - but including the triple events - shows the efficiency of module 7.
+  The principle is the following: considering the small change in momentum direction high energy muons achieve through interaction with matter, one can assume straight-lined paths. From that follows, that if two parallel planes, that can be used to describe the scintillating volumes, are hit, any other, also parallel plane, in between those two will be hit as well. Keeping this in mind, one can analyse data for events registered in both modules 6 and 8 and cross check whether a event has been detected in module 7 as well. The quota of events in all three modules compared to those detected in 6 and 8 -  including the triple events - shows the efficiency of module 7.
   It shows that during the measurement period end of 2012, the efficiencies were at \todo{rerun} \SI{94 }{\percent} which is less than one would expect at a scintillator thickness of \SI{5}{\centi\meter} for muons perpendicular to the largest module surface, even more for any other.
-  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of 150 ns from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable, the average efficiencies before and after are within the margin of error of the other.
-  To examine the problem further, another idea came up: modules 3, 4 and 5, that are located next to each other could be used for efficiency measurements as well considering theiy are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50(3)}{\percent}. This raises the question wheter this is not an effect of signal filtering, but a previously not considered physics effect. One thing comming to mind is deviation of the muon track from linear forms. This feature would comply with the seemingly lower efficiency at the upright stacked modules, where, at equal bending radii, the ratio of muons travelling around the middle module is higher due to the lower total area in stacking direction.
-  This thesis should be tested. This can be done both by simulating the cosmic muons including magentic fields and empirically by varying the distance between teh single modules. The latter is difficult not only because the modules are heavy and not made for lifting (no designated carrying structures), but also because movement always means potential danger to the photomultiplier tubes and their connection to the scintillators.
-  Furthermore, if all coils and solenoids were to be turned of simultaneously at some point, one could collect data then and see how efficicencies change during that (there have been runs taken when that was still the case, but only few modules were working properly at that point).
-  If the dependence on module distance turns out to be true, but the efficiencies are still below expected values at the lowest possible distances, a possible improvement would be to use preamplifiers before signals arrive at the DAQ. These would widen the signals timewise leading to a more easily detectable signal for the filters.
+  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of \SI{150}{\ns} from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable, the average efficiencies before and after are within the margin of error of the other.
+  To examine the problem further modules 3, 4 and 5, that are located next to each other, were used for efficiency measurements as well considering they are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50(3)}{\percent}. This raises the question whether this is not an effect of signal filtering, but a previously not considered physics effect. One thing coming to mind is deviation of the muon track from linear forms. This feature would comply with the seemingly lower efficiency at the upright stacked modules, where, at equal bending radii, the ratio of muons traveling around the middle module is higher due to the lower total area in stacking direction.
+  This thesis should be tested. This can be done both by simulating the cosmic muons including magnetic fields and empirically by varying the distance between the single modules. The latter is difficult not only because the modules are heavy and not made for lifting (no designated carrying structures), but also because movement always means potential danger to the photomultiplier tubes and their connection to the scintillators.
+  Furthermore, if all coils and solenoids were to be turned off simultaneously at some point, one could collect data then and see how efficiencies change during that (there have been runs taken when that was still the case, but only few modules were working properly at that point).
+  If the dependence on module distance turns out to be true, but the efficiencies are still below expected values at the lowest possible distances, a possible improvement would be to use pre-amplifiers before signals arrive at the DAQ. These would widen the signals timewise leading to a more easily detectable signal for the filters.
   
   %% ===========================
   \section{Photo Multiplier Tube Test with Sr source}
@@ -224,7 +223,7 @@ and with it the field strengths, drastically reduces.
   %% ===========================
   
   With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to see the source at any position but rates were expected to rise as the distance to any of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a non negligible part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier 
-tubes making it more difficult to distinguish between them. A first measurement was then to check for exactly that distinguishability.\todo{insert measurement for small steps over PMTs positions}.
+  tubes making it more difficult to distinguish between them. A first measurement was to check for exactly this distinguishability.\todo{insert measurement for small steps over PMTs positions}.
   \begin{figure}
   	\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
   	\caption[Rate scanning with cobalt source]{}
@@ -233,7 +232,7 @@ tubes making it more difficult to distinguish between them. A first measurement 
   \begin{figure}
   \centering
   	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
-  	\caption[Cobalt decay mechanisms]{Decay mechanism of $^{90}$Sr: first a lower ernergetic decay to $^{90}$Y emitting \SI{544}{\kilo\electronvolt}/\SI{}{\square c} electrons, from that most probably a higher energetic decay to $^{90}$Zr ground state (\SI{2.29}{\mega\electronvolt}/\SI{}{\square c} electrons) or, with low probabilty, to one of two of its excited states.}
+  	\caption[Cobalt decay scheme]{Decay scheme of $^{90}$Sr: first a lower energetic decay to $^{90}$Y emitting \SI{544}{\kilo\electronvolt}/\SI{}{\square c} electrons, from that most probably a higher energetic decay to $^{90}$Zr ground state (\SI{2.29}{\mega\electronvolt}/\SI{}{\square c} electrons) or, with low probabilty, to one of two of its excited states.}
   \end{figure}
 
   As one can see a rise in rate at the positions the tubes are located at, it was decided that four measurements per module and side were sufficient, especially as all measurements can afterwards be compared to each other.
@@ -310,8 +309,8 @@ tubes making it more difficult to distinguish between them. A first measurement 
   \section{Synchronisation of moun module and FPD DAQs}
   \label{ch:Analysis:sec:Synchronisation of moun module and FPD DAQs}
   %% ===========================  
-  Measuring time differences on a \SI{}{\micro\second} scale requires exact synchronisation of the two differen DAQs used for data acquisition. For this purpose, a clock has been designed sending signals at two frequencies: one at \SI{1}{\hertz} and one at \SI{10e6}{\hertz} internally converted to a \SI{20 e 6}{\hertz} signal by the DAQ. Those signals can be synchronised to the timestamps of GPS satellites if a GPS antenna is connected. This has not yet been done as relative synchronization between the two crates is sufficient for the purposes of finding correlations between muon and detector events. As the cable length for signal transmission is pretty extensive - around \SI{50}{\meter} - it was decided to use optical fibers instead of CAT 5 cabling. As two signals need to be transmitted, paired \todo{connection type name} fibers were used. The clock itself has optical outputs, the DAQ though needs converters from optical to electrical signals and a modified SLT back panel card to receive the converted 
-signals via Cat 5 cable.
+  Measuring time differences between detector signals and muon events on a \SI{}{\micro\second} scale requires exact synchronization of the two different DAQs. For this purpose, a clock has been designed sending signals at two frequencies: one at \SI{1}{\hertz} and one at \SI{10e6}{\hertz} internally converted to a \SI{20 e 6}{\hertz} signal by the DAQ. Those signals can be synchronized to the timestamps of GPS satellites if a GPS antenna is connected. This has not yet been done as relative synchronization between the two crates is sufficient for the purposes of finding correlations between muon and detector events. As the cable length for signal transmission is pretty extensive - around \SI{50}{\meter} - it was decided to use optical fibers instead of CAT 5 cabling. As two signals need to be transmitted, paired \todo{connection type name} fibers were used. The clock itself has optical outputs, the DAQ though needs converters from optical to electrical signals and a modified SLT back panel card to receive the converted 
+signals via Cat5 cabling.
   \begin{figure}
   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 %   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/GPSclock.jpg}
@@ -320,8 +319,8 @@ signals via Cat 5 cable.
   \end{figure}
 
   
-  To test the setup, the muon DAQ was moved to the detector platform. Both crates were fed by a pulser signal. Runs at different frequencies were recorded to test both the synchronisation and the detection of events. To synchronize timestamps to an external signal, the FLT cards drop down menu needs to be set to \todo{look up} and the SLT needs to be set to \todo{lookup too}.
-  At first, manually triggered signals were used in minute runs to check the timestamps equality. Several runs were taken, all showing that the events were shifted by several \SI{}{\micro\second}
+  To test the setup, the muon DAQ was moved to the detector platform. Both crates were fed by a pulser signal. Runs at different frequencies were recorded to test both the synchronization and the detection of events. To synchronize timestamps to an external signal, the FLT cards drop down menu needs to be set to \todo{look up} and the SLT needs to be set to \todo{lookup too}.
+  At first, manually triggered signals were used in minute runs to check the timestamps equality. Several runs were taken, all showing that the events were shifted by several \SI{}{\micro\second}.
   \begin{figure}
 	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 % 	\includegraphics[width = 0.9 \textwidth]{graphics/sync/nonSynced.eps}
@@ -329,13 +328,13 @@ signals via Cat 5 cable.
   	\label{fig:analysis:inSync}
   \end{figure}
 
-  In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in Orca resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behaviour:
+  In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in ORCA resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behavior:
   \begin{figure}
 	\caption[Synchronisation new firmware]{Time differences between events after firmware upgrades. Differences between the event times are within one \SI{50}{\nano\second} bin}
 	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
 	%   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/synced.eps}
   \end{figure}
-  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \SI{10}{\kilo\hertz}. Doing so, differen recording modes and filter settings were applied - see table \ref{tab:syncTests}. All the tests worked fine including starting one DAQ's run way ahead of the other. Those events recorded in both run files were always well synchronized.
+  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \SI{10}{\kilo\hertz}. Doing so, different recording modes and filter settings were applied - see table \ref{tab:syncTests}. All the tests worked fine including starting one DAQ's run way ahead of the other. Those events recorded in both run files were always well synchronized.
   \begin{table}
   \centering
   	\begin{tabularx}{0.9 \textwidth}{|X|cc|}
@@ -364,7 +363,7 @@ signals via Cat 5 cable.
 		pulser frequency: 100 Hz, 300sec run & 4188 & 723 \\
 		pulser frequency: 10 Hz, 300sec run & 4189 & 724 \\
 		\hline
-		\multicolumn{3}{|c|}{ Removing CAT5 cables from synchronization clock and }\\
+		\multicolumn{3}{|c|}{ Removing Cat5 cables from synchronization clock and }\\
 		\multicolumn{3}{|c|}{ installing fiber optic cables + converter boxes}\\
 		
 		\hline
@@ -377,7 +376,7 @@ signals via Cat 5 cable.
 		pulser frequency: 10 Hz, both energy+trace (sync) mode, 300sec run & 4196 & 731 \\
   		\hline
   	\end{tabularx}
-	\caption[Synchronisation test Settings]{All settings including run numbers tested with the two DAQs from detector system and muon modules. In the leftmost column, pulser settings and run lengths are described. In front of the different parts the pulser settings kept constant for the following measurements are described.}
+	\caption[Synchronization test Settings]{All settings including run numbers tested with the two DAQs from detector system and muon modules. In the leftmost column, pulser settings and run lengths are described. In front of the different parts the pulser settings kept constant for the following measurements are described.}
 	\label{tab:syncTests}
   \end{table}
 
@@ -389,16 +388,16 @@ signals via Cat 5 cable.
   \section{Coincidence Search between Muon- and Detector Events}
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements}
   %% ===========================  
-  If one wants to actually detect background induced by myonic events registered by the muon modules, those events need to be correlated to detector events time wise. For this purpose, the analysis code's class run was extended by the member functions TOFHist()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} and TOFMuonDet()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}, where the former is used for monitor spectrometer analysis and the latter for the main spectrometer. The biggest difference is that, at the main spectrometer, two DAQs leading to runs with different starting times and of different lengths are created that need to be compared. 
+  If one wants to actually detect background induced by muonic events detected by the muon modules, those events need to be correlated to detector events time wise. For this purpose, the analysis code's class run was extended by the member functions TOFHist()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} and TOFMuonDet()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}, where the former is used for monitor spectrometer analysis and the latter for the main spectrometer. The biggest difference is that, for the main spectrometer, runs by two DAQs leading to different starting times and different lengths are created that need to be compared. Here, the necessity for synchronization from chapter \ref{ch:Analysis:sec:Synchronisation of moun module and FPD DAQs} becomes clear.
   
   %% =========================
   \subsection{Monitor Spectrometer}
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Monitor Spectrometer}
   %% =========================
   
-  Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run file through the mini crate.
-  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini DAQ and operated in veto mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position has been shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram mode to energy mode as the timestamps for every single event were needed for analysis. 
-  Several hourly runs have been taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and figure \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} and figure \ref{fig:monSpec:non axially symmetric magnetic field} configurations have been investigated. \todo{}
+  Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run-file through the mini-crate.
+  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini-DAQ and operated in veto-mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position was shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram-mode to energy-mode as the timestamps for every single event were needed for analysis. 
+  Several hourly runs were taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and figure \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} and figure \ref{fig:monSpec:non axially symmetric magnetic field} configurations were investigated.
   \begin{table}
 	\centering
 		\begin{tabular}{c}
@@ -481,8 +480,8 @@ signals via Cat 5 cable.
   	\end{table}
   	
   	
-  The TOFHist\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} function has been used to analyse the data.
-  It browses through all the muon events detected and finds any detector event in a definable timespan after the muon event. This can be more than one detector event per  muon event. In all of the settings, a clear peak is visible at around \SI{7}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate.
+  The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data.
+  It browses through all the muon-events detected and finds any detector event in a definable timespan after the muon-event. This can be more than one detector-event per  muon-event. In all of the settings, a clear peak is visible at around \SI{7}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate.
   A graphic of the flux tube configuration as well as the histograms for all of the settings can be found in the \ref{appendix}, figures \todo{reference figures.}
   The exact values are:
   \begin{table}
@@ -523,8 +522,8 @@ signals via Cat 5 cable.
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Main Spectrometer}
   %% =========================
   
-  Monitor spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to measurement M1, sone runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
-  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to much too low statistics, though it might be more conclusive as less different paths contibute to the single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
+  Monitor-spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to first measurements ``M1'', some runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
+  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different paths contribute to a single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
   
   \begin{figure}
   \centering
@@ -536,11 +535,11 @@ signals via Cat 5 cable.
   
   The failure to find a clear runtime for electrons induced by muonic events might be due to the combination of muon module position and the magnetic field setup as the wall area covered by the flux tubes and the volume surveilled by the muon modules did not overlap very much. Furthermore, due to the very low magnetic field at the wall compared to the volume inside the detector and pinch magnet, most of the induced electrons are magnetically reflected as the maximum polar angle towards magnetic field lines $\theta_{max}$ is defined by
   \begin{equation}
-  	\frac{B_{min}}{B_{max}} \approx \frac{\SI{3}{\gauss}}{\SI{4}{\tesla}} = sin(\theta_{max})
+  	\frac{B_{min}}{B_{max}} \approx \frac{\SI{3}{\gauss}}{\SI{4}{\tesla}} = sin^2(\theta_{max})
   \end{equation}
   meaning only angles satisfying the inequation
   \begin{equation}
-  	\theta < \arcsin{\frac{B_{min}}{B_{max}}} = \arcsin{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}} = \SI{0.004}{\degree}
+  	\theta < \arcsin{\sqrt{\frac{B_{min}}{B_{max}}}} = \arcsin{\sqrt{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}}} = \SI{0.004}{\degree}
   \end{equation}
 	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
 	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.

@@ -7,11 +7,11 @@
     
       \section{Measurement principle}
       \label{ch:The KATRIN experiment:sec:Measurement Principle}
-      A generally easy principle is used to find information on the neutrino mass. The energy of electrons from tritium decay is measured with high precision and compared to the standard model's presumption for a massless neutrino 
+      A generally easy principle is used to find information on the neutrino mass. The energy of electrons from tritium decay is measured with high precision and compared to the standard model's presumption for a massless neutrino \cite{}
       \begin{equation}
       	\ce{^3_1T -> ^3_1H^+ + e^- + \bar{\nu}_e}.
       \end{equation}
-      As the decay's energy is distributed between the constant neutrino's rest mass and the neutrino's and the electron's kinetic energies respectively, the decay electrons will show a continuous spectrum. The difference between the electron energy calculated by standard model presumptions and the extrapolated maximum electron energy from the spectrum is extracted. As all three mass eigenstates contribute to the electron neutrino's mass in any scenario (see \ref{ch:Introduction:sec:neutrino Oscillations}, the difference will be a 
+      As the decay's energy is distributed between the constant neutrino's rest mass and the neutrino's and the electron's kinetic energies respectively, the decay electrons will show a continuous spectrum. The difference between the electron energy calculated by standard model presumptions and the extrapolated maximum electron energy from the spectrum is extracted. As all three mass eigenstates contribute to the electron neutrino's mass in any scenario (see \ref{ch:Introduction:sec:neutrino Oscillations}, the difference will be a superposition of these. The knees occuring at each single eigenstates mass can not be resolved with the KATRIN spectrometer as the energy resolution is larger than the root of the squared mass differences.
       shown in figure \ref{fig:katrinExperiment:tritiumSpectrum}. As all three flavors contribute to the electron neutrino's mass, what will be measured is the incoherent sum of all three as described in chapter \ref{ch:Introduction:sec:Neutrinos in the standard model}.
       
       \begin{figure}
@@ -23,10 +23,17 @@
       A different light is shed on the simplicity of the task when considering the needed accuracy of $\Delta E < \SI{0.93}{\electronvolt}$ needed for the electrostatic filter to achieve the desired sensitivity \cite{KATRINWolf}. And this is just one in a meshwork of requirements necessary. All components need to work as a whole in the end, not a single one may contribute to the background much more than expected.
        \subsection{MAC-E Filter}
       \label{ch:The KATRIN experiment:sec:MAC-E}
-      A high luminosity is a major requirement for good statistics at the KATRIN experiment. This makes it impossible to use some kind of aperture to filter for electrons from Tritium decay with one momentum direction as they are emitted uniformly from the source volume and the largest amount of electrons would never reach the main spectrometer. That is why another strategy is used at KATRIN: The MAC-E filter - magnetic adiabatic collimation with electrostatic filter - which utilizes the fact that, under small enough magnetic field changes, the magnetic momentum of a particle is constant; the particle can be considered adiabatic. The solenoid and coil system surrounding the main spectrometer are set up to create a strong, but smooth magnetic field gradient of several orders of magnitude. At entrance and exit of the vessel, solenoids generating fields of up to \SI{}{\tesla} are installed while in the central, widest part, the field strength reduces by a factor of \todo{factors and field strengths}. This area is called the analysing plane. According to
-      \begin{equation}
-      	\mu = \frac{E_{\bot}}{B} = const \propto \frac{p_\bot}{B}
-      \end{equation}
+		To measure the energy of electrically charged decay electrons at high precision, an electrostatic filter comes to mind. As the electrons are emitted isotropically, they will have momentum components both parallel and perpendicular to the source-detector axis (defined as the z-axis). To make statements on the overall energy, the momentum direction needs to be well defined. In case of an electrostatic filter, it needs to be parallel to the electric field to be analyzed.
+		At the same time, a high luminosity is a major requirement for good statistics for the KATRIN experiment.
+		To satisfy all these requirements, several techniques are combined in the MAC-E filter - magnetic adiabatic collimation with electrostatic filter.\\
+		{\bf Magnetic} because magnetic fieldlines connect the source and the detector. Electrons from tritium decays are guided from source side to detector in cyclotron motion around one of these field lines. This strongly raises luminosity as electrons with large angles towards the z axis will not necessarily hit the wall of the source but will be able to reach the detector.\\
+		{\bf Adiabatic} because within the motion in this field, the momentum direction, but not the momentum value may change. That is given if the magetic fields change is small within each cyclotron motion. If so, the magnetic momentum $\mu$ remains constant. With
+		\begin{equation}
+			\mu = \frac{E_{\bot}}{B} = const \propto \frac{p_\bot}{B}
+		\end{equation}
+		
+		The solenoid and coil system surrounding the main spectrometer are set up to create a strong, but smooth magnetic field gradient of several orders of magnitude. At entrance and exit of the vessel, solenoids generating fields of up to \SI{}{\tesla} are installed while in the central, widest part, the field strength reduces by a factor of \todo{factors and field strengths}. This area is called the analysing plane. According to
+      
       where $\mu$ is the magnetic momentum, $E_\bot$ the kinetic energy transversal to the field line and $B$ is the magnetic fields magnitude, the momentum will align with the magnetic field lines as the field weakens. In the edge case of $B\rightarrow 0$ in the analysing plane, the momentum would need to be exactly parallel to the field as the transversal motion would approach 0 as well. 
       One can not differentiate between electrons emitted parallel to a magnetic field line and those emitted under the maximum angle towards it as the filter is not a perfect one. So, following
       \begin{equation}
@@ -47,7 +54,7 @@
             \begin{figure}
 	\centering
       	\includegraphics[width = 0.6 \textwidth]{graphics/katrinExperiment/macEFilter.jpg}
-      	\caption[MAC E Filter]{Functionality of a MAC E filter. The angular momentum of an electron not starting parallel to the magnetic field lines is converted mostly to linear kinetic energy up to the point of lowest fields. Here, the energy is analyzed before the particle is guided towards the detector \cite{macEFilter}.}
+      	\caption[MAC E Filter]{Principle of a MAC E filter. The angular momentum of an electron not starting parallel to the magnetic field lines is converted mostly to linear kinetic energy up to the point of lowest fields. Here, the energy is analyzed before the particle is guided towards the detector \cite{macEFilter}.}
       	\label{fig:katrinExperiment:macEFilter}
       \end{figure}
       
@@ -105,12 +112,14 @@
       
       \subsection{Pre-Spectrometer}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:PreSpectrometer}
-      The pre-spectrometer was built to reduce the flux to the main spectrometer by ~7 orders of magnitude \cite{statusPSWolf}. It works on the MAC-E filter principle from chapter \ref{ch:The KATRIN experiment:sec:MAC-E}. Being a lot smaller, its energy resolution can of course not compete with the main spectrometer one. Its purpose is to cut off the spectum below energies of \SI{18.4}{\kilo\electronvolt}, the electrons above that limit will pass and be further analyzed in the main spectrometer. Here, it is important that the momentum is restored after analysis which requires for a symmetric setup. The pre-spectrometer has a single layer of wires as a inner electrode to shield against externally induced electrons.
+      The pre-spectrometer was built to reduce the flux to the main spectrometer by ~7 orders of magnitude \cite{statusPSWolf}. It works on the MAC-E filter principle from chapter \ref{ch:The KATRIN experiment:sec:MAC-E}. Being a lot smaller, its energy resolution can of course not compete with the main spectrometer one. Its purpose is to cut off the spectum below energies of \SI{18.4}{\kilo\electronvolt}, the electrons above that limit will pass and be further analyzed in the main spectrometer. Here, it is important that the momentum is restored after analysis which requires for a symmetric setup. To shield against externally induced electrons, the pre-spectrometer has a single layer of wires as a inner electrode. It can be set to negative voltages in comparison to the pre-spectrometer hull which then reflects electrons with energies up to $Ue$.
       
       \subsection{Main Spectrometer}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:MainSpec}
-      The largest component of all is the main spectrometer. With a diameter of \SI{10}{\meter} and a length of over \SI{23}{\meter}, it incorporates around \SI{1400}{\cubic\meter} that need to be evacuated to extremely high vacuum of < \SI{e-11}{\milli\bar}. The main spectrometer, as the monitor spectrometer, makes use of MAC-E filtering technique from \ref{ch:The KATRIN experiment:sec:MAC-E}. The vessel is equipped with two layers of electrodes on a comb-like structure. This setup reduces the number of secondary electrons from the spectrometer walls entering the flux tube's volume. Keeping that count low, the rate of those electrons not reflected magnetically due to imperfect symmetries is reduced to the sub-\SI{}{\electronvolt} level \cite{wireElectrodeSystem}. The layer made from thinner wires further to the inside shields the spectrometer volume from the one further towards the wall as cosmic rays may unleash electrons there as well.
-      The main spectrometer as a whole is set to high voltage varied in the region below the endpoint of ~\SI{18.6}{\kilo\volt}. It constitutes the MAC-E filter from \ref{ch:The KATRIN experiment:sec:MAC-E}. The wire electrodes float on that voltage while being more negative to shield against electron background.
+      The largest component of all is the main spectrometer. With a diameter of \SI{10}{\meter} and a length of over \SI{23}{\meter}, it incorporates around \SI{1400}{\cubic\meter} that need to be evacuated to extremely high vacuum of < \SI{e-11}{\milli\bar}. The main spectrometer, as the monitor spectrometer, makes use of MAC-E filtering technique from \ref{ch:The KATRIN experiment:sec:MAC-E}. To do so, it features a uniquely designed electrode and a high voltage system \cite{mainSpecElectrodeDesign}. A precision voltage divider was constructed to read out the high voltage applied to the vessel with the highest precision voltmeters, which operate in the order of \SI{10}{\volt} \cite{highVoltageDivider}. Additionally, the voltage is fed to the monitor spectrometer from section \ref{ch:TheKATRINexperiment:sec:experimentalSetup:subsec:monSpec} to ensure its long term stability.
+      
+      The vessel is equipped with two layers of electrodes on a comb-like structure. This setup reduces the number of secondary electrons from the spectrometer walls entering the flux tube's volume. Keeping that count low, the rate of those electrons not reflected magnetically due to imperfect symmetries is reduced to the sub-\SI{}{\electronvolt} level \cite{wireElectrodeSystem}. The layer made from thinner wires further to the inside shields the spectrometer volume from the one further towards the wall as cosmic rays may unleash electrons there as well.
+      The main spectrometer as a whole is set to high voltage varied in the region below the endpoint of ~\SI{18.6}{\kilo\volt}. It constitutes the MAC-E filter from \ref{ch:The KATRIN experiment:sec:MAC-E}. The wire electrodes float on that voltage with a added more negative value to shield against electron background.
       \begin{figure}
       
       	\begin{minipage}{0.67\textwidth}
@@ -124,21 +133,22 @@
       \end{figure}
 		
       \subsection{Monitor spectrometer}
-      \label{ch:theKATRINexperiment:sec:experimentalSetup:subsec:monSpec}
+      \label{ch:TheKATRINexperiment:sec:experimentalSetup:subsec:monSpec}
       
-      The monitor spectrometer is, next to the high precision voltage surveillance, a second tool to ensure the quality of the high voltage.
+      The third MAC-E filter at KATRIN is the slightly modified Mainz spectrometer. It has been transported to Karlsruhe to work as a high voltage monitoring device. Here, electrons from $^{83m}$ Kr decays are detected and analyzed. The fact that the energy from these decays does not change over time (neglecting changes in the source material) can be used to detect shifts in the voltage of the MAC-E filter. For that purpose, the monitor spectrometer constantly measures transmission functions of 
+      The monitor spectrometer features two scintillation modules for muon detection that were used for a first inspection of muon induced background.
 
      
       \subsection{Focal Plane Detector System}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:FPD system}
-      The main detector is located at the very north of the experiment. It is made up of a silicon wafer divided into 148 pixels attached to the readout electronics by pin connectors. The pattern is dartboard-like, multiple pixels with the same distance to the center form rings. Every pixel has the same surface area, making rates more easily comparable - that is if the magnetic flux through the wafer is as homogeneous as in this experiment.
+      The detector is located at the very north of the experiment. It is made up of a silicon wafer whose back-side is divided into 148 pixels attached to the readout electronics by pin connectors. The pattern is dartboard-like, multiple pixels with the same distance to the center form rings. Every pixel has the same surface area, making rates more easily comparable - that is for a magnetic flux through the wafer as homogeneous as in this experiment.
       The detector system is roughly divided into two chambers: one connected to the ultra high vacuum of the main spectrometer and one with a lower grade vacuum on the detectors readout side.
       
       
       \begin{figure}
       \centering
 	\includegraphics[width = 0.8 \textwidth]{graphics/katrinExperiment/detectorHousing.pdf}
-	\caption[Focal plane detector system]{The focal plane detector system including the flux tube (green). One can make out the different grade vacuum sections: extremely high vacuum (XHV) and medium high vacuum (MHV). The post acceleration electrode is visible left of the actual detector and its signal feed trough on the very right. Multiple flanges and connectors are shown, not in this image are the calibration source holders \cite{FPD}.}
+	\caption[Focal plane detector system]{The focal plane detector system including a flux tube (green). One can make out the different grade vacuum sections: extremely high vacuum (XHV) and medium high vacuum (MHV). The post acceleration electrode is visible left of the bronze colored actual detector and its signal feed trough on the very right. Multiple flanges and connectors are shown, not included in this picture are the calibration source holders \cite{FPD}.}
 	\label{fig:katrinExperiment:detectorHousing}
       \end{figure}
       
@@ -150,17 +160,22 @@
       \end{figure}
       
       
-      For background reduction, the detector system features both a passive shielding and an active veto system read out by the same data crate as the detector itself. It allows to discriminate externally triggered events. due to the high magnetic fields from detector and pinch magnet, semiconductor readout electronics had to be used instead of conventional photomultiplier tubes.
-      As it may be necessary to investigate electrons with energies below the detector threshold, especially for background investigations, a post acceleration electrode has been installed - also visible in \ref{fig:katrinExperiment:detectorHousing} that can raise the energies through an electric field of known strength.
+      For background reduction, the detector system features both a passive shielding and an active veto system read out by the same data crate as the detector itself. It allows to discriminate against externally induced detector events. Due to the high magnetic fields from detector and pinch magnet, semiconductor readout electronics had to be used instead of conventional photomultiplier tubes.
+      As it may be necessary to investigate electrons with energies below the detector threshold, especially for background investigations, a post acceleration electrode has been installed - also visible in \ref{fig:katrinExperiment:detectorHousing} that can add to the electrons' energies through an electric field of known strength.
+      
       \subsection{Solenoids, LFCS and EMCS system}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:Solenoids, LFCS and EMCS system}
       
-      To achieve magnetic guidance in the way explained above, a sophisticated system of superconducting solenoids, the low field correction system LFCS and the earth magnetic field compensation system EMCS have been installed \cite{airCoilSystem}. These make sure that the path of flight is kept away from the wall and can be considered adiabatic, that penning traps are avoided as far as possible, that the earth magnetic field is compensated for and, most importantly, that the field drop to the analysis plane is of the order of \todo{order?} so the spectrometers resolution will achieve desired values.
+      To achieve magnetic guidance as explained in chapter \ref{ch:}, a sophisticated system of superconducting solenoids, the low field correction system LFCS and the earth magnetic field compensation system EMCS have been installed \cite{airCoilSystem}. These make sure that the path of flight is kept away from the wall and can be considered adiabatic, that penning traps are avoided as far as possible, that the earth magnetic field is compensated for and, most importantly, that the field drop to the analysis plane is of the order of \todo{order?} so the spectrometers resolution will achieve desired values.
       
 
       \subsection{Background sources}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:BackgroundSources}
-      Different sources contribute to the background of electrons arriving at the detector. First, there is background due to stored electrons \cite{storedElectrons}. Penning traps cause electrons with fitting energies to be trapped in a potential cup. Discharges of those traps due to scattering processes with either residual gas or due to excessive filling of the trap can cause high-rate events at the detector. This can be both dangerous for the detector itself as it is harmful for data taking. Stored electrons can be both from external sources as from within the spectrometer. Decays of residual gas or wall absorbed molecules can contribute to the background. One large background source is radon, a neutral particle enabling it to move freely inside the vessel. Radon alpha decays, but shakeoff-, conversion- and auger electrons can then be guided to the detector \cite{radonGoerhard}.
-      
-      Another large background source are cosmic rays interacting with the vessel hull and producing electrons like that. This background is reduced mainly by two factors, one: the symmetry of the magnetic field and two: the wire electrodes shielding the flux tube up to a certain threshold energy.
-      To one: if the fields, both electric and magnetic, were perfectly symmetrical and parallel, only particles generated within the flux tube would be guided towards the detector. But through inhomogeneities and alignment errors, electrons may enter the flux tube even if generated externally, e.g at the spectrometer wall through $E\times B$ drifts. To keep this from happening, point two, the wire electrodes, were installed. They shield the flux tube against electrons with energies up to $E_e = U_{wire}e$ depending on the wire electrodes voltage $U_{wire}$. 
+      Different sources contribute to the background of electrons arriving at the detector. Background due to stored electrons is probably the largest source of detector background \cite{storedElectrons}. Penning traps cause electrons with energies in a certain range to be caught in a potential cup. Discharges of those traps due to scattering processes with either residual gas or due to excessive filling of the trap can cause high-rate events at the detector. This can be both dangerous for the detector itself as it is may inhibit data taking. Stored electrons can be both from external sources as from within the spectrometer. Decays of residual gas or wall absorbed molecules can contribute to the background. One large background source is radon, a neutral particle enabling it to move freely inside the vessel. Radon alpha decays, but shakeoff-, conversion- and auger electrons can then be guided to the detector \cite{radonGoerhard, radonWandkowsky}.
+      Another large background source are cosmic rays interacting with the vessel hull and producing electrons like that. This background is reduced mainly by two factors, the symmetry of the magnetic field and the wire electrodes shielding the flux tube up to a certain threshold energy.
+      To if the fields, both electric and magnetic, were perfectly symmetrical and parallel, only particles generated within the flux tube would be guided towards the detector. But through inhomogeneities and alignment errors, electrons may enter the flux tube even if generated externally, e.g at the spectrometer wall through $E\times B$ drifts. To keep this from happening, the wire electrodes, were installed. They shield the flux tube against electrons with energies up to $E_e = eU_{wire}$ depending on the wire electrodes voltage $U_{wire}$. 
+      \begin{figure}
+		\centering
+		\includegraphics{graphics/katrinExperiment/wireElectrodes.jpg}
+		\caption[Wire electrodes]{A graph of the wire electrodes installed inside the main spectrometer. Both layers of electrodes are visible, the inner being smaller in diameter than the outer one.f}
+	  \end{figure}

@@ -28,53 +28,51 @@ Warning--entry type for "radonGoerhard" isn't style-file defined
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--missing publisher in bethgeKernphysik
 Warning--empty journal in fermi
 Warning--missing publisher in Hayakawa
 Warning--empty title in How09
 Warning--empty journal in letterOfIntent
-Warning--empty title in superallowance
 
 Done.
-You've used 45 entries,
+You've used 50 entries,
             5047 wiz_defined-function locations,
-            1284 strings with 17256 characters,
-and the built_in function-call counts, 34751 in all, are:
-= -- 3543
-> -- 858
-< -- 163
-+ -- 355
-- -- 241
-* -- 1747
-:= -- 5630
-add.period$ -- 84
-call.type$ -- 45
-change.case$ -- 275
-chr.to.int$ -- 329
-cite$ -- 51
-duplicate$ -- 2241
-empty$ -- 2381
-format.name$ -- 315
-if$ -- 7556
+            1319 strings with 18467 characters,
+and the built_in function-call counts, 39821 in all, are:
+= -- 4081
+> -- 967
+< -- 202
++ -- 404
+- -- 269
+* -- 2007
+:= -- 6442
+add.period$ -- 96
+call.type$ -- 50
+change.case$ -- 304
+chr.to.int$ -- 409
+cite$ -- 54
+duplicate$ -- 2556
+empty$ -- 2694
+format.name$ -- 352
+if$ -- 8692
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 374
-newline$ -- 187
-num.names$ -- 135
-pop$ -- 1021
+missing$ -- 418
+newline$ -- 210
+num.names$ -- 150
+pop$ -- 1106
 preamble$ -- 1
-purify$ -- 306
+purify$ -- 338
 quote$ -- 2
-skip$ -- 2608
+skip$ -- 3006
 stack$ -- 0
-substring$ -- 1065
-swap$ -- 1451
-text.length$ -- 68
-text.prefix$ -- 26
+substring$ -- 1296
+swap$ -- 1702
+text.length$ -- 82
+text.prefix$ -- 28
 top$ -- 6
-type$ -- 910
-warning$ -- 6
-while$ -- 152
-width$ -- 49
-write$ -- 568
-(There were 8 warnings)
+type$ -- 1018
+warning$ -- 4
+while$ -- 175
+width$ -- 54
+write$ -- 644
+(There were 6 warnings)

@@ -64,13 +64,14 @@ M.~Babutzka, ``24th katrin collaboration meeting - status of the rearsection,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d847077/95-TRP-5401-S1-MBabutzka.pptx},
   2013, [Online; accessed 01-09-2013].
 
-\bibitem[Bet06]{bethgeKernphysik}
-Bethge, \emph{Kernphysik}, 2006.
-
 \bibitem[Bor13]{DPS}
 L.~Bornschein, ``24th katrin collaboration meeting - status of dps,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774094/95-TRP-5405-S2-LBornschein.ppt},
   2013, [Online; accessed 01-09-2013].
+
+\bibitem[BW06]{bethgeKernphysik}
+Bethge and Walter, \emph{Kernphysik}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2006.
 
 \bibitem[CRH{\etalchar{+}}56]{neutrinoEvidence}
 \BIBentryALTinterwordspacing
@@ -111,6 +112,14 @@ G.~Drexlin, ``Wgts,''
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d736434/95-TRP-5205-S2-GDrexlin.pptx},
   2012.
 
+\bibitem[FBD{\etalchar{+}}11]{radonWandkowsky}
+\BIBentryALTinterwordspacing
+F.~Fränkle, L.~Bornschein, G.~Drexlin \emph{et~al.}, ``Radon induced
+  background processes in the katrin pre-spectrometer,'' \emph{Astroparticle
+  Physics}, vol.~35, no.~3, pp. 128 -- 134, 2011. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0927650511001290}
+\BIBentrySTDinterwordspacing
+
 \bibitem[Fer34]{fermi}
 E.~Fermi, ``Versuch einer theorie der $\beta$ strahlen,'' 1934, [Online,
   accessed 06-09-2013].
@@ -128,9 +137,9 @@ S.~G\"orhardt, ``Reduktion der durch radon induzierten untergrundprozesse in
 
 \bibitem[GBH{\etalchar{+}}13]{temperatureWGTS}
 \BIBentryALTinterwordspacing
-S.~Grohmann, T.~Bode, M.~Hötzel, H.~Schön, M.~Süßer, and T.~Wahl, ``The
-  thermal behaviour of the tritium source in \{KATRIN\},'' \emph{Cryogenics},
-  vol. 55–56, no.~0, pp. 5 -- 11, 2013. [Online]. Available:
+S.~Grohmann, T.~Bode, M.~Hötzel \emph{et~al.}, ``The thermal behaviour of the
+  tritium source in \{KATRIN\},'' \emph{Cryogenics}, vol. 55–56, no.~0, pp. 5
+  -- 11, 2013. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0011227513000076}
 \BIBentrySTDinterwordspacing
 
@@ -213,7 +222,8 @@ B.~A. Reid \emph{et~al.}, ``{Cosmological Constraints from the Clustering of
   \emph{Mon.Not.Roy.Astron.Soc.}, vol. 404, pp. 60--85, 2010.
 
 \bibitem[RGHR88]{superallowance}
-D.~A.~K. R.~G. H.~Robertson, \emph{Annual Review of Nucear Science}, 1988.
+D.~A.~K. R.~G. H.~Robertson, ``Direct measurements of neutrino mass,''
+  \emph{Annual Review of Nucear Science}, 1988.
 
 \bibitem[Rod13]{particlesSM}
 W.~Rodejohann, ``standard model elementary particles,''
@@ -255,6 +265,33 @@ T.~Th{\"u}mmler, ``24th katrin collaboration meeting - sds status \&
   \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d774576/95-TRP-5409-S3-TThuemmler.pdf},
   2013, [Online; accessed 01-09-2013].
 
+\bibitem[TMW09]{highVoltageDivider}
+\BIBentryALTinterwordspacing
+T.~Thümmler, R.~Marx, and C.~Weinheimer, ``Precision high voltage divider for
+  the katrin experiment,'' \emph{New Journal of Physics}, vol.~11, no.~10, p.
+  103007, 2009. [Online]. Available:
+  \url{http://stacks.iop.org/1367-2630/11/i=10/a=103007}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Val06]{mainSpecElectrodeDesign}
+\BIBentryALTinterwordspacing
+K.~Valerius, ``Electromagnetic design and inner electrode for the katrin main
+  spectrometer,'' \emph{Progress in Particle and Nuclear Physics}, vol.~57,
+  no.~1, pp. 58 -- 60, 2006, <ce:title>International Workshop of Nuclear
+  Physics 27th course</ce:title> <ce:subtitle>Neutrinos in Cosmology, in Astro,
+  Particle and Nuclear Physics</ce:subtitle> <xocs:full-name>Ettore Majorana
+  Center for Scientific Culture</xocs:full-name>. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0146641005001353}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Val10]{wireElectrodeSystem}
+\BIBentryALTinterwordspacing
+------, ``The wire electrode system for the \{KATRIN\} main spectrometer,''
+  \emph{Progress in Particle and Nuclear Physics}, vol.~64, no.~2, pp. 291 --
+  293, 2010. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0146641009001100}
+\BIBentrySTDinterwordspacing
+
 \bibitem[W{\etalchar{+}}12]{LENA}
 M.~Wurm \emph{et~al.}, ``{The next-generation liquid-scintillator neutrino
   observatory LENA},'' \emph{Astropart.Phys.}, vol.~35, pp. 685--732, 2012.
@@ -270,13 +307,17 @@ C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson,
 \bibitem[Wie13]{KevinWierman}
 K.~Wierman, personal conversation, 2013.
 
+\bibitem[Wol04]{statusPSWolf}
+J.~Wolf, ``Status of the pre-spectrometer of the katrin experiment,''
+  \url{http://www.katrin.kit.edu/publikationen/talk_DPG-2004-03-11-prespec.pdf},
+  2004, [Online, accessed 17-09-2013].
+
 \bibitem[Wol10]{KATRINWolf}
 \BIBentryALTinterwordspacing
-J.~Wolf, ``The \{KATRIN\} neutrino mass experiment,'' \emph{Nuclear Instruments
-  and Methods in Physics Research Section A: Accelerators, Spectrometers,
-  Detectors and Associated Equipment}, vol. 623, no.~1, pp. 442 -- 444, 2010,
-  <ce:title>1st International Conference on Technology and Instrumentation in
-  Particle Physics</ce:title>. [Online]. Available:
+------, ``The katrin neutrino mass experiment,'' \emph{Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment}, vol. 623, no.~1, pp. 442 -- 444, 2010. [Online].
+  Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0168900210005942}
 \BIBentrySTDinterwordspacing
 
