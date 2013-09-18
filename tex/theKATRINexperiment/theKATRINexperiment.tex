@@ -26,25 +26,25 @@
 		To measure the energy of electrically charged decay electrons at high precision, an electrostatic filter comes to mind. As the electrons are emitted isotropically, they will have momentum components both parallel and perpendicular to the source-detector axis (defined as the z-axis). To make statements on the overall energy, the momentum direction needs to be well defined. In case of an electrostatic filter, it needs to be parallel to the electric field to be analyzed.
 		At the same time, a high luminosity is a major requirement for good statistics for the KATRIN experiment.
 		To satisfy all these requirements, several techniques are combined in the MAC-E filter - magnetic adiabatic collimation with electrostatic filter.\\
-		{\bf Magnetic} because magnetic fieldlines connect the source and the detector. Electrons from tritium decays are guided from source side to detector in cyclotron motion around one of these field lines. This strongly raises luminosity as electrons with large angles towards the z axis will not necessarily hit the wall of the source but will be able to reach the detector.\\
-		{\bf Adiabatic} because within the motion in this field, the momentum direction, but not the momentum value may change. That is given if the magetic fields change is small within each cyclotron motion. If so, the magnetic momentum $\mu$ remains constant. With
+		{\bf Magnetic} fieldlines connect the source and the detector. Electrons from tritium decays are guided from source side to detector in cyclotron motion around one of these field lines. This strongly raises luminosity as electrons with large angles towards the z axis will not necessarily hit the wall of the source but will be able to reach the detector.\\
+		{\bf Adiabatic} motion in the magnetic field is defined by the allowance of momentum direction changes at constant momentum value. That is given if the magetic field change is small within each cyclotron orbit. If so, the magnetic momentum $\mu$ correlated to $E_\bot$, the energy perpendicular to the magnetic field $B$, as follows remains constant
 		\begin{equation}
-			\mu = \frac{E_{\bot}}{B} = const \propto \frac{p_\bot}{B}
+			\mu = \frac{E_{\bot}}{B} = const \propto \frac{p_\bot}{B}.
+			\label{eq:magMomentum}
 		\end{equation}
-		
-		
-		The solenoid and coil system surrounding the main spectrometer are set up to create a strong, but smooth magnetic field gradient of several orders of magnitude. At entrance and exit of the vessel, solenoids generating fields of up to \SI{}{\tesla} are installed while in the central, widest part, the field strength reduces by a factor of \todo{factors and field strengths}. This area is called the analysing plane. According to
+		{\bf Collimation} in a MAC-E filter is based on the above adiabacity. Magnetic field strengths drop over several orders of magnitude from $B_{max}$ at the solenoid magnets to $B_{min}$ in the analysis plane (see figure \ref{fig:katrinExperiment:macEFilter}). Considering equation \ref{eq:magMomentum}, this means that the energy perpendicular to the magnetic field must drop over the same order of magnitude for $\mu$ to remain constant.\\
+		{\bf Electrostatic} filtering occurs exactly at that point of minimal energies $E_\bot$ in the analysis plane. Here, the momentum vector is mostly defined by its component parallel to the magnetic field $E_{||}$. Setting the electrostatic filter to a fixed voltage $U$ now reflects electrons with $E_{||} < Ue$.\\
+		Most electrons are emitted at the source are non-parallel to the magnetic field lines and thus an energy $E_\bot \neq 0$. That means that it is very likely that electrons in the analysis plane have remaining energy $E_\bot$. This limits the filter resolution, the relative sharpness is given by
+		\begin{equation}
+		\Delta E = E_{\bot_{max}} = E_{\bot_0}\frac{B_{low}}{B_{0}}
+% 			\frac{\Delta E}{E} = \frac{B_{min}}{B_{max}}.
+		\end{equation}
+		Only in the edge case of $B\rightarrow 0$ in the analysing plane, the momentum would need to be exactly parallel to the field and the resolution would not be limited. The resolution also depends on the choice of accepted starting angles. 
+		\begin{equation}
+			\mu_{\mathrm{0}} = \mu_{\mathrm{low}} ~ \longrightarrow ~ \frac{E_{\bot_0}}{B_0} = \frac{E_{\bot_{low}}}{B_{low}} 
+		\end{equation}
       
-      where $\mu$ is the magnetic momentum, $E_\bot$ the kinetic energy transversal to the field line and $B$ is the magnetic fields magnitude, the momentum will align with the magnetic field lines as the field weakens. In the edge case of $B\rightarrow 0$ in the analysing plane, the momentum would need to be exactly parallel to the field as the transversal motion would approach 0 as well. 
-      One can not differentiate between electrons emitted parallel to a magnetic field line and those emitted under the maximum angle towards it as the filter is not a perfect one. So, following
-      \begin{equation}
-      	\mu_{\mathrm{0}} = \mu_{\mathrm{low}} ~ \longrightarrow ~ \frac{E_{\bot_0}}{B_0} = \frac{E_{\bot_{low}}}{B_{low}} 
-      \end{equation}
-      the energy resolution can be described by the field values, the electron's initial energy $E_0$ and its maximum transversal energy $E_{\bot_{max}}$ to be accepted by the filter:
-      \begin{equation}
-	    \Delta E = E_{\bot_{max}} = E_{\bot_0}\frac{B_{low}}{B_{0}}
-      \end{equation}
-      The main spectrometer reaches a resolution of \SI{0.93}{\electronvolt}.
+      
       To further filter out electrons with high starting angle, the source is set to lower fields than the maximum $B_{max}$.
       As with larger angles come longer paths, this reduces the probability of electrons taking part in scattering processes inside the source section being detected.
       \begin{equation}
@@ -52,6 +52,7 @@
       \end{equation}
       With the chosen settings This results in an angular acceptance of 2$\pi$.
       
+      The main spectrometer reaches a resolution of \SI{0.93}{\electronvolt}.
             \begin{figure}
 	\centering
       	\includegraphics[width = 0.6 \textwidth]{graphics/katrinExperiment/macEFilter.jpg}

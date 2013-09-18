@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.4}Main Spectrometer}{20}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Monitor spectrometer}{20}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Focal Plane Detector System}{21}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Solenoids, LFCS and EMCS system}{21}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.7}Solenoids, LFCS and EMCS system}{23}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Background sources}{23}{subsection.2.2.8}
 \contentsline {chapter}{\numberline {3}Muon detection system}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Data aquisition crate}{25}{section.3.1}
