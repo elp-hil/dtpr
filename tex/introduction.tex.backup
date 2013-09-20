@@ -343,11 +343,11 @@
     \end{equation}
     which, from our reference frame, prolongs the lifetime by a factor of around 5, being already enough to reach the surface from heights of \SI{3}{\kilo\meter}. Most muons have even higher energies, making it possible for them to reach surface from greater heights and under non perpendicular angles towards it.
     For KATRIN, this poses a problem. A smaller flux would be advantageous, as muons may cause emission of electrons from the spectrometer vessels surface. Shielding against muons is difficult as it requires thick layers of dense matter due to the muons high energies and the low deposition in matter in relations to those.
-    The energy deposition of a charged particle as the in matter can be described by the landau distribution that is parametrized as follows \cite{Grupen}.
+    The fluctuation of energy deposition of a charged particle as the muon in matter can be described by the landau distribution that is parametrized as follows \cite{Grupen}.
     \begin{equation}
     	L(E) = \frac{1}{2\pi}\exp{\left\{-\frac{1}{2}\left(E-\hat E + \exp \left(-(E-\hat E)\right)\right)\right\}}
     \end{equation}
-	$\hat E$ is the most probable energy deposition value. The analytic distribution is shown in figure \ref{fig:Introduction:landauDistribution}.
+	$\hat E$ is the most probable energy deposition value. The analytic distribution is shown in figure \ref{fig:Introduction:landauDistribution}. The muon modules show that distribution as expected, see \ref{ch:The muon detection system} for details.
 	\begin{figure}
 	\centering
 		\includegraphics[width = 0.9 \textwidth]{graphics/cosmicRays/TMathLandauRoot.eps}

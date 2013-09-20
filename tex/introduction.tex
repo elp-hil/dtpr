@@ -76,7 +76,7 @@
 		\begin{figure}
 		\centering
 			\includegraphics[width=0.8\textwidth]{graphics/neutrinos/solarNeutrinos.eps}
-			\caption[Solar neutrino Flux]{The graph shows the theoretical solar neutrino flux in \SI{}{\per\square\centi\meter \per\second \per\mega\electronvolt} over the neutrino energy - for line sources in \SI{}{\per\square\centi\meter \per\second}. Different processes are shown, the dominant pp process is visible in the upper left. CNO fluxes are dropped in this figure.}
+			\caption[Solar neutrino Flux]{The graph shows the theoretical solar neutrino flux in \SI{}{\per\square\centi\meter \per\second \per\mega\electronvolt} over the neutrino energy - for line sources in \SI{}{\per\square\centi\meter \per\second}. Different processes are shown, the dominant pp process is visible in the upper left. CNO fluxes are dropped in this figure. On the very top, the sensitivities of different experiments are shown.}
 			\label{fig:neutrinos:solarNeutrinos}
 		\end{figure}
 
@@ -345,13 +345,13 @@
     For KATRIN, this poses a problem. A smaller flux would be advantageous, as muons may cause emission of electrons from the spectrometer vessels surface. Shielding against muons is difficult as it requires thick layers of dense matter due to the muons high energies and the low deposition in matter in relations to those.
     The fluctuation of energy deposition of a charged particle as the muon in matter can be described by the landau distribution that is parametrized as follows \cite{Grupen}.
     \begin{equation}
-    	L(E) = \frac{1}{2\pi}\exp{\left\{-\frac{1}{2}\left(E-\hat E + \exp \left(-(E-\hat E)\right)\right)\right\}}
+    	L(E) = \frac{1}{2\pi}\exp{\left\{-\frac{1}{2}\left(E- \hat E + \exp \left(-(E-\hat E)\right)\right)\right\}}
     \end{equation}
 	$\hat E$ is the most probable energy deposition value. The analytic distribution is shown in figure \ref{fig:Introduction:landauDistribution}. The muon modules show that distribution as expected, see \ref{ch:The muon detection system} for details.
-	\begin{figure}
+	\begin{figure}[H]
 	\centering
 		\includegraphics[width = 0.9 \textwidth]{graphics/cosmicRays/TMathLandauRoot.eps}
-		\caption[Landau distribution]{Analytic landau distribution as implemented in the ROOT software.}
+		\caption[Landau distribution]{Analytic landau distribution as implemented in the ROOT software. $\hat E$ was set to 1200.}
 		\label{fig:Introduction:landauDistribution}
 	\end{figure}
 

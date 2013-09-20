@@ -22,6 +22,12 @@
       \end{figure}
       A different light is shed on the simplicity of the task when considering the needed accuracy of $\Delta E < \SI{0.93}{\electronvolt}$ needed for the electrostatic filter to achieve the desired sensitivity \cite{KATRINWolf}. And this is just one in a meshwork of requirements necessary. All components need to work as a whole in the end, not a single one may contribute to the background much more than expected.
        \subsection{MAC-E Filter}
+                   \begin{figure}
+	\centering
+      	\includegraphics[width = 0.8 \textwidth]{graphics/katrinExperiment/macEFilter.pdf}
+      	\caption[MAC E Filter]{Principle of a MAC E filter. In the upper part, magnetic fieldlies are plotted in blue together with fieldstrengths at the source (\SI{3.6}{\tesla}) and inside the pinch solenoid (\SI{6}{\tesla}). The accepted solid angle and a exemplary particle path are shown in red. The analysis plane is defined by the area of minimum magnetic fields $B_{min}$. Below, the momentum of an electron with a large starting angle towards the magnetic field lines is shown. It is tipping over as the field weakens. Meanwhile, the vessel voltage $U_0$ analyses the energy parallel to the electric field passing only electrons with large enough energies on to the detector \cite{macEFilter}.}
+      	\label{fig:katrinExperiment:macEFilter}
+      \end{figure}
       \label{ch:The KATRIN experiment:sec:MAC-E}
 		To measure the energy of electrically charged decay electrons at high precision, an electrostatic filter comes to mind. As the electrons are emitted isotropically, they will have momentum components both parallel and perpendicular to the source-detector axis (defined as the z-axis). To make statements on the overall energy, the momentum direction needs to be well defined. In case of an electrostatic filter, it needs to be parallel to the electric field to be analyzed.
 		At the same time, a high luminosity is a major requirement for good statistics for the KATRIN experiment.
@@ -33,16 +39,22 @@
 			\label{eq:magMomentum}
 		\end{equation}
 		{\bf Collimation} in a MAC-E filter is based on the above adiabacity. Magnetic field strengths drop over several orders of magnitude from $B_{max}$ at the solenoid magnets to $B_{min}$ in the analysis plane (see figure \ref{fig:katrinExperiment:macEFilter}). Considering equation \ref{eq:magMomentum}, this means that the energy perpendicular to the magnetic field must drop over the same order of magnitude for $\mu$ to remain constant. This leads to a parallelization of momentum vector and B-field direction. \\\\
-		{\bf Electrostatic filtering} occurs exactly at that point of minimal energies $E_\bot$ in the analysis plane. Here, the momentum vector is mostly defined by its component parallel to the magnetic field $E_{||}$. Setting the electrostatic filter to a fixed voltage $U$ now reflects electrons with $E_{||} < Ue$.\\
-		Most electrons are emitted at the source are non-parallel to the magnetic field lines and thus an energy $E_\bot \neq 0$. That means that it is very likely that electrons in the analysis plane have remaining energy $E_\bot$. This limits the filter resolution, the relative sharpness is given by
+		{\bf Electrostatic filtering} occurs exactly at that point of minimal energies $E_\bot$ in the analysis plane. Here, the momentum vector is mostly defined by its component parallel to the magnetic field $E_{||}$. Setting the electrostatic filter to a fixed voltage $U$ now reflects electrons with $E_{||} < U\cdot e$.\\
+		Most electrons are emitted at the source are non-parallel to the magnetic field lines and thus an energy $E_\bot \neq 0$. That means that it is very likely that electrons in the analysis plane have remaining energy $E_\bot$. This limits the filter resolution, with 
 		\begin{equation}
-		\Delta E = E_{\bot_{max}} = E_{\bot_0}\frac{B_{low}}{B_{0}}
+			\mu_{low} = \frac{E_{\bot_{min}}}{B_{min}} = \frac{E_{\bot_{max}}}{B_{max}} = \mu_{high} = \mu
+		\end{equation}
+
+		the relative sharpness is given by the maximum transversal energy $E_{\bot_max}$ that is still accepted in the filter. As for a 
+		\begin{equation}
+		\Delta E = E_{\bot_{max}} = E_{0}\frac{B_{min}}{B_{max}}
 % 			\frac{\Delta E}{E} = \frac{B_{min}}{B_{max}}.
 		\end{equation}
+		
 		Only in the edge case of $B\rightarrow 0$ in the analysing plane, the momentum would need to be exactly parallel to the field and the resolution would not be limited.
 		After passing the analysing plane, the electrons are reaccelerated by the electric field and guided and focused onto a detector.
 		To additionally dismiss electrons with large starting angles towards the magnetic field, the source field strengthsare chosen to be smaller than the maximum field strength inside the solenoid. This ensures that electrons with long paths that are more likely to scatter will not be analyzed through the effect of magnetic mirroring \cite{magneticMirror}.
-		With the chosen settings, this results in an angular acceptance of 2$\pi$. The main spectrometer reaches a resolution of \SI{0.93}{\electronvolt} (see section \ref{ch:The KATRIN experiment:sec:Experimental setup:subsec:MainSpec} for more details).
+		With the chosen settings, this results in an angular acceptance of \SI{50.77}{\degree}. The main spectrometer reaches a resolution of \SI{0.93}{\electronvolt} (see section \ref{ch:The KATRIN experiment:sec:Experimental setup:subsec:MainSpec} for more details).
 % 		\begin{equation}
 % 			\mu_{\mathrm{0}} = \mu_{\mathrm{low}} ~ \longrightarrow ~ \frac{E_{\bot_0}}{B_0} = \frac{E_{\bot_{low}}}{B_{low}} 
 % 		\end{equation}
@@ -52,12 +64,7 @@
 %       	\theta_{s~max}= \arcsin{\sqrt{\frac{B_s}{B_{max}}}}
 %       \end{equation}
 %       
-            \begin{figure}
-	\centering
-      	\includegraphics[width = 0.6 \textwidth]{graphics/katrinExperiment/macEFilter.jpg}
-      	\caption[MAC E Filter]{Principle of a MAC E filter. The angular momentum of an electron not starting parallel to the magnetic field lines is converted mostly to linear kinetic energy up to the point of lowest fields. Here, the energy is analyzed before the particle is guided towards the detector \cite{macEFilter}.}
-      	\label{fig:katrinExperiment:macEFilter}
-      \end{figure}
+
       
 
       \section{Experimental Setup}
@@ -156,7 +163,7 @@
       \begin{figure}
       \centering
       	\includegraphics[width = 0.7 \textwidth]{graphics/katrinExperiment/detectorWafer.jpg}
-	  \caption[Detector wafer]{The detector wafer as installed in the FPD system. Note the ``dartboard pattern'' with the four pixel bullseye in the center on the left side.}
+	  \caption[Detector wafer]{The detector wafer as installed in the FPD system. Note the ``dartboard pattern'' with the four pixel bullseye in the center. This is the detectors back side to which the electronics are attached, the front is plaid making for high detection efficiencies.}
 	  \label{fig:katrinExperiment:detectorWafer}
       \end{figure}
       
@@ -172,7 +179,7 @@
 
       \subsection{Background sources}
       \label{ch:The KATRIN experiment:sec:Experimental setup:subsec:BackgroundSources}
-      Different sources contribute to the background of electrons arriving at the detector. Background due to stored electrons is probably the largest source of detector background \cite{storedElectrons}. Penning traps cause electrons with energies in a certain range to be caught in a potential cup. Discharges of those traps due to scattering processes with either residual gas or due to excessive filling of the trap can cause high-rate events at the detector. This can be both dangerous for the detector itself as it is may inhibit data taking. Stored electrons can be both from external sources as from within the spectrometer. Decays of residual gas or wall absorbed molecules can contribute to the background. One large background source is radon, a neutral particle enabling it to move freely inside the vessel. Radon alpha decays, but shakeoff-, conversion- and auger electrons can then be guided to the detector \cite{radonGoerhard, radonWandkowsky}.
+      Different sources contribute to the background of electrons arriving at the detector. Background due to stored electrons is probably the largest source of detector background \cite{storedElectrons}. Penning traps cause electrons with energies in a certain range to be caught in a potential cup. Discharges of those traps due to scattering processes with either residual gas or due to excessive filling of the trap can cause high-rate events at the detector. This can be both dangerous for the detector itself as it is may inhibit data taking. Stored electrons can be both from external sources as from within the spectrometer. Decays of residual gas or wall absorbed molecules can contribute to the background. One large background source is radon, a neutral particle enabling it to move freely inside the vessel. Radon alpha decays, but shakeoff-, conversion- and auger electrons can be guided to the detector from inside the flux tube \cite{radonGoerhard, radonWandkowsky}.
       Another large background source are cosmic rays interacting with the vessel hull and producing electrons like that. This background is reduced mainly by two factors, the symmetry of the magnetic field and the wire electrodes shielding the flux tube up to a certain threshold energy.
       To if the fields, both electric and magnetic, were perfectly symmetrical and parallel, only particles generated within the flux tube would be guided towards the detector. But through inhomogeneities and alignment errors, electrons may enter the flux tube even if generated externally, e.g at the spectrometer wall through $E\times B$ drifts. To keep this from happening, the wire electrodes, were installed. They shield the flux tube against electrons with energies up to $E_e = eU_{wire}$ depending on the wire electrodes voltage $U_{wire}$. 
       \begin{figure}
