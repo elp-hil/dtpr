@@ -83,6 +83,7 @@
 \usepackage{caption}
 \usepackage{tabularx}
 \usepackage{longtable}
+\usepackage{rotating} 
 %\usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage[version = 3]{mhchem}
@@ -152,8 +153,10 @@ appendix
 \mainmatter
 \listoffigures
 \listoftables
+
 \pagenumbering{arabic}
 \include{introduction}
+
 \include{theKATRINexperiment/theKATRINexperiment}
 \include{muonDetectionSystem/muonDetectionSystem}
 % \include{DAQ/DAQ}
@@ -172,7 +175,7 @@ appendix
 \addcontentsline{toc}{chapter}{\bibname}
 
 \iflanguage{english}
-{\bibliographystyle{IEEEtranSA}}	% english style
+{\bibliographystyle{unsrt}}	% english style
 {\bibliographystyle{babalpha-fl}}	% german style
 												  
 % Use IEEEtran for numeric references

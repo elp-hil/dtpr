@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  18 SEP 2013 14:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  20 SEP 2013 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,11 +1080,19 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count304
 \LT@p@ftn=\toks33
 )
-Class scrbook Info: longtable captions redefined on input line 87.
+Class scrbook Info: longtable captions redefined on input line 86.
 
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count305
+\rotFPtop=\skip83
+\rotFPbot=\skip84
+\rot@float@box=\box61
+\rot@mess@toks=\toks34
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip83
+\@mathmargin=\skip85
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1094,41 +1102,41 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count305
+\inf@bad=\count306
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count306
-\leftroot@=\count307
+\uproot@=\count307
+\leftroot@=\count308
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count308
-\DOTSCASE@=\count309
+\classnum@=\count309
+\DOTSCASE@=\count310
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box61
-\strutbox@=\box62
+\Mathstrutbox@=\box62
+\strutbox@=\box63
 \big@size=\dimen283
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count310
-\c@MaxMatrixCols=\count311
+\macc@depth=\count311
+\c@MaxMatrixCols=\count312
 \dotsspace@=\muskip11
-\c@parentequation=\count312
-\dspbrk@lvl=\count313
-\tag@help=\toks34
-\row@=\count314
-\column@=\count315
-\maxfields@=\count316
-\andhelp@=\toks35
+\c@parentequation=\count313
+\dspbrk@lvl=\count314
+\tag@help=\toks35
+\row@=\count315
+\column@=\count316
+\maxfields@=\count317
+\andhelp@=\toks36
 \eqnshift@=\dimen284
 \alignsep@=\dimen285
 \tagshift@=\dimen286
 \tagwidth@=\dimen287
 \totwidth@=\dimen288
 \lineht@=\dimen289
-\@envbody=\toks36
-\multlinegap=\skip84
-\multlinetaggap=\skip85
-\mathdisplay@stack=\toks37
+\@envbody=\toks37
+\multlinegap=\skip86
+\multlinetaggap=\skip87
+\mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -1137,53 +1145,53 @@ Package: mhchem 2011/06/03 v3.11 for typesetting chemical formulae
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count317
-\calc@Bcount=\count318
+\calc@Acount=\count318
+\calc@Bcount=\count319
 \calc@Adimen=\dimen290
 \calc@Bdimen=\dimen291
-\calc@Askip=\skip86
-\calc@Bskip=\skip87
+\calc@Askip=\skip88
+\calc@Bskip=\skip89
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count319
-\calc@Cskip=\skip88
+\calc@Ccount=\count320
+\calc@Cskip=\skip90
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/twoopt.sty
 Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
 )
-\tok@mhchem@ce@iii=\toks38
-\mhchem@arrowminlength=\skip89
-\mhchem@arrows@box=\box63
-\mhchem@arrowlength@pgf=\skip90
-\mhchem@arrowminlength@pgf=\skip91
-\mhchem@bondwidth=\skip92
-\mhchem@bondheight=\skip93
-\mhchem@smallbondwidth@tmpA=\skip94
-\mhchem@smallbondwidth@tmpB=\skip95
-\mhchem@smallbondwidth=\skip96
-\mhchem@cf@result=\toks39
-\mhchem@cf@element=\toks40
-\mhchem@cf@amount=\toks41
-\mhchem@cf@sup=\toks42
-\mhchem@cf@presub=\toks43
-\mhchem@cf@presup=\toks44
-\mhchem@cf@replaceMath@result=\toks45
-\mhchem@cf@replaceMathMinusDot@result=\toks46
-\mhchem@prepostscript@tmp@i=\skip97
-\mhchem@prepostscript@tmp@ii=\skip98
-\mhchem@mathbox@tmp@i=\skip99
-\mhchem@mathbox@tmp@ii=\skip100
-\mhchem@minispace@tmp=\skip101
-\mhchem@option@minussidebearingleft=\skip102
-\mhchem@option@minussidebearingright=\skip103
+\tok@mhchem@ce@iii=\toks39
+\mhchem@arrowminlength=\skip91
+\mhchem@arrows@box=\box64
+\mhchem@arrowlength@pgf=\skip92
+\mhchem@arrowminlength@pgf=\skip93
+\mhchem@bondwidth=\skip94
+\mhchem@bondheight=\skip95
+\mhchem@smallbondwidth@tmpA=\skip96
+\mhchem@smallbondwidth@tmpB=\skip97
+\mhchem@smallbondwidth=\skip98
+\mhchem@cf@result=\toks40
+\mhchem@cf@element=\toks41
+\mhchem@cf@amount=\toks42
+\mhchem@cf@sup=\toks43
+\mhchem@cf@presub=\toks44
+\mhchem@cf@presup=\toks45
+\mhchem@cf@replaceMath@result=\toks46
+\mhchem@cf@replaceMathMinusDot@result=\toks47
+\mhchem@prepostscript@tmp@i=\skip99
+\mhchem@prepostscript@tmp@ii=\skip100
+\mhchem@mathbox@tmp@i=\skip101
+\mhchem@mathbox@tmp@ii=\skip102
+\mhchem@minispace@tmp=\skip103
+\mhchem@option@minussidebearingleft=\skip104
+\mhchem@option@minussidebearingright=\skip105
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
-\MT@toks=\toks47
-\MT@count=\count320
+\MT@toks=\toks48
+\MT@count=\count321
 LaTeX Info: Redefining \lsstyle on input line 1597.
 LaTeX Info: Redefining \lslig on input line 1597.
-\MT@outer@space=\skip104
+\MT@outer@space=\skip106
 LaTeX Info: Redefining \textls on input line 1605.
 \MT@outer@kern=\dimen292
 LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
@@ -1275,11 +1283,11 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count321
+\c@tracingst=\count322
 \ST@wd=\dimen293
-\ST@rightskip=\skip105
-\ST@leftskip=\skip106
-\ST@parfillskip=\skip107
+\ST@rightskip=\skip107
+\ST@leftskip=\skip108
+\ST@parfillskip=\skip109
 \ST@pageleft=\dimen294
 \ST@headht=\dimen295
 \ST@tailht=\dimen296
@@ -1290,54 +1298,57 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen301
 \ST@toadd=\dimen302
 \ST@dimen=\dimen303
-\ST@pbox=\box64
+\ST@pbox=\box65
 )
 (/usr/share/texlive/texmf-dist/tex/generic/genmisc/nth.sty
 Package: nth 2002/02/27
 ) (./thesis.aux
 (./titlepage.aux) (./declaration.aux) (./introduction.aux)
 (./theKATRINexperiment/theKATRINexperiment.aux)
-(./muonDetectionSystem/muonDetectionSystem.aux)
-(./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
+(./muonDetectionSystem/muonDetectionSystem.aux
+
+LaTeX Warning: Label `fig:multiplug' multiply defined.
+
+) (./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
 (./simulationSoftware/simulationSoftware.aux) (./conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 130.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    ... okay on input line 130.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
+\scratchcounter=\count323
 \scratchdimen=\dimen304
-\scratchbox=\box65
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count325
+\scratchbox=\box66
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count326
 \MPscratchDim=\dimen305
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks49
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1353,8 +1364,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 129.
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring OFF on input line 130.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1362,11 +1373,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count328
+\c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -1408,9 +1419,10 @@ Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 129.
+LaTeX Info: Redefining \microtypecontext on input line 130.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1425,8 +1437,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\c_siunitx_mathsf_int=\count329
-\c_siunitx_mathtt_int=\count330
+\c_siunitx_mathsf_int=\count330
+\c_siunitx_mathtt_int=\count331
 \openout2 = `titlepage.aux'.
 
  (./titlepage.tex <logos/KITLogo_RGB.pdf, id=264, 196.46399pt x 90.77916pt>
@@ -1468,7 +1480,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 14
-5.
+6.
  (./thesis.toc
 LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
 
@@ -1483,7 +1495,7 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 
  [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 15
-3.
+4.
  (./thesis.lof
 [1
 
@@ -1499,7 +1511,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 15
 
  [2]
 Package tocbasic Info: character protrusion at lot deactivated on input line 15
-4.
+5.
  (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
@@ -1508,7 +1520,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \include{introduction}
+l.158 \include{introduction}
                              [1
 
 
@@ -1587,7 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
-[3] <graphics/neutrinos/neutrinoSpectrum.png, id=531, 240.9pt x 228.3732pt>
+[3] <graphics/neutrinos/neutrinoSpectrum.png, id=541, 240.9pt x 228.3732pt>
 File: graphics/neutrinos/neutrinoSpectrum.png Graphic file (type png)
 
 <use graphics/neutrinos/neutrinoSpectrum.png>
@@ -1609,187 +1621,229 @@ LaTeX Info: Redefining \tbond on input line 54.
 LaTeX Info: Redefining \bond on input line 54.
 LaTeX Info: Redefining \dbond on input line 54.
 LaTeX Info: Redefining \tbond on input line 54.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
-LaTeX Info: Redefining \bond on input line 66.
-LaTeX Info: Redefining \dbond on input line 66.
-LaTeX Info: Redefining \tbond on input line 66.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
+LaTeX Info: Redefining \bond on input line 65.
+LaTeX Info: Redefining \dbond on input line 65.
+LaTeX Info: Redefining \tbond on input line 65.
  [4 <./graphics/neutrinos/neutrinoSpectrum.png>]
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
-LaTeX Info: Redefining \bond on input line 74.
-LaTeX Info: Redefining \dbond on input line 74.
-LaTeX Info: Redefining \tbond on input line 74.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
+LaTeX Info: Redefining \bond on input line 72.
+LaTeX Info: Redefining \dbond on input line 72.
+LaTeX Info: Redefining \tbond on input line 72.
 Package epstopdf Info: Source file: <graphics/neutrinos/solarNeutrinos.eps>
 (epstopdf)                    date: 2013-09-10 18:57:30
 (epstopdf)                    size: 98667 bytes
@@ -1799,123 +1853,135 @@ erted-to.pdf>
 (epstopdf)                    size: 27413 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/neutrinos/solarNe
 utrinos-eps-converted-to.pdf graphics/neutrinos/solarNeutrinos.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf, id=546, 617.30624pt x 
+<graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf, id=556, 617.30624pt x 
 406.51875pt>
 File: graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf Graphic file (type
  pdf)
  <use graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf
- used on input line 81.
+ used on input line 78.
 (pdftex.def)             Requested size: 341.94652pt x 225.19257pt.
-LaTeX Info: Redefining \bond on input line 91.
-LaTeX Info: Redefining \dbond on input line 91.
-LaTeX Info: Redefining \tbond on input line 91.
-LaTeX Info: Redefining \bond on input line 91.
-LaTeX Info: Redefining \dbond on input line 91.
-LaTeX Info: Redefining \tbond on input line 91.
-LaTeX Info: Redefining \bond on input line 91.
-LaTeX Info: Redefining \dbond on input line 91.
-LaTeX Info: Redefining \tbond on input line 91.
-LaTeX Info: Redefining \bond on input line 91.
-LaTeX Info: Redefining \dbond on input line 91.
-LaTeX Info: Redefining \tbond on input line 91.
-LaTeX Info: Redefining \bond on input line 91.
-LaTeX Info: Redefining \dbond on input line 91.
-LaTeX Info: Redefining \tbond on input line 91.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
 
-[5 <./graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf>]
 
 LaTeX Warning: Reference `ch:Introduction:sec:Massive neutrino:subsec:neutrino 
-Oscillations' on page 6 undefined on input line 94.
+Oscillations' on page 5 undefined on input line 91.
 
-<graphics/standardModel/particles.png, id=562, 301.125pt x 326.21875pt>
+[5 <./graphics/neutrinos/solarNeutrinos-eps-converted-to.pdf>]
+<graphics/standardModel/particles.png, id=576, 301.125pt x 326.21875pt>
 File: graphics/standardModel/particles.png Graphic file (type png)
 
 <use graphics/standardModel/particles.png>
 Package pdftex.def Info: graphics/standardModel/particles.png used on input lin
-e 108.
+e 105.
 (pdftex.def)             Requested size: 256.46152pt x 277.85966pt.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
- [6]
-<graphics/standardModel/massHierarchy.jpg, id=576, 875.27pt x 499.8675pt>
+ [6 <./graphics/standardModel/particles.png>]
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+
+
+LaTeX Warning: Citation `dayaBay2' on page 7 undefined on input line 119.
+
+<graphics/standardModel/massHierarchy.jpg, id=594, 875.27pt x 499.8675pt>
 File: graphics/standardModel/massHierarchy.jpg Graphic file (type jpg)
 
 <use graphics/standardModel/massHierarchy.jpg>
 Package pdftex.def Info: graphics/standardModel/massHierarchy.jpg used on input
- line 129.
+ line 126.
 (pdftex.def)             Requested size: 299.20076pt x 170.87561pt.
 
-<graphics/standardModel/massSchemes.png, id=577, 578.16pt x 578.16pt>
+<graphics/standardModel/massSchemes.png, id=595, 578.16pt x 578.16pt>
 File: graphics/standardModel/massSchemes.png Graphic file (type png)
 
 <use graphics/standardModel/massSchemes.png>
 Package pdftex.def Info: graphics/standardModel/massSchemes.png used on input l
-ine 135.
+ine 132.
 (pdftex.def)             Requested size: 299.20076pt x 299.19812pt.
- [7 <./graphics/standardModel/particles.png>] [8 <./graphics/standardModel/mass
-Hierarchy.jpg> <./graphics/standardModel/massSchemes.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+Underfull \vbox (badness 2865) has occurred while \output is active []
+
+ [7]
+[8 <./graphics/standardModel/massHierarchy.jpg> <./graphics/standardModel/massS
+chemes.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 [9]
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
-LaTeX Info: Redefining \bond on input line 246.
-LaTeX Info: Redefining \dbond on input line 246.
-LaTeX Info: Redefining \tbond on input line 246.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 272--275
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+LaTeX Info: Redefining \bond on input line 243.
+LaTeX Info: Redefining \dbond on input line 243.
+LaTeX Info: Redefining \tbond on input line 243.
+
+
+LaTeX Warning: Citation `Planck' on page 10 undefined on input line 251.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 266--269
 
  []
 
-<graphics/cosmicRays/cosmicRays.jpg, id=625, 1317.92375pt x 966.61125pt>
+<graphics/cosmicRays/cosmicRays.jpg, id=645, 1317.92375pt x 966.61125pt>
 File: graphics/cosmicRays/cosmicRays.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/cosmicRays.jpg>
 Package pdftex.def Info: graphics/cosmicRays/cosmicRays.jpg used on input line 
-285.
+279.
 (pdftex.def)             Requested size: 209.44379pt x 153.61375pt.
 
-<graphics/cosmicRays/energySpectrum.jpg, id=626, 586.19pt x 570.13pt>
+<graphics/cosmicRays/energySpectrum.jpg, id=646, 586.19pt x 570.13pt>
 File: graphics/cosmicRays/energySpectrum.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/energySpectrum.jpg>
 Package pdftex.def Info: graphics/cosmicRays/energySpectrum.jpg used on input l
-ine 288.
+ine 282.
 (pdftex.def)             Requested size: 209.44379pt x 203.69814pt.
  [11] [12 <./graphics/cosmicRays/cosmicRays.jpg> <./graphics/cosmicRays/energyS
 pectrum.jpg>]
@@ -1928,16 +1994,16 @@ nverted-to.pdf>
 (epstopdf)                    size: 5475 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/cosmicRays/TMathL
 andauRoot-eps-converted-to.pdf graphics/cosmicRays/TMathLandauRoot.eps>
-(epstopdf)             \includegraphics on input line 359.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf, id=658, 569.12625pt 
+<graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf, id=680, 569.12625pt 
 x 387.4475pt>
 File: graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cosmicRays/TMathLandauRoot-eps-converted-to.p
-df used on input line 359.
+df used on input line 353.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 )
 [13] [14 <./graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf>]
@@ -1962,149 +2028,169 @@ LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
 
-<graphics/katrinExperiment/electronSpectrum.jpg, id=682, 289.08pt x 163.3302pt>
+<graphics/katrinExperiment/electronSpectrum.jpg, id=704, 289.08pt x 163.3302pt>
 File: graphics/katrinExperiment/electronSpectrum.jpg Graphic file (type jpg)
 <use graphics/katrinExperiment/electronSpectrum.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/electronSpectrum.jpg used on
  input line 19.
 (pdftex.def)             Requested size: 384.68576pt x 217.3585pt.
- [15
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+
+ []
+
+[15
 
 
 
 
-] [16 <./graphics/katrinExperiment/electronSpectrum.jpg>]
-<graphics/katrinExperiment/macEFilter.jpg, id=697, 1204.5pt x 1204.5pt>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
+[16 <./graphics/katrinExperiment/electronSpectrum.jpg>]
+<graphics/katrinExperiment/macEFilter.jpg, id=724, 1204.5pt x 1204.5pt>
 File: graphics/katrinExperiment/macEFilter.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/macEFilter.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/macEFilter.jpg used on input
- line 58.
+ line 57.
 (pdftex.def)             Requested size: 256.46152pt x 256.46289pt.
  [17 <./graphics/katrinExperiment/macEFilter.jpg>]
-<graphics/katrinExperiment/beamLineHD.jpg, id=710, 3083.52pt x 1678.01906pt>
+<graphics/katrinExperiment/beamLineHD.jpg, id=736, 3083.52pt x 1678.01906pt>
 File: graphics/katrinExperiment/beamLineHD.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/beamLineHD.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/beamLineHD.jpg used on input
- line 72.
+ line 71.
 (pdftex.def)             Requested size: 427.43153pt x 232.59106pt.
  [18 <./graphics/katrinExperiment/beamLineHD.jpg>]
-<graphics/katrinExperiment/rearSectionFull1.png, id=721, 1324.95pt x 993.7125pt
+<graphics/katrinExperiment/rearSectionFull1.png, id=747, 1324.95pt x 993.7125pt
 >
 File: graphics/katrinExperiment/rearSectionFull1.png Graphic file (type png)
  <use graphics/katrinExperiment/rearSectionFull1.png>
 Package pdftex.def Info: graphics/katrinExperiment/rearSectionFull1.png used on
- input line 92.
+ input line 91.
 (pdftex.def)             Requested size: 256.46152pt x 192.34027pt.
 
-<graphics/katrinExperiment/WGTS.jpg, id=722, 853.443pt x 272.9835pt>
+<graphics/katrinExperiment/WGTS.jpg, id=748, 853.443pt x 272.9835pt>
 File: graphics/katrinExperiment/WGTS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/WGTS.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/WGTS.jpg used on input line 
-95.
+94.
 (pdftex.def)             Requested size: 427.43153pt x 136.71634pt.
 
-<graphics/katrinExperiment/DPS.jpg, id=728, 796.8972pt x 445.665pt>
+<graphics/katrinExperiment/DPS.jpg, id=754, 796.8972pt x 445.665pt>
 File: graphics/katrinExperiment/DPS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/DPS.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/DPS.jpg used on input line 1
-07.
+06.
 (pdftex.def)             Requested size: 209.44379pt x 117.12822pt.
 
-<graphics/katrinExperiment/CPS.jpg, id=729, 536.0025pt x 429.85594pt>
+<graphics/katrinExperiment/CPS.jpg, id=755, 536.0025pt x 429.85594pt>
 File: graphics/katrinExperiment/CPS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/CPS.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/CPS.jpg used on input line 1
-10.
+09.
 (pdftex.def)             Requested size: 209.44379pt x 167.96452pt.
  [19 <./graphics/katrinExperiment/rearSectionFull1.png> <./graphics/katrinExper
 iment/WGTS.jpg>]
-<graphics/katrinExperiment/mainSpectrometer.jpg, id=752, 698.61pt x 533.995pt>
+<graphics/katrinExperiment/mainSpectrometer.jpg, id=778, 698.61pt x 533.995pt>
 File: graphics/katrinExperiment/mainSpectrometer.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/mainSpectrometer.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/mainSpectrometer.jpg used on
- input line 128.
+ input line 127.
 (pdftex.def)             Requested size: 286.37834pt x 218.89862pt.
 
-<graphics/katrinExperiment/wireElectrodes.png, id=753, 1204.5pt x 806.01125pt>
+<graphics/katrinExperiment/wireElectrodes.png, id=779, 1204.5pt x 806.01125pt>
 File: graphics/katrinExperiment/wireElectrodes.png Graphic file (type png)
 
 <use graphics/katrinExperiment/wireElectrodes.png>
 Package pdftex.def Info: graphics/katrinExperiment/wireElectrodes.png used on i
-nput line 131.
+nput line 130.
 (pdftex.def)             Requested size: 1204.49707pt x 806.00928pt.
  [20 <./graphics/katrinExperiment/DPS.jpg> <./graphics/katrinExperiment/CPS.jpg
 >]
-<graphics/katrinExperiment/detectorHousing.pdf, id=767, 483.84766pt x 379.77884
+<graphics/katrinExperiment/detectorHousing.pdf, id=793, 483.84766pt x 379.77884
 pt>
 File: graphics/katrinExperiment/detectorHousing.pdf Graphic file (type pdf)
  <use graphics/katrinExperiment/detectorHousing.pdf>
 Package pdftex.def Info: graphics/katrinExperiment/detectorHousing.pdf used on 
-input line 152.
+input line 151.
 (pdftex.def)             Requested size: 341.94652pt x 268.39894pt.
 
-<graphics/katrinExperiment/detectorWafer.jpg, id=770, 742.775pt x 557.08125pt>
+<graphics/katrinExperiment/detectorWafer.jpg, id=796, 742.775pt x 557.08125pt>
 File: graphics/katrinExperiment/detectorWafer.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/detectorWafer.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/detectorWafer.jpg used on in
-put line 159.
+put line 158.
 (pdftex.def)             Requested size: 299.20076pt x 224.40112pt.
 
 
-LaTeX Warning: Reference `ch:' on page 21 undefined on input line 171.
+LaTeX Warning: Reference `ch:' on page 21 undefined on input line 170.
 
-
-Underfull \vbox (badness 1635) has occurred while \output is active []
-
- [21 <./graphics/katrinExperiment/mainSpectrometer.jpg> <./graphics/katrinExper
-iment/wireElectrodes.png>] [22 <./graphics/katrinExperiment/detectorHousing.pdf
-> <./graphics/katrinExperiment/detectorWafer.jpg>]
-
-LaTeX Warning: File `graphics/katrinExperiment/wireElectrodes.jpg' not found on
- input line 181.
-
-
-! Package pdftex.def Error: File `graphics/katrinExperiment/wireElectrodes.jpg'
- not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ...hics/katrinExperiment/wireElectrodes.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+aett on input line 181.
-
-(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)) [23]
+[21 <./graphics/katrinExperiment/mainSpectrometer.jpg> <./graphics/katrinExperi
+ment/wireElectrodes.png>] [22 <./graphics/katrinExperiment/detectorHousing.pdf>
+ <./graphics/katrinExperiment/detectorWafer.jpg>]
+<graphics/katrinExperiment/wireElectrodes.jpg, id=822, 244.31097pt x 111.92256p
+t>
+File: graphics/katrinExperiment/wireElectrodes.jpg Graphic file (type jpg)
+ <use graphics/katrinExperiment/wireElectrodes.jpg>
+Package pdftex.def Info: graphics/katrinExperiment/wireElectrodes.jpg used on i
+nput line 180.
+(pdftex.def)             Requested size: 256.46152pt x 117.50165pt.
+) [23 <./graphics/katrinExperiment/wireElectrodes.jpg>]
 \openout2 = `muonDetectionSystem/muonDetectionSystem.aux'.
 
-
-(./muonDetectionSystem/muonDetectionSystem.tex [24
+ (./muonDetectionSystem/muonDetectionSystem.tex
+[24
 
 
 
 
 ]
 Chapter 3.
-<graphics/setup/multiplug.pdf, id=812, 1606.0pt x 1204.5pt>
-File: graphics/setup/multiplug.pdf Graphic file (type pdf)
 
-<use graphics/setup/multiplug.pdf>
-Package pdftex.def Info: graphics/setup/multiplug.pdf used on input line 32.
-(pdftex.def)             Requested size: 170.97pt x 128.21306pt.
- [25] [26 <./graphics/setup/multiplug.pdf>]
+LaTeX Warning: Reference `fig:modulesMainSpec' on page 25 undefined on input li
+ne 8.
+
+
+<graphics/muonModules/mainSpec/panelsMainSpec.png, id=837, 329.3103pt x 128.640
+6pt>
+File: graphics/muonModules/mainSpec/panelsMainSpec.png Graphic file (type png)
+ <use graphics/muonModules/mainSpec/panelsMainSpec.png>
+Package pdftex.def Info: graphics/muonModules/mainSpec/panelsMainSpec.png used 
+on input line 28.
+(pdftex.def)             Requested size: 384.68576pt x 150.28511pt.
+
+<graphics/muonModules/mainSpec/HV.jpg, id=839, 873.5034pt x 317.7471pt>
+File: graphics/muonModules/mainSpec/HV.jpg Graphic file (type jpg)
+
+<use graphics/muonModules/mainSpec/HV.jpg>
+Package pdftex.def Info: graphics/muonModules/mainSpec/HV.jpg used on input lin
+e 50.
+(pdftex.def)             Requested size: 427.43153pt x 155.47925pt.
+ [25] [26 <./graphics/muonModules/mainSpec/panelsMainSpec.png> <./graphics/muon
+Modules/mainSpec/HV.jpg>]
+<graphics/muonModules/mainSpec/DAQ.jpg, id=854, 612.8496pt x 563.4651pt>
+File: graphics/muonModules/mainSpec/DAQ.jpg Graphic file (type jpg)
+
+<use graphics/muonModules/mainSpec/DAQ.jpg>
+Package pdftex.def Info: graphics/muonModules/mainSpec/DAQ.jpg used on input li
+ne 69.
+(pdftex.def)             Requested size: 299.20076pt x 275.08578pt.
+ [27 <./graphics/muonModules/mainSpec/DAQ.jpg>] [28]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -2113,22 +2199,22 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/dummy-eps-converted-to.pdf, id=847, 145.54375pt x 1.00375pt>
+<graphics/dummy-eps-converted-to.pdf, id=873, 145.54375pt x 1.00375pt>
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 125.
+ 159.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [27]
-<graphics/setup/PMT.pdf, id=854, 309.155pt x 144.54pt>
+
+<graphics/setup/PMT.pdf, id=876, 309.155pt x 144.54pt>
 File: graphics/setup/PMT.pdf Graphic file (type pdf)
 
 <use graphics/setup/PMT.pdf>
-Package pdftex.def Info: graphics/setup/PMT.pdf used on input line 141.
+Package pdftex.def Info: graphics/setup/PMT.pdf used on input line 176.
 (pdftex.def)             Requested size: 213.71576pt x 99.92236pt.
 Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun660_old.eps>
 (epstopdf)                    date: 2013-08-15 13:34:52
@@ -2139,19 +2225,23 @@ onverted-to.pdf>
 (epstopdf)                    size: 23060 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
 Run660_old-eps-converted-to.pdf graphics/setup/LandauPeaksRun660_old.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=856, 569.12625pt
+<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=878, 569.12625pt
  x 387.4475pt>
 File: graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/LandauPeaksRun660_old-eps-converted-to.
-pdf used on input line 158.
+pdf used on input line 194.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 
-[28 <./graphics/dummy-eps-converted-to.pdf> <./graphics/setup/PMT.pdf>]
+[29 <./graphics/dummy-eps-converted-to.pdf>]
+Underfull \vbox (badness 3049) has occurred while \output is active []
+
+ [30 <./graphics/setup/PMT.pdf> <./graphics/setup/LandauPeaksRun660_old-eps-con
+verted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun1097_new.eps>
 
 (epstopdf)                    date: 2013-08-15 11:39:16
@@ -2162,31 +2252,30 @@ converted-to.pdf>
 (epstopdf)                    size: 45786 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
 Run1097_new-eps-converted-to.pdf graphics/setup/LandauPeaksRun1097_new.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=874, 569.12625p
+<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=906, 569.12625p
 t x 387.4475pt>
 File: graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/LandauPeaksRun1097_new-eps-converted-to
-.pdf used on input line 166.
+.pdf used on input line 202.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
-) [29 <./graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf>] [30 <./gra
-phics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>]
+) [31 <./graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>]
 \openout2 = `analysisSoftware/analysisSoftware.aux'.
 
 
-(./analysisSoftware/analysisSoftware.tex
+(./analysisSoftware/analysisSoftware.tex [32
+
+
+
+
+]
 Chapter 4.
-[31
-
-
-
-
-] [32]
+[33] [34]
 Package epstopdf Info: Source file: <graphics/frequencySearch.eps>
 (epstopdf)                    date: 2013-07-22 14:09:02
 (epstopdf)                    size: 1068 bytes
@@ -2199,7 +2288,7 @@ ps-converted-to.pdf graphics/frequencySearch.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/frequencySearch-eps-converted-to.pdf, id=907, 145.54375pt x 1.00375pt
+<graphics/frequencySearch-eps-converted-to.pdf, id=933, 145.54375pt x 1.00375pt
 >
 File: graphics/frequencySearch-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/frequencySearch-eps-converted-to.pdf>
@@ -2218,15 +2307,15 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/incrementalSearch-eps-converted-to.pdf, id=908, 145.54375pt x 1.00375
+<graphics/incrementalSearch-eps-converted-to.pdf, id=934, 145.54375pt x 1.00375
 pt>
 File: graphics/incrementalSearch-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/incrementalSearch-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/incrementalSearch-eps-converted-to.pdf used o
 n input line 87.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [33 <./graphics/frequencySearch-eps-converted-to.pdf> <./graphics/incrementalS
-earch-eps-converted-to.pdf>] [34] [35]) [36]
+ [35 <./graphics/frequencySearch-eps-converted-to.pdf> <./graphics/incrementalS
+earch-eps-converted-to.pdf>] [36] [37]) [38]
 \openout2 = `analysis/analysis.aux'.
 
  (./analysis/analysis.tex
@@ -2245,7 +2334,7 @@ s>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=948, 314.173
+<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=974, 314.173
 75pt x 118.4425pt>
 File: graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2267,7 +2356,7 @@ oise_problem-eps-converted-to.pdf graphics/setup/Histogram_noise_problem.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=949, 1587.9325
+<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=975, 1587.9325
 pt x 869.2475pt>
 File: graphics/setup/Histogram_noise_problem-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2276,7 +2365,7 @@ File: graphics/setup/Histogram_noise_problem-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: graphics/setup/Histogram_noise_problem-eps-converted-t
 o.pdf used on input line 24.
 (pdftex.def)             Requested size: 384.68576pt x 210.57341pt.
- [37
+ [39
 
 
 
@@ -2296,7 +2385,7 @@ ec/muonSignal-eps-converted-to.pdf graphics/muonModules/monSpec/muonSignal.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=961, 569.1262
+<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=987, 569.1262
 5pt x 410.53375pt>
 File: graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2330,8 +2419,8 @@ Overfull \hbox (17.95346pt too wide) in paragraph at lines 89--122
 [][] [] 
  []
 
-[38 <./graphics/setup/Histogram_noise_problem-eps-converted-to.pdf>] [39 <./gra
-phics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>] [40]
+[40 <./graphics/setup/Histogram_noise_problem-eps-converted-to.pdf>] [41 <./gra
+phics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>] [42]
 Package epstopdf Info: Source file: <graphics/aircoilCounts/aircoilsCountsCurre
 nt.eps>
 (epstopdf)                    date: 2013-08-07 10:10:51
@@ -2346,8 +2435,8 @@ rrent.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=990, 353
-.32pt x 247.92625pt>
+<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=1017, 35
+3.32pt x 247.92625pt>
 File: graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf Graphic
  file (type pdf)
 
@@ -2356,7 +2445,7 @@ Package pdftex.def Info: graphics/aircoilCounts/aircoilsCountsCurrent-eps-conve
 rted-to.pdf used on input line 160.
 (pdftex.def)             Requested size: 384.68576pt x 269.93918pt.
 
-[41] [42 <./graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf>]
+[43] [44 <./graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/setup/stability.eps>
 (epstopdf)                    date: 2013-09-07 10:27:55
 (epstopdf)                    size: 32650 bytes
@@ -2369,13 +2458,20 @@ ps-converted-to.pdf graphics/setup/stability.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/stability-eps-converted-to.pdf, id=1017, 569.12625pt x 387.4475
+<graphics/setup/stability-eps-converted-to.pdf, id=1044, 569.12625pt x 387.4475
 pt>
 File: graphics/setup/stability-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/setup/stability-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/stability-eps-converted-to.pdf used on 
 input line 194.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+
+Overfull \hbox (7.33064pt too wide) in paragraph at lines 190--197
+\T1/aer/m/n/10.95 (-20) where $\OML/cmm/m/it/10.95 (-20) $ \T1/aer/m/n/10.95 (
+-20) is a baro-met-ric co-ef-fi-cient in [][], $\OML/cmm/m/it/10.95 (-20) ^^L$ 
+\T1/aer/m/n/10.95 (-20) a de-cay co-ef-fi-cient in [][]/[][]
+ []
+
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -2387,12 +2483,11 @@ ed-to.pdf graphics/dummy.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
-
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
  200.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [43 <./graphics/setup/stability-eps-converted-to.pdf>]
+ [45 <./graphics/setup/stability-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/cobalt/876_parallel_good.eps>
 (epstopdf)                    date: 2013-08-03 12:06:09
 (epstopdf)                    size: 8577 bytes
@@ -2405,7 +2500,7 @@ el_good-eps-converted-to.pdf graphics/cobalt/876_parallel_good.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/876_parallel_good-eps-converted-to.pdf, id=1034, 477.785pt x 6
+<graphics/cobalt/876_parallel_good-eps-converted-to.pdf, id=1062, 477.785pt x 6
 40.3925pt>
 File: graphics/cobalt/876_parallel_good-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2425,7 +2520,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/Sr90_decay-eps-converted-to.pdf, id=1035, 636.3775pt x 461.725
+<graphics/cobalt/Sr90_decay-eps-converted-to.pdf, id=1063, 636.3775pt x 461.725
 pt>
 File: graphics/cobalt/Sr90_decay-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/Sr90_decay-eps-converted-to.pdf>
@@ -2444,7 +2539,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/1A-eps-converted-to.pdf, id=1037, 569.12625pt x 387.44
+<graphics/cobalt/modules/1A-eps-converted-to.pdf, id=1065, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/1A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/1A-eps-converted-to.pdf>
@@ -2463,7 +2558,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/1B-eps-converted-to.pdf, id=1038, 569.12625pt x 387.44
+<graphics/cobalt/modules/1B-eps-converted-to.pdf, id=1066, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/1B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/1B-eps-converted-to.pdf>
@@ -2482,7 +2577,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/2A-eps-converted-to.pdf, id=1039, 569.12625pt x 387.44
+<graphics/cobalt/modules/2A-eps-converted-to.pdf, id=1067, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/2A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/2A-eps-converted-to.pdf>
@@ -2501,7 +2596,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/2B-eps-converted-to.pdf, id=1040, 569.12625pt x 387.44
+<graphics/cobalt/modules/2B-eps-converted-to.pdf, id=1068, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/2B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/2B-eps-converted-to.pdf>
@@ -2520,7 +2615,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/3A-eps-converted-to.pdf, id=1041, 569.12625pt x 387.44
+<graphics/cobalt/modules/3A-eps-converted-to.pdf, id=1069, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/3A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/3A-eps-converted-to.pdf>
@@ -2539,7 +2634,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/3B-eps-converted-to.pdf, id=1042, 569.12625pt x 387.44
+<graphics/cobalt/modules/3B-eps-converted-to.pdf, id=1070, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/3B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/3B-eps-converted-to.pdf>
@@ -2558,7 +2653,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/4A-eps-converted-to.pdf, id=1043, 569.12625pt x 387.44
+<graphics/cobalt/modules/4A-eps-converted-to.pdf, id=1071, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/4A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/4A-eps-converted-to.pdf>
@@ -2577,7 +2672,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/4B-eps-converted-to.pdf, id=1044, 569.12625pt x 387.44
+<graphics/cobalt/modules/4B-eps-converted-to.pdf, id=1072, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/4B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/4B-eps-converted-to.pdf>
@@ -2596,7 +2691,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/5A-eps-converted-to.pdf, id=1045, 569.12625pt x 387.44
+<graphics/cobalt/modules/5A-eps-converted-to.pdf, id=1073, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/5A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/5A-eps-converted-to.pdf>
@@ -2615,7 +2710,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/5B-eps-converted-to.pdf, id=1046, 569.12625pt x 387.44
+<graphics/cobalt/modules/5B-eps-converted-to.pdf, id=1074, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/5B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/5B-eps-converted-to.pdf>
@@ -2634,7 +2729,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/6A-eps-converted-to.pdf, id=1047, 569.12625pt x 387.44
+<graphics/cobalt/modules/6A-eps-converted-to.pdf, id=1075, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/6A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/6A-eps-converted-to.pdf>
@@ -2653,7 +2748,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/6B-eps-converted-to.pdf, id=1048, 569.12625pt x 387.44
+<graphics/cobalt/modules/6B-eps-converted-to.pdf, id=1076, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/6B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/6B-eps-converted-to.pdf>
@@ -2672,7 +2767,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/7A-eps-converted-to.pdf, id=1049, 569.12625pt x 387.44
+<graphics/cobalt/modules/7A-eps-converted-to.pdf, id=1077, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/7A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/7A-eps-converted-to.pdf>
@@ -2691,7 +2786,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/7B-eps-converted-to.pdf, id=1050, 569.12625pt x 387.44
+<graphics/cobalt/modules/7B-eps-converted-to.pdf, id=1078, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/7B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/7B-eps-converted-to.pdf>
@@ -2710,7 +2805,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/8A-eps-converted-to.pdf, id=1051, 569.12625pt x 387.44
+<graphics/cobalt/modules/8A-eps-converted-to.pdf, id=1079, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/8A-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/8A-eps-converted-to.pdf>
@@ -2729,14 +2824,14 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/8B-eps-converted-to.pdf, id=1052, 569.12625pt x 387.44
+<graphics/cobalt/modules/8B-eps-converted-to.pdf, id=1080, 569.12625pt x 387.44
 75pt>
 File: graphics/cobalt/modules/8B-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/cobalt/modules/8B-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/cobalt/modules/8B-eps-converted-to.pdf used o
 n input line 299.
 (pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
- [44] [45 <./graphics/cobalt/876_parallel_good-eps-converted-to.pdf> <./graphic
+ [46] [47 <./graphics/cobalt/876_parallel_good-eps-converted-to.pdf> <./graphic
 s/cobalt/Sr90_decay-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -2769,7 +2864,7 @@ File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
  325.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [46 <./graphics/cobalt/modules/1A-eps-converted-to.pdf> <./graphics/cobalt/mod
+ [48 <./graphics/cobalt/modules/1A-eps-converted-to.pdf> <./graphics/cobalt/mod
 ules/1B-eps-converted-to.pdf> <./graphics/cobalt/modules/2A-eps-converted-to.pd
 f> <./graphics/cobalt/modules/2B-eps-converted-to.pdf> <./graphics/cobalt/modul
 es/3A-eps-converted-to.pdf> <./graphics/cobalt/modules/3B-eps-converted-to.pdf>
@@ -2781,7 +2876,7 @@ graphics/cobalt/modules/7A-eps-converted-to.pdf> <./graphics/cobalt/modules/7B-
 eps-converted-to.pdf> <./graphics/cobalt/modules/8A-eps-converted-to.pdf> <./gr
 aphics/cobalt/modules/8B-eps-converted-to.pdf>]
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -2991,7 +3086,7 @@ Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
 \T1/aer/m/n/10.95 (-20) 161156- 
  []
 
-[47] [48]
+[49] [50]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -3058,8 +3153,8 @@ Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
 
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
- [49]
-[50]
+ [51]
+[52]
 Package epstopdf Info: Source file: <graphics/mainSpec/mainSpecRings.eps>
 (epstopdf)                    date: 2013-08-13 21:35:04
 (epstopdf)                    size: 70435 bytes
@@ -3072,7 +3167,7 @@ Rings-eps-converted-to.pdf graphics/mainSpec/mainSpecRings.eps>
 (epstopdf)             \includegraphics on input line 530.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1251, 569.12625pt x 3
+<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1280, 569.12625pt x 3
 87.4475pt>
 File: graphics/mainSpec/mainSpecRings-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3080,7 +3175,7 @@ df)
 Package pdftex.def Info: graphics/mainSpec/mainSpecRings-eps-converted-to.pdf u
 sed on input line 530.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
- [51 <./graphics/mainSpec/mainSpecRings-eps-converted-to.pdf>]
+ [53 <./graphics/mainSpec/mainSpecRings-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -3099,7 +3194,7 @@ Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 54 moved.
 
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3132,11 +3227,15 @@ File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
  568.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
-) [52] [53]
+
+
+LaTeX Warning: Reference `tab:mainSPecSettings' on page 54 undefined on input l
+ine 572.
+
+) [54] [55]
 \openout2 = `simulationSoftware/simulationSoftware.aux'.
 
-
-(./simulationSoftware/simulationSoftware.tex [54
+ (./simulationSoftware/simulationSoftware.tex [56
 
 
 
@@ -3149,68 +3248,42 @@ Overfull \hbox (12.61469pt too wide) in paragraph at lines 31--34
 struction is used. B1DetectorConstruction
  []
 
-[55]) [56]
+[57]) [58]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 7.
-[57
+[59
 
 
 
 
-] [58
+] [60
 
 
 ]
 Chapter 8.
-) [59] [60
+) [61] [62
 
 
 
 ] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
-[]\T1/aer/m/n/10.95 (+20) S.-G. Crys-tals, ``Pre-mium plas-tic scin-til-la-tors
-,'' []$http : / / www . detectors .
+LaTeX Font Info:    Try loading font information for T1+aett on input line 52.
+ (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 49--55
+\T1/aett/m/n/10.95 de / manitop / StandardModel / pics / standard _ model _ ele
+mentary _ particles . png$[]\T1/aer/m/n/10.95 (+20) ,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
-\T1/aer/m/n/10.95 (+20) saint-[]gobain . com / uploadedFiles / SGdetectors / Do
-cuments / Product _ Data _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
-\T1/aer/m/n/10.95 (+20) Sheets / BC400-[]404-[]408-[]412-[]416-[]Data-[]Sheet .
- pdf$[], 2005, [On-line; ac-cessed
- []
-
-[61
+[63
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-[]\T1/aer/m/n/10.95 (+20) G. Drexlin, ``Wgts,'' []$http : / / fuzzy . fzk . de 
-/ bscw / bscw . cgi / d736434 /
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 128--131
-[]\T1/aer/m/n/10.95 (+20) F. Glück \T1/aer/m/it/10.95 (+20) et al.\T1/aer/m/n/1
-0.95 (+20) , ``Air coil sys-tem & mag-netic field sen-sor sys-tem,''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
-[]$\T1/aer/m/n/10.95 (+20) http : / / fuzzy . fzk . de / bscw / bscw . cgi / d5
-30439 / Air % 20Coil % 20System % 20and %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
-\T1/aer/m/n/10.95 (+20) 20Magnetic % 20Field % 20Sensor % 20System . pdf$[], 20
-09, [On-line; ac-cessed
+Underfull \hbox (badness 10000) in paragraph at lines 176--181
+[]\T1/aer/m/n/10.95 (+20) Lyndsay.  []$\T1/aett/m/n/10.95 http : / / www . astr
+o . gla . ac . uk / users / lyndsay / TEACHING / NLPII /
  []
 
 
@@ -3221,8 +3294,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 ...{KATRIN\},'' \emph{Cryogenics}, vol. 55â€
-                                                  “56, no.~0, pp. 5
+l.198 \newblock {\em Cryogenics}, 55â€
+                                      “56(0):5 -- 11, 2013.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -3234,12 +3307,60 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 ...KATRIN\},'' \emph{Cryogenics}, vol. 55â€“
-                                                  56, no.~0, pp. 5
+l.198 \newblock {\em Cryogenics}, 55â€“
+                                       56(0):5 -- 11, 2013.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[62] [63]) [64] (./appendix.tex
+
+Underfull \hbox (badness 1552) in paragraph at lines 209--215
+\T1/aett/m/n/10.95 fuzzy . fzk . de / bscw / bscw . cgi / d847077 / 95-[]TRP-[]
+5401-[]S1-[]MBabutzka . pptx$[]\T1/aer/m/n/10.95 (+20) , 2013.
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
+[]\T1/aer/m/n/10.95 (+20) G. Drexlin.  Wgts.  []$\T1/aett/m/n/10.95 http : / / 
+fuzzy . fzk . de / bscw / bscw . cgi / d736434 /
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 224--230
+\T1/aett/m/n/10.95 fuzzy . fzk . de / bscw / bscw . cgi / d774076 / 95-[]TRP-[]
+5403-[]S1-[]FPriester . pptx$[]\T1/aer/m/n/10.95 (+20) , 2013.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--281
+[]$\T1/aett/m/n/10.95 http : / / fuzzy . fzk . de / bscw / bscw . cgi / d774576
+ / 95-[]TRP-[]5409-[]S3-[]TThuemmler .
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 300--306
+[]\T1/aer/m/n/10.95 (+20) F. Glück et al.  Air coil sys-tem & mag-netic field s
+en-sor sys-tem.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--306
+[]$\T1/aett/m/n/10.95 http : / / fuzzy . fzk . de / bscw / bscw . cgi / d530439
+ / Air % 20Coil % 20System % 20and %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
+\T1/aett/m/n/10.95 saint-[]gobain . com / uploadedFiles / SGdetectors / Documen
+ts / Product _ Data _
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 331--337
+\T1/aett/m/n/10.95 Sheets / BC400-[]404-[]408-[]412-[]416-[]Data-[]Sheet . pdf$
+[]\T1/aer/m/n/10.95 (+20) , 2005.  [On-line; ac-cessed
+ []
+
+[65]) [66] (./appendix.tex
 Overfull \hbox (12.0pt too wide) in paragraph at lines 39--66
 [][] 
  []
@@ -3258,7 +3379,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1385, 56
+<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1399, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3281,7 +3402,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1388, 56
+<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1402, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3304,7 +3425,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1391, 56
+<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1405, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3327,7 +3448,7 @@ _12.5.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1394, 56
+<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1408, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3350,7 +3471,7 @@ ySym/BG_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_12.5_1
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1397, 569
+<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1411, 569
 .12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3373,7 +3494,7 @@ ySym/BG_25_25-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_25_25.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1400, 569.126
+<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1414, 569.126
 25pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3383,30 +3504,30 @@ Package pdftex.def Info: graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-
 to.pdf used on input line 147.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
- [65
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+ [67
 
 
 
 
 ]
-[66] [67 <./graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf> 
-<./graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf>] [68 <./g
+[68] [69 <./graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf> 
+<./graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf>] [70 <./g
 raphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf> <./graphics/m
-onSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf>] [69 <./graphics/monSp
+onSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf>] [71 <./graphics/monSp
 ec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf> <./graphics/monSpec/nonAxia
-llySym/BG_25_25-eps-converted-to.pdf>] [70]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+llySym/BG_25_25-eps-converted-to.pdf>] [72]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./thesis.aux (./titlepage.aux)
 (./declaration.aux) (./introduction.aux)
 (./theKATRINexperiment/theKATRINexperiment.aux)
 (./muonDetectionSystem/muonDetectionSystem.aux)
 (./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
 (./simulationSoftware/simulationSoftware.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 82A97583F18B235BCA48BF8AA368B803;4719.
+(rerunfilecheck)             Checksum: 235C5707EE991C8C8E42A0732BF85455;4719.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3415,16 +3536,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 29838 strings out of 493485
- 573252 string characters out of 3143527
- 680115 words of memory out of 3000000
- 31693 multiletter control sequences out of 15000+200000
- 95777 words of font info for 441 fonts, out of 3000000 for 9000
+ 29922 strings out of 493485
+ 575041 string characters out of 3143527
+ 681673 words of memory out of 3000000
+ 31776 multiletter control sequences out of 15000+200000
+ 93879 words of font info for 424 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  72i,25n,73p,1194b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
@@ -3446,10 +3567,10 @@ s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
 nts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (78 pages, 11464821 bytes).
+Output written on thesis.pdf (80 pages, 12778015 bytes).
 PDF statistics:
- 1595 PDF objects out of 1728 (max. 8388607)
- 1339 compressed objects within 14 object streams
- 322 named destinations out of 1000 (max. 500000)
- 46378 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1612 PDF objects out of 1728 (max. 8388607)
+ 1352 compressed objects within 14 object streams
+ 335 named destinations out of 1000 (max. 500000)
+ 46393 words of extra memory for PDF output out of 51595 (max. 10000000)
 

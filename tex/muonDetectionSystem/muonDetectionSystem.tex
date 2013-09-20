@@ -5,7 +5,7 @@
 \chapter{Muon detection system}
 \label{ch:The muon detection system}
 %% ============== 
-  The need for low background rates at the main detector requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and asess muon related data, scintillator modules have been installed at both the monitor spectrometer and the main spectrometer. While the monitor spectrometer is equipped with only two rather small modules, at the larger main spectrometer, 8 modules have been installed at different positions enabling the user to cover different regions of the vessel. This freedom is enlarged by installing the detection system on three independently movable trolleys.
+  The need for low background rates at the main detector requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and asess muon related data, scintillator modules have been installed at both the monitor spectrometer and the main spectrometer. While the monitor spectrometer is equipped with only two rather small modules, at the larger main spectrometer, 8 modules have been installed at different positions enabling the user to cover different regions of the vessel (see figure \ref{fig:modulesMainSpec}). This freedom is enlarged by installing the detection system on three independently movable trolleys.
   The modules have been connected to the DAQ one trolley per card, meaning modules one and two connect to card three, modules 3 through 5 to card six and modules 6 through 8 to card nine (\ref{tab:connectionsModulesCards})
   \begin{table}
   	\centering
@@ -23,14 +23,32 @@
   	\caption[Channel assignment]{Assignment of module sides to cards and channels}
   	\label{tab:connectionsModulesCards}
   \end{table}
+  \begin{figure}
+  	\centering
+  	\includegraphics[width = 0.9 \textwidth]{graphics/muonModules/mainSpec/panelsMainSpec.png}
+  	\caption[Module locations]{An overview over the module positions in relation to the main spectrometer and its LFCS system. }
+  \end{figure}
+
   All connections from modules to DAQ are made of coaxial cabling of equal length. This ensures comparable timestamps which are assigned only after the analogue signals arrive at the DAQ. High voltage is provided by two supplies, one on the east and one on the west side of the main hall.
   All devices of the muon detection system are connected to two multiplugs that are both overcurrent protected and feature mains filters. These multiplugs have been modified \ref{fig:multiplug} to connect to a ground other than the outlet's. To ensure a common potential for all of the devices and the surrounding appliances this connection was made to the trough below the main vessel.
-  
+  \begin{table}
+  \centering
+  	\begin{tabular}{|c|c|c|c|c|c|}
+  	\hline
+  		V0 & I0 & I1 & V1 & Ramp Up & Ramp Down\\
+  		\hline
+  		\SI{1.5}{\kilo\volt} or \SI{1.6}{\kilo\volt} & \SI{2000}{\milli\ampere} & & & \SI{50}{\volt} & \SI{100}{\volt}\\
+  		\hline
+  	\end{tabular}
+  	\caption[High voltage settings]{High voltage settings as used for the muon modules. Modules XX and XX are set to \SI{1.6}{\kilo\volt}.}
+  	\label{tab:HVSettings}
+  \end{table}
+
   \begin{figure}
   \centering
   
-  	\includegraphics[width = 0.4 \textwidth]{graphics/setup/multiplug.pdf}
-  \caption[Multiplug grounding]{Added extension of the earthing contact to connect to any ground needed}
+  	\includegraphics[width = \textwidth]{graphics/muonModules/mainSpec/HV.jpg}
+  \caption[High voltage supplies]{A photograph of one of the two high voltage supplies used to power the muon modules photomultipliers. On the right side, the codes for setup are visible, see table \ref{tab:HVSettings} for the settings used.}
   \label{fig:multiplug}
   \end{figure}
 \todo{insert photograph of multiplug}
@@ -44,6 +62,15 @@
 \label{ch:DAQ}
 %% ==============
 The Data acquisition crate, short DAQ, is the central part of event recording and by that the interface between hardware muon modules and software based ORCA machine. It was developed for the Pierre-Auger-Observatory in the first place, but was then distributed to many different experiments due to its large flexibility and the There are two types of DAQs used in KATRIN: the standard one and the mini DAQ used at the monitor spectrometer. The latter features only 4 FLT plus one SLT slot which is sufficient for the monitor spectrometer, but not for the main detector. Here, the larger model with up to  It features first and second level trigger cards in version \SI{4}{} that are described in detail in the following sections \ref{ch:DAQ:sec:FLTs} and \ref{ch:DAQ:sec:SLTs}. The Linux based system runs from an external hard drive connected to the second level trigger card via USB. Here, a screen and keyboard can be connected for network setup, then, access via secure shell is possible. The DAQ can be connected to and controlled by the ORCA software \ref{ch:The muon detection system}. 
+
+  \begin{figure}
+  \centering
+  
+  	\includegraphics[width = 0.7 \textwidth]{graphics/muonModules/mainSpec/DAQ.jpg}
+  \caption[Data acquisition crate]{A image of the data acquisition crate's front panel. From left tor right, the three FLT cards and the SLT card with its ethernet connection are visible.}
+  \label{fig:DAQ}
+  \end{figure}
+
   %% ===========================
   \subsection{First level trigger cards}
   \label{ch:DAQ:sec:FLTs}
@@ -82,6 +109,13 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
     %% ===========================
     All data registered by the DAQ is amplified and cut off at certain, software set values. Theses can be entered for every channel of every card separately. Gains can vary from \SI{0}{} to \SI{4095}{} (\SI{12}{\bit}), thresholds can be set to any value up to the maximum bin used. Depending on the filter settings, ore more precisely with rising shaping length, bin values will be shifted  towards higher absolute values \ref{ch:Analysis:sec:Finding the best filter settings}.
     Scripting of the values is possible and reasonable for large numbers of readout channels such as at the FPD.
+    
+	\begin{figure}
+		\raggedright
+% 		\includegraphics[width = 0.4 \textwidth]{graphics/muonModules/mainSpec}
+		\caption[Multiplug grounding]{Added extension of the earthing contact to connect to any ground needed}
+		\label{fig:multiplug}
+	\end{figure}
     
     %% ===========================
     \subsection{Run control}
@@ -133,13 +167,15 @@ The Data acquisition crate, short DAQ, is the central part of event recording an
   \section{Photomultipliers}
   \label{ch:The muon detection system:sec:Photomultipliers}
   %% ===========================
-  Each Photomultiplier tube is made up of a layer of \todo{of what} where photons from scintillation ionize the layers' atoms leaving electrons with their initial Energy less the ionization energy 
+  Photomultipliers work on two fundamental principles: photoemission and secondary emission.
+  Each Photomultiplier tube is made up of a layer of bialkali metal where photons from scintillation ionize the layers' atoms leaving electrons with their initial energy less the ionization energy.
   $$E_{e^-} = E_{phot} - E_{ion}$$
-  The electron is then accellerated and guided by the electric field from dynode to dynode, cascading to more and more electrons, as each electron's energy rises by $e\cdot U_{acc}$ between each pair of dynodes.
+  The electron is then accellerated and guided by the electric field from dynode to dynode (see figure \ref{fig:PMT}), cascading to more and more electrons, as each electron's energy rises by $e\cdot U_{acc}$ between each pair of dynodes.
   \begin{figure}
   	\centering
   	\includegraphics[width = 0.5 \textwidth]{graphics/setup/PMT.pdf}
   	\caption[Photomultiplier tube]{Schematic view of a photomultiplier tube with incident photons and photo-electrons emerging. Note the nested dynode structure for cascading purposes.}
+  	\label{fig:PMT}
   \end{figure}
 
   

@@ -184,11 +184,11 @@ and with it the field strengths, drastically reduces.
   \caption[LFCS settings stability measurement]{Runtime settings for air coils as proposed and for the commissioning measurements. These were kept static over the two weeks end 2012/beginning 2013}
   \label{tab:airCoilSettingsChristmas}
   \end{table}
-  The time slot was chosen for the lowly frequented spectrometer hall's sake to minimize external impacts on data taking. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in \ref{fig:moduleStability}. The observable fluctuation is well describable by fluctuations in atmospheric density, i.e. pressure and temperature, as ideally, air could be described by
+  The time slot was chosen for the lowly frequented spectrometer hall's sake to minimize external impacts on data taking. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in figure \ref{fig:moduleStability}. The observable fluctuation is well describable by fluctuations in atmospheric density, i.e. pressure $\Delta p$ and temperature $\Delta T$ and in muon production height $\Delta h$\cite{muonIntensity}.
   \begin{equation}
-  	\rho = \frac{R}{M}\frac{p}{T}
+  	\frac{\Delta I}{I} = - (\alpha_\mu\Delta p + \beta \Delta h -\gamma \Delta T)
   \end{equation}
-  where $\rho$ is the density, R is the gas constant, M is the molar mass of air and p and T are pressure and temperature respectively.
+  where $\alpha$ is a barometric coefficient in \SI{0.215}{\percent\per\mmHg}, $\beta$ a decay coefficient in \SI{5}{\percent}/\SI{10e3}{\meter} and $\gamma$ a temperature coefficient in \SI{0.1}{\percent\per\kelvin}
   If one looks at the data from \cite{wetterCom} the fluctuations, only available on a daily basis, are comparable to the ones visible in the data of the stability measurements. To make graphs more comparable, the data has been analyzed again, now with daily binning. It has to be kept in mind that the weather data was obtained from a weather station in Rheinstetten, about \SI{20}{\kilo\meter} from KIT campus north, and represents only the lowest atmospheric layer while muons are generated mostly in the upper layers of the atmosphere.
   \begin{figure}
 	\includegraphics[width = 0.9 \textwidth]{graphics/setup/stability.eps}
@@ -576,27 +576,80 @@ All measurements that have been taken with the main spectrometer for muon induce
 	\begin{tabular}{|c|cc|cc|}
 		\hline
 		measurement & myo & & fpd & \\
-		& start & end & start & end\\
+		setting& start & end & start & end\\
 		\hline
-		& 6401 & 6404 & 1226 & 1229\\
-		A& 6405 & 6408 & 1230 & 1233\\
-		& 6409 & 6412 & 1234 & 1237\\
+		\multirow{2}{*}{A1} & 5159 & 5164 & 939 & 949 \\
+		 & 5166 & 5172 & 950 & 977\\
 		\hline
-		
-		& & & 1090 & 1096\\
+		\multirow{1}{*}{B} &5255 & 5256 & 1052 & 1055\\
+		\hline
+		\multirow{6}{*}{A2}& 6306 & 6307 & 1090 & 1096\\
 		& 6308 & 6311 & 1097 & 1104\\
 		& 6312 & 6315 & 1105 & 1112\\
-		B& 6316 & 6321 & 1113 & 1124\\
+		& 6316 & 6321 & 1113 & 1124\\
 		& 6322 & 6327 & 1125 & 1136\\
 		& 6328 & 6333 & 1137 & 1148\\
 		\hline
 		
-		C& 7111 & 7134 & 1301 & 1325\\
+		\multirow{3}{*}{D}& 6401 & 6404 & 1226 & 1229\\
+		& 6405 & 6408 & 1230 & 1233\\
+		& 6409 & 6412 & 1234 & 1237\\
+		\hline
+		
+		
+		
+		A3& 7111 & 7134 & 1301 & 1325\\
+		\hline
+	\end{tabular}
+	\caption[Main spectrometer runs]{Main spectrometer runs taken for the search of muon induced background events. The runs are split into groups of same magnetic field settings. The individual settings are listet in \ref{tab:mainSpecSettings}. All group member have different inner electrode voltages, refer to appendix for those as well.}
+	\label{tab:mainSpecRuns}
+\end{table}
+
+\begin{table}
+\centering
+	\begin{tabularx}{\textwidth}{|c|c|c|c|c|c|>{\centering\arraybackslash}X|c|c|}
+	\hline
+% 		\parbox[t]{2mm}{\multirow{1}{*}{\rotatebox[origin=c]{90}{ Measurement setting }}}&
+		\begin{sideways} 
+			Measurement setting~
+		\end{sideways}&
+		\begin{sideways}
+		IE[V]
+		\end{sideways}&
+		\begin{sideways}
+			PS I [T]
+		\end{sideways}&
+		\begin{sideways}
+			PS II [T]
+		\end{sideways}&
+		\begin{sideways}
+			Pinch [T]
+		\end{sideways}&
+		\begin{sideways}
+			Det [T]
+		\end{sideways}&
+		\begin{sideways}
+			LFCS [A]
+		\end{sideways}&
+		\begin{sideways}
+			EMCS h [A]
+		\end{sideways}&
+		\begin{sideways}
+			EMCS v [A]
+		\end{sideways}\\
 		\hline
 
-	\end{tabular}
-	\caption[Main spectrometer runs]{Main spectrometer Runs taken split into groups of same magnetic field settings. For individual settings, see appendix. All group member have different inner electrode voltages, refer to appendix for those as well.}
-	\label{tab:mainSPecSettings}
+% 		Meas. & IE[V] & PS I [T] & PS II [T] & Pinch [T] & Det [T] & LFCS [A] & EMCS h [A] & EMCS v [A] \\
+		{\bf A1, A2, A3} & -700 & 0 & 0 & 5 & 3.5 & \#1 - \#13: \SI{100}{\ampere}; \#14: \SI{0}{\ampere} & 50 & 9 \\
+		\hline
+		\multirow{2}{*}{\bf B} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#4 - \#13: \SI{100}{\ampere}; \#4: \SI{0}{\ampere} & \multirow{2}{*}{50} & \multirow{2}{*}{9} \\
+		\hline
+		\multirow{2}{*}{\bf C} & \multirow{2}{*}{-600} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#5 - \#13: \SI{100}{\ampere} \#14: \SI{0}{\ampere} & \multirow{2}{*}{40} & \multirow{2}{*}{9} \\
+		\hline
+	\end{tabularx}
+	\caption[Main spectrometer magnnetic field settings]{Magnetic field settings for the individual groups from table \ref{tab:mainSpecRuns}}
+	\label{tab:mainSpecSettings}
 \end{table}
+
   
   

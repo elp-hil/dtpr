@@ -10,69 +10,59 @@ A level-1 auxiliary file: analysisSoftware/analysisSoftware.aux
 A level-1 auxiliary file: analysis/analysis.aux
 A level-1 auxiliary file: simulationSoftware/simulationSoftware.aux
 A level-1 auxiliary file: conclusion.aux
-The style file: IEEEtranSA.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: unsrt.bst
 Database file #1: thesis.bib
 Warning--entry type for "DTArlinghaus" isn't style-file defined
 --line 111 of file thesis.bib
 Warning--entry type for "radonGoerhard" isn't style-file defined
 --line 337 of file thesis.bib
--- IEEEtranSA.bst version 1.13 (2008/09/30) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-** Sorting Alpha version - not for normal IEEE work.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Repeated entry---line 1790 of file thesis.bib
+ : @article{dayaBay
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in fermi
-Warning--missing publisher in Hayakawa
-Warning--empty title in How09
+Warning--empty publisher in Hayakawa
 Warning--empty journal in letterOfIntent
-
-Done.
-You've used 50 entries,
-            5047 wiz_defined-function locations,
-            1319 strings with 18467 characters,
-and the built_in function-call counts, 39821 in all, are:
-= -- 4081
-> -- 967
-< -- 202
-+ -- 404
-- -- 269
-* -- 2007
-:= -- 6442
-add.period$ -- 96
-call.type$ -- 50
-change.case$ -- 304
-chr.to.int$ -- 409
-cite$ -- 54
-duplicate$ -- 2556
-empty$ -- 2694
-format.name$ -- 352
-if$ -- 8692
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 418
-newline$ -- 210
-num.names$ -- 150
-pop$ -- 1106
+Warning--empty title in How09
+You've used 58 entries,
+            1791 wiz_defined-function locations,
+            819 strings with 13147 characters,
+and the built_in function-call counts, 10664 in all, are:
+= -- 931
+> -- 428
+< -- 2
++ -- 173
+- -- 115
+* -- 556
+:= -- 1744
+add.period$ -- 192
+call.type$ -- 58
+change.case$ -- 50
+chr.to.int$ -- 0
+cite$ -- 62
+duplicate$ -- 449
+empty$ -- 1162
+format.name$ -- 115
+if$ -- 2418
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 42
+newline$ -- 310
+num.names$ -- 58
+pop$ -- 201
 preamble$ -- 1
-purify$ -- 338
-quote$ -- 2
-skip$ -- 3006
+purify$ -- 0
+quote$ -- 0
+skip$ -- 180
 stack$ -- 0
-substring$ -- 1296
-swap$ -- 1702
-text.length$ -- 82
-text.prefix$ -- 28
-top$ -- 6
-type$ -- 1018
+substring$ -- 494
+swap$ -- 68
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
 warning$ -- 4
-while$ -- 175
-width$ -- 54
-write$ -- 644
-(There were 6 warnings)
+while$ -- 85
+width$ -- 60
+write$ -- 646
+(There was 1 error message)

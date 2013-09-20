@@ -395,9 +395,9 @@ signals via Cat5 cabling.
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Monitor Spectrometer}
   %% =========================
   
-  Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run file through the mini crate.
-  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini DAQ and operated in veto mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position has been shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram mode to energy mode as the timestamps for every single event were needed for analysis. 
-  Several hourly runs have been taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and figure \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} and figure \ref{fig:monSpec:non axially symmetric magnetic field} configurations have been investigated. \todo{}
+  Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run-file through the mini-crate.
+  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini-DAQ and operated in veto-mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position was shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram-mode to energy-mode as the timestamps for every single event were needed for analysis. 
+  Several hourly runs were taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and figure \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} and figure \ref{fig:monSpec:non axially symmetric magnetic field} configurations were investigated.
   \begin{table}
 	\centering
 		\begin{tabular}{c}
@@ -480,8 +480,8 @@ signals via Cat5 cabling.
   	\end{table}
   	
   	
-  The TOFHist\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} function has been used to analyse the data.
-  It browses through all the muon events detected and finds any detector event in a definable timespan after the muon event. This can be more than one detector event per  muon event. In all of the settings, a clear peak is visible at around \SI{7}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate.
+  The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data.
+  It browses through all the muon-events detected and finds any detector event in a definable timespan after the muon-event. This can be more than one detector-event per  muon-event. In all of the settings, a clear peak is visible at around \SI{7}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate.
   A graphic of the flux tube configuration as well as the histograms for all of the settings can be found in the \ref{appendix}, figures \todo{reference figures.}
   The exact values are:
   \begin{table}
@@ -522,8 +522,8 @@ signals via Cat5 cabling.
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Main Spectrometer}
   %% =========================
   
-  Monitor spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to measurement M1, sone runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
-  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to much too low statistics, though it might be more conclusive as less different paths contibute to the single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
+  Monitor-spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to first measurements ``M1'', some runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
+  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different paths contribute to a single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
   
   \begin{figure}
   \centering
@@ -535,11 +535,11 @@ signals via Cat5 cabling.
   
   The failure to find a clear runtime for electrons induced by muonic events might be due to the combination of muon module position and the magnetic field setup as the wall area covered by the flux tubes and the volume surveilled by the muon modules did not overlap very much. Furthermore, due to the very low magnetic field at the wall compared to the volume inside the detector and pinch magnet, most of the induced electrons are magnetically reflected as the maximum polar angle towards magnetic field lines $\theta_{max}$ is defined by
   \begin{equation}
-  	\frac{B_{min}}{B_{max}} \approx \frac{\SI{3}{\gauss}}{\SI{4}{\tesla}} = sin(\theta_{max})
+  	\frac{B_{min}}{B_{max}} \approx \frac{\SI{3}{\gauss}}{\SI{4}{\tesla}} = sin^2(\theta_{max})
   \end{equation}
   meaning only angles satisfying the inequation
   \begin{equation}
-  	\theta < \arcsin{\frac{B_{min}}{B_{max}}} = \arcsin{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}} = \SI{0.004}{\degree}
+  	\theta < \arcsin{\sqrt{\frac{B_{min}}{B_{max}}}} = \arcsin{\sqrt{\frac{\SI{3}{\gauss}}{\SI{4}{\tesla}}}} = \SI{0.004}{\degree}
   \end{equation}
 	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
 	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
@@ -576,27 +576,80 @@ All measurements that have been taken with the main spectrometer for muon induce
 	\begin{tabular}{|c|cc|cc|}
 		\hline
 		measurement & myo & & fpd & \\
-		& start & end & start & end\\
+		setting& start & end & start & end\\
 		\hline
-		& 6401 & 6404 & 1226 & 1229\\
-		A& 6405 & 6408 & 1230 & 1233\\
-		& 6409 & 6412 & 1234 & 1237\\
+		\multirow{2}{*}{A1} & 5159 & 5164 & 939 & 949 \\
+		 & 5166 & 5172 & 950 & 977\\
 		\hline
-		
-		& & & 1090 & 1096\\
+		\multirow{1}{*}{B} &5255 & 5256 & 1052 & 1055\\
+		\hline
+		\multirow{6}{*}{A2}& 6306 & 6307 & 1090 & 1096\\
 		& 6308 & 6311 & 1097 & 1104\\
 		& 6312 & 6315 & 1105 & 1112\\
-		B& 6316 & 6321 & 1113 & 1124\\
+		& 6316 & 6321 & 1113 & 1124\\
 		& 6322 & 6327 & 1125 & 1136\\
 		& 6328 & 6333 & 1137 & 1148\\
 		\hline
 		
-		C& 7111 & 7134 & 1301 & 1325\\
+		\multirow{3}{*}{D}& 6401 & 6404 & 1226 & 1229\\
+		& 6405 & 6408 & 1230 & 1233\\
+		& 6409 & 6412 & 1234 & 1237\\
+		\hline
+		
+		
+		
+		A3& 7111 & 7134 & 1301 & 1325\\
+		\hline
+	\end{tabular}
+	\caption[Main spectrometer runs]{Main spectrometer runs taken for the search of muon induced background events. The runs are split into groups of same magnetic field settings. The individual settings are listet in \ref{tab:mainSpecSettings}. All group member have different inner electrode voltages, refer to appendix for those as well.}
+	\label{tab:mainSpecRuns}
+\end{table}
+
+\begin{table}
+\centering
+	\begin{tabularx}{\textwidth}{|c|c|c|c|c|c|>{\centering\arraybackslash}X|c|c|}
+	\hline
+% 		\parbox[t]{2mm}{\multirow{1}{*}{\rotatebox[origin=c]{90}{ Measurement setting }}}&
+		\begin{sideways} 
+			Measurement setting~
+		\end{sideways}&
+		\begin{sideways}
+		IE[V]
+		\end{sideways}&
+		\begin{sideways}
+			PS I [T]
+		\end{sideways}&
+		\begin{sideways}
+			PS II [T]
+		\end{sideways}&
+		\begin{sideways}
+			Pinch [T]
+		\end{sideways}&
+		\begin{sideways}
+			Det [T]
+		\end{sideways}&
+		\begin{sideways}
+			LFCS [A]
+		\end{sideways}&
+		\begin{sideways}
+			EMCS h [A]
+		\end{sideways}&
+		\begin{sideways}
+			EMCS v [A]
+		\end{sideways}\\
 		\hline
 
-	\end{tabular}
-	\caption[Main spectrometer runs]{Main spectrometer Runs taken split into groups of same magnetic field settings. For individual settings, see appendix. All group member have different inner electrode voltages, refer to appendix for those as well.}
-	\label{tab:mainSPecSettings}
+% 		Meas. & IE[V] & PS I [T] & PS II [T] & Pinch [T] & Det [T] & LFCS [A] & EMCS h [A] & EMCS v [A] \\
+		{\bf A1, A2, A3} & -700 & 0 & 0 & 5 & 3.5 & \#1 - \#13: \SI{100}{\ampere}; \#14: \SI{0}{\ampere} & 50 & 9 \\
+		\hline
+		\multirow{2}{*}{\bf B} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#4 - \#13: \SI{100}{\ampere}; \#4: \SI{0}{\ampere} & \multirow{2}{*}{50} & \multirow{2}{*}{9} \\
+		\hline
+		\multirow{2}{*}{\bf C} & \multirow{2}{*}{-600} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#5 - \#13: \SI{100}{\ampere} \#14: \SI{0}{\ampere} & \multirow{2}{*}{40} & \multirow{2}{*}{9} \\
+		\hline
+	\end{tabularx}
+	\caption[Main spectrometer magnnetic field settings]{Magnetic field settings for the individual groups from table \ref{tab:mainSpecRuns}}
+	\label{tab:mainSpecSettings}
 \end{table}
+
   
   

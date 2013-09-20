@@ -540,21 +540,36 @@ keywords = {Kosmische Strahlung / Elementarteilchenphysik},
 URL = {http://swbplus.bsz-bw.de/bsz120196603cov.htm},
 }
 
-@article{KATRINWolf,
-title = "The KATRIN neutrino mass experiment ",
-journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
-author = "Wolf, J.",
-volume = "623",
-number = "1",
-pages = "442 - 444",
-year = "2010",
-issn = "0168-9002",
-doi = "http://dx.doi.org/10.1016/j.nima.2010.03.030",
-url = "http://www.sciencedirect.com/science/article/pii/S0168900210005942",
-keywords = "Neutrino mass",
-keywords = "Electro-static spectrometer",
-keywords = "Tritium "
-}
+@article{KATRINWolf,
+
+title = "The KATRIN neutrino mass experiment ",
+
+journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
+
+author = "Wolf, J.",
+
+volume = "623",
+
+number = "1",
+
+pages = "442 - 444",
+
+year = "2010",
+
+issn = "0168-9002",
+
+doi = "http://dx.doi.org/10.1016/j.nima.2010.03.030",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0168900210005942",
+
+keywords = "Neutrino mass",
+
+keywords = "Electro-static spectrometer",
+
+keywords = "Tritium "
+
+}
+
 
 @article{
 	letterOfIntent,
@@ -565,59 +580,110 @@ keywords = "Tritium "
 	note = "[Online, accessed 16-09-2013]"
 }
 
-@article{calibrationRaman,
-title = "Accurate calibration of the laser Raman system for the Karlsruhe Tritium Neutrino Experiment ",
-journal = "Journal of Molecular Structure ",
-volume = "1044",
-number = "0",
-pages = "61 - 66",
-year = "2013",
-note = "<ce:title>EUCMOS XXXI</ce:title> <ce:subtitle>EUCMOS XXXI</ce:subtitle> ",
-issn = "0022-2860",
-doi = "http://dx.doi.org/10.1016/j.molstruc.2012.11.022",
-url = "http://www.sciencedirect.com/science/article/pii/S0022286012010629",
-author = "Magnus Schlösser and Simone Rupp and Hendrik Seitz and Sebastian Fischer and others",
-keywords = "Quantitative Raman spectroscopy",
-keywords = "Absolute calibration",
-keywords = "Hydrogen isotopologues",
-keywords = "Tritium "
-}
+@article{calibrationRaman,
 
-@article{temperatureWGTS,
-title = "The thermal behaviour of the tritium source in \{KATRIN\} ",
-journal = "Cryogenics ",
-volume = "55–56",
-number = "0",
-pages = "5 - 11",
-year = "2013",
-note = "",
-issn = "0011-2275",
-doi = "http://dx.doi.org/10.1016/j.cryogenics.2013.01.001",
-url = "http://www.sciencedirect.com/science/article/pii/S0011227513000076",
-author = "Grohmann, S. and Bode, T. and Hötzel, M. and others",
-keywords = "Neon",
-keywords = "Thermosiphon",
-keywords = "Temperature stability",
-keywords = "Measurement",
-keywords = "Vapour pressure sensors "
-}
+title = "Accurate calibration of the laser Raman system for the Karlsruhe Tritium Neutrino Experiment ",
 
-@article{wireElectrodeSystem,
-title = "The wire electrode system for the \{KATRIN\} main spectrometer ",
-journal = "Progress in Particle and Nuclear Physics ",
-volume = "64",
-number = "2",
-pages = "291 - 293",
-year = "2010",
-issn = "0146-6410",
-doi = "http://dx.doi.org/10.1016/j.ppnp.2009.12.032",
-url = "http://www.sciencedirect.com/science/article/pii/S0146641009001100",
-author = "K. Valerius",
-keywords = "Direct neutrino mass determination",
-keywords = "\{KATRIN\}",
-keywords = "Background reduction",
-keywords = "Screening wire electrode system "
-}
+journal = "Journal of Molecular Structure ",
+
+volume = "1044",
+
+number = "0",
+
+pages = "61 - 66",
+
+year = "2013",
+
+note = "<ce:title>EUCMOS XXXI</ce:title> <ce:subtitle>EUCMOS XXXI</ce:subtitle> ",
+
+issn = "0022-2860",
+
+doi = "http://dx.doi.org/10.1016/j.molstruc.2012.11.022",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0022286012010629",
+
+author = "Magnus Schlösser and Simone Rupp and Hendrik Seitz and Sebastian Fischer and others",
+
+keywords = "Quantitative Raman spectroscopy",
+
+keywords = "Absolute calibration",
+
+keywords = "Hydrogen isotopologues",
+
+keywords = "Tritium "
+
+}
+
+
+@article{temperatureWGTS,
+
+title = "The thermal behaviour of the tritium source in \{KATRIN\} ",
+
+journal = "Cryogenics ",
+
+volume = "55–56",
+
+number = "0",
+
+pages = "5 - 11",
+
+year = "2013",
+
+note = "",
+
+issn = "0011-2275",
+
+doi = "http://dx.doi.org/10.1016/j.cryogenics.2013.01.001",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0011227513000076",
+
+author = "Grohmann, S. and Bode, T. and Hötzel, M. and others",
+
+keywords = "Neon",
+
+keywords = "Thermosiphon",
+
+keywords = "Temperature stability",
+
+keywords = "Measurement",
+
+keywords = "Vapour pressure sensors "
+
+}
+
+
+@article{wireElectrodeSystem,
+
+title = "The wire electrode system for the \{KATRIN\} main spectrometer ",
+
+journal = "Progress in Particle and Nuclear Physics ",
+
+volume = "64",
+
+number = "2",
+
+pages = "291 - 293",
+
+year = "2010",
+
+issn = "0146-6410",
+
+doi = "http://dx.doi.org/10.1016/j.ppnp.2009.12.032",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0146641009001100",
+
+author = "K. Valerius",
+
+keywords = "Direct neutrino mass determination",
+
+keywords = "\{KATRIN\}",
+
+keywords = "Background reduction",
+
+keywords = "Screening wire electrode system "
+
+}
+
 
 @misc{
 statusPSWolf,
@@ -642,37 +708,67 @@ doi={10.1109/TASC.2008.920625},
 ISSN={1051-8223},}
 
 @article{mainSpecElectrodeDesign,
-title = "Electromagnetic design and inner electrode for the KATRIN main spectrometer ",
-journal = "Progress in Particle and Nuclear Physics ",
-volume = "57",
-number = "1",
-pages = "58 - 60",
-year = "2006",
-note = "<ce:title>International Workshop of Nuclear Physics 27th course</ce:title> <ce:subtitle>Neutrinos in Cosmology, in Astro, Particle and Nuclear Physics</ce:subtitle> <xocs:full-name>Ettore Majorana Center for Scientific Culture</xocs:full-name> ",
-issn = "0146-6410",
-doi = "http://dx.doi.org/10.1016/j.ppnp.2005.11.011",
-url = "http://www.sciencedirect.com/science/article/pii/S0146641005001353",
-author = "K. Valerius",
-keywords = "Direct neutrino mass determination "
-}
+title = "Electromagnetic design and inner electrode for the KATRIN main spectrometer ",
 
-@article{radonWandkowsky,
-title = "Radon induced background processes in the KATRIN pre-spectrometer ",
-journal = "Astroparticle Physics ",
-volume = "35",
-number = "3",
-pages = "128 - 134",
-year = "2011",
-note = "",
-issn = "0927-6505",
-doi = "http://dx.doi.org/10.1016/j.astropartphys.2011.06.009",
-url = "http://www.sciencedirect.com/science/article/pii/S0927650511001290",
-author = "F.M. Fränkle and L. Bornschein and G. Drexlin and others",
-keywords = "Radon",
-keywords = "Backgrounds",
-keywords = "MAC-E filter",
-keywords = "KATRIN"
-}
+journal = "Progress in Particle and Nuclear Physics ",
+
+volume = "57",
+
+number = "1",
+
+pages = "58 - 60",
+
+year = "2006",
+
+note = "<ce:title>International Workshop of Nuclear Physics 27th course</ce:title> <ce:subtitle>Neutrinos in Cosmology, in Astro, Particle and Nuclear Physics</ce:subtitle> <xocs:full-name>Ettore Majorana Center for Scientific Culture</xocs:full-name> ",
+
+issn = "0146-6410",
+
+doi = "http://dx.doi.org/10.1016/j.ppnp.2005.11.011",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0146641005001353",
+
+author = "K. Valerius",
+
+keywords = "Direct neutrino mass determination "
+
+}
+
+
+@article{radonWandkowsky,
+
+title = "Radon induced background processes in the KATRIN pre-spectrometer ",
+
+journal = "Astroparticle Physics ",
+
+volume = "35",
+
+number = "3",
+
+pages = "128 - 134",
+
+year = "2011",
+
+note = "",
+
+issn = "0927-6505",
+
+doi = "http://dx.doi.org/10.1016/j.astropartphys.2011.06.009",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0927650511001290",
+
+author = "F.M. Fränkle and L. Bornschein and G. Drexlin and others",
+
+keywords = "Radon",
+
+keywords = "Backgrounds",
+
+keywords = "MAC-E filter",
+
+keywords = "KATRIN"
+
+}
+
 
 @article{highVoltageDivider,
   author={Th Thümmler and R Marx and Ch Weinheimer},
@@ -683,4 +779,103 @@ keywords = "KATRIN"
   pages={103007},
   url={http://stacks.iop.org/1367-2630/11/i=10/a=103007},
   year={2009}
+}
+
+@MISC{
+katrinPrinciple,
+author = "Markus Steidl",
+year = 2011,
+howpublished = "\url{http://www.katrin.kit.edu/79.php}",
+note = "[Online, accesse 18-09-2013]"
+}
+
+@MISC{
+magneticMirroring,
+author = "Lyndsay",
+year = 2006,
+howpublished = "\url{http://www.astro.gla.ac.uk/users/lyndsay/TEACHING/NLPII/Lecture4_06.pdf}",
+note = "[Online, accesse 18-09-2013]"
+}
+
+@article{Otten:2008zz,
+      author         = "Otten, E.W. and Weinheimer, C.",
+      title          = "{Neutrino mass limit from tritium beta decay}",
+      journal        = "Rept.Prog.Phys.",
+      volume         = "71",
+      pages          = "086201",
+      doi            = "10.1088/0034-4885/71/8/086201",
+      year           = "2008",
+      eprint         = "0909.2104",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:0909.2104;%%",
+}
+
+@book{
+muonIntensity,
+title = "Introduction to cosmic radiation",
+author = "O.C. Allkofer",
+publisher = "Karl Thiemig",
+year = "1975"
+}
+
+@article{CMS,
+title = "Observation of a new boson at a mass of 125 GeV with the \{CMS\} experiment at the \{LHC\} ",
+journal = "Physics Letters B ",
+volume = "716",
+number = "1",
+pages = "30 - 61",
+year = "2012",
+note = "",
+issn = "0370-2693",
+doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.021",
+url = "http://www.sciencedirect.com/science/article/pii/S0370269312008581",
+author = "S. Chatrchyan and V. Khachatryan and A.M. Sirunyan and others",
+keywords = "\{CMS\}",
+keywords = "Physics",
+keywords = "Higgs "
+}
+
+@article{ATLAS,
+title = "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC ",
+journal = "Physics Letters B ",
+volume = "716",
+number = "1",
+pages = "1 - 29",
+year = "2012",
+note = "",
+issn = "0370-2693",
+doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.020",
+url = "http://www.sciencedirect.com/science/article/pii/S037026931200857X",
+author = "G. Aad and T. Abajyan and B. Abbott and others"
+}
+
+@article{iceCube,
+      author         = "Aartsen, M.G. and others",
+      title          = "{Measurement of the Atmospheric $\nu_e$ flux in IceCube}",
+      collaboration  = "IceCube Collaboration",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "110",
+      pages          = "151105",
+      doi            = "10.1103/PhysRevLett.110.151105",
+      year           = "2013",
+      eprint         = "1212.4760",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1212.4760;%%",
+}
+
+@article{Antares,
+      author         = "Ageron, M. and others",
+      title          = "{ANTARES: the first undersea neutrino telescope}",
+      collaboration  = " ANTARES Collaboration",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A656",
+      pages          = "11-38",
+      doi            = "10.1016/j.nima.2011.06.103",
+      year           = "2011",
+      eprint         = "1104.1607",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1104.1607;%%",
 }
