@@ -1,0 +1,7 @@
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/Analysis/muonAnalysis/timeDiffHists/TimeDifferencesRingSets/*.root ./mainSpec/;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/Analysis/muonAnalysis/timeDiffHists/TimeDifferencesRingSets/*.eps ./mainSpec/;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/Kasper/build/Desaster/Applications/*.root ./monSpec/;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/Kasper/build/Desaster/Applications/*.png ./monSpec/;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/simulation/MosKassiopeia/plots/*.root ./monSpec/fieldSimulation;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/simulation/MosKassiopeia/plots/*.eps ./monSpec/fieldSimulation;
+scp rovedo@141.52.188.80:/kalinka/home/rovedo/simulation/AsymmetricFieldlines/*.eps ./mainSpec/fieldSimulation;

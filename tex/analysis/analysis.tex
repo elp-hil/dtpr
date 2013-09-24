@@ -193,13 +193,13 @@ and with it the field strengths, drastically reduces.
 		\centering
 		\includegraphics[width = 0.9\textwidth]{graphics/analysis/345final.eps}
   	\caption[Testing of muon modules with Sr source - Modules 3 - 5]{Measurements with the source at four different positions. Both sides of modules 3 to 5 are shown. Except for single measurement points that are standing out, the different sides show similar rates. }
-  	\label{fig:SrRatesPMT12}
+  	\label{fig:SrRatesPMT345}
   \end{figure}
     \begin{figure}
 		\centering
 		\includegraphics[width = 0.9\textwidth]{graphics/analysis/678final.eps}
   	\caption[Testing of muon modules with Sr source - Modules 6 - 8]{Measurements with the source at four different positions. Both sides of modules 6 to 8. Noticable are the lower rates for module 6B which again is one of the two that was later set to \SI{1.6}{\kilo\volt} acceleration voltage. }
-  	\label{fig:SrRatesPMT12}
+  	\label{fig:SrRatesPMT678}
   \end{figure}
 
     %% ===========================
@@ -285,7 +285,9 @@ signals via Cat5 cabling.
   \section{Coincidence Search between Muon- and Detector Events}
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements}
   %% ===========================  
-  If one wants to actually detect background induced by muonic events detected by the muon modules, those events need to be correlated to detector events time wise. For this purpose, the analysis code's class run was extended by the member functions TOFHist()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} and TOFMuonDet()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}, where the former is used for monitor spectrometer analysis and the latter for the main spectrometer. The biggest difference is that, for the main spectrometer, runs by two DAQs leading to different starting times and different lengths are created that need to be compared. Here, the necessity for synchronization from chapter \ref{ch:Analysis:sec:Synchronisation of moun module and FPD DAQs} becomes clear.
+  If one wants to actually detect background induced by muonic events detected by the muon modules, those events need to be correlated to detector events time wise. For this purpose, the analysis code's class run was extended by the member functions TOFHist()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()} and TOFMuonDet()\ref{ch:Analysis software:sec:methods of the class run:subsec:TOFMuonDet()}, where the former is used for monitor spectrometer analysis and the latter for the main spectrometer. The biggest difference is that, for the main spectrometer, runs by two DAQs leading to different starting times and different lengths are created that need to be compared. Here, the necessity for synchronization from chapter \ref{ch:Analysis:sec:Synchronisation of moun module and FPD DAQs} becomes clear. Different magnetic field configurations were used that can be split into two generalized groups.\\
+  Asymmetric magnetic fields are configurations in which the magnetic field lines do not pass through the spectrometer vessel, but are widened to hit the spectrometer wall. This way, muon induced secondary electrons are guided to the detector on cyclotron tracks around those field lines.\\
+  In non-axially symmetric configurations, the fieldlines show no rotational symmetry around the z-axis. This change in fields is achieved by an additional coil on top of the monitor spectrometer vessel. At the main spectrometer, it would only be possible using the EMCS coils \ref{ch:The KATRIN experiment:sec:Experimental setup:subsec:Solenoids, LFCS and EMCS system} but no measurements of that kind have been taken until now.
   
   %% =========================
   \subsection{Monitor Spectrometer}
@@ -293,8 +295,8 @@ signals via Cat5 cabling.
   %% =========================
   
   Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run-file through the mini-crate.
-  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the readout electronics were connected to a second FLT-card inserted into the mini-DAQ and operated in veto-mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept, although the detector position was shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram-mode to energy-mode as the timestamps for every single event were needed for analysis. 
-  Several hourly runs were taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and figure \ref{fig:monSpec:asymmetric magnetic field} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} and figure \ref{fig:monSpec:non axially symmetric magnetic field} configurations were investigated.
+  For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the muon modules were connected to a newly added second FLT-card. Readout was handled by the mini-DAQ , the new FLT card was operated in veto-mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept at standard monitor spectrometer operation settings. The detector position though was shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram-mode to energy-mode as the timestamps for every single event were needed for analysis. 
+  Several hourly runs were taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} configurations were investigated.
   \begin{table}
 	\centering
 		\begin{tabular}{c}
@@ -378,8 +380,9 @@ signals via Cat5 cabling.
   	\end{table}
   	
   	
-  The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data.
-  It browses through all the muon-events detected and finds any detector event in a definable timespan after the muon-event. This can be more than one detector-event per  muon-event. In all of the settings, a clear peak is visible at around \SI{7}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate.
+  The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data as well as ``Beans'' code.
+  Both browse through all the muon-events detected and finds any detector event in a definable timespan after (or before) the muon-event. This can be more than one detector-event per muon-event. In all of the settings, a peak is visible at around \SI{2}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate (see section \ref{ch:The KATRIN experiment:sec:MAC-E}).
+  As data with a lot of different field configurations was analyzed, the major part of setups and analysis can be found in annex \ref{ch:annex:sec:A3}.
   A graphic of the flux tube configuration as well as the histograms for all of the settings can be found in the \ref{appendix}, figures \todo{reference figures.}
   The exact values are:
   \begin{table}
@@ -422,14 +425,8 @@ signals via Cat5 cabling.
   
   Monitor-spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to first measurements ``M1'', some runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
   The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different paths contribute to a single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
+  All in all, three different magnetic field configurations shown in figures \ref{fig:mainSpec_100A}, \ref{fig:mainSpec_B}, \ref{fig:mainSpec_9} and tables \ref{tab:mainSpecSettings} and \ref{tab:mainSpecRuns} were used.
   
-  \begin{figure}
-  \centering
-  	\includegraphics[width = 0.9 \textwidth]{graphics/mainSpec/mainSpecRings.eps}
-  	\caption[Time difference Histogram for all rings]{Time differences of muon events followed by a detector event. From left to right and top down for every single detector ring, 0 being the innermost and 12 being the outermost ring. No clear indication of a time of flight for electrons induced by muons visible.}
-  	\label{fig:mainSpec:allRings}
-  \end{figure}
-
   
   The failure to find a clear runtime for electrons induced by muonic events might be due to the combination of muon module position and the magnetic field setup as the wall area covered by the flux tubes and the volume surveilled by the muon modules did not overlap very much. Furthermore, due to the very low magnetic field at the wall compared to the volume inside the detector and pinch magnet, most of the induced electrons are magnetically reflected as the maximum polar angle towards magnetic field lines $\theta_{max}$ is defined by
   \begin{equation}
@@ -447,27 +444,38 @@ signals via Cat5 cabling.
     
 
 
-    
-  \todo{flux tube including modules for horizontal and vertical view}
-  \begin{figure}
-	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-	\caption[Flux tube P12.M8]{Flux tube as proposed in \cite{proposalM12}}
-  	\label{fig:newFluxTube}
-  \end{figure}
-  \todo{If data will be taken add to analysis.}
   
   \begin{figure}
-	\caption[Flux tube M12.8]{Flux tube in field configuration M12.8}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-  \end{figure}
   
+	\centerline{\includegraphics[width = 1.45\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_100A.eps}}
+	\caption[Flux tube setting A]{First used magnetic field setup. Note that the largest part of the flux tube is in the area of the steep cone. With the initial positions of the muon modules, the probability of the detected muons having caused secodary electrons inside the flux tube was too low.}
+  	\label{fig:mainSpec_100A}
+  \end{figure}
+
+
   \begin{figure}
-  	\caption[Inner electrode field emission]{Rate trend over inner electrode voltages}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+	\centerline{\includegraphics[width = 1.45\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_B.eps}}
+	\caption[Flux tube setting B]{Flux tube as proposed in \cite{proposalM12}}
+  	\label{fig:mainSpec_B}
   \end{figure}
 
   
-All measurements that have been taken with the main spectrometer for muon induced backgroud analysis are listed in \ref{tab:mainSPecSettings}.
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.45\textwidth]{graphics//analysis/mainSpec/fieldSimulation/fieldlines_9.eps}}
+	\caption[Flux tube setting C]{Flux tube as proposed in \cite{proposalM12}}
+  	\label{fig:mainSpec_9}
+  \end{figure}
+
+  
+  
+%   
+%   \begin{figure}
+%   	\caption[Inner electrode field emission]{Rate trend over inner electrode voltages}
+%   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
+%   \end{figure}
+
+  
+All measurements that have been taken with the main spectrometer for muon induced background analysis are listed in \ref{tab:mainSpecSettings}.
 
 \begin{table}
 	\centering
