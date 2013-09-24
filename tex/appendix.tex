@@ -9,28 +9,44 @@
 \appendix
 
 \iflanguage{english}
-{\addchap{Appendix}}	% english style
+{\addchap{Annex}}	% english style
 {\addchap{Anhang}}	% german style
 
 
-\section{First Appendix Section}
+\section{Annex}
 		\label{appendix}
 		
 \setcounter{figure}{0}
-		
-\begin{figure} [ht]
-  \centering
-   ein Bild
-  \caption{A figure}
-  \label{fig:BPMNBeispiela}
+
+
+\begin{figure}[p]
+    \vspace*{-2cm}
+    \makebox[\linewidth]{
+        \includegraphics[width=1.3\linewidth]{graphics/screenshots/airCoilScript.png}
+    }
+    \caption[ORCA script LFCS coils]{Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. }
+  \label{fig:ORCA:script}
 \end{figure}
 
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/monSpec/nonAxiallySym/{+50_12.5_12.5}.eps}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{50}{\ampere} current. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\label{fig:nonAxiallySym:+50_12.5_12.5.eps}
+\end{figure}
 
-\begin{figure} [ht]
-  \centering
-    %\includegraphics{graphics/ORCA/script}
-  \caption[ORCA script LFCS coils]{Scripting task through the example of a LFCS current ramping script. All currents are incremented in thenths of the maximum current for the individual coil. }
-  \label{fig:ORCA:script}
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/monSpec/nonAxiallySym/{+50_12.5_12.5}.eps}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{50}{\ampere} current. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\label{fig:nonAxiallySym:+50_12.5_12.5.eps}
+\end{figure}
+
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/monSpec/nonAxiallySym/{+50_12.5_12.5}.eps}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{50}{\ampere} current. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\label{fig:nonAxiallySym:+50_12.5_12.5.eps}
 \end{figure}
 
 

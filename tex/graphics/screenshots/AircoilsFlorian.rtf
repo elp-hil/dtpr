@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15120\viewh11040\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs26 \cf0 Hallo Nancy & Philipp,\
+\
+ich habe auf dem Myondetektor DAQ Rechner die neuste Version von SDS.lib installiert und ein Beispiel ORCA Skript erstellt um die Ist-Stroeme der Luftspulen auszulesen. Es befindet sich in der Box Scripts im ORCA Konfigurationsfenster. Folgende Funktionen stehen zur Verfuegung um die Luftspulen zu steuern:\
+\
+function / argument / return value\
+\
+setAirCoilCurrent_A / index [1], current [A] / none \
+setAllAirCoilCurrents_A / array currents [A] / none \
+queueAirCoilCurrent_A / index [1], current [A] / none\
+queueAllAirCoilCurrents_A / array currents [A] / none\
+readAirCoilCurrent_A / index [1] / current in [A]\
+readAllAirCoilCurrents_A / none / array currents [A]\
+sendQueue / none / none\
+\
+falls eine queue* Funktion benutzt wird ist es wichtig die Queue mit der Funktion sendQueue zu senden sobald alle Werte in der Queue sind (siehe auch auskommentierte Funktionen im Beispielskript).\
+\
+Falls Ihr Fragen habt meldet euch einfach.\
+\
+Viele Gruesse,\
+\'a0\'a0\'a0\'a0 Florian\
+\
+ADEI-Tree: 192.168.110.67/adei}

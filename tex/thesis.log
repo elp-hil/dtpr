@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  20 SEP 2013 20:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.7)  23 SEP 2013 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,12 +1305,25 @@ Package: nth 2002/02/27
 ) (./thesis.aux
 (./titlepage.aux) (./declaration.aux) (./introduction.aux)
 (./theKATRINexperiment/theKATRINexperiment.aux)
-(./muonDetectionSystem/muonDetectionSystem.aux
+(./muonDetectionSystem/muonDetectionSystem.aux)
+(./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux
 
-LaTeX Warning: Label `fig:multiplug' multiply defined.
+LaTeX Warning: Label `fig:SrRatesPMT12' multiply defined.
 
-) (./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
-(./simulationSoftware/simulationSoftware.aux) (./conclusion.aux))
+
+LaTeX Warning: Label `fig:SrRatesPMT12' multiply defined.
+
+) (./simulationSoftware/simulationSoftware.aux) (./conclusion.aux)
+
+LaTeX Warning: Label `fig:nonAxiallySym:+50_12.5_12.5.eps' multiply defined.
+
+
+LaTeX Warning: Label `fig:nonAxiallySym:+50_12.5_12.5.eps' multiply defined.
+
+
+LaTeX Warning: Label `fig:nonAxiallySym:+50_12.5_12.5.eps' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
@@ -1330,8 +1343,7 @@ LaTeX Font Info:    ... okay on input line 130.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 130.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 130.
@@ -1441,7 +1453,7 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 \c_siunitx_mathtt_int=\count331
 \openout2 = `titlepage.aux'.
 
- (./titlepage.tex <logos/KITLogo_RGB.pdf, id=264, 196.46399pt x 90.77916pt>
+ (./titlepage.tex <logos/KITLogo_RGB.pdf, id=256, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1900,10 +1912,7 @@ LaTeX Info: Redefining \bond on input line 114.
 LaTeX Info: Redefining \dbond on input line 114.
 LaTeX Info: Redefining \tbond on input line 114.
 
-
-LaTeX Warning: Citation `dayaBay2' on page 5 undefined on input line 119.
-
-<graphics/standardModel/massHierarchy.jpg, id=596, 875.27pt x 499.8675pt>
+<graphics/standardModel/massHierarchy.jpg, id=597, 875.27pt x 499.8675pt>
 File: graphics/standardModel/massHierarchy.jpg Graphic file (type jpg)
 
 <use graphics/standardModel/massHierarchy.jpg>
@@ -1911,7 +1920,7 @@ Package pdftex.def Info: graphics/standardModel/massHierarchy.jpg used on input
  line 126.
 (pdftex.def)             Requested size: 299.20076pt x 170.87561pt.
 
-<graphics/standardModel/massSchemes.png, id=597, 578.16pt x 578.16pt>
+<graphics/standardModel/massSchemes.png, id=598, 578.16pt x 578.16pt>
 File: graphics/standardModel/massSchemes.png Graphic file (type png)
 
 <use graphics/standardModel/massSchemes.png>
@@ -1950,16 +1959,12 @@ LaTeX Info: Redefining \tbond on input line 243.
 LaTeX Info: Redefining \bond on input line 243.
 LaTeX Info: Redefining \dbond on input line 243.
 LaTeX Info: Redefining \tbond on input line 243.
-
-
-LaTeX Warning: Citation `Planck' on page 8 undefined on input line 251.
-
-[8]
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 266--269
 
  []
 
-<graphics/cosmicRays/cosmicRays.jpg, id=647, 1317.92375pt x 966.61125pt>
+<graphics/cosmicRays/cosmicRays.jpg, id=651, 1317.92375pt x 966.61125pt>
 File: graphics/cosmicRays/cosmicRays.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/cosmicRays.jpg>
@@ -1967,7 +1972,7 @@ Package pdftex.def Info: graphics/cosmicRays/cosmicRays.jpg used on input line
 279.
 (pdftex.def)             Requested size: 209.44379pt x 153.61375pt.
 
-<graphics/cosmicRays/energySpectrum.jpg, id=648, 586.19pt x 570.13pt>
+<graphics/cosmicRays/energySpectrum.jpg, id=652, 586.19pt x 570.13pt>
 File: graphics/cosmicRays/energySpectrum.jpg Graphic file (type jpg)
 
 <use graphics/cosmicRays/energySpectrum.jpg>
@@ -1988,7 +1993,7 @@ andauRoot-eps-converted-to.pdf graphics/cosmicRays/TMathLandauRoot.eps>
 (epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf, id=682, 569.12625pt 
+<graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf, id=686, 569.12625pt 
 x 387.4475pt>
 File: graphics/cosmicRays/TMathLandauRoot-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2019,14 +2024,14 @@ LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
 
-<graphics/katrinExperiment/electronSpectrum.jpg, id=706, 289.08pt x 163.3302pt>
+<graphics/katrinExperiment/electronSpectrum.jpg, id=710, 289.08pt x 163.3302pt>
 File: graphics/katrinExperiment/electronSpectrum.jpg Graphic file (type jpg)
 <use graphics/katrinExperiment/electronSpectrum.jpg>
 Package pdftex.def Info: graphics/katrinExperiment/electronSpectrum.jpg used on
  input line 19.
 (pdftex.def)             Requested size: 384.68576pt x 217.3585pt.
 
-<graphics/katrinExperiment/macEFilter.pdf, id=708, 524.36197pt x 429.54576pt>
+<graphics/katrinExperiment/macEFilter.pdf, id=712, 524.36197pt x 429.54576pt>
 File: graphics/katrinExperiment/macEFilter.pdf Graphic file (type pdf)
 
 <use graphics/katrinExperiment/macEFilter.pdf>
@@ -2055,7 +2060,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
 [14 <./graphics/katrinExperiment/electronSpectrum.jpg>] [15 <./graphics/katrinE
 xperiment/macEFilter.pdf>]
-<graphics/katrinExperiment/beamLineHD.jpg, id=752, 3083.52pt x 1678.01906pt>
+<graphics/katrinExperiment/beamLineHD.jpg, id=756, 3083.52pt x 1678.01906pt>
 File: graphics/katrinExperiment/beamLineHD.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/beamLineHD.jpg>
@@ -2063,7 +2068,7 @@ Package pdftex.def Info: graphics/katrinExperiment/beamLineHD.jpg used on input
  line 78.
 (pdftex.def)             Requested size: 427.43153pt x 232.59106pt.
  [16]
-<graphics/katrinExperiment/rearSectionFull1.png, id=765, 1324.95pt x 993.7125pt
+<graphics/katrinExperiment/rearSectionFull1.png, id=769, 1324.95pt x 993.7125pt
 >
 File: graphics/katrinExperiment/rearSectionFull1.png Graphic file (type png)
  <use graphics/katrinExperiment/rearSectionFull1.png>
@@ -2071,7 +2076,7 @@ Package pdftex.def Info: graphics/katrinExperiment/rearSectionFull1.png used on
  input line 98.
 (pdftex.def)             Requested size: 256.46152pt x 192.34027pt.
 
-<graphics/katrinExperiment/WGTS.jpg, id=766, 853.443pt x 272.9835pt>
+<graphics/katrinExperiment/WGTS.jpg, id=770, 853.443pt x 272.9835pt>
 File: graphics/katrinExperiment/WGTS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/WGTS.jpg>
@@ -2079,7 +2084,7 @@ Package pdftex.def Info: graphics/katrinExperiment/WGTS.jpg used on input line
 101.
 (pdftex.def)             Requested size: 427.43153pt x 136.71634pt.
 
-<graphics/katrinExperiment/DPS.jpg, id=772, 796.8972pt x 445.665pt>
+<graphics/katrinExperiment/DPS.jpg, id=776, 796.8972pt x 445.665pt>
 File: graphics/katrinExperiment/DPS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/DPS.jpg>
@@ -2087,7 +2092,7 @@ Package pdftex.def Info: graphics/katrinExperiment/DPS.jpg used on input line 1
 13.
 (pdftex.def)             Requested size: 209.44379pt x 117.12822pt.
 
-<graphics/katrinExperiment/CPS.jpg, id=773, 536.0025pt x 429.85594pt>
+<graphics/katrinExperiment/CPS.jpg, id=777, 536.0025pt x 429.85594pt>
 File: graphics/katrinExperiment/CPS.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/CPS.jpg>
@@ -2097,7 +2102,7 @@ Package pdftex.def Info: graphics/katrinExperiment/CPS.jpg used on input line 1
  [17 <./graphics/katrinExperiment/beamLineHD.jpg>] [18 <./graphics/katrinExperi
 ment/rearSectionFull1.png> <./graphics/katrinExperiment/WGTS.jpg> <./graphics/k
 atrinExperiment/DPS.jpg> <./graphics/katrinExperiment/CPS.jpg>]
-<graphics/katrinExperiment/mainSpectrometer.jpg, id=803, 698.61pt x 533.995pt>
+<graphics/katrinExperiment/mainSpectrometer.jpg, id=807, 698.61pt x 533.995pt>
 File: graphics/katrinExperiment/mainSpectrometer.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/mainSpectrometer.jpg>
@@ -2105,7 +2110,7 @@ Package pdftex.def Info: graphics/katrinExperiment/mainSpectrometer.jpg used on
  input line 134.
 (pdftex.def)             Requested size: 286.37834pt x 218.89862pt.
 
-<graphics/katrinExperiment/wireElectrodes.png, id=804, 1204.5pt x 806.01125pt>
+<graphics/katrinExperiment/wireElectrodes.png, id=808, 1204.5pt x 806.01125pt>
 File: graphics/katrinExperiment/wireElectrodes.png Graphic file (type png)
 
 <use graphics/katrinExperiment/wireElectrodes.png>
@@ -2117,7 +2122,7 @@ Underfull \vbox (badness 1635) has occurred while \output is active []
 
  [19 <./graphics/katrinExperiment/mainSpectrometer.jpg> <./graphics/katrinExper
 iment/wireElectrodes.png>]
-<graphics/katrinExperiment/detectorHousing.pdf, id=820, 483.84766pt x 379.77884
+<graphics/katrinExperiment/detectorHousing.pdf, id=824, 483.84766pt x 379.77884
 pt>
 File: graphics/katrinExperiment/detectorHousing.pdf Graphic file (type pdf)
  <use graphics/katrinExperiment/detectorHousing.pdf>
@@ -2125,7 +2130,7 @@ Package pdftex.def Info: graphics/katrinExperiment/detectorHousing.pdf used on
 input line 158.
 (pdftex.def)             Requested size: 341.94652pt x 268.39894pt.
 
-<graphics/katrinExperiment/detectorWafer.jpg, id=823, 742.775pt x 557.08125pt>
+<graphics/katrinExperiment/detectorWafer.jpg, id=827, 742.775pt x 557.08125pt>
 File: graphics/katrinExperiment/detectorWafer.jpg Graphic file (type jpg)
 
 <use graphics/katrinExperiment/detectorWafer.jpg>
@@ -2137,7 +2142,7 @@ put line 165.
 LaTeX Warning: Reference `ch:' on page 21 undefined on input line 177.
 
 
-<graphics/katrinExperiment/wireElectrodes.jpg, id=841, 244.31097pt x 111.92256p
+<graphics/katrinExperiment/wireElectrodes.jpg, id=845, 244.31097pt x 111.92256p
 t>
 File: graphics/katrinExperiment/wireElectrodes.jpg Graphic file (type jpg)
  <use graphics/katrinExperiment/wireElectrodes.jpg>
@@ -2152,39 +2157,48 @@ periment/wireElectrodes.jpg>]
 Chapter 3.
 
 LaTeX Warning: Reference `fig:modulesMainSpec' on page 23 undefined on input li
-ne 8.
+ne 9.
 
 
-<graphics/muonModules/mainSpec/panelsMainSpec.png, id=856, 329.3103pt x 128.640
+<graphics/muonModules/mainSpec/panelsMainSpec.png, id=865, 329.3103pt x 128.640
 6pt>
 File: graphics/muonModules/mainSpec/panelsMainSpec.png Graphic file (type png)
  <use graphics/muonModules/mainSpec/panelsMainSpec.png>
 Package pdftex.def Info: graphics/muonModules/mainSpec/panelsMainSpec.png used 
-on input line 28.
+on input line 29.
 (pdftex.def)             Requested size: 384.68576pt x 150.28511pt.
-
-<graphics/muonModules/mainSpec/HV.jpg, id=858, 873.5034pt x 317.7471pt>
-File: graphics/muonModules/mainSpec/HV.jpg Graphic file (type jpg)
-
-<use graphics/muonModules/mainSpec/HV.jpg>
-Package pdftex.def Info: graphics/muonModules/mainSpec/HV.jpg used on input lin
-e 50.
-(pdftex.def)             Requested size: 427.43153pt x 155.47925pt.
  [23
 
 
 
 
-] [24 <./graphics/muonModules/mainSpec/panelsMainSpec.png> <./graphics/muonModu
-les/mainSpec/HV.jpg>]
-<graphics/muonModules/mainSpec/DAQ.jpg, id=873, 612.8496pt x 563.4651pt>
+]
+<graphics/muonModules/mainSpec/HV.jpg, id=874, 873.5034pt x 317.7471pt>
+File: graphics/muonModules/mainSpec/HV.jpg Graphic file (type jpg)
+
+<use graphics/muonModules/mainSpec/HV.jpg>
+Package pdftex.def Info: graphics/muonModules/mainSpec/HV.jpg used on input lin
+e 51.
+(pdftex.def)             Requested size: 427.43153pt x 155.47925pt.
+
+<graphics/muonModules/mainSpec/multiplug.jpg, id=877, 3276.24pt x 2457.18pt>
+File: graphics/muonModules/mainSpec/multiplug.jpg Graphic file (type jpg)
+
+<use graphics/muonModules/mainSpec/multiplug.jpg>
+Package pdftex.def Info: graphics/muonModules/mainSpec/multiplug.jpg used on in
+put line 59.
+(pdftex.def)             Requested size: 3276.23206pt x 2457.17403pt.
+ [24 <./graphics/muonModules/mainSpec/panelsMainSpec.png> <./graphics/muonModul
+es/mainSpec/HV.jpg>]
+<graphics/muonModules/mainSpec/DAQ.jpg, id=886, 612.8496pt x 563.4651pt>
 File: graphics/muonModules/mainSpec/DAQ.jpg Graphic file (type jpg)
 
 <use graphics/muonModules/mainSpec/DAQ.jpg>
 Package pdftex.def Info: graphics/muonModules/mainSpec/DAQ.jpg used on input li
-ne 69.
+ne 75.
 (pdftex.def)             Requested size: 299.20076pt x 275.08578pt.
- [25 <./graphics/muonModules/mainSpec/DAQ.jpg>] [26]
+ [25 <./graphics/muonModules/mainSpec/multiplug.jpg>] [26 <./graphics/muonModul
+es/mainSpec/DAQ.jpg>] [27]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -2193,127 +2207,23 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 159.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/dummy-eps-converted-to.pdf, id=892, 145.54375pt x 1.00375pt>
+<graphics/dummy-eps-converted-to.pdf, id=917, 145.54375pt x 1.00375pt>
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 159.
+ 160.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
 
-<graphics/setup/PMT.pdf, id=895, 309.155pt x 144.54pt>
+<graphics/setup/PMT.pdf, id=920, 309.155pt x 144.54pt>
 File: graphics/setup/PMT.pdf Graphic file (type pdf)
 
 <use graphics/setup/PMT.pdf>
-Package pdftex.def Info: graphics/setup/PMT.pdf used on input line 176.
+Package pdftex.def Info: graphics/setup/PMT.pdf used on input line 177.
 (pdftex.def)             Requested size: 213.71576pt x 99.92236pt.
-Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun660_old.eps>
-(epstopdf)                    date: 2013-08-15 13:34:52
-(epstopdf)                    size: 37711 bytes
-(epstopdf)             Output file: <graphics/setup/LandauPeaksRun660_old-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-08-15 13:35:03
-(epstopdf)                    size: 23060 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
-Run660_old-eps-converted-to.pdf graphics/setup/LandauPeaksRun660_old.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=897, 569.12625pt
- x 387.4475pt>
-File: graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/setup/LandauPeaksRun660_old-eps-converted-to.
-pdf used on input line 194.
-(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
-
-[27 <./graphics/dummy-eps-converted-to.pdf>]
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [28 <./graphics/setup/PMT.pdf> <./graphics/setup/LandauPeaksRun660_old-eps-con
-verted-to.pdf>]
-Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun1097_new.eps>
-
-(epstopdf)                    date: 2013-08-15 11:39:16
-(epstopdf)                    size: 77169 bytes
-(epstopdf)             Output file: <graphics/setup/LandauPeaksRun1097_new-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-15 11:39:48
-(epstopdf)                    size: 45786 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
-Run1097_new-eps-converted-to.pdf graphics/setup/LandauPeaksRun1097_new.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=926, 569.12625p
-t x 387.4475pt>
-File: graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf Graphic file (
-type pdf)
-
-<use graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/setup/LandauPeaksRun1097_new-eps-converted-to
-.pdf used on input line 202.
-(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
-) [29 <./graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>]
-\openout2 = `analysisSoftware/analysisSoftware.aux'.
-
-
-(./analysisSoftware/analysisSoftware.tex [30
-
-
-
-
-]
-Chapter 4.
-[31] [32]
-Package epstopdf Info: Source file: <graphics/frequencySearch.eps>
-(epstopdf)                    date: 2013-07-22 14:09:02
-(epstopdf)                    size: 1068 bytes
-(epstopdf)             Output file: <graphics/frequencySearch-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2013-07-22 14:09:57
-(epstopdf)                    size: 2611 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/frequencySearch-e
-ps-converted-to.pdf graphics/frequencySearch.eps>
-(epstopdf)             \includegraphics on input line 77.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/frequencySearch-eps-converted-to.pdf, id=952, 145.54375pt x 1.00375pt
->
-File: graphics/frequencySearch-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/frequencySearch-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/frequencySearch-eps-converted-to.pdf used on 
-input line 77.
-(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
-Package epstopdf Info: Source file: <graphics/incrementalSearch.eps>
-(epstopdf)                    date: 2013-07-22 14:09:01
-(epstopdf)                    size: 1068 bytes
-(epstopdf)             Output file: <graphics/incrementalSearch-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-07-22 14:09:57
-(epstopdf)                    size: 2611 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/incrementalSearch
--eps-converted-to.pdf graphics/incrementalSearch.eps>
-(epstopdf)             \includegraphics on input line 87.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/incrementalSearch-eps-converted-to.pdf, id=953, 145.54375pt x 1.00375
-pt>
-File: graphics/incrementalSearch-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/incrementalSearch-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/incrementalSearch-eps-converted-to.pdf used o
-n input line 87.
-(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [33 <./graphics/frequencySearch-eps-converted-to.pdf> <./graphics/incrementalS
-earch-eps-converted-to.pdf>] [34] [35]) [36]
-\openout2 = `analysis/analysis.aux'.
-
- (./analysis/analysis.tex
-Chapter 5.
 Package epstopdf Info: Source file: <graphics/setup/Noise_Rate_Problem_cutout.e
 ps>
 (epstopdf)                    date: 2013-08-14 12:38:34
@@ -2325,18 +2235,19 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=graphics/setup/Noise_Rate_
 Problem_cutout-eps-converted-to.pdf graphics/setup/Noise_Rate_Problem_cutout.ep
 s>
-(epstopdf)             \includegraphics on input line 18.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=993, 314.173
+<graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf, id=922, 314.173
 75pt x 118.4425pt>
 File: graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/Noise_Rate_Problem_cutout-eps-converted
--to.pdf used on input line 18.
+-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 142.26378pt x 53.63297pt.
+ [28 <./graphics/dummy-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/setup/Histogram_noise_problem.eps
 >
 (epstopdf)                    date: 2013-08-14 12:38:31
@@ -2347,24 +2258,124 @@ Package epstopdf Info: Source file: <graphics/setup/Histogram_noise_problem.eps
 (epstopdf)                    size: 1281298 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/setup/Histogram_n
 oise_problem-eps-converted-to.pdf graphics/setup/Histogram_noise_problem.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=994, 1587.9325
+<graphics/setup/Histogram_noise_problem-eps-converted-to.pdf, id=933, 1587.9325
 pt x 869.2475pt>
 File: graphics/setup/Histogram_noise_problem-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use graphics/setup/Histogram_noise_problem-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/Histogram_noise_problem-eps-converted-t
-o.pdf used on input line 24.
+o.pdf used on input line 200.
 (pdftex.def)             Requested size: 384.68576pt x 210.57341pt.
- [37
+
+
+LaTeX Warning: Reference `ch:Analysis:sec:GainsThresholdsAccVoltages' on page 2
+9 undefined on input line 204.
+
+Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun660_old.eps>
+(epstopdf)                    date: 2013-08-15 13:34:52
+(epstopdf)                    size: 37711 bytes
+(epstopdf)             Output file: <graphics/setup/LandauPeaksRun660_old-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2013-08-15 13:35:03
+(epstopdf)                    size: 23060 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
+Run660_old-eps-converted-to.pdf graphics/setup/LandauPeaksRun660_old.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf, id=936, 569.12625pt
+ x 387.4475pt>
+File: graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/setup/LandauPeaksRun660_old-eps-converted-to.
+pdf used on input line 209.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+Package epstopdf Info: Source file: <graphics/setup/LandauPeaksRun1097_new.eps>
+
+(epstopdf)                    date: 2013-08-15 11:39:16
+(epstopdf)                    size: 77169 bytes
+(epstopdf)             Output file: <graphics/setup/LandauPeaksRun1097_new-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2013-08-15 11:39:48
+(epstopdf)                    size: 45786 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/setup/LandauPeaks
+Run1097_new-eps-converted-to.pdf graphics/setup/LandauPeaksRun1097_new.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf, id=939, 569.12625p
+t x 387.4475pt>
+File: graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/setup/LandauPeaksRun1097_new-eps-converted-to
+.pdf used on input line 220.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+ [29 <./graphics/setup/PMT.pdf> <./graphics/setup/Noise_Rate_Problem_cutout-eps
+-converted-to.pdf>] [30 <./graphics/setup/Histogram_noise_problem-eps-converted
+-to.pdf> <./graphics/setup/LandauPeaksRun660_old-eps-converted-to.pdf>]) [31 <.
+/graphics/setup/LandauPeaksRun1097_new-eps-converted-to.pdf>]
+\openout2 = `analysisSoftware/analysisSoftware.aux'.
+
+
+(./analysisSoftware/analysisSoftware.tex [32
 
 
 
 
- <./graphics/setup/Noise_Rate_Problem_cutout-eps-converted-to.pdf>]
+]
+Chapter 4.
+[33] [34]
+Package epstopdf Info: Source file: <graphics/frequencySearch.eps>
+(epstopdf)                    date: 2013-07-22 14:09:02
+(epstopdf)                    size: 1068 bytes
+(epstopdf)             Output file: <graphics/frequencySearch-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-07-22 14:09:57
+(epstopdf)                    size: 2611 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/frequencySearch-e
+ps-converted-to.pdf graphics/frequencySearch.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/frequencySearch-eps-converted-to.pdf, id=996, 145.54375pt x 1.00375pt
+>
+File: graphics/frequencySearch-eps-converted-to.pdf Graphic file (type pdf)
+ <use graphics/frequencySearch-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/frequencySearch-eps-converted-to.pdf used on 
+input line 78.
+(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
+Package epstopdf Info: Source file: <graphics/incrementalSearch.eps>
+(epstopdf)                    date: 2013-07-22 14:09:01
+(epstopdf)                    size: 1068 bytes
+(epstopdf)             Output file: <graphics/incrementalSearch-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2013-07-22 14:09:57
+(epstopdf)                    size: 2611 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/incrementalSearch
+-eps-converted-to.pdf graphics/incrementalSearch.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/incrementalSearch-eps-converted-to.pdf, id=997, 145.54375pt x 1.00375
+pt>
+File: graphics/incrementalSearch-eps-converted-to.pdf Graphic file (type pdf)
+ <use graphics/incrementalSearch-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/incrementalSearch-eps-converted-to.pdf used o
+n input line 88.
+(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
+ [35 <./graphics/frequencySearch-eps-converted-to.pdf> <./graphics/incrementalS
+earch-eps-converted-to.pdf>] [36] [37]) [38]
+\openout2 = `analysis/analysis.aux'.
+
+ (./analysis/analysis.tex
+Chapter 5.
 Package epstopdf Info: Source file: <graphics/muonModules/monSpec/muonSignal.ep
 s>
 (epstopdf)                    date: 2013-09-13 15:55:01
@@ -2376,17 +2387,17 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=graphics/muonModules/monSp
 ec/muonSignal-eps-converted-to.pdf graphics/muonModules/monSpec/muonSignal.eps>
 
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=1006, 569.126
+<graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf, id=1036, 569.126
 25pt x 410.53375pt>
 File: graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/muonModules/monSpec/muonSignal-eps-converted-
-to.pdf used on input line 78.
+to.pdf used on input line 24.
 (pdftex.def)             Requested size: 384.68576pt x 277.49924pt.
 Package epstopdf Info: Source file: <graphics/muonModules/monSpec/muonSignal.ep
 s>
@@ -2399,22 +2410,26 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=graphics/muonModules/monSp
 ec/muonSignal-eps-converted-to.pdf graphics/muonModules/monSpec/muonSignal.eps>
 
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/muonModules/monSpec/muonSignal-eps-converted-
-to.pdf used on input line 82.
+to.pdf used on input line 28.
 (pdftex.def)             Requested size: 384.68576pt x 277.49924pt.
 
-Overfull \hbox (17.95346pt too wide) in paragraph at lines 89--122
+Overfull \hbox (17.95346pt too wide) in paragraph at lines 35--68
 [][] [] 
  []
 
-[38 <./graphics/setup/Histogram_noise_problem-eps-converted-to.pdf>] [39 <./gra
-phics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>] [40]
+[39
+
+
+
+
+] [40 <./graphics/muonModules/monSpec/muonSignal-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/aircoilCounts/aircoilsCountsCurre
 nt.eps>
 (epstopdf)                    date: 2013-08-07 10:10:51
@@ -2426,46 +2441,47 @@ nt-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=graphics/aircoilCounts/air
 coilsCountsCurrent-eps-converted-to.pdf graphics/aircoilCounts/aircoilsCountsCu
 rrent.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=1037, 35
+<graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf, id=1060, 35
 3.32pt x 247.92625pt>
 File: graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/aircoilCounts/aircoilsCountsCurrent-eps-conve
-rted-to.pdf used on input line 160.
+rted-to.pdf used on input line 106.
 (pdftex.def)             Requested size: 384.68576pt x 269.93918pt.
 
-[41] [42 <./graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf>]
+[41]
 Package epstopdf Info: Source file: <graphics/setup/stability.eps>
 (epstopdf)                    date: 2013-09-07 10:27:55
 (epstopdf)                    size: 32650 bytes
 (epstopdf)             Output file: <graphics/setup/stability-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2013-09-07 10:34:21
-(epstopdf)                    size: 21887 bytes
+(epstopdf)                    date: 2013-09-21 12:39:34
+(epstopdf)                    size: 480575 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/setup/stability-e
 ps-converted-to.pdf graphics/setup/stability.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/setup/stability-eps-converted-to.pdf, id=1063, 569.12625pt x 387.4475
-pt>
+<graphics/setup/stability-eps-converted-to.pdf, id=1072, 569.12625pt x 387.4394
+7pt>
 File: graphics/setup/stability-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/setup/stability-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/setup/stability-eps-converted-to.pdf used on 
-input line 194.
-(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+input line 140.
+(pdftex.def)             Requested size: 384.68576pt x 261.88872pt.
 
-Overfull \hbox (7.33064pt too wide) in paragraph at lines 190--197
+Overfull \hbox (7.33064pt too wide) in paragraph at lines 136--143
 \T1/aer/m/n/10.95 (-20) where $\OML/cmm/m/it/10.95 (-20) $ \T1/aer/m/n/10.95 (
 -20) is a baro-met-ric co-ef-fi-cient in [][], $\OML/cmm/m/it/10.95 (-20) ^^L$ 
 \T1/aer/m/n/10.95 (-20) a de-cay co-ef-fi-cient in [][]/[][]
  []
 
+[42 <./graphics/aircoilCounts/aircoilsCountsCurrent-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -2474,359 +2490,77 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
+
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 200.
+ 146.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
  [43 <./graphics/setup/stability-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <graphics/cobalt/876_parallel_good.eps>
-(epstopdf)                    date: 2013-08-03 12:06:09
-(epstopdf)                    size: 8577 bytes
-(epstopdf)             Output file: <graphics/cobalt/876_parallel_good-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2013-08-03 12:09:03
-(epstopdf)                    size: 8394 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/876_parall
-el_good-eps-converted-to.pdf graphics/cobalt/876_parallel_good.eps>
-(epstopdf)             \includegraphics on input line 228.
+
+LaTeX Warning: Reference `fig:SrRatesPMT678' on page 44 undefined on input line
+ 185.
+
+Package epstopdf Info: Source file: <graphics/analysis/12final.eps>
+(epstopdf)                    date: 2013-09-23 13:49:21
+(epstopdf)                    size: 7384 bytes
+(epstopdf)             Output file: <graphics/analysis/12final-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2013-09-23 13:56:09
+(epstopdf)                    size: 8747 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/analysis/12final-
+eps-converted-to.pdf graphics/analysis/12final.eps>
+(epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/876_parallel_good-eps-converted-to.pdf, id=1081, 477.785pt x 6
-40.3925pt>
-File: graphics/cobalt/876_parallel_good-eps-converted-to.pdf Graphic file (type
- pdf)
- <use graphics/cobalt/876_parallel_good-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/876_parallel_good-eps-converted-to.pdf
- used on input line 228.
-(pdftex.def)             Requested size: 477.78383pt x 640.39093pt.
-Package epstopdf Info: Source file: <graphics/cobalt/Sr90_decay.eps>
-(epstopdf)                    date: 2013-08-16 14:49:52
-(epstopdf)                    size: 304634 bytes
-(epstopdf)             Output file: <graphics/cobalt/Sr90_decay-eps-converted-t
+<graphics/analysis/12final-eps-converted-to.pdf, id=1115, 569.12625pt x 384.436
+25pt>
+File: graphics/analysis/12final-eps-converted-to.pdf Graphic file (type pdf)
+ <use graphics/analysis/12final-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/analysis/12final-eps-converted-to.pdf used on
+ input line 188.
+(pdftex.def)             Requested size: 384.68576pt x 259.85869pt.
+Package epstopdf Info: Source file: <graphics/analysis/345final.eps>
+(epstopdf)                    date: 2013-09-23 13:49:21
+(epstopdf)                    size: 7764 bytes
+(epstopdf)             Output file: <graphics/analysis/345final-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2013-08-16 14:52:24
-(epstopdf)                    size: 103089 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/Sr90_decay
--eps-converted-to.pdf graphics/cobalt/Sr90_decay.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)                    date: 2013-09-23 14:02:12
+(epstopdf)                    size: 9074 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/analysis/345final
+-eps-converted-to.pdf graphics/analysis/345final.eps>
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/Sr90_decay-eps-converted-to.pdf, id=1082, 636.3775pt x 461.725
-pt>
-File: graphics/cobalt/Sr90_decay-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/Sr90_decay-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/Sr90_decay-eps-converted-to.pdf used o
-n input line 234.
-(pdftex.def)             Requested size: 213.71576pt x 155.06104pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/1A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 6922 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/1A-eps-converted-t
+<graphics/analysis/345final-eps-converted-to.pdf, id=1116, 569.12625pt x 384.43
+625pt>
+File: graphics/analysis/345final-eps-converted-to.pdf Graphic file (type pdf)
+ <use graphics/analysis/345final-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/analysis/345final-eps-converted-to.pdf used o
+n input line 194.
+(pdftex.def)             Requested size: 384.68576pt x 259.85869pt.
+Package epstopdf Info: Source file: <graphics/analysis/678final.eps>
+(epstopdf)                    date: 2013-09-23 13:49:21
+(epstopdf)                    size: 7759 bytes
+(epstopdf)             Output file: <graphics/analysis/678final-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:44
-(epstopdf)                    size: 7170 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/1A
--eps-converted-to.pdf graphics/cobalt/modules/1A.eps>
-(epstopdf)             \includegraphics on input line 244.
+(epstopdf)                    date: 2013-09-23 14:02:13
+(epstopdf)                    size: 9114 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/analysis/678final
+-eps-converted-to.pdf graphics/analysis/678final.eps>
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/cobalt/modules/1A-eps-converted-to.pdf, id=1084, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/1A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/1A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/1A-eps-converted-to.pdf used o
-n input line 244.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/1B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7364 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/1B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:44
-(epstopdf)                    size: 7163 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/1B
--eps-converted-to.pdf graphics/cobalt/modules/1B.eps>
-(epstopdf)             \includegraphics on input line 247.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/1B-eps-converted-to.pdf, id=1085, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/1B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/1B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/1B-eps-converted-to.pdf used o
-n input line 247.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/2A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7713 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/2A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:45
-(epstopdf)                    size: 7242 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/2A
--eps-converted-to.pdf graphics/cobalt/modules/2A.eps>
-(epstopdf)             \includegraphics on input line 250.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/2A-eps-converted-to.pdf, id=1086, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/2A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/2A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/2A-eps-converted-to.pdf used o
-n input line 250.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/2B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7192 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/2B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:46
-(epstopdf)                    size: 7330 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/2B
--eps-converted-to.pdf graphics/cobalt/modules/2B.eps>
-(epstopdf)             \includegraphics on input line 254.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/2B-eps-converted-to.pdf, id=1087, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/2B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/2B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/2B-eps-converted-to.pdf used o
-n input line 254.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/3A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7496 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/3A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:46
-(epstopdf)                    size: 7178 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/3A
--eps-converted-to.pdf graphics/cobalt/modules/3A.eps>
-(epstopdf)             \includegraphics on input line 259.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/3A-eps-converted-to.pdf, id=1088, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/3A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/3A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/3A-eps-converted-to.pdf used o
-n input line 259.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/3B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7576 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/3B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:47
-(epstopdf)                    size: 7220 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/3B
--eps-converted-to.pdf graphics/cobalt/modules/3B.eps>
-(epstopdf)             \includegraphics on input line 263.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/3B-eps-converted-to.pdf, id=1089, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/3B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/3B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/3B-eps-converted-to.pdf used o
-n input line 263.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/4A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7598 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/4A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:47
-(epstopdf)                    size: 7276 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/4A
--eps-converted-to.pdf graphics/cobalt/modules/4A.eps>
-(epstopdf)             \includegraphics on input line 267.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/4A-eps-converted-to.pdf, id=1090, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/4A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/4A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/4A-eps-converted-to.pdf used o
-n input line 267.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/4B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7879 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/4B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:48
-(epstopdf)                    size: 7464 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/4B
--eps-converted-to.pdf graphics/cobalt/modules/4B.eps>
-(epstopdf)             \includegraphics on input line 271.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/4B-eps-converted-to.pdf, id=1091, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/4B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/4B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/4B-eps-converted-to.pdf used o
-n input line 271.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/5A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7054 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/5A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:48
-(epstopdf)                    size: 7220 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/5A
--eps-converted-to.pdf graphics/cobalt/modules/5A.eps>
-(epstopdf)             \includegraphics on input line 276.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/5A-eps-converted-to.pdf, id=1092, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/5A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/5A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/5A-eps-converted-to.pdf used o
-n input line 276.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/5B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7235 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/5B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:49
-(epstopdf)                    size: 7327 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/5B
--eps-converted-to.pdf graphics/cobalt/modules/5B.eps>
-(epstopdf)             \includegraphics on input line 280.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/5B-eps-converted-to.pdf, id=1093, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/5B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/5B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/5B-eps-converted-to.pdf used o
-n input line 280.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/6A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 6925 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/6A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:50
-(epstopdf)                    size: 7204 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/6A
--eps-converted-to.pdf graphics/cobalt/modules/6A.eps>
-(epstopdf)             \includegraphics on input line 283.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/6A-eps-converted-to.pdf, id=1094, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/6A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/6A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/6A-eps-converted-to.pdf used o
-n input line 283.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/6B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 6989 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/6B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:50
-(epstopdf)                    size: 7134 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/6B
--eps-converted-to.pdf graphics/cobalt/modules/6B.eps>
-(epstopdf)             \includegraphics on input line 286.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/6B-eps-converted-to.pdf, id=1095, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/6B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/6B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/6B-eps-converted-to.pdf used o
-n input line 286.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/7A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7295 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/7A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:51
-(epstopdf)                    size: 7204 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/7A
--eps-converted-to.pdf graphics/cobalt/modules/7A.eps>
-(epstopdf)             \includegraphics on input line 290.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/7A-eps-converted-to.pdf, id=1096, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/7A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/7A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/7A-eps-converted-to.pdf used o
-n input line 290.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/7B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7118 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/7B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:51
-(epstopdf)                    size: 7194 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/7B
--eps-converted-to.pdf graphics/cobalt/modules/7B.eps>
-(epstopdf)             \includegraphics on input line 293.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/7B-eps-converted-to.pdf, id=1097, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/7B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/7B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/7B-eps-converted-to.pdf used o
-n input line 293.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/8A.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7731 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/8A-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:52
-(epstopdf)                    size: 7298 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/8A
--eps-converted-to.pdf graphics/cobalt/modules/8A.eps>
-(epstopdf)             \includegraphics on input line 296.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/8A-eps-converted-to.pdf, id=1098, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/8A-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/8A-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/8A-eps-converted-to.pdf used o
-n input line 296.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
-Package epstopdf Info: Source file: <graphics/cobalt/modules/8B.eps>
-(epstopdf)                    date: 2013-09-06 15:50:02
-(epstopdf)                    size: 7710 bytes
-(epstopdf)             Output file: <graphics/cobalt/modules/8B-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2013-09-06 15:50:53
-(epstopdf)                    size: 7182 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/cobalt/modules/8B
--eps-converted-to.pdf graphics/cobalt/modules/8B.eps>
-(epstopdf)             \includegraphics on input line 299.
-Package epstopdf Info: Output file is already uptodate.
-
-<graphics/cobalt/modules/8B-eps-converted-to.pdf, id=1099, 569.12625pt x 387.44
-75pt>
-File: graphics/cobalt/modules/8B-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/cobalt/modules/8B-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/cobalt/modules/8B-eps-converted-to.pdf used o
-n input line 299.
-(pdftex.def)             Requested size: 102.5859pt x 69.83804pt.
- [44] [45 <./graphics/cobalt/876_parallel_good-eps-converted-to.pdf> <./graphic
-s/cobalt/Sr90_decay-eps-converted-to.pdf>]
+<graphics/analysis/678final-eps-converted-to.pdf, id=1117, 569.12625pt x 384.43
+625pt>
+File: graphics/analysis/678final-eps-converted-to.pdf Graphic file (type pdf)
+ <use graphics/analysis/678final-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/analysis/678final-eps-converted-to.pdf used o
+n input line 200.
+(pdftex.def)             Requested size: 384.68576pt x 259.85869pt.
+ [44]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -2835,42 +2569,33 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 315.
-Package epstopdf Info: Output file is already uptodate.
-File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
- <use graphics/dummy-eps-converted-to.pdf>
-Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 315.
-(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
-Package epstopdf Info: Source file: <graphics/dummy.eps>
-(epstopdf)                    date: 2013-07-22 14:08:50
-(epstopdf)                    size: 1068 bytes
-(epstopdf)             Output file: <graphics/dummy-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-07-22 14:09:57
-(epstopdf)                    size: 2611 bytes
-(epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
-ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 325.
+ 212.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
- [46 <./graphics/cobalt/modules/1A-eps-converted-to.pdf> <./graphics/cobalt/mod
-ules/1B-eps-converted-to.pdf> <./graphics/cobalt/modules/2A-eps-converted-to.pd
-f> <./graphics/cobalt/modules/2B-eps-converted-to.pdf> <./graphics/cobalt/modul
-es/3A-eps-converted-to.pdf> <./graphics/cobalt/modules/3B-eps-converted-to.pdf>
- <./graphics/cobalt/modules/4A-eps-converted-to.pdf> <./graphics/cobalt/modules
-/4B-eps-converted-to.pdf> <./graphics/cobalt/modules/5A-eps-converted-to.pdf> <
-./graphics/cobalt/modules/5B-eps-converted-to.pdf> <./graphics/cobalt/modules/6
-A-eps-converted-to.pdf> <./graphics/cobalt/modules/6B-eps-converted-to.pdf> <./
-graphics/cobalt/modules/7A-eps-converted-to.pdf> <./graphics/cobalt/modules/7B-
-eps-converted-to.pdf> <./graphics/cobalt/modules/8A-eps-converted-to.pdf> <./gr
-aphics/cobalt/modules/8B-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graphics/dummy.eps>
+(epstopdf)                    date: 2013-07-22 14:08:50
+(epstopdf)                    size: 1068 bytes
+(epstopdf)             Output file: <graphics/dummy-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-07-22 14:09:57
+(epstopdf)                    size: 2611 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
+ed-to.pdf graphics/dummy.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Marginpar on page 47 moved.
+<use graphics/dummy-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
+ 222.
+(pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
+
+
+LaTeX Warning: Marginpar on page 45 moved.
 
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -2880,207 +2605,204 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 334.
+ 231.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
-
-Overfull \hbox (6.51534pt too wide) in paragraph at lines 388--388
-[]\T1/aer/bx/n/14.4 Coincidence Search be-tween Muon- and De-tec-tor Events 
- []
-
-
-Overfull \hbox (2.3044pt too wide) in paragraph at lines 405--435
+ [45] [46 <./graphics/analysis/12final-eps-converted-to.pdf> <./graphics/analys
+is/345final-eps-converted-to.pdf>]
+[47 <./graphics/analysis/678final-eps-converted-to.pdf>] [48]
+Overfull \hbox (78.61877pt too wide) in paragraph at lines 302--333
  [][] 
  []
 
 
-Overfull \vbox (30.52748pt too high) detected at line 476
+Overfull \vbox (30.52748pt too high) detected at line 374
  []
 
 
-Overfull \vbox (64.25323pt too high) detected at line 476
+Overfull \vbox (64.25323pt too high) detected at line 374
  []
 
 
-Overfull \vbox (34.71013pt too high) detected at line 476
+Overfull \vbox (34.71013pt too high) detected at line 374
  []
 
 
-Overfull \vbox (43.75455pt too high) detected at line 476
+Overfull \vbox (43.75455pt too high) detected at line 374
  []
 
 
-Overfull \vbox (20.01521pt too high) detected at line 476
+Overfull \vbox (20.01521pt too high) detected at line 374
  []
 
 
-Overfull \vbox (24.27477pt too high) detected at line 476
+Overfull \vbox (24.27477pt too high) detected at line 374
  []
 
 
-Overfull \vbox (48.27676pt too high) detected at line 476
+Overfull \vbox (48.27676pt too high) detected at line 374
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \vbox (30.52748pt too high) detected at line 476
+Overfull \vbox (30.52748pt too high) detected at line 374
  []
 
 
-Overfull \vbox (64.25323pt too high) detected at line 476
+Overfull \vbox (64.25323pt too high) detected at line 374
  []
 
 
-Overfull \vbox (34.71013pt too high) detected at line 476
+Overfull \vbox (34.71013pt too high) detected at line 374
  []
 
 
-Overfull \vbox (43.75455pt too high) detected at line 476
+Overfull \vbox (43.75455pt too high) detected at line 374
  []
 
 
-Overfull \vbox (20.01521pt too high) detected at line 476
+Overfull \vbox (20.01521pt too high) detected at line 374
  []
 
 
-Overfull \vbox (24.27477pt too high) detected at line 476
+Overfull \vbox (24.27477pt too high) detected at line 374
  []
 
 
-Overfull \vbox (48.27676pt too high) detected at line 476
+Overfull \vbox (48.27676pt too high) detected at line 374
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \vbox (30.52748pt too high) detected at line 476
+Overfull \vbox (30.52748pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.70064pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.70064pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (64.25323pt too high) detected at line 476
+Overfull \vbox (64.25323pt too high) detected at line 374
  []
 
 
-Overfull \hbox (3.98915pt too wide) in paragraph at lines 476--476
+Overfull \hbox (3.98915pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (34.71013pt too high) detected at line 476
+Overfull \vbox (34.71013pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.90869pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.90869pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (43.75455pt too high) detected at line 476
+Overfull \vbox (43.75455pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.90869pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.90869pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (20.01521pt too high) detected at line 476
+Overfull \vbox (20.01521pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.90869pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.90869pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (24.27477pt too high) detected at line 476
+Overfull \vbox (24.27477pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.90869pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.90869pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (48.27676pt too high) detected at line 476
+Overfull \vbox (48.27676pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.90869pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.90869pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \hbox (1.70064pt too wide) in paragraph at lines 476--476
+Overfull \hbox (1.70064pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \vbox (3.72217pt too high) detected at line 476
+Overfull \vbox (3.72217pt too high) detected at line 374
  []
 
 
-Overfull \hbox (3.82487pt too wide) in paragraph at lines 476--476
+Overfull \hbox (3.82487pt too wide) in paragraph at lines 374--374
 [][] 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161111- 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161126- 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161130- 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161134- 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161150- 
  []
 
 
-Overfull \hbox (2.10294pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.10294pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/10.95 (-20) 161156- 
  []
 
-[47] [48]
+[49] [50]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -3089,12 +2811,12 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 497.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
  <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 497.
+ 395.
 (pdftex.def)             Requested size: 145.54338pt x 1.00374pt.
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3104,13 +2826,13 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 504.
+ 402.
 (pdftex.def)             Requested size: 145.54338pt x 1.00374pt.
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3120,13 +2842,13 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 512.
+(epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 512.
+ 410.
 (pdftex.def)             Requested size: 145.54338pt x 1.00374pt.
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3136,19 +2858,14 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 518.
+(epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 518.
+ 416.
 (pdftex.def)             Requested size: 145.54338pt x 1.00374pt.
-
-Underfull \vbox (badness 7777) has occurred while \output is active []
-
- [49]
-[50]
 Package epstopdf Info: Source file: <graphics/mainSpec/mainSpecRings.eps>
 (epstopdf)                    date: 2013-08-13 21:35:04
 (epstopdf)                    size: 70435 bytes
@@ -3158,18 +2875,19 @@ ted-to.pdf>
 (epstopdf)                    size: 15818 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/mainSpec/mainSpec
 Rings-eps-converted-to.pdf graphics/mainSpec/mainSpecRings.eps>
-(epstopdf)             \includegraphics on input line 530.
+(epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1299, 569.12625pt x 3
+<graphics/mainSpec/mainSpecRings-eps-converted-to.pdf, id=1195, 569.12625pt x 3
 87.4475pt>
 File: graphics/mainSpec/mainSpecRings-eps-converted-to.pdf Graphic file (type p
 df)
  <use graphics/mainSpec/mainSpecRings-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/mainSpec/mainSpecRings-eps-converted-to.pdf u
-sed on input line 530.
+sed on input line 428.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
- [51 <./graphics/mainSpec/mainSpecRings-eps-converted-to.pdf>]
+ [51]
+[52 <./graphics/mainSpec/mainSpecRings-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
 (epstopdf)                    size: 1068 bytes
@@ -3178,17 +2896,17 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 555.
+(epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 555.
+ 453.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3198,12 +2916,12 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 563.
+(epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 563.
+ 461.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
 Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    date: 2013-07-22 14:08:50
@@ -3213,69 +2931,123 @@ Package epstopdf Info: Source file: <graphics/dummy.eps>
 (epstopdf)                    size: 2611 bytes
 (epstopdf)             Command: <repstopdf --outfile=graphics/dummy-eps-convert
 ed-to.pdf graphics/dummy.eps>
-(epstopdf)             \includegraphics on input line 568.
+(epstopdf)             \includegraphics on input line 466.
 Package epstopdf Info: Output file is already uptodate.
 File: graphics/dummy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use graphics/dummy-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/dummy-eps-converted-to.pdf used on input line
- 568.
+ 466.
 (pdftex.def)             Requested size: 384.68576pt x 2.65318pt.
 
 
-LaTeX Warning: Reference `tab:mainSPecSettings' on page 52 undefined on input l
-ine 572.
+LaTeX Warning: Reference `tab:mainSPecSettings' on page 53 undefined on input l
+ine 470.
 
-) [52] [53]
+) [53] [54]
 \openout2 = `simulationSoftware/simulationSoftware.aux'.
 
- (./simulationSoftware/simulationSoftware.tex [54
+ (./simulationSoftware/simulationSoftware.tex
+Chapter 6.
+[55
 
 
 
 
 ]
-Chapter 6.
-
-Overfull \hbox (12.61469pt too wide) in paragraph at lines 31--34
+Overfull \hbox (12.61469pt too wide) in paragraph at lines 32--35
 []\T1/aer/m/n/10.95 (-20) To set up a ge-om-e-try, the class G4VUserDetectorCon
 struction is used. B1DetectorConstruction
  []
 
-[55]) [56]
+
+LaTeX Warning: File `graphics/simulation/geometrySetup.eps' not found on input 
+line 38.
+
+Package epstopdf Info: Source file: <graphics/simulation/geometrySetup.eps>
+(epstopdf)             Output file: <graphics/simulation/geometrySetup-eps-conv
+erted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=graphics/simulation/geomet
+rySetup-eps-converted-to.pdf graphics/simulation/geometrySetup.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `graphics/simulation/geometrySetup-eps-convert
+ed-to.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...th]{graphics/simulation/geometrySetup.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 38.
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Package epstopdf Info: Source file: <graphics/simulation/angularDistributions.e
+ps>
+(epstopdf)                    date: 2013-09-22 13:02:12
+(epstopdf)                    size: 120156 bytes
+(epstopdf)             Output file: <graphics/simulation/angularDistributions-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-22 13:02:29
+(epstopdf)                    size: 48228 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/simulation/angula
+rDistributions-eps-converted-to.pdf graphics/simulation/angularDistributions.ep
+s>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/simulation/angularDistributions-eps-converted-to.pdf, id=1235, 810.02
+625pt x 371.3875pt>
+File: graphics/simulation/angularDistributions-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use graphics/simulation/angularDistributions-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/simulation/angularDistributions-eps-converted
+-to.pdf used on input line 51.
+(pdftex.def)             Requested size: 341.94652pt x 156.78072pt.
+
+
+LaTeX Warning: Reference `tab:coefficients' on page 56 undefined on input line 
+68.
+
+[56] [57 <./graphics/simulation/angularDistributions-eps-converted-to.pdf>])
+[58]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 7.
-[57
+[59
 
 
 
 
-] [58
+] [60
 
 
 ]
 Chapter 8.
-) [59] [60
+) [61] [62
 
 
 
 ] (./thesis.bbl
-LaTeX Font Info:    Try loading font information for T1+aett on input line 52.
- (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
 Underfull \hbox (badness 10000) in paragraph at lines 49--55
 \T1/aett/m/n/10.95 de / manitop / StandardModel / pics / standard _ model _ ele
 mentary _ particles . png$[]\T1/aer/m/n/10.95 (+20) ,
  []
 
-[61
+[63
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
+Underfull \hbox (badness 10000) in paragraph at lines 192--197
 []\T1/aer/m/n/10.95 (+20) Lyndsay.  []$\T1/aett/m/n/10.95 http : / / www . astr
 o . gla . ac . uk / users / lyndsay / TEACHING / NLPII /
  []
@@ -3288,7 +3060,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \newblock {\em Cryogenics}, 55â€
+l.208 \newblock {\em Cryogenics}, 55â€
                                       “56(0):5 -- 11, 2013.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -3301,61 +3073,136 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \newblock {\em Cryogenics}, 55â€“
+l.208 \newblock {\em Cryogenics}, 55â€“
                                        56(0):5 -- 11, 2013.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
-Underfull \hbox (badness 1552) in paragraph at lines 209--215
+[64]
+Underfull \hbox (badness 1552) in paragraph at lines 219--225
 \T1/aett/m/n/10.95 fuzzy . fzk . de / bscw / bscw . cgi / d847077 / 95-[]TRP-[]
 5401-[]S1-[]MBabutzka . pptx$[]\T1/aer/m/n/10.95 (+20) , 2013.
  []
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 217--222
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 []\T1/aer/m/n/10.95 (+20) G. Drexlin.  Wgts.  []$\T1/aett/m/n/10.95 http : / / 
 fuzzy . fzk . de / bscw / bscw . cgi / d736434 /
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 224--230
+Underfull \hbox (badness 1552) in paragraph at lines 234--240
 \T1/aett/m/n/10.95 fuzzy . fzk . de / bscw / bscw . cgi / d774076 / 95-[]TRP-[]
 5403-[]S1-[]FPriester . pptx$[]\T1/aer/m/n/10.95 (+20) , 2013.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 284--291
 []$\T1/aett/m/n/10.95 http : / / fuzzy . fzk . de / bscw / bscw . cgi / d774576
  / 95-[]TRP-[]5409-[]S3-[]TThuemmler .
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 300--306
+Underfull \hbox (badness 7685) in paragraph at lines 310--316
 []\T1/aer/m/n/10.95 (+20) F. Glück et al.  Air coil sys-tem & mag-netic field s
 en-sor sys-tem.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--306
+Underfull \hbox (badness 10000) in paragraph at lines 310--316
 []$\T1/aett/m/n/10.95 http : / / fuzzy . fzk . de / bscw / bscw . cgi / d530439
  / Air % 20Coil % 20System % 20and %
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--337
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 \T1/aett/m/n/10.95 saint-[]gobain . com / uploadedFiles / SGdetectors / Documen
 ts / Product _ Data _
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 331--337
+Underfull \hbox (badness 4013) in paragraph at lines 341--347
 \T1/aett/m/n/10.95 Sheets / BC400-[]404-[]408-[]412-[]416-[]Data-[]Sheet . pdf$
 []\T1/aer/m/n/10.95 (+20) , 2005.  [On-line; ac-cessed
  []
 
-[63]) [64] (./appendix.tex
-Overfull \hbox (12.0pt too wide) in paragraph at lines 39--66
+) [66] (./appendix.tex
+<graphics/screenshots/airCoilScript.png, id=1333, 835.12pt x 1164.35pt>
+File: graphics/screenshots/airCoilScript.png Graphic file (type png)
+
+<use graphics/screenshots/airCoilScript.png>
+Package pdftex.def Info: graphics/screenshots/airCoilScript.png used on input l
+ine 26.
+(pdftex.def)             Requested size: 555.6623pt x 774.76274pt.
+
+
+LaTeX Warning: Float too large for page by 59.32999pt on input line 29.
+
+Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5.eps>
+(epstopdf)                    date: 2013-08-30 13:52:05
+(epstopdf)                    size: 9615 bytes
+(epstopdf)             Output file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-31 10:51:58
+(epstopdf)                    size: 7564 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
+ySym/+50_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/+50_12.5
+_12.5.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1334, 56
+9.12625pt x 387.4475pt>
+File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-conve
+rted-to.pdf used on input line 33.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5.eps>
+(epstopdf)                    date: 2013-08-30 13:52:05
+(epstopdf)                    size: 9615 bytes
+(epstopdf)             Output file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-31 10:51:58
+(epstopdf)                    size: 7564 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
+ySym/+50_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/+50_12.5
+_12.5.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-conve
+rted-to.pdf used on input line 40.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5.eps>
+(epstopdf)                    date: 2013-08-30 13:52:05
+(epstopdf)                    size: 9615 bytes
+(epstopdf)             Output file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
+.5-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-31 10:51:58
+(epstopdf)                    size: 7564 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
+ySym/+50_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/+50_12.5
+_12.5.eps>
+(epstopdf)             \includegraphics on input line 47.
+Package epstopdf Info: Output file is already uptodate.
+File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-conve
+rted-to.pdf used on input line 47.
+(pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 55--82
 [][] 
  []
 
@@ -3370,17 +3217,13 @@ Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+50_12.5_12
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/+50_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/+50_12.5
 _12.5.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
-
-<graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf, id=1418, 56
-9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
-
 <use graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-conve
-rted-to.pdf used on input line 114.
+rted-to.pdf used on input line 130.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/-50_12.5_12
 .5.eps>
@@ -3393,17 +3236,17 @@ Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/-50_12.5_12
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/-50_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/-50_12.5
 _12.5.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1421, 56
+<graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf, id=1343, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-conve
-rted-to.pdf used on input line 121.
+rted-to.pdf used on input line 137.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+25_12.5_12
 .5.eps>
@@ -3416,17 +3259,17 @@ Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/+25_12.5_12
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/+25_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/+25_12.5
 _12.5.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1424, 56
+<graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf, id=1346, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-conve
-rted-to.pdf used on input line 128.
+rted-to.pdf used on input line 144.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/-25_12.5_12
 .5.eps>
@@ -3439,17 +3282,17 @@ Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/-25_12.5_12
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/-25_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/-25_12.5
 _12.5.eps>
-(epstopdf)             \includegraphics on input line 134.
+(epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1427, 56
+<graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf, id=1349, 56
 9.12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/-25_12.5_12.5-eps-conve
-rted-to.pdf used on input line 134.
+rted-to.pdf used on input line 150.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/BG_12.5_12.
 5.eps>
@@ -3462,17 +3305,17 @@ Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/BG_12.5_12.
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/BG_12.5_12.5-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_12.5_1
 2.5.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1430, 569
+<graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf, id=1352, 569
 .12625pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/BG_12.5_12.5-eps-conver
-ted-to.pdf used on input line 140.
+ted-to.pdf used on input line 156.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 Package epstopdf Info: Source file: <graphics/monSpec/nonAxiallySym/BG_25_25.ep
 s>
@@ -3485,43 +3328,43 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=graphics/monSpec/nonAxiall
 ySym/BG_25_25-eps-converted-to.pdf graphics/monSpec/nonAxiallySym/BG_25_25.eps>
 
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1433, 569.126
+<graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf, id=1355, 569.126
 25pt x 387.4475pt>
 File: graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/monSpec/nonAxiallySym/BG_25_25-eps-converted-
-to.pdf used on input line 147.
+to.pdf used on input line 163.
 (pdftex.def)             Requested size: 384.68576pt x 261.89413pt.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
- [65
+ [67
 
 
 
 
 ]
-[66] [67 <./graphics/monSpec/nonAxiallySym/+50_12.5_12.5-eps-converted-to.pdf> 
-<./graphics/monSpec/nonAxiallySym/-50_12.5_12.5-eps-converted-to.pdf>] [68 <./g
-raphics/monSpec/nonAxiallySym/+25_12.5_12.5-eps-converted-to.pdf> <./graphics/m
-onSpec/nonAxiallySym/-25_12.5_12.5-eps-converted-to.pdf>] [69 <./graphics/monSp
-ec/nonAxiallySym/BG_12.5_12.5-eps-converted-to.pdf> <./graphics/monSpec/nonAxia
-llySym/BG_25_25-eps-converted-to.pdf>] [70]
+[68 <./graphics/screenshots/airCoilScript.png>] [69 <./graphics/monSpec/nonAxia
+llySym/+50_12.5_12.5-eps-converted-to.pdf>] [70] [71] [72 <./graphics/monSpec/n
+onAxiallySym/-50_12.5_12.5-eps-converted-to.pdf> <./graphics/monSpec/nonAxially
+Sym/+25_12.5_12.5-eps-converted-to.pdf>] [73 <./graphics/monSpec/nonAxiallySym/
+-25_12.5_12.5-eps-converted-to.pdf> <./graphics/monSpec/nonAxiallySym/BG_12.5_1
+2.5-eps-converted-to.pdf>] [74 <./graphics/monSpec/nonAxiallySym/BG_25_25-eps-c
+onverted-to.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
- (./thesis.aux (./titlepage.aux)
-(./declaration.aux) (./introduction.aux)
-(./theKATRINexperiment/theKATRINexperiment.aux)
+ (./thesis.aux (./titlepage.aux) (./declaration.aux)
+(./introduction.aux) (./theKATRINexperiment/theKATRINexperiment.aux)
 (./muonDetectionSystem/muonDetectionSystem.aux)
 (./analysisSoftware/analysisSoftware.aux) (./analysis/analysis.aux)
 (./simulationSoftware/simulationSoftware.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 235C5707EE991C8C8E42A0732BF85455;4719.
+(rerunfilecheck)             Checksum: D3FBBDB0BEC931363A4D2D826479FC32;4500.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3535,13 +3378,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 29927 strings out of 493485
- 575089 string characters out of 3143527
- 681687 words of memory out of 3000000
- 31776 multiletter control sequences out of 15000+200000
+ 29880 strings out of 493485
+ 572955 string characters out of 3143527
+ 671678 words of memory out of 3000000
+ 31728 multiletter control sequences out of 15000+200000
  94021 words of font info for 425 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 72i,25n,73p,1194b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,25n,73p,1488b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -3561,10 +3404,10 @@ s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
 nts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (80 pages, 12620310 bytes).
+Output written on thesis.pdf (84 pages, 15599411 bytes).
 PDF statistics:
- 1632 PDF objects out of 1728 (max. 8388607)
- 1368 compressed objects within 14 object streams
- 338 named destinations out of 1000 (max. 500000)
- 46393 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1565 PDF objects out of 1728 (max. 8388607)
+ 1324 compressed objects within 14 object streams
+ 349 named destinations out of 1000 (max. 500000)
+ 46317 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -69,6 +69,11 @@ K.~et~al Abe.
   super-kamiokande.
 \newblock {\em Phys. Rev. Lett.}, 110:181802, May 2013.
 
+\bibitem{dayaBay2}
+Zhou Bin, Ruan Xi-Chao, Nie Yang-Bo, Zhou Zu-Ying, et~al.
+\newblock A study of antineutrino spectra from spent nuclear fuel at daya bay.
+\newblock {\em Chinese Physics C}, 36(1):1, 2012.
+
 \bibitem{SNOOscillations}
 M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle.
 \newblock Status of three-neutrino oscillations after the sno-salt data.
@@ -105,6 +110,11 @@ E.~{Komatsu}, {Smith}, et~al.
 \newblock {Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
   Cosmological Interpretation}.
 \newblock {\em apjs}, 192:18, February 2011.
+
+\bibitem{Planck}
+P.A.R. Ade et~al.
+\newblock {Planck 2013 results. XVI. Cosmological parameters}.
+\newblock 2013.
 
 \bibitem{superallowance}
 D.~A.~Knapp R.~G. H.~Robertson.
@@ -167,6 +177,12 @@ J.~Wolf.
   Accelerators, Spectrometers, Detectors and Associated Equipment}, 623(1):442
   -- 444, 2010.
 
+\bibitem{macEFilter}
+KATRIN.
+\newblock Mac e filter.
+\newblock
+  \url{http://www.katrin.kit.edu/img/mace_electrodes_rdax_1200x1200.gif}, 2006.
+
 \bibitem{katrinPrinciple}
 Markus Steidl.
 \newblock \url{http://www.katrin.kit.edu/79.php}, 2011.
@@ -178,12 +194,6 @@ Lyndsay.
   \url{http://www.astro.gla.ac.uk/users/lyndsay/TEACHING/NLPII/Lecture4_06.pdf},
   2006.
 \newblock [Online, accesse 18-09-2013].
-
-\bibitem{macEFilter}
-KATRIN.
-\newblock Mac e filter.
-\newblock
-  \url{http://www.katrin.kit.edu/img/mace_electrodes_rdax_1200x1200.gif}, 2006.
 
 \bibitem{letterOfIntent}
 A.~Osipowicza, H.~Blueumer, G.~Drexlin, K.~Eitel, et~al.

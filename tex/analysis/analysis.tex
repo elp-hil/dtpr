@@ -8,70 +8,16 @@
 
   While the moun detection system had still been under construction at the beginning of my thesis-work, first measurements were taken at the time with some modules under preliminary conditions to look into the behaviour of these modules. Step by step, the system was completed and is now up and running. In the building phase, several measurements and test have been conducted to ensure the capabilities of the system meet the requirements for the KATRIN experiment. Starting with the setup of acceleration voltages, gains and thresholds, 
   Using data obtained by the muon modules and the detector as well as other subsystems' data, the muon induced background rates and both spatial and energy distribution can be obtained. Before actual measurements were done, the modules had to be set up and calibrated, meaning high voltage and signal cabling needed to be installed and high voltage power supplies had to be acquired.
-    %% ===========================
-    \section{Rate instability due to charging effects}
-    \label{ch:Analysis:sec:Rate instability due to charging effects}
-  %% ===========================  
-  During the preliminary measurements, it became obvious that the panels' rates were peaking over certain, short time intervals at some arbitrary frequency. It was not possible to set gains, thresholds and PMT voltages correctly as one had to be lucky to be able to identify the peak position in a calm period. It seemed there was some kind of electronic pileup. As this did not appear for all the modules it was not noticed until later into the commissioning process.
-  \begin{figure}
-   \centering
-   \includegraphics[width=5cm]{graphics/setup/Noise_Rate_Problem_cutout.eps}
-   \caption[Muon modules' rate: noise problems]{Rate progression over the course of hours. Noticable raise in the cumulative rate of all panels in certain intervals}
-  \end{figure}
+   
   
-  \begin{figure}
-   \centering
-   \includegraphics[width=0.9\textwidth]{graphics/setup/Histogram_noise_problem.eps}
-   \caption[Six channel energy Histogram with noise]{Energy histogram of six channels, i.e. modules 6 through 8.Displayed are counts over ADC-Value. Two channels show a lot of noise at th low energy end of the histogram while four are developing nicely looking Landau Peaks.}
-  \end{figure}
-  If the landau distributions (chapter \ref{ch:Introduction:sec:Cosmic Air Showers}) were not identifiable due to prevalent electronic noise, the measurement was rendered useless as a lot of noise triggered events were recorded.
-  As a countermeasure, in cooperation with Sascha Wuestling, potential equalisation by connecting the modules to the trough below the main spectrometer has been established. After the installation of the grounding, the peaking did not occur any more so the issue seems to be resolved. Now, one could make a start on setting gains, thresholds and acceleration voltages \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}.
   
-  %% ===========================
-  \section{Gain-, Threshold and Acceleration Voltage Settings}
-  \label{ch:Analysis:sec:GainsThresholdsAccVoltages}
-  %% ===========================  
-  A first amplification - linear with acceleration voltage - of the scintillation photons occurs in the photomultiplier tubes. As signals at first seemed too high for the DAQ to handle at nominal values of the datasheet, these acceleration voltages were reduced to around \SI{1200}{\volt}. After that, the software gains and thresholds in the ORCA software needed to be set. 
-    \begin{table}
-    
-    \centering
-    \begin{tabular}{|l|cccccc|}
-      \hline
-      Panel/Side 	&1/A 	&1/B	&2/A	&2/B	&	&	\\
-      \hline
-      Card 	&3	&3	&3	&3	&	&	\\
-      Channel	&0	&14	&3	&7	&	&	\\
-      PMT Voltage	&1150	&1150	&1250	&1150	&	&	\\
-      Threshold	&2110	&2110	&2110	&2110	&	&	\\
-      Gains	&2350	&2400	&1200	&2850	&	&	\\
-      \hline
-      Panel/Side 	&3/A 	&3/B	&4/A	&4/B	&5/A	&5/B	\\
-      \hline
-      Card 	&6	&6	&6	&6	&6	&6	\\
-      Channel	&0	&14	&3	&7	&	&	\\
-      PMT Voltage	&1150	&1150	&1150	&1150	&1150	&1150   \\
-      Threshold	&2110	&2110	&2110	&2110	&2110	&2110   \\
-      Gains	&2450	&2400	&2150	&2550	&2100	&2400   \\
-      \hline
-      Panel/Side 	&6/A 	&6/B	&7/A	&7/B	&8/A	&8/B	\\
-      \hline
-      Card 	&9	&9	&9	&9	&9	&9	\\
-      Channel	&0	&14	&3	&7	&	&	\\
-      PMT Voltage	&1150	&1150	&1150	&1150	&1050	&1100	\\
-      Threshold	&2110	&2110	&2110	&2110	&2110	&2110   \\
-      Gains	&3400	&2100	&2400	&2500	&3950	&2900   \\
-      \hline
-    
-
-   \end{tabular}
-  \caption[Gains - thresholds - acceleration voltages]{{\bf Gains, thresholds and voltages:} These are the settings found to be optimal for each panel side; furthermore, the table displays the card and channel each side is associated with in the DAQ card system}
-  \end{table}
-  As the detection efficiencies \ref{ch:Analysis:sec:Module Efficiency} for the modules were not as high as expected, one assumption was that the acceleration voltages set lower than denoted in the user manual leads to loss of data in the low energy range. Consequently, the acceleration voltages were raised to \SI{1.5}{\kilo\volt} except for two channels, those of modules 2B and 6A, that were even ramped to \SI{1.6}{\kilo\volt} on account of showing lower overall rates as described in \ref{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}. 
   
   %% ===========================
   \section{Finding the best filter settings}
   \label{ch:Analysis:sec:Finding the best filter settings}
   %% ===========================  
+ 
+  
   As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a function generator has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
  
   \begin{figure}
@@ -124,7 +70,7 @@
   \end{table}
   
   On average, the boxcar filter at shaping lengths of \SI{150}{\nano\second} shows the most promising results, i.e. the sharpest energy resolutions for any signal height. This concurs with the settings chosen for the active fpd veto; here slightly longer (around \SI{30}{\nano\second}) but comparable signals enter the DAQ's FLT cards showing best results at the same filter settings\cite{KevinWierman}.
-  That is why, for any measurements after \todo{run \& date}, the new filter settings were used, bringing up the need for new threshold and gain adaptions \ref{ch:Analysis:sec:GainsThresholdsAccVoltages}. 
+  That is why, for any measurements after \todo{run \& date}, the new filter settings were used, bringing up the need for new threshold and gain adaptions \ref{ch:The muon detection system:sec:Gains, Thresholds and Acceleration Voltages}. 
   
   %% ===========================
   \section{Moun module's rates}
@@ -222,87 +168,38 @@ and with it the field strengths, drastically reduces.
   \label{ch:Analysis:sec:PhotoMultiplierTests}
   %% ===========================
   
-  With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to see the source at any position but rates were expected to rise as the distance to any of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a non negligible part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier 
-  tubes making it more difficult to distinguish between them. A first measurement was to check for exactly this distinguishability.\todo{insert measurement for small steps over PMTs positions}.
+  With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to see the source at any position but rates were expected to rise as the distance to any of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a non negligible part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier tubes making it more difficult to distinguish between them. A first measurement was to check for exactly this distinguishability.
+  
   \begin{figure}
-  	\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
+%   	\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/874_parallel_2cm_steps.ps}
   	\caption[Rate scanning with cobalt source]{}
   \end{figure}
 
   \begin{figure}
   \centering
-  	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
+%   	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
   	\caption[Cobalt decay scheme]{Decay scheme of $^{90}$Sr: first a lower energetic decay to $^{90}$Y emitting \SI{544}{\kilo\electronvolt}/\SI{}{\square c} electrons, from that most probably a higher energetic decay to $^{90}$Zr ground state (\SI{2.29}{\mega\electronvolt}/\SI{}{\square c} electrons) or, with low probabilty, to one of two of its excited states.}
   \end{figure}
 
   As one can see a rise in rate at the positions the tubes are located at, it was decided that four measurements per module and side were sufficient, especially as all measurements can afterwards be compared to each other.
-  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:SrRatesPMT} shows the result of these measurements. One can see that the gerneral shape of each side compares very well to the others. Exceptions are \todo{which ones different?}showing slight, but acceptable deviations off the norm.
+  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:SrRatesPMT12} to \ref{fig:SrRatesPMT678} show the result of these measurements. One can see that the gerneral shape of each side compares very well to the others. Exceptions are \todo{which ones different?}showing slight, but acceptable deviations off the norm.
   \begin{figure}
-	\centering
-	%\label{fig:CoRatesPMT}
- 	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/1A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/1B.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2B.eps}
-	\end{minipage}\newline
-	
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/3A.eps}
-	\end{minipage}
-\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/3B.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/4A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/4B.eps}
-	\end{minipage}\newline
-	
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/5A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-% 		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/2A.eps}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/5B.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/6A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/6B.eps}
-	\end{minipage}\newline
-	
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/7A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/7B.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/8A.eps}
-	\end{minipage}
-	\begin{minipage}[d]{0.24 \textwidth}
-		  \includegraphics[width=\textwidth]{graphics/cobalt/modules/8B.eps}
-	\end{minipage}
-	
-	
-  	%\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/876_parallel_good.eps}
-  	\caption[Testing of muon modules with Sr source]{Measurements with source at four different positions. All modules }
-  	\label{fig:SrRatesPMT}
+		\centering
+		\includegraphics[width = 0.9\textwidth]{graphics/analysis/12final.eps}
+  	\caption[Testing of muon modules with Sr source - Modules 1 \& 2]{Measurements with the source at four different positions. Both sides of modules 1 and 2. Noticable are the much lower rates for module 2B which is one of the two that was later set to \SI{1.6}{\kilo\volt} acceleration voltage. }
+  	\label{fig:SrRatesPMT12}
+  \end{figure}
+    \begin{figure}
+		\centering
+		\includegraphics[width = 0.9\textwidth]{graphics/analysis/345final.eps}
+  	\caption[Testing of muon modules with Sr source - Modules 3 - 5]{Measurements with the source at four different positions. Both sides of modules 3 to 5 are shown. Except for single measurement points that are standing out, the different sides show similar rates. }
+  	\label{fig:SrRatesPMT12}
+  \end{figure}
+    \begin{figure}
+		\centering
+		\includegraphics[width = 0.9\textwidth]{graphics/analysis/678final.eps}
+  	\caption[Testing of muon modules with Sr source - Modules 6 - 8]{Measurements with the source at four different positions. Both sides of modules 6 to 8. Noticable are the lower rates for module 6B which again is one of the two that was later set to \SI{1.6}{\kilo\volt} acceleration voltage. }
+  	\label{fig:SrRatesPMT12}
   \end{figure}
 
     %% ===========================
@@ -402,34 +299,35 @@ signals via Cat5 cabling.
 	\centering
 		\begin{tabular}{c}
 		\end{tabular}\\
-		\begin{tabular}{|l|ccccccc|}
+		\begin{tabular}{|l|l|ccccccc|}
 			\hline
 			\centering
 			
-			Run &  solenoid &solenoid &inner & outer &outer &emcs x	&emcs y\\
-			& 	source	& detector & aircoil & central aircoil & aircoil& &\\
+			Measurement &Run &  solenoid &solenoid &inner & outer &outer &emcs x	&emcs y\\
+			& 	& source	& detector & aircoil & central aircoil & aircoil& &\\
 			\hline
-			mos00159395& 0&	25&	0&	-4&	-4&	2&	-19.5\\
+			A & mos00159395& 0&	25&	0&	-4&	-4&	2&	-19.5\\
 			\hline
-			mos00159396-&&&&&&&\\
-			mos00159398 & 0 & 50& 0 & -8 & -8 & 2 & -19.5\\
-			mos00159399 & 0 & 50& 0 & -7 & -7 & 2 & -19.5\\
+			 B & mos00159396-&&&&&&&\\
+			& mos00159398 & 0 & 50& 0 & -8 & -8 & 2 & -19.5\\
 			\hline
-			mos00159400 & 0 & 50& 0 & -6 & -6 & 2 & -19.5\\
+			C & mos00159399 & 0 & 50& 0 & -7 & -7 & 2 & -19.5\\
 			\hline
-			mos00159401 & 0 & 10& 0 & -2 & -2 & 2 & -19.5\\
+			D & mos00159400 & 0 & 50& 0 & -6 & -6 & 2 & -19.5\\
 			\hline
-			mos00160713-&&&&&&&\\
-			mos00160717& 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			E & mos00159401 & 0 & 10& 0 & -2 & -2 & 2 & -19.5\\
 			\hline
-			mos00160718-&&&&&&&\\
-			mos00160730 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			F & mos00160713-&&&&&&&\\
+			& mos00160717& 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			mos00161105-&&&&&&&\\
-			mos00161107 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			G & mos00160718-&&&&&&&\\
+			& mos00160730 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			mos00161108-&&&&&&&\\
-			mos00161110 & 0.1 & 25 & 0 & -2 & -2 & 0 & 0\\
+			H &mos00161105-&&&&&&&\\
+			& mos00161107 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			\hline
+			I &mos00161108-&&&&&&&\\
+			 & mos00161110 & 0.1 & 25 & 0 & -2 & -2 & 0 & 0\\
 			\hline
 		\end{tabular}
 		\caption[Asymmetric magnetic field measurements]{Measurements at asymmetric magnetic fields. The source side magnet was turned off for all measurements leaving the flux tube entering the spectrometer walls.}
@@ -458,7 +356,7 @@ signals via Cat5 cabling.
 			&&&&&&&&\\
 			&&&&&&&&\\
 			\hline
-			161111-161125 & 0 & 25 & 25 & 6.8 & 7 & 5 & 0 & -14\\
+			161111-161125 & 0 & 25 & 25 & 6.8 & -7 & 5 & 0 & -14\\
 			\hline
 			161126-161129 & +50 & 12.5 & 12.5 & 3.5 & -3.5 & 2.5 & 0 & 0\\
 			\hline
