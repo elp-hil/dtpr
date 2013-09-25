@@ -57,24 +57,24 @@
 \contentsline {section}{\numberline {5.3}Modules in high magnetic fields}{41}{section.5.3}
 \contentsline {section}{\numberline {5.4}Module Stability}{42}{section.5.4}
 \contentsline {section}{\numberline {5.5}Module Efficiency}{43}{section.5.5}
-\contentsline {section}{\numberline {5.6}Photo Multiplier Tube Test with Sr source}{44}{section.5.6}
-\contentsline {section}{\numberline {5.7}Synchronisation of moun module and FPD DAQs}{45}{section.5.7}
-\contentsline {section}{\numberline {5.8}Coincidence Search between Muon- and Detector Events}{49}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Monitor Spectrometer}{49}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Main Spectrometer}{49}{subsection.5.8.2}
-\contentsline {chapter}{\numberline {6}Simulation of muon induced background}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Geant4}{57}{section.6.1}
-\contentsline {section}{\numberline {6.2}Geometry setup}{58}{section.6.2}
-\contentsline {section}{\numberline {6.3}Muon generator}{58}{section.6.3}
-\contentsline {section}{\numberline {6.4}Visualisation - the vis.mac file}{58}{section.6.4}
-\contentsline {section}{\numberline {6.5}Hit counter}{60}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusion}{61}{chapter.7}
-\contentsline {chapter}{\numberline {8}Outlook}{63}{chapter.8}
-\contentsline {chapter}{Bibliography}{65}{section*.88}
-\contentsline {chapter}{Annex}{70}{chapter*.90}
-\contentsline {section}{\numberline {A}ORCA air coil script}{70}{section.8.1}
-\contentsline {section}{\numberline {B}Weather data Christmas 2012}{71}{section.8.2}
-\contentsline {section}{\numberline {C}Monitor spectrometer settings}{72}{section.8.3}
-\contentsline {section}{\numberline {D}Monitor spectrometer field setup and analysis}{73}{section.8.4}
-\contentsline {section}{\numberline {E}Main spectrometer analysis}{83}{section.8.5}
-\contentsline {section}{\numberline {F}A vis.mac file}{83}{section.8.6}
+\contentsline {section}{\numberline {5.6}Photo Multiplier Tube Test with $^{90}$Sr source}{45}{section.5.6}
+\contentsline {section}{\numberline {5.7}Synchronisation of moun module and FPD DAQs}{46}{section.5.7}
+\contentsline {section}{\numberline {5.8}Coincidence Search between Muon- and Detector Events}{50}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Monitor Spectrometer}{52}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Main Spectrometer}{54}{subsection.5.8.2}
+\contentsline {chapter}{\numberline {6}Simulation of muon induced background}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Geant4}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}Geometry setup}{60}{section.6.2}
+\contentsline {section}{\numberline {6.3}Muon generator}{60}{section.6.3}
+\contentsline {section}{\numberline {6.4}Visualisation - the vis.mac file}{60}{section.6.4}
+\contentsline {section}{\numberline {6.5}Hit counter}{62}{section.6.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{63}{chapter.7}
+\contentsline {chapter}{\numberline {8}Outlook}{65}{chapter.8}
+\contentsline {chapter}{Bibliography}{67}{section*.82}
+\contentsline {chapter}{Annex}{72}{chapter*.84}
+\contentsline {section}{\numberline {A}ORCA air coil script}{72}{section.8.1}
+\contentsline {section}{\numberline {B}Weather data Christmas 2012}{73}{section.8.2}
+\contentsline {section}{\numberline {C}Monitor spectrometer settings}{74}{section.8.3}
+\contentsline {section}{\numberline {D}Monitor spectrometer field setup and analysis}{75}{section.8.4}
+\contentsline {section}{\numberline {E}Main spectrometer analysis}{85}{section.8.5}
+\contentsline {section}{\numberline {F}A vis.mac file}{85}{section.8.6}

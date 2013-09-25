@@ -6,7 +6,7 @@
 \label{ch:Analysis}
 %% ==============
 
-  While the moun detection system had still been under construction at the beginning of my thesis-work, first measurements were taken at the time with some modules under preliminary conditions to look into the behaviour of these modules. Step by step, the system was completed and is now up and running. In the building phase, several measurements and test have been conducted to ensure the capabilities of the system meet the requirements for the KATRIN experiment. Starting with the setup of acceleration voltages, gains and thresholds, 
+  While the moun detection system was still under construction at the beginning of my thesis-work, first measurements were taken at the time with some modules under preliminary conditions to look into the behaviour of these modules. Step by step, the system was completed and is now up and running. In the building phase, several measurements and test have been conducted to ensure the capabilities of the system meet the requirements for the KATRIN experiment. Starting with the setup of acceleration voltages, gains and thresholds, 
   Using data obtained by the muon modules and the detector as well as other subsystems' data, the muon induced background rates and both spatial and energy distribution can be obtained. Before actual measurements were done, the modules had to be set up and calibrated, meaning high voltage and signal cabling needed to be installed and high voltage power supplies had to be acquired.
    
   
@@ -32,9 +32,7 @@
   In order to evaluate filter's figure of merit, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be mono-energetic, was analyzed for each filter setting. For analysis, the width of the contributing ADC bins and their absolute position as well as the pulse height and the filter settings were noted. 
   
   \begin{table}
-	\begin{tabular}{c}
-	\SI{0}{\nano\second} gap, \SI{0}{\second} shaping time\\
-	\end{tabular}
+	\centering
   	\begin{tabular}{|c|c|c|c|c|}
   		\hline
   		Voltage[V] & Boxcar length [ns] & width & position & threshold\\
@@ -42,7 +40,7 @@
   		\multirow{4}{*}{1} & 50 & 33 & 2160 & 2100\\
   		 & 100 & 37 & 2140 & 4200\\
   		 & 150 & 13 & 2140 & 6300\\
-  		 & 200 & 10 & 2141 & 8400\\
+  		 & 200 & 21 & 2141 & 8400\\
   		 \hline
   		 \multirow{4}{*}{2} & 40 & 25 & 2160 & 2100\\
   		 & 100 & 78 & 2140 & 4200\\
@@ -94,17 +92,22 @@
   \section{Modules in high magnetic fields}
   \label{ch:Analysis:sec:Modules in high magnetic fields}
   %% ===========================  
-  For there is the need of moving the muon modules as close to the spectrometer tank as possible to register mostly muons that indeed went through the vessel, they are aligned closely to the air coil system. This brought up the problem of photomultiplier tubes having to work in high magnetic fields. Photomultipliers, as mentioned before, use electrons cascading in electric fields to generate amplified signals. Additional magnetic fields can keep the electrons from reaching the dynodes stopping the cascade thus keeping single events from being registered. As rate decreases strongly under these conditions \todo{are there runs showing that? ask nancy}, a solution needed to be found. As a simple, yet efficient passive counter measurement, a layer of mu-metal was wrapped around the modules. Mu-metal is a magnetically highly permeable material (here, $\mu_r\approx $\todo{find out permeability}) that guides the magnetic field lines inside itself. In doing so, the remaining flux inside a mu-metal surrounded volume, 
-and with it the field strengths, drastically reduces.
+  Photomultiplier tubes do not work in magnetic fields. As mentioned before, they use electrons cascading in electric fields to generate amplified signals. Additional magnetic fields can keep the electrons from reaching the dynodes stopping the cascade thus keeping single events from being registered. 
+  For there is the need of moving the muon modules as close to the spectrometer tank as possible to register mostly muons that indeed went through the vessel, they are aligned closely to the air coil system. As rate decreases strongly under these conditions \todo{are there runs showing that? ask nancy}, a solution needed to be found. As a simple, yet efficient passive counter measurement, a layer of mu-metal was wrapped around the modules. Mu-metal is a magnetically highly permeable material ($\mu_r$ in the order of \SI{10e5}{} \cite{permeability}) that guides the magnetic field lines inside itself. In doing so, the remaining flux inside a mu-metal surrounded volume, and with it the field strengths, drastically reduces.
+  For a sphere with inner radius $a$ and outer radius b, the shielding factor $ F$ is given by
+  \begin{equation}
+  	F/B_0 = 9/\left(2\mu\left[1-(a/b)^3\right]\right)
+  \end{equation}
+  where $B_0$ is the magnetic field strength without the and $\mu$ the magnetic permeability of the material \cite{shielding}. Though the shape used is not spherical, already with layers if \SI{1}{\mm} thickness, a relative decrease in fields of a factor of two should occur.\\
   To test the improvement the mu metal coverage produces, measurements with rising aircoil currents have been performed.
-  Steps in the size of tenths of the maximum current of mostly \SI{100}{\ampere}, in some cases only \SI{70}{\ampere}, were used to record rates over half an hour at each value.
-  During the first run, due to a slow control problem, the current was not raised between two steps. Although displaying the expected behavior - rates dropped much less than before - the measurement was repeated with the correct currents.
-  Measurements show that the rate still drops at currents close to the maximum, though only to around \SI{90}{\percent} of initial values, see figure \ref{fig:aircoilCountsCurrent}. As, under normal measurement conditions, the coil currents are mostly around half the maximum value or less, the problem could be solved, as here, the reduction in rate is within the errors' order.
+  Steps in the size of tenths of the maximum current were used to record rates over half an hour at each value. For most of the LFCS coils this were \SI{100}{\ampere}, in some cases (LFCS 1,2 and 14) only \SI{70}{\ampere}.
+  During the first run, due to a slow control problem, the current was not raised between two steps. Although displaying the expected behavior - rates dropped much less than before - the measurement was repeated with the correct currents at every steppoint.
+  Measurements show that the rate still drops at currents close to the maximum, though only to around \SI{90}{\percent} of initial values, (figure \ref{fig:aircoilCountsCurrent}). As, under normal measurement conditions, the LFCS currents are mostly around half the maximum value or less, the problem was solved. In that region,  the reduction in rate is within the errors' order.
   \begin{figure}
 
   \centering
   	\includegraphics[width = 0.9 \textwidth]{graphics/aircoilCounts/aircoilsCountsCurrent.eps}
-  	\caption[Rate dependence on magnetic fields]{Counts over air coil currents, with a maximum of \SI{100}{\ampere}. A clear decrease in rate is recognizable in the last 5 data points.}
+  	\caption[Rate dependence on magnetic fields]{Summed rate of all modules over air coil currents. Currents are displayed as parts of the maximum current. A clear decrease in rate is recognizable from \SI{60}{\percent} of the maximum current upwards.}
   	\label{fig:aircoilCountsCurrent}
   \end{figure}
   
@@ -130,21 +133,23 @@ and with it the field strengths, drastically reduces.
   \caption[LFCS settings stability measurement]{Runtime settings for air coils as proposed and for the commissioning measurements. These were kept static over the two weeks end 2012/beginning 2013}
   \label{tab:airCoilSettingsChristmas}
   \end{table}
-  The time slot was chosen for the lowly frequented spectrometer hall's sake to minimize external impacts on data taking. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in figure \ref{fig:moduleStability}. The observable fluctuation is well describable by fluctuations in atmospheric density, i.e. pressure $\Delta p$ and temperature $\Delta T$ and in muon production height $\Delta h$\cite{muonIntensity}.
+  The time slot was chosen because of the lowly frequented spectrometer hall. The thought was to minimize external impacts on the measurement. During data taking, the LFCS coils were active. They generated magnetic fields in which the PMT tubes had to work throughout the measurement. The LFCS settings are found in \ref{tab:airCoilSettingsChristmas}. For analysis, a simple program to count events in variable time bins was written, creating a count histogram for all the runs in the measurement period. The result can be seen in figure \ref{fig:moduleStability}. A fluctuation of \SI{5}{\percent} of the average value is observable. This is describable by fluctuations in atmospheric density, i.e. pressure $\Delta p$ and temperature $\Delta T$ and in muon production height $\Delta h$. The change in relative intensity is decribed by the following equation.
   \begin{equation}
   	\frac{\Delta I}{I} = - (\alpha_\mu\Delta p + \beta \Delta h -\gamma \Delta T)
+  	\label{eq:muonStability}
   \end{equation}
-  where $\alpha$ is a barometric coefficient in \SI{0.215}{\percent\per\mmHg}, $\beta$ a decay coefficient in \SI{5}{\percent}/\SI{10e3}{\meter} and $\gamma$ a temperature coefficient in \SI{0.1}{\percent\per\kelvin}
-  If one looks at the data from \cite{wetterCom} the fluctuations, only available on a daily basis, are comparable to the ones visible in the data of the stability measurements. To make graphs more comparable, the data has been analyzed again, now with daily binning. It has to be kept in mind that the weather data was obtained from a weather station in Rheinstetten, about \SI{20}{\kilo\meter} from KIT campus north, and represents only the lowest atmospheric layer while muons are generated mostly in the upper layers of the atmosphere.
+  where $\alpha$ is a barometric coefficient in \SI{0.215}{\percent\per\mmHg}, $\beta$ a decay coefficient in \SI{5}{\percent}/\SI{10e3}{\meter} and $\gamma$ a temperature coefficient in \SI{0.1}{\percent\per\kelvin} \cite{muonIntensity}.
+  Looking at weather data from \cite{wetterCom} available on a daily basis, the fluctuations resulting from equation \ref{eq:muonStability} do not fit the data very well. Both highest and lowest value for pressure and temperature were used to calculate daily maxima and minima in intensity. The relative change was projected onto the average rate in figure \ref{fig:moduleStability}. Although the order of magnitude does not differ vastly, even the rate development does not always compare to the ones visible in the data of the stability measurements. Several reasons may contribute to this. It has to be kept in mind that the weather data was obtained from a weather station in Rheinstetten, about \SI{20}{\kilo\meter} south of KIT campus north. Furthermore, the station only records data from the lowest atmospheric layer while muons are generated mostly in the upper layers of the atmosphere. Additionally, and this is probably the largest factor here, the muon production height was not included in the analysis as no data was available for this. As all of the fluctuations are in a window of around $\pm$ \SI{5}{\percent}, the modules are stable enough for the purposes needed.
   \begin{figure}
+  \centering
 	\includegraphics[width = 0.9 \textwidth]{graphics/setup/stability.eps}
-  	\caption[Muon module stability]{Rate per five minutes over the course of about two weeks (21-12-2012 to 03-01-2013). }
+  	\caption[Muon module stability]{Counts per five minutes over the course of about two weeks (21-12-2012 to 03-01-2013). The rate deviates \SI{5}{\percent} from the average.}
   \end{figure}
 
   \begin{figure}
 	\centering
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-  	\caption[Atmospheric density stability measurement]{Atmospheric density as a function of time over the course of two weeks the muon measurements took place. Note the }
+  	\includegraphics[width = 0.9 \textwidth]{graphics/setup/rateWeather.eps}
+  	\caption[Daily average muon rate]{Atmospheric density as a function of time over the course of two weeks the muon measurements took place. Note the }
   	\label{fig:moduleStability}
   \end{figure}
 
@@ -152,37 +157,52 @@ and with it the field strengths, drastically reduces.
   \section{Module Efficiency}
   \label{ch:Analysis:sec:Module Efficiency}
   %% ===========================  
-  The runs used for stability measurements, as well as any other run including modules six, seven and eight, can be used to check muon module seven for efficiency. For tests on other modules, the geometry would need to be changed so that the one to be checked is in between at least two other modules.
+  The runs used for stability measurements, as well as any other run including three modules coaligned in front of each other, can be used to check the middle module for efficiency. For tests on other modules, the geometry would need to be changed so that the one to be checked is in between at least two other modules.
   For analysis, the function determineEfficiency() \ref{ch:Analysis software:sec:methods of the class run:subsec:determineEfficiency}
   has been written.
   The principle is the following: considering the small change in momentum direction high energy muons achieve through interaction with matter, one can assume straight-lined paths. From that follows, that if two parallel planes, that can be used to describe the scintillating volumes, are hit, any other, also parallel plane, in between those two will be hit as well. Keeping this in mind, one can analyse data for events registered in both modules 6 and 8 and cross check whether a event has been detected in module 7 as well. The quota of events in all three modules compared to those detected in 6 and 8 -  including the triple events - shows the efficiency of module 7.
-  It shows that during the measurement period end of 2012, the efficiencies were at \todo{rerun} \SI{94 }{\percent} which is less than one would expect at a scintillator thickness of \SI{5}{\centi\meter} for muons perpendicular to the largest module surface, even more for any other.
-  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of \SI{150}{\ns} from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable, the average efficiencies before and after are within the margin of error of the other.
-  To examine the problem further modules 3, 4 and 5, that are located next to each other, were used for efficiency measurements as well considering they are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50(3)}{\percent}. This raises the question whether this is not an effect of signal filtering, but a previously not considered physics effect. One thing coming to mind is deviation of the muon track from linear forms. This feature would comply with the seemingly lower efficiency at the upright stacked modules, where, at equal bending radii, the ratio of muons traveling around the middle module is higher due to the lower total area in stacking direction.
+  It shows that during the measurement period end of 2012, the efficiencies were at \todo{rerun} \SI{92.8\pm 3.8 }{\percent} which is less than one would expect at a scintillator thickness of \SI{5}{\centi\meter}.
+  For that reason, the filter settings were checked and changed to the boxcar filter with a gap of \SI{150}{\ns} from the before used \todo{exact name} filter. However, the expected efficiency increase was not observable. The average efficiencies were now at \SI{93.4 \pm 3.6}{\percent}, well within the margin of error of the other.
+  To examine the problem further modules 3, 4 and 5, that are located next to each other, were used for efficiency measurements as well considering they are stacked in an upright way. Using the program on those three modules resulted in even lower efficiencies of \SI{50\pm 3.2}{\percent}. This raises the question whether this is not an effect of signal filtering, but a previously not considered physics effect. One thing coming to mind is deviation of the muon track from linear forms. This feature would comply with the seemingly lower efficiency at the upright stacked modules, where, at equal bending radii, the ratio of muons traveling around the middle module is higher due to the lower total area in stacking direction.
   This thesis should be tested. This can be done both by simulating the cosmic muons including magnetic fields and empirically by varying the distance between the single modules. The latter is difficult not only because the modules are heavy and not made for lifting (no designated carrying structures), but also because movement always means potential danger to the photomultiplier tubes and their connection to the scintillators.
   Furthermore, if all coils and solenoids were to be turned off simultaneously at some point, one could collect data then and see how efficiencies change during that (there have been runs taken when that was still the case, but only few modules were working properly at that point).
   If the dependence on module distance turns out to be true, but the efficiencies are still below expected values at the lowest possible distances, a possible improvement would be to use pre-amplifiers before signals arrive at the DAQ. These would widen the signals timewise leading to a more easily detectable signal for the filters.
   
   %% ===========================
-  \section{Photo Multiplier Tube Test with Sr source}
+  \section{Photo Multiplier Tube Test with $^{90}$Sr source}
   \label{ch:Analysis:sec:PhotoMultiplierTests}
   %% ===========================
   
-  With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to see the source at any position but rates were expected to rise as the distance to any of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a non negligible part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier tubes making it more difficult to distinguish between them. A first measurement was to check for exactly this distinguishability.
-  
-  \begin{figure}
-%   	\includegraphics[angle = -90, width = 0.9 \textwidth]{graphics/cobalt/874_parallel_2cm_steps.ps}
-  	\caption[Rate scanning with cobalt source]{}
-  \end{figure}
+  With sets of four photomultiplier tubes being read out over one cable, and, consequently, via one channel, the test of individual PMTs is not trivial. Nevertheless, a method using a \SI{}{\mega\becquerel} $\rm ^{90}Sr$ source to trigger events was used to check functionality. Of course, all tubes were able to detect the source's $\beta$-electrons at any position but rates were expected to rise as the distance to one of the tubes shrank. A source holder was constructed from acrylic glass to shield the user from radiation and to attach the source to the modules, as a large dependence of rate on the position was found when the source was simply duct taped to the modules. As the foil mantling of the modules absorbs a large part of the radiation emitted from the source, it had to be ensured that the number of layers was equal for all measurements. This was given only below the modules as the foil has been folded around them at the ends in a gift wrapping way. Thus, the source was pretty far away from the photomultiplier tubes making it more difficult to distinguish between them. A first measurement was to check for exactly this distinguishability.
+
 
   \begin{figure}
   \centering
-%   	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
+   	\includegraphics[width = 0.5 \textwidth]{graphics/cobalt/Sr90_decay.eps}
   	\caption[Cobalt decay scheme]{Decay scheme of $^{90}$Sr: first a lower energetic decay to $^{90}$Y emitting \SI{544}{\kilo\electronvolt}/\SI{}{\square c} electrons, from that most probably a higher energetic decay to $^{90}$Zr ground state (\SI{2.29}{\mega\electronvolt}/\SI{}{\square c} electrons) or, with low probabilty, to one of two of its excited states.}
   \end{figure}
-
+  The first though of being able to clearly identify the single PMT positions was soon dropped as all of the PMTs seemed to detect too much of the source's decays at any position (figure \ref{perpendicularScan}).
+  This behaviour got worse moving away from the photomultiplier tubes as the distances to the individual tubes equalized. At the same time, the closer the source was moved to the PMT tubes, the larger the position dependence got making it difficult to compare results (figure \ref{} ).
+  That is why it was decided to measure at the four points the PMTs were located at and compare both the behavior of the rates and their averall value.
   As one can see a rise in rate at the positions the tubes are located at, it was decided that four measurements per module and side were sufficient, especially as all measurements can afterwards be compared to each other.
-  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:SrRatesPMT12} to \ref{fig:SrRatesPMT678} show the result of these measurements. One can see that the gerneral shape of each side compares very well to the others. Exceptions are \todo{which ones different?}showing slight, but acceptable deviations off the norm.
+  The tube positions at \todo{n,n,n,n cm} were used as measurement positions as well. For each side, a run has been taken containing five minute subruns for every position. Figure \ref{fig:SrRatesPMT12} to \ref{fig:SrRatesPMT678} show the result of these measurements. One can see that the general shapes compare well to the others. Exceptions are modules 2B and 6B that show lower rates than the others. This has been compensated for by a adaption of acceleration voltages.
+ 
+   \begin{figure}
+  	\centering 
+  	\includegraphics[width = 0.9\textwidth]{graphics/cobaltRate/6parallel.eps}
+  	\caption[Cobalt parallel scan]{One of multiple scans taken showing that individual PMT tube positions can not be resolved. The rate at different positions along a line parallel to the PMT alignment is plotted. Only the peripheral areas show drops in rate as the angular coverage of the source gets smaller there.}
+  	\label{fig:parallelScan}
+  \end{figure}
+  
+	\begin{figure}
+  	\centering 
+  	\includegraphics[width = 0.9\textwidth]{graphics/cobaltRate/6perpendicularScan.eps}
+  	\caption[Cobalt perpendicular scan]{A position scan along a line perpendicular to the PMT alignment. The rate decreases strongly as the distance gets larger.}
+  	\label{fig:perpendicularScan}
+  \end{figure}
+
+
+  
   \begin{figure}
 		\centering
 		\includegraphics[width = 0.9\textwidth]{graphics/analysis/12final.eps}
@@ -207,31 +227,17 @@ and with it the field strengths, drastically reduces.
   \label{ch:Analysis:sec:Synchronisation of moun module and FPD DAQs}
   %% ===========================  
   Measuring time differences between detector signals and muon events on a \SI{}{\micro\second} scale requires exact synchronization of the two different DAQs. For this purpose, a clock has been designed sending signals at two frequencies: one at \SI{1}{\hertz} and one at \SI{10e6}{\hertz} internally converted to a \SI{20 e 6}{\hertz} signal by the DAQ. Those signals can be synchronized to the timestamps of GPS satellites if a GPS antenna is connected. This has not yet been done as relative synchronization between the two crates is sufficient for the purposes of finding correlations between muon and detector events. As the cable length for signal transmission is pretty extensive - around \SI{50}{\meter} - it was decided to use optical fibers instead of CAT 5 cabling. As two signals need to be transmitted, paired \todo{connection type name} fibers were used. The clock itself has optical outputs, the DAQ though needs converters from optical to electrical signals and a modified SLT back panel card to receive the converted 
-signals via Cat5 cabling.
-  \begin{figure}
-  	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-%   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/GPSclock.jpg}
-  	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
-  	\label{fig:analysis:outOfSync}
-  \end{figure}
-
-  
+  signals via Cat5 cabling.
   To test the setup, the muon DAQ was moved to the detector platform. Both crates were fed by a pulser signal. Runs at different frequencies were recorded to test both the synchronization and the detection of events. To synchronize timestamps to an external signal, the FLT cards drop down menu needs to be set to \todo{look up} and the SLT needs to be set to \todo{lookup too}.
   At first, manually triggered signals were used in minute runs to check the timestamps equality. Several runs were taken, all showing that the events were shifted by several \SI{}{\micro\second}.
+  In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in ORCA resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behavior.
+  The spread over the bins makes an estimate of the actual synchronization possible. 
   \begin{figure}
-	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-% 	\includegraphics[width = 0.9 \textwidth]{graphics/sync/nonSynced.eps}
-  	\caption[Unsynced DAQs]{With the old firmware installed, one can see a difference of $\approx$ \SI{}{\micro\second} between events recorded. As the signals occur simultaneously and the DAQs are synchronised, this difference should vanish.}
-  	\label{fig:analysis:inSync}
+  \centering
+  \includegraphics[width = 0.9 \textwidth]{graphics/sync/sync.eps}
+	\caption[Synchronisation new firmware]{Time differences between events after firmware upgrades. The difference in subsecond counts, i.e multiples of \SI{50}{\nano\second} is displayed. Differences between the event times are within one bin.}
   \end{figure}
-
-  In close cooperation with the IPE it was found that this was merely a problem of firmware versioning as well as software settings in ORCA resolving the problem quickly. After installing the latest firmware, more runs were taken now displaying the desired behavior:
-  \begin{figure}
-	\caption[Synchronisation new firmware]{Time differences between events after firmware upgrades. Differences between the event times are within one \SI{50}{\nano\second} bin}
-	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-	%   	\includegraphics[width = 0.9 \textwidth]{graphics/sync/synced.eps}
-  \end{figure}
-  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \SI{10}{\kilo\hertz}. Doing so, different recording modes and filter settings were applied - see table \ref{tab:syncTests}. All the tests worked fine including starting one DAQ's run way ahead of the other. Those events recorded in both run files were always well synchronized.
+  Following the manually triggered events, runs with fixed frequency events were recorded, raising the frequency to up to \SI{10}{\kilo\hertz}. Doing so, different recording modes and filter settings were applied - see table \ref{tab:syncTests}. All the tests worked fine including starting one DAQ's run way ahead of the other or mixed filter settings. Those events recorded in both run files were always synchronized.
   \begin{table}
   \centering
   	\begin{tabularx}{0.9 \textwidth}{|X|cc|}
@@ -382,53 +388,17 @@ signals via Cat5 cabling.
   	
   The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data as well as ``Beans'' code.
   Both browse through all the muon-events detected and finds any detector event in a definable timespan after (or before) the muon-event. This can be more than one detector-event per muon-event. In all of the settings, a peak is visible at around \SI{2}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate (see section \ref{ch:The KATRIN experiment:sec:MAC-E}).
-  As data with a lot of different field configurations was analyzed, the major part of setups and analysis can be found in annex \ref{ch:annex:sec:A3}.
-  A graphic of the flux tube configuration as well as the histograms for all of the settings can be found in the \ref{appendix}, figures \todo{reference figures.}
-  The exact values are:
-  \begin{table}
-  	\begin{tabularx}{0.8\textwidth}{>{\centering}X>{\centering\arraybackslash}X}
-  		Average & Standard Deviation\\
-  	\end{tabularx}
-  \end{table}
-
-  \todo{Do analysis for every measurement, insert peak positions + stdev}
+  As data with a lot of different field configurations was analyzed, the major part of setups and analysis can be found in the annex on pages \pageref{ch:annex:sec:A3}.
   
   
-  \begin{figure}
-	\includegraphics{graphics/dummy.eps}
-	\caption[Asymmetric magnetic field flux tube]{Flux tube at asymmetric magnetic fields. Electrons from processes at the walls are guided directly towards the detector as the largest part of the flux tubes surface ends in the monitor spectrometer's vessel's wall}
-  	\label{fig:monSpec:asymmetric magnetic field}
-  \end{figure}
-
-    \begin{figure}
-	
-	\includegraphics{graphics/dummy.eps}
-  	\caption[Non-axially symmetric magnetic flux tube]{Flux tube at non axially symmetric fields. Although no direct guidance from the wall to the detector is given (the flux tube never touches the wall in this configuration), by adding a magnetic component perpendicular to z-direction, the probability for entrance into the flux tube rises strongly.}
-  	\label{fig:monSpec:non axially symmetric magnetic field}
-  \end{figure}
-  
-  \begin{figure}
-	\label{fig:monSpec:timeDifferences asymmetric magnetic field}
-	\caption[Time difference histogram]{Time difference histogram for asymmetric magnetic fields.}
-  	\includegraphics{graphics/dummy.eps}
-  \end{figure}
-  
-  \begin{figure}
-	\label{fig:monSpec:timeDifferences non axially symmetric magnetic field}
-	\caption[Non-axially symmetric magnetic flux tube monitor spectrometer]{Flux tube at non axially symmetric fields. Although no direct guidance from the wall to the detector is given (the flux tube never touches the wall in this configuration), by adding a magnetic component perpendicular to z-direction, the probability for entrance into the flux tube rises strongly.}
-  	\includegraphics{graphics/dummy.eps}
-  \end{figure}  
   %% =========================
   \subsection{Main Spectrometer}
   \label{ch:Analysis:sec:Monitor Spectrometer Measurements:subsec:Main Spectrometer}
   %% =========================
   
   Monitor-spectrometer results suggested that the time of flight was well measurable, even if on bigger scale, at the main spectrometer. So, during commissioning measurements, already parallel to first measurements ``M1'', some runs with asymmetric magnetic field have been taken with switched polarity or turned off pre spectrometer magnets compared to standard setup.
-  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second} though remains inconclusive at the moment, see \ref{fig:mainSpec:allRings}. Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different paths contribute to a single pixel. On the other hand, after the non-central alignment of the detetor has been fixed using different settings for the LFCS-system, under asymmetric magnetic fields, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
-  All in all, three different magnetic field configurations shown in figures \ref{fig:mainSpec_100A}, \ref{fig:mainSpec_B}, \ref{fig:mainSpec_9} and tables \ref{tab:mainSpecSettings} and \ref{tab:mainSpecRuns} were used.
-  
-  
-  The failure to find a clear runtime for electrons induced by muonic events might be due to the combination of muon module position and the magnetic field setup as the wall area covered by the flux tubes and the volume surveilled by the muon modules did not overlap very much. Furthermore, due to the very low magnetic field at the wall compared to the volume inside the detector and pinch magnet, most of the induced electrons are magnetically reflected as the maximum polar angle towards magnetic field lines $\theta_{max}$ is defined by
+  The data was analysed for each single ring of the FPD. Search parameters were the time slot from \SI{0}{\second} to \SI{15}{\micro\second}. Data remained inconclusive at the time (figure \ref{}). 
+  The failure to find a clear runtime for electrons induced by muonic events might have been due to the combination of muon module position and the magnetic field setup. In the first measurements, the wall area covered by the flux tubes and the volume surveilled by the muon modules did not overlap very much. Furthermore, due to the very low magnetic field at the wall compared to the volume inside the detector and pinch magnet, most of the induced electrons are magnetically reflected as the maximum polar angle towards magnetic field lines $\theta_{max}$ is defined by
   \begin{equation}
   	\frac{B_{min}}{B_{max}} \approx \frac{\SI{3}{\gauss}}{\SI{4}{\tesla}} = sin^2(\theta_{max})
   \end{equation}
@@ -438,44 +408,51 @@ signals via Cat5 cabling.
   \end{equation}
 	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
 	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
-	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analysed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The relevant energies were \SI{25.6}{\kilo\electronvolt} to \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \todo{add PAE voltage}.
-	To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
-	Following that presumption, for measurements \todo{Name measurements}, the setup was changed. The fluxtube was widened for its outer parts to hit the spectrometer wall in regions around combs n and n \todo{which combs}. This raises the probability of the muons detected being those inducing secondary electrons at the vessel as well. Also, the LFCS setup was changed in such fashion that the magnetic field at the spectrometer wall is higer by a factor of two, directly resulting in a higher angular acceptance of electrons. The resulting flux tube is shown in figure \ref{fig:newFluxTube}. 
-    
-
-
+	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analyzed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The energies were cut below \SI{25.6}{\kilo\electronvolt} and above \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \SI{25}{\kilo\volt}\todo{add PAE voltage}.
+  
+  Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different path lengths can contribute to a single pixel. On the other hand, after the non-central alignment of the detector has been fixed using different settings for the LFCS-system, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
+  
+  
+  For better results, different field configurations were used. The first only widened the flux tube so the coverages of the volume surveilled by the muon detectors and the flux tube (figure \ref{fig:mainSpec_B}). The second configuration also densified the field lines in the area of the muon modules. This again raised the probability of seeing electrons from detected muons at the detector, but also raised the angular acceptance by increasing the magnetic field at the walls by a factor of two (figure \ref{mainSpec_9}).
+  All in all, three different magnetic field configurations were used, they are shown in figures \ref{fig:mainSpec_100A}, \ref{fig:mainSpec_B}, \ref{fig:mainSpec_9} and described in tables \ref{tab:mainSpecSettings} and \ref{tab:mainSpecRuns} including run numbers.  
+  
+	
+  To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
+  Following that presumption, for measurements ``C'' (table \ref{tab:mainSpecRuns}), the setup was changed. The flux tube was returned to its initial setting (figure \ref{fig:mainSpec_100A}) and the muon modules were moved towards the steep cone.
+  
+  None of the settings showed time peaks as clear as the monitor spectrometer. 
+  Simulations of single events show that the fastest particles arrive after times comparable to the ones of the monitor spectrometer, i.e. at \SI{1.5}{\micro\second} (figure \ref{mainSpecSimulation}). This already poses a problem. The anticipated rate of muons through the area of the main spectrometer covered by the flux tube is
+  \begin{equation}
+  	
+  \end{equation}
+  which means that the average time between muon events is of equal size as the time of flight for a single electron. 
   
   \begin{figure}
-  
-	\centerline{\includegraphics[width = 1.45\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_100A.eps}}
-	\caption[Flux tube setting A]{First used magnetic field setup. Note that the largest part of the flux tube is in the area of the steep cone. With the initial positions of the muon modules, the probability of the detected muons having caused secodary electrons inside the flux tube was too low.}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_100A.eps}}
+	\caption[Flux tube setting A]{First used magnetic field setup. Note that the largest part of the flux tube is in the area of the steep cone. With the initial positions of the muon modules, the probability of the detected muons having caused secondary electrons inside the flux tube was too low.}
   	\label{fig:mainSpec_100A}
   \end{figure}
 
 
   \begin{figure}
-	\centerline{\includegraphics[width = 1.45\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_B.eps}}
-	\caption[Flux tube setting B]{Flux tube as proposed in \cite{proposalM12}}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines.png}}
+	\caption[Flux tube setting B]{Widened magnetic flux tube for better coverage by the muon modules. The flat cone is now almost completely covered.}
   	\label{fig:mainSpec_B}
   \end{figure}
 
   
   \begin{figure}
-	\centerline{\includegraphics[width = 1.45\textwidth]{graphics//analysis/mainSpec/fieldSimulation/fieldlines_9.eps}}
-	\caption[Flux tube setting C]{Flux tube as proposed in \cite{proposalM12}}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics//analysis/mainSpec/fieldSimulation/fieldlines_9.eps}}
+	\caption[Flux tube setting C]{Flux tube as proposed in \cite{proposalM12}. Here, the LFCS coils on the source side were operated with switched polarity. This creates a denser flux tube in the region of interest.}
   	\label{fig:mainSpec_9}
   \end{figure}
 
-  
-  
-%   
-%   \begin{figure}
-%   	\caption[Inner electrode field emission]{Rate trend over inner electrode voltages}
-%   	\includegraphics[width = 0.9 \textwidth]{graphics/dummy.eps}
-%   \end{figure}
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/simulation/muonTimeMainSpec.eps}}
+	\caption[Main spectrometer simulation]{Time of flight for simulated electrons starting at the spectrometer wall. The ``fastest'' electron arrives at \SI{1.5}{\micro\second}. The distribution has an exponential charakter.}
+  	\label{fig:mainSpecSimulation}
+  \end{figure}
 
-  
-All measurements that have been taken with the main spectrometer for muon induced background analysis are listed in \ref{tab:mainSpecSettings}.
 
 \begin{table}
 	\centering

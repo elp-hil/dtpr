@@ -47,10 +47,29 @@
 % \end{figure}
 
 
-\section{Weather data Christmas 2012}
-\label{ch:annex:sec:weather}\\
-
-\begin{table}[H]
+\section{Long term measurement Christmas 2012}
+\label{ch:annex:sec:2012}
+\subsection{LFCS settings}
+\label{ch:annex:sec:2012:subsec:LFCS}
+\begin{table}
+  \centering
+   \begin{tabular}{|l|ccccccc|c|}
+    \hline
+    &&&&&&&&\\
+    Coil \#	&1	&2	&3	&4	&5	&6	&7	&EMCS h	\\
+    Current [A]	&10	&10	&14	&25	&42	&39	&54	&50  	\\
+    &&&&&&&&\\
+    Coil \# 	&8	&9	&10	&11	&12	&13	&14	&EMCS v	\\
+    Current [A]	&54	&21	&36	&30	&21	&20	&56	&15    	\\
+    &&&&&&&&\\
+    \hline
+   \end{tabular}
+  \caption[LFCS settings stability measurement]{Runtime settings for air coils as proposed and for the commissioning measurements. These were kept static over the the two weeks of measurement.}
+  \label{tab:airCoilSettingsChristmas}
+  \end{table}
+\subsection{Weather data}
+\label{ch:annex:sec:2012:weather}
+\begin{table}[h]
 	\begin{tabular}{| l | cc | cc| cc |}
 	\hline
 	Date & T$_{low}$ [K] & T$_{high}$ [K] & p$_{low}$ [kPa] & p$_{high}$ [kPa] & p$_l$ / T$_l$ & p$_h$ / T $_h$ \\
@@ -208,14 +227,14 @@
 			\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AA.eps}}
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AAf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AA.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AA}
 \end{figure}
 \clearpage
 
@@ -227,14 +246,14 @@
 		\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AB.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:ABf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AB.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AB}
 \end{figure}
 \clearpage
 
@@ -244,14 +263,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AC.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:ACf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AC.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AC}
 \end{figure}
 \clearpage
 
@@ -265,14 +284,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AD.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:ADf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AD.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AD}
 \end{figure}
 \clearpage
 
@@ -286,14 +305,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AE.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AEf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AE.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:AE}
 \end{figure}
 \clearpage
 
@@ -308,14 +327,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NA.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NAf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NA.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NA}
 \end{figure}
 \clearpage
 
@@ -330,14 +349,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NB.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NBf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NB.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NB}
 \end{figure}
 \clearpage
 
@@ -352,14 +371,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NC.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NCf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NC.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NC}
 \end{figure}
 \clearpage
 
@@ -375,14 +394,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/ND.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NDf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/ND.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:ND}
 \end{figure}
 \clearpage
 
@@ -398,14 +417,14 @@
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NE.eps} }
 	
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NEf}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NE.eps}
 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:nonAxiallySym:BG_25_25.eps}
+	\label{fig:NE}
 \end{figure}
 \clearpage
 

@@ -26,7 +26,7 @@ Indentation Mode=normal
 Mode=LaTeX
 
 [document-settings,item:tex/analysis/analysis.tex]
-Bookmarks=460,418,32
+Bookmarks=431,32
 Encoding=UTF-8
 FoldedColumns=
 FoldedLines=
@@ -172,13 +172,13 @@ order=7
 
 [item:tex/analysis/analysis.tex]
 archive=true
-column=19
+column=179
 encoding=UTF-8
 highlight=LaTeX
-line=598
+line=399
 mode=LaTeX
 open=true
-order=5
+order=3
 
 [item:tex/analysisSoftware/analysisSoftware.tex]
 archive=true
@@ -188,14 +188,14 @@ highlight=LaTeX
 line=95
 mode=LaTeX
 open=true
-order=4
+order=5
 
 [item:tex/appendix.tex]
 archive=true
-column=109
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=156
+line=26
 mode=LaTeX
 open=true
 order=8
@@ -242,7 +242,7 @@ order=4
 
 [item:tex/muonDetectionSystem/muonDetectionSystem.tex]
 archive=true
-column=15
+column=14
 encoding=UTF-8
 highlight=LaTeX
 line=160
@@ -272,7 +272,7 @@ order=9
 
 [item:tex/theKATRINexperiment/theKATRINexperiment.tex]
 archive=true
-column=40
+column=37
 encoding=UTF-8
 highlight=LaTeX
 line=179
@@ -287,35 +287,35 @@ encoding=UTF-8
 highlight=None
 line=0
 mode=
-open=false
-order=0
+open=true
+order=12
 
 [item:tex/thesis.bib]
 archive=true
-column=1
+column=19
 encoding=UTF-8
 highlight=BibTeX
-line=811
+line=957
 mode=BibTeX
 open=true
 order=2
 
 [item:tex/thesis.tex]
 archive=true
-column=22
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=85
+line=164
 mode=LaTeX
 open=true
-order=3
+order=4
 
 [item:tex/titlepage.tex]
 archive=true
-column=3
+column=72
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=52
 mode=LaTeX
 open=true
 order=6
@@ -327,10 +327,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/analysis/analysis.tex]
-CursorColumn=19
-CursorLine=598
+CursorColumn=179
+CursorLine=399
 JumpList=
-ViMarks=<,460,0,>,460,0,^,418,14,a,32,34,b,460,0
+ViMarks=<,431,0,>,431,0,^,392,2,a,32,34,b,431,0
 ViRegisterContents=&,&25\t&25\t&7\t&7\t&5\t&0\t&-14\\\\\\\\,
 ViRegisterFlags=0,0,0
 ViRegisterNames=-,0,^
@@ -345,8 +345,8 @@ ViRegisterFlags=0,0,0
 ViRegisterNames=-,0,^
 
 [view-settings,view=0,item:tex/appendix.tex]
-CursorColumn=109
-CursorLine=156
+CursorColumn=0
+CursorLine=26
 JumpList=
 ViMarks=
 ViRegisterContents=&,&25\t&25\t&7\t&7\t&5\t&0\t&-14\\\\\\\\,
@@ -387,7 +387,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/muonDetectionSystem/muonDetectionSystem.tex]
-CursorColumn=15
+CursorColumn=14
 CursorLine=160
 JumpList=
 ViMarks=
@@ -411,7 +411,7 @@ ViRegisterFlags=0,0,0
 ViRegisterNames=-,0,^
 
 [view-settings,view=0,item:tex/theKATRINexperiment/theKATRINexperiment.tex]
-CursorColumn=40
+CursorColumn=37
 CursorLine=179
 JumpList=
 ViMarks=<,11,7,>,11,49
@@ -426,8 +426,8 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tex/thesis.bib]
-CursorColumn=1
-CursorLine=811
+CursorColumn=19
+CursorLine=957
 JumpList=
 ViMarks=
 ViRegisterContents=&,&25\t&25\t&7\t&7\t&5\t&0\t&-14\\\\\\\\,
@@ -435,8 +435,8 @@ ViRegisterFlags=0,0,0
 ViRegisterNames=-,0,^
 
 [view-settings,view=0,item:tex/thesis.tex]
-CursorColumn=22
-CursorLine=85
+CursorColumn=0
+CursorLine=164
 JumpList=
 ViMarks=a,144,0,b,144,0
 ViRegisterContents=&,&25\t&25\t&7\t&7\t&5\t&0\t&-14\\\\\\\\,
@@ -444,8 +444,8 @@ ViRegisterFlags=0,0,0
 ViRegisterNames=-,0,^
 
 [view-settings,view=0,item:tex/titlepage.tex]
-CursorColumn=3
-CursorLine=0
+CursorColumn=72
+CursorLine=52
 JumpList=
 ViMarks=
 ViRegisterContents=&,&25\t&25\t&7\t&7\t&5\t&0\t&-14\\\\\\\\,

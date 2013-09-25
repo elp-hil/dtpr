@@ -21,45 +21,45 @@ Warning--empty journal in Planck
 Warning--empty publisher in Hayakawa
 Warning--empty journal in letterOfIntent
 Warning--empty title in How09
-You've used 60 entries,
+You've used 62 entries,
             1791 wiz_defined-function locations,
-            829 strings with 13403 characters,
-and the built_in function-call counts, 11020 in all, are:
-= -- 956
-> -- 453
+            840 strings with 13591 characters,
+and the built_in function-call counts, 11324 in all, are:
+= -- 984
+> -- 461
 < -- 2
-+ -- 182
-- -- 122
-* -- 578
-:= -- 1809
-add.period$ -- 198
-call.type$ -- 60
++ -- 186
+- -- 124
+* -- 585
+:= -- 1858
+add.period$ -- 205
+call.type$ -- 62
 change.case$ -- 52
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 466
-empty$ -- 1194
-format.name$ -- 122
-if$ -- 2493
+cite$ -- 67
+duplicate$ -- 486
+empty$ -- 1232
+format.name$ -- 124
+if$ -- 2567
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 44
-newline$ -- 320
-num.names$ -- 60
-pop$ -- 207
+int.to.str$ -- 62
+missing$ -- 48
+newline$ -- 330
+num.names$ -- 62
+pop$ -- 219
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 187
+skip$ -- 191
 stack$ -- 0
 substring$ -- 497
-swap$ -- 69
+swap$ -- 71
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 88
-width$ -- 62
-write$ -- 666
+while$ -- 90
+width$ -- 64
+write$ -- 687
 (There were 7 warnings)
