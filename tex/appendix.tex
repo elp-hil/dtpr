@@ -24,6 +24,24 @@
   \label{fig:ORCA:script}
 \end{figure}
 \clearpage
+\section{Connection scheme DAQ}
+\
+\begin{table}
+  	\centering
+  	\begin{tabular}{| l | c c | c c | c c | c c |}
+  	\hline
+  		Module	& 1A	& 1B	& 2A	& 2B	& 3A	& 3B	& 4A	& 4B 	\\
+  		Card	& 3	& 3	& 3	& 3	& 6	& 6	& 6	& 6	\\
+  		Channel	& 0	& 14	& 3	& 7	& 0	& 14	& 3	& 7	\\
+  		\hline \hline
+  		Module	&5A	& 5B	& 6A	& 6B	& 7A	& 7B	& 8A	& 8B	\\
+  		Card	& 6	& 6	& 8	& 8	& 8	& 8	& 8	& 8	\\
+  		Channel	& 9	& 23	& 0	& 14	& 3	& 7	& 9	& 23	\\
+  		\hline
+  	\end{tabular}
+  	\caption[Main spectrometer DAQ channel assignment]{Assignment of main spectrometer module sides to FLT cards and their channels.}
+  	\label{tab:connectionsModulesCards}
+  \end{table}
 
 % 
 % \begin{figure}
@@ -193,7 +211,7 @@
 % \begin{figure}
 % \centering
 % 	\includegraphics[width = 0.9\textwidth]{graphics/monSpec/nonAxiallySym/{BG_25_25}.eps}
-% 	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+% 	\caption[\SI{50}{\ampere} loops]{}
 % 	\label{fig:nonAxiallySym:BG_25_25.eps}
 % \end{figure}
 % 
@@ -204,18 +222,38 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Monitor spectrometer field setup and analysis}
 \label{ch:annex:sec:A3}
+For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.
 \begin{figure}[h]
+\centering
+
+		\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AB.eps} }
+	
+	\caption[Asymmetric field \SI{50}{\ampere}]{Flux tube for a \SI{50}{\ampere} detector solenoid, \SI{-8}{\ampere} outer central air coil current.}
+	\label{fig:ABf}
+\end{figure}
+
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AB.eps}
+	\caption[\SI{50}{\ampere} loops]{}
+	\label{fig:AB}
+\end{figure}
+\clearpage
+
+
+
+\begin{figure}
 \centering
 			\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AA.eps}}
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{25}{\ampere} asymmetric]{Flux tube for a \SI{25}{\ampere} detector solenoid.}
 	\label{fig:AAf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AA.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{25}{\ampere} asymmetric]{Source solenoid off, detector solenoid at \SI{25}{\ampere}}.
 	\label{fig:AA}
 \end{figure}
 \clearpage
@@ -224,34 +262,16 @@
 
 \begin{figure}
 \centering
-
-		\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AB.eps} }
-	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:ABf}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AB.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:AB}
-\end{figure}
-\clearpage
-
-
-\begin{figure}
-\centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AC.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Flux tube for a \SI{50}{\ampere} detector solenoid, \SI{-7}{\ampere} outer central air coil current.}
 	\label{fig:ACf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AC.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere}.}
 	\label{fig:AC}
 \end{figure}
 \clearpage
@@ -265,38 +285,19 @@
 \centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AD.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Flux tube for a \SI{50}{\ampere} detector solenoid, \SI{-6}{\ampere} outer central air coil current.}
 	\label{fig:ADf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AD.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere}.}
 	\label{fig:AD}
 \end{figure}
 \clearpage
 
 
-
-
-
-
-\begin{figure}
-\centering
-	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AE.eps} }
-	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:AEf}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AE.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:AE}
-\end{figure}
-\clearpage
 
 
 
@@ -308,21 +309,35 @@
 \centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NA.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{0}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening.}
 	\label{fig:NAf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NA.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{0}{\ampere} loops analysis]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. Some events occur in the expected time window.}
 	\label{fig:NA}
 \end{figure}
 \clearpage
 
 
 
+\begin{figure}
+\centering
+	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NI.eps} }
+	
+	\caption[\SI{0}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{12.5}{\ampere} for a comparison of the background at different field widening. }
+	\label{fig:NIf}
+\end{figure}
 
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NI.eps}
+	\caption[\SI{0}{\ampere} loops analysis]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{12.5}{\ampere} for a comparison of the background at different field widening.}
+	\label{fig:NI}
+\end{figure}
+\clearpage
 
 
 
@@ -330,19 +345,37 @@
 \centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NB.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{50}{\ampere} current. Both solenoids at \SI{12.5}{\ampere}. Shift of the flux tube downwards visible.}
 	\label{fig:NBf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NB.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops analysis]{Two horizontal loops at \SI{50}{\ampere} current. Both solenoids at \SI{12.5}{\ampere} }
 	\label{fig:NB}
 \end{figure}
 \clearpage
 
 
+
+
+
+\begin{figure}
+\centering
+	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NE.eps} }
+	
+	\caption[\SI{-50}{\ampere} loops]{Two horizontal loops at \SI{-50}{\ampere} current. Both solenoids at \SI{12.5}{\ampere}. Shift of the flux tube upwards visible.}
+	\label{fig:NEf}
+\end{figure}
+
+\begin{figure}
+\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NE.eps}
+	\caption[\SI{-50}{\ampere} loops analysis]{Two horizontal loops at \SI{-50}{\ampere} current. Both solenoids at \SI{12.5}{\ampere}.}
+	\label{fig:NE}
+\end{figure}
+\clearpage
 
 
 
@@ -352,14 +385,14 @@
 \centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NC.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{25}{\ampere} loops]{Two horizontal loops at \SI{25}{\ampere} current. Both solenoids at \SI{12.5}{\ampere}. Shift of the flux tube downwards visible.}
 	\label{fig:NCf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NC.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{25}{\ampere} loops]{Two horizontal loops at \SI{25}{\ampere} current. Both solenoids at \SI{12.5}{\ampere}.}
 	\label{fig:NC}
 \end{figure}
 \clearpage
@@ -375,14 +408,14 @@
 \centering
 	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/ND.eps} }
 	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere}. Shift of the flux tube upwards visible. }
 	\label{fig:NDf}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/ND.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
+	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere}. Unexpectedly low counts probably due to a off-detector flux tube. }
 	\label{fig:ND}
 \end{figure}
 \clearpage
@@ -393,22 +426,6 @@
 
 
 
-
-\begin{figure}
-\centering
-	\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/NE.eps} }
-	
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:NEf}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/NE.eps}
-	\caption[\SI{50}{\ampere} loops]{Two horizontal loops at \SI{0}{\ampere} current. Both solenoids at \SI{25}{\ampere} for a comparison of the background at different field widening. For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.}
-	\label{fig:NE}
-\end{figure}
-\clearpage
 
 
 

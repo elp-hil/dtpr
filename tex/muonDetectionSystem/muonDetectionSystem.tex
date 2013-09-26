@@ -5,31 +5,16 @@
 \chapter{Muon detection system}
 \label{ch:The muon detection system}
 %% ============== 
-  The need for low background rates at the main detector requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes described in chapter \ref{ch:The KATRIN experiment:sec:Experimental setup:subsec:BackgroundSources}, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and asess muon related data, a muon detection system has been designed and set up at both the monitor spectrometer and the main spectrometer. Both are built on the same principle. Scintillator panels (sec. \ref{ch:The muon detection system:sec:Scintillator modules}) are permeated by muons causing photon emissions in the material. The photons are detected by photomultipliers (sec. \ref{ch:The muon detection system:sec:Photomultipliers}) and converted to detectable electrical signals. Readout is handled by a data acquisition crate ``DAQ'' (sec. \ref{ch:The muon detection system: sec: DAQ}) that is controlled via the ``ORCA'' software on Mac computer (ch. \ref{ch:The muon detection system:sec:OrcaControl})
-  While the monitor spectrometer is equipped with only two rather small modules of $A \approx \SI{0.5}{\square\meter}$, at the larger main spectrometer, 8 modules have been installed at different positions in three groups. Their individual areas are about \SI{2}{\square\meter} and they enable the user to cover different regions of the vessel (see figure \ref{fig:modulesMainSpec}). This freedom is enlarged by installing the detection system on three independently movable trolleys. On the trolleys are not only the modules themselves, but also high voltage supplies and all readout electronics for a maximum of flexibility.
-  The modules have been connected to the DAQ one trolley per card, meaning modules one and two connect to card three, modules 3 through 5 to card six and modules 6 through 8 to card nine (see table \ref{tab:connectionsModulesCards}).
-  \begin{table}
-  	\centering
-  	\begin{tabular}{| l | c c | c c | c c | c c |}
-  	\hline
-  		Module	& 1A	& 1B	& 2A	& 2B	& 3A	& 3B	& 4A	& 4B 	\\
-  		Card	& 3	& 3	& 3	& 3	& 6	& 6	& 6	& 6	\\
-  		Channel	& 0	& 14	& 3	& 7	& 0	& 14	& 3	& 7	\\
-  		\hline \hline
-  		Module	&5A	& 5B	& 6A	& 6B	& 7A	& 7B	& 8A	& 8B	\\
-  		Card	& 6	& 6	& 8	& 8	& 8	& 8	& 8	& 8	\\
-  		Channel	& 9	& 23	& 0	& 14	& 3	& 7	& 9	& 23	\\
-  		\hline
-  	\end{tabular}
-  	\caption[Main spectrometer DAQ channel assignment]{Assignment of main spectrometer module sides to FLT cards and their channels.}
-  	\label{tab:connectionsModulesCards}
-  \end{table}
+  The need for low background rates at the FPD requires for a good knowledge of background sources. Despite magnetic reflection and wire electrodes described in chapter \ref{ch:The KATRIN experiment:sec:Experimental setup:subsec:BackgroundSources}, cosmic ray and particularly cosmic muon induced background may be an issue for the KATRIN experiment. To gather and assess muon related data, a muon detection system has been designed and set up at both the monitor spectrometer and the main spectrometer. Both are built on the same principle. Scintillator panels (sec. \ref{ch:The muon detection system:sec:Scintillator modules}) are permeated by muons causing photon emissions in the material. The photons are detected by photomultipliers (sec. \ref{ch:The muon detection system:sec:Photomultipliers}) and converted to detectable electrical signals. Readout is handled by a data acquisition crate ``DAQ'' (sec. \ref{ch:The muon detection system: sec: DAQ}) that is controlled via the ``ORCA'' software on a Mac computer (ch. \ref{ch:The muon detection system:sec:OrcaControl})
+  While the monitor spectrometer is equipped with only two rather small modules of $A \approx \SI{0.5}{\square\meter}$, at the larger main spectrometer, 8 modules have been installed at different positions in three groups. Their individual areas are about \SI{2}{\square\meter}. They enable the user to cover different regions of the vessel (see figure \ref{fig:modulesMainSpec}). To analyze different areas of the main spectrometer, the muon modules are mounted on three independently movable trolleys and can be individually selected. On the trolleys are not only the modules themselves, but also high voltage supplies and all readout electronics for a maximum of flexibility.
+  The modules have been connected to the DAQ, for the connection scheme, see table \ref{tab:connectionsModulesCards} in the annex.
+  
   \begin{figure}
   	\centering
-  	\includegraphics[width = 0.9 \textwidth]{graphics/muonModules/mainSpec/panelsMainSpec.png}
-  	\caption[Module locations]{An overview over the module positions in relation to the main spectrometer and its LFCS system. }
+  	\includegraphics[angle = 90, width = 0.5 \textwidth]{graphics/muonModules/mainSpec/eastSide.JPG}
+  	\caption[Module locations]{A photograph of the west side trolley of the muon detection system. }
   \end{figure}
-  All connections from modules to DAQ are made from coaxial cabling of equal length. As the DAQ is located on the east side of the main spectrometer, cable lengths of \SI{30}{\meter} are necessary for readout of the west side modules. As timing is important and at that length, the cables introduce delays of $\approx \SI{15}{\nano\second}$ at \SI{50}{\nano\second} time bin in the DAQ software, the error for introduced by different lengths woud be too large. Equal lengths ensure comparable timestamps which are assigned only after the analogue signals arrive at the DAQ. High voltage is provided by two supplies, one on the east and one on the west side of the main hall. The settings used for the supplies are shown in table  \ref{tab:HVSettings}, figure \ref{fig:HV} shows the front panel of the east side device.
+  All connections from modules to DAQ are made from coaxial cabling of equal length. As the DAQ is located on the east side of the main spectrometer, cable lengths of \SI{30}{\meter} are necessary for readout of the west side modules. As timing is important and at that length, the cables introduce delays of $\approx \SI{15}{\nano\second}$ at \SI{50}{\nano\second} time bin in the DAQ software, the error for introduced by different lengths would be too large. Equal lengths ensure comparable timestamps which are assigned only after the analogue signals arrive at the DAQ. High voltage is provided by two supplies, one on the east and one on the west side of the main hall. The settings used for the supplies are shown in table  \ref{tab:HVSettings}, figure \ref{fig:HV} shows the front panel of the east side device.
   All appliances of the muon detection system are connected to two multiplugs that are both overcurrent protected and feature mains filters. These multiplugs have been modified \ref{fig:multiplug} to connect to a ground other than the power outlet's. To ensure a common potential for all of the devices and the surrounding appliances this connection was made to the trough below the main vessel.
   \begin{table}
   \centering

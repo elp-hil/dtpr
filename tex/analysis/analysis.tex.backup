@@ -21,12 +21,14 @@
   As the PMT tubes are directly, without any preamplifiers, connected to the DAQ, the signal lengths arriving at the latter are in the order of \SI{20}{\nano\second}. This poses a problem for filters as the sampling rates need to be high and anti-aliasing is inevitable. To find the best settings, a function generator has been set up to create events at known frequency and peak heigth. The pulser's signal form \todo{what form} was chosen as closely to the actual shape as possible, which is the "pin diode" form.
  
   \begin{figure}
+	\centering
 	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
-	\caption[Muon signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
+	\caption[Muon signal shape]{A signal as recorded by the muon modules with a oscilloscope}
   \end{figure}
 	\begin{figure}
-	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/monSpec/muonSignal.eps}
-	\caption[Pulser and signal shape]{Pulser shape on the left compared to actual signal shape on the right. }
+	\centering
+	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/mainSpec/pinDiode.pdf}
+	\caption[Function generator pulse shape]{ }
   \end{figure}
   
   In order to evaluate filter's figure of merit, the width of the resulting energy histogram, which should, assuming perfect pulser signals and perfect filters, be mono-energetic, was analyzed for each filter setting. For analysis, the width of the contributing ADC bins and their absolute position as well as the pulse height and the filter settings were noted. 
@@ -303,44 +305,46 @@
   Measurements at the monitor spectrometer are easily manageable due to the fast accessibility of all the components and the collection of data in a single run-file through the mini-crate.
   For measurements, high voltage supplies have been added to the \todo{name of the rack} rack and the muon modules were connected to a newly added second FLT-card. Readout was handled by the mini-DAQ , the new FLT card was operated in veto-mode. Gains and thresholds were easily set as only four sides had to be adjusted - compared to the 16 main spectrometer channels. The PMT tubes were operated at \SI{1.5}{\kilo\volt}. The detector gain and threshold settings for the 5 pixel detector have been kept at standard monitor spectrometer operation settings. The detector position though was shifted to the position at which the center pixel exhibited maximum rate and the pairs of east-west and top-bottom pixels showed comparable count rates. Furthermore, the recording mode was switched from histogram-mode to energy-mode as the timestamps for every single event were needed for analysis. 
   Several hourly runs were taken under different magnetic field compositions. Both asymmetric magnetic field (see table \ref{tab:analysis:asymmetricMagneticFields} and non-axially-symmetric field (see table \ref{tab:analysis:nonAxiallySymmetricField} configurations were investigated.
-  \begin{table}
+  \begin{table}[b!]
 	\centering
 		\begin{tabular}{c}
 		\end{tabular}\\
-		\begin{tabular}{|l|l|ccccccc|}
+		\begin{tabular}{|l|ccccccc|}
 			\hline
 			\centering
 			
-			Measurement &Run &  solenoid &solenoid &inner & outer &outer &emcs x	&emcs y\\
-			& 	& source	& detector & aircoil & central aircoil & aircoil& &\\
+			Run &  solenoid &solenoid &inner & outer &outer &emcs x	&emcs y\\
+			& source	& detector & aircoil & central aircoil & aircoil& &\\
 			\hline
-			A & mos00159395& 0&	25&	0&	-4&	-4&	2&	-19.5\\
+			mos00159395& 0&	25&	0&	-4&	-4&	2&	-19.5\\
 			\hline
-			 B & mos00159396-&&&&&&&\\
-			& mos00159398 & 0 & 50& 0 & -8 & -8 & 2 & -19.5\\
+			mos00159396-&&&&&&&\\
+			mos00159398 & 0 & 50& 0 & -8 & -8 & 2 & -19.5\\
 			\hline
-			C & mos00159399 & 0 & 50& 0 & -7 & -7 & 2 & -19.5\\
+			mos00159399 & 0 & 50& 0 & -7 & -7 & 2 & -19.5\\
 			\hline
-			D & mos00159400 & 0 & 50& 0 & -6 & -6 & 2 & -19.5\\
+			mos00159400 & 0 & 50& 0 & -6 & -6 & 2 & -19.5\\
 			\hline
-			E & mos00159401 & 0 & 10& 0 & -2 & -2 & 2 & -19.5\\
+			mos00160713-&&&&&&&\\
+			mos00160717& 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			F & mos00160713-&&&&&&&\\
-			& mos00160717& 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			mos00160718-&&&&&&&\\
+			mos00160730 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			G & mos00160718-&&&&&&&\\
-			& mos00160730 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			mos00161105-&&&&&&&\\
+			mos00161107 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			H &mos00161105-&&&&&&&\\
-			& mos00161107 & 0.1 & 12.5 & 0 & -2 & -2 & 0 & 0\\
+			mos00161108-&&&&&&&\\
+			mos00161110 & 0.1 & 25 & 0 & -2 & -2 & 0 & 0\\
 			\hline
-			I &mos00161108-&&&&&&&\\
-			 & mos00161110 & 0.1 & 25 & 0 & -2 & -2 & 0 & 0\\
+			mos00161108-&&&&&&&\\
+			mos00161110 & 0.1 & 25 & 0 & -2 & -2 & 0 & 0\\
 			\hline
 		\end{tabular}
 		\caption[Asymmetric magnetic field measurements]{Measurements at asymmetric magnetic fields. The source side magnet was turned off for all measurements leaving the flux tube entering the spectrometer walls.}
 		\label{tab:analysis:asymmetricMagneticFields}
 	\end{table}
+	
 	\begin{table}
 		\begin{tabularx}{\textwidth}{|L{1.1cm}|>{\centering}X|>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering\arraybackslash}X|}
 			\hline
@@ -387,8 +391,11 @@
   	
   	
   The TOFHist function (chapter \ref{ch:Analysis software:sec:methods of the class run:subsec:TOFHist()}) has been used to analyze the data as well as ``Beans'' code.
-  Both browse through all the muon-events detected and finds any detector event in a definable timespan after (or before) the muon-event. This can be more than one detector-event per muon-event. In all of the settings, a peak is visible at around \SI{2}{\micro\second}. As for count rates, they are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate (see section \ref{ch:The KATRIN experiment:sec:MAC-E}).
+  Both browse through all the muon-events detected and finds any detector event in a definable timespan after (or before) the muon-event. This can be more than one detector-event per muon-event. In all of the settings, a peak is visible at around \SI{2}{\micro\second}. Count rates are a lot higher in the asymmetric magnetic field setup as secondary electrons are guided from their point of origin to the detector instead of mostly being magnetically shielded. In this setup, only the reflection through the rise in magnetic field on the electrons' paths takes its toll on the rate (see section \ref{ch:The KATRIN experiment:sec:MAC-E}).
   As data with a lot of different field configurations was analyzed, the major part of setups and analysis can be found in the annex on pages \pageref{ch:annex:sec:A3}.
+  The asymmetric magnetic field measurements show the expected behavior. With high field strengths at the wall, i.e. dense field lines, the angular acceptance is high and the peak is clearly distinguishable (see figures \ref{fig:AA} and \ref{fig:AAf}). As the field strengths decrease, the peak height falls in correlation to the surrounding noise until it is indistinguishable (pages \pageref{fig:ABf} to \pageref{fig:AD}).\\
+  Non axially symmetric setups also generally showed more muon induced counts the more deformed the field was (pages \pageref{fig:NAf} to \pageref{fig:ND}). One exception is the setup in figure \ref{fig:NBf} showing only few events (figure \ref{fig:NB}). A possible explanation here is the flux tube moving off center.
+  All in all, the mechanism of muon inducing secondary electrons that are then being guided to the detector was confirmed. And, even more importantly, the very good shielding of the symmetrical flux tube was demonstrated. Once again, the necessity of well known symmetric fields was demonstrated.
   
   
   %% =========================
@@ -408,41 +415,27 @@
   \end{equation}
 	will be able to reach the detector. All others will be reflected and fly back to the wall to be absorbed in the conducting wall material. \todo{set real field values}
 	As a result, compared to the monitor spectrometer, where the ratio is a lot greater, less of the muon induced electrons arrive at the detector making long measurements a requirement for good statistics. This leads to detector rates of only around \SI{2}{\cps}, depending on the inner electrode voltages.
-	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analyzed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The energies were cut below \SI{25.6}{\kilo\electronvolt} and above \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \SI{25}{\kilo\volt}\todo{add PAE voltage}.
+	At high inner electrode voltages, the rate increases strongly to \SI{150}{\cps} which is probably due to field emission from the electrodes. Here, the rate of events actually analyzed can be reduced by using energy cuts and excluding pixels with either known problems - for example the two defective pixels - or such covered by the misaligned flapper valve. The energies were cut below \SI{25.6}{\kilo\electronvolt} and above \SI{30.6}{\kilo\electronvolt} including the PAE voltage of \SI{10}{\kilo\volt}.
   
   Analysis for every single pixel was not possible due to far too low statistics, though it might be more conclusive as less different path lengths can contribute to a single pixel. On the other hand, after the non-central alignment of the detector has been fixed using different settings for the LFCS-system, the fields should be rotationally symmetric around the z-axis disregarding small deviations. Assuming this, the path lengths for every pixel of one ring should be very comparable.
   
   
-  For better results, different field configurations were used. The first only widened the flux tube so the coverages of the volume surveilled by the muon detectors and the flux tube (figure \ref{fig:mainSpec_B}). The second configuration also densified the field lines in the area of the muon modules. This again raised the probability of seeing electrons from detected muons at the detector, but also raised the angular acceptance by increasing the magnetic field at the walls by a factor of two (figure \ref{mainSpec_9}).
-  All in all, three different magnetic field configurations were used, they are shown in figures \ref{fig:mainSpec_100A}, \ref{fig:mainSpec_B}, \ref{fig:mainSpec_9} and described in tables \ref{tab:mainSpecSettings} and \ref{tab:mainSpecRuns} including run numbers.  
+  In the anticipation of better results, different field configurations were used. One widened the flux tube so the coverages of the volume surveilled by the muon detectors and the flux tube got larger. (figure \ref{fig:mainSpec_B}). The second configuration also densified the field lines in the area of the muon modules. This again raised the probability of seeing electrons from detected muons at the detector, but also raised the angular acceptance by increasing the magnetic field at the walls by a factor of two (figure \ref{mainSpec_9}).
+  All in all, three different magnetic field configurations were used, they are shown in figures \ref{fig:mainSpec_100A}, \ref{fig:mainSpec_B}, \ref{fig:mainSpec_9} and described in tables \ref{tab:mainSpecSettings} and \ref{tab:mainSpecRuns}.
   
 	
   To raise the overall acceptance of the muon induced events, these measurements were repeated with the main vessel on high voltage of \SI{18.6}{\kilo\volt} accelerating all the electrons towards the FPD.
-  Following that presumption, for measurements ``C'' (table \ref{tab:mainSpecRuns}), the setup was changed. The flux tube was returned to its initial setting (figure \ref{fig:mainSpec_100A}) and the muon modules were moved towards the steep cone.
-  
+  This was done for measurements ``C'' (table \ref{tab:mainSpecRuns}). The setup was changed as the flux tube was returned to its initial setting (figure \ref{fig:mainSpec_100A}) but the muon modules were moved towards the steep cone now surveilling exactly this region of interest (figure \ref{fig:12steepCone}).
   
   \begin{figure}
-	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_100A.eps}}
-	\caption[Flux tube setting A]{First used magnetic field setup. Note that the largest part of the flux tube is in the area of the steep cone. With the initial positions of the muon modules, the probability of the detected muons having caused secondary electrons inside the flux tube was too low.}
-  	\label{fig:mainSpec_100A}
-  \end{figure}
-
-
-  \begin{figure}
-	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines.png}}
-	\caption[Flux tube setting B]{Widened magnetic flux tube for better coverage by the muon modules. The flat cone is now almost completely covered.}
-  	\label{fig:mainSpec_B}
+  	\centering
+  	\includegraphics[width = 0.9\textwidth]{graphics/muonModules/mainSpec/12steepCone.jpg}
+  	\caption[Modules 1\& 2 at steep cone]{A photograph of modules 1 and 2 after being moved into a position observing the steep cone rather than the central }
+  	\label{fig:12steepCone}
   \end{figure}
 
   
-  \begin{figure}
-	\centerline{\includegraphics[width = 1.1\textwidth]{graphics//analysis/mainSpec/fieldSimulation/fieldlines_9.eps}}
-	\caption[Flux tube setting C]{Flux tube as proposed in \cite{proposalM12}. Here, the LFCS coils on the source side were operated with switched polarity. This creates a denser flux tube in the region of interest.}
-  	\label{fig:mainSpec_9}
-  \end{figure}
-
-
-
+  
 \begin{table}
 	\centering
 	\begin{tabular}{|c|cc|cc|}
@@ -463,7 +456,7 @@
 		& 6328 & 6333 & 1137 & 1148\\
 		\hline
 		
-		\multirow{3}{*}{D}& 6401 & 6404 & 1226 & 1229\\
+		\multirow{3}{*}{C}& 6401 & 6404 & 1226 & 1229\\
 		& 6405 & 6408 & 1230 & 1233\\
 		& 6409 & 6412 & 1234 & 1237\\
 		\hline
@@ -514,14 +507,58 @@
 % 		Meas. & IE[V] & PS I [T] & PS II [T] & Pinch [T] & Det [T] & LFCS [A] & EMCS h [A] & EMCS v [A] \\
 		{\bf A1, A2, A3} & -700 & 0 & 0 & 5 & 3.5 & \#1 - \#13: \SI{100}{\ampere}; \#14: \SI{0}{\ampere} & 50 & 9 \\
 		\hline
-		\multirow{2}{*}{\bf B} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#4 - \#13: \SI{100}{\ampere}; \#4: \SI{0}{\ampere} & \multirow{2}{*}{50} & \multirow{2}{*}{9} \\
+		\multirow{2}{*}{\bf B} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#5 - \#13: \SI{100}{\ampere}; \#14: \SI{0}{\ampere} & \multirow{2}{*}{50} & \multirow{2}{*}{9} \\
 		\hline
-		\multirow{2}{*}{\bf C} & \multirow{2}{*}{-600} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 - \#3: \SI{0}{\ampere}; \#4: \SI{50}{\ampere}; \#5 - \#13: \SI{100}{\ampere} \#14: \SI{0}{\ampere} & \multirow{2}{*}{40} & \multirow{2}{*}{9} \\
+		\multirow{2}{*}{\bf C} & \multirow{2}{*}{-600} & \multirow{2}{*}{0} & \multirow{2}{*}{0} & \multirow{2}{*}{5} & \multirow{2}{*}{3.5} & \#1 \& \#2: \SI{-50}{\ampere}; \#3: \SI{0}{\ampere}; \#4 - \#13: \SI{100}{\ampere} \#14: \SI{70}{\ampere} & \multirow{2}{*}{40} & \multirow{2}{*}{9} \\
 		\hline
 	\end{tabularx}
 	\caption[Main spectrometer magnnetic field settings]{Magnetic field settings for the individual groups from table \ref{tab:mainSpecRuns}}
 	\label{tab:mainSpecSettings}
 \end{table}
+  
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlines_100A.eps}}
+	\caption[Flux tube setting A]{First used magnetic field setup. Note that the largest part of the flux tube is in the area of the steep cone. With the initial positions of the muon modules, the probability of the detected muons having caused secondary electrons inside the flux tube was too low.}
+  	\label{fig:mainSpec_100A}
+  \end{figure}
+
+
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics/analysis/mainSpec/fieldSimulation/fieldlineConfigC.eps}}
+	\caption[Flux tube setting B]{Widened magnetic flux tube for better coverage by the muon modules. The flat cone is now almost completely covered.}
+  	\label{fig:mainSpec_B}
+  \end{figure}
+
+  
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.1\textwidth]{graphics//analysis/mainSpec/fieldSimulation/fieldlines_9.eps}}
+	\caption[Flux tube setting C]{Flux tube as proposed in \cite{proposalM12}. Here, two LFCS coils on the source side were operated with switched polarity. This creates a denser flux tube in the region of interest.}
+  	\label{fig:mainSpec_9}
+  \end{figure}
+
+  
+  None of the settings showed time peaks as clear as the monitor spectrometer. 
+  Simulations of single events show that the fastest particles arrive after times comparable to the ones of the monitor spectrometer, i.e. at \SI{1.5}{\micro\second} (figure \ref{mainSpecSimulation}). This already poses a problem. The anticipated rate of muons through the area of the main spectrometer covered by the flux tube is
+  \begin{equation}
+		r_\mu A_{MS} = 1/\SI{}{\square\centi\meter \second}\cdot \SI{66}{\square\meter} = \SI{660000}{\per\second}.
+  \end{equation}
+  The area has been taken from \cite{M6Proposal}. This means that the average time between muon events of $\SI{1/660000}{\second} \approx \SI{1.5}{\micro\second} $ is of equal size as the time of flight for a single electron. This of course makes it difficult to distinguish between the different events. The measurements with field setting ``C'' were not as promising as previously thought despite the larger acceptance angle. The ones on high voltage showed a lot higher rates, though a lot of this effect may be cotributed to field emission. There are runs in which one could interpret peaks at the position of the simulation, though all of these are small compared to ambient signals. The most prominent one is displayed in figure \ref{fig:mainSpecProminentPeak}. It could be interpreted as a signal peak with a exponential tail. This remains very speculative at the moment. Further measurements with magnetic field setups reducing the overall area of the flux tube covered might shed more light on this. Sadly, as the time of the commissioning measurements was limited, these have to be taken at a later date.
+  
+  
+  
+  \begin{figure}
+	\centerline{\includegraphics[width = 1.\textwidth]{graphics/simulation/muonTimeMainSpec.eps}}
+	\caption[Main spectrometer simulation]{Time of flight for simulated electrons starting at the spectrometer wall. The ``fastest'' electron arrives at \SI{1.5}{\micro\second}. The distribution has an exponential charakter.}
+  	\label{fig:mainSpecSimulation}
+  \end{figure}
+
+    \begin{figure}
+	\centerline{\includegraphics[width = 1.\textwidth]{graphics/analysis/mainSpec/allInOne/1052_1055.eps}}
+	\caption[Main spectrometer peak?]{The mos promising result so far for the main spectrometer. The peak at around \SI{2}{\micro\second} resembles the simulation with its exponential tail. The counts before after might already be other muon induced events.}
+  	\label{fig:mainSpecProminentPeak}
+  \end{figure}
+
+
 
   
   

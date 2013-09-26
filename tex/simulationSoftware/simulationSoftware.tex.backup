@@ -20,7 +20,7 @@
   	\item Stepping action
   \end{itemize}
   Of course inside each run usually there are many event actions and inside every event action, there are multiple tracking actions.
-  For user interaction, for each item above, classes with the addition 'user' to the base classes name can be called before or after the standard action class. An example is the class G4UserEventAction invoked before and after each call of G4TrackingAction. It contains two member classes, namely BeginOfEventAction and EndOfEventAction that let the user decide what to do at this point. Through those, it is possible to change behaviour of the simulation or extract data needed. In this case, for every event, if more than one module has been hit, the copy numbers of those are pushed back to a vector of event data.  
+  For user interaction, for each item above, classes with the addition 'user' to the base classes name can be called before or after the standard action class. An example is the class G4UserEventAction invoked before and after each call of G4TrackingAction. It contains two member classes, namely BeginOfEventAction and EndOfEventAction that let the user decide what to do at this point. Through those, it is possible to change behavior of the simulation or extract data needed. In this case, for every event, if more than one module has been hit, the copy numbers of those are pushed back to a vector of event data.  
   Running the simulation, one can either interactively enter commands or write those to a .mac file, by default the vis.mac file, which are then sequentially executed.
   
 
@@ -35,8 +35,8 @@
   
   \begin{figure}
   	\centering
-  	\includegraphics[width = \textwidth]{graphics/simulation/geometrySetup.eps}
-  	\caption[Simulation geometry setup]{The image shows a screenshot of the geometry setup as displayed in the openGL viewer. The three groups of muon modules are visible right below the large main spectrometer structure. In addition, two incident muons are displayed together with secondary particles they generated.}
+  	\includegraphics[width = \textwidth]{graphics/simulation/moduleHit.png}
+  	\caption[Simulation geometry setup]{The image shows a screenshot of the geometry setup as displayed in the OpenGL viewer. The view is upwards through the main spectrometer standing on the west side of it. The three groups of muon modules (white) are visible right below the large main spectrometer structure (red). A variety of incident muons is shown (blue). Hits are set to be marked yellow by the Geant4 viewer. Additionally, the hit points of one muon hitting a muon detector have been circled black. One can see both entry and exit point of the main spectrometer and the detection point.}
   \end{figure}
 
   
@@ -90,7 +90,12 @@
   \label{ch:Simulation software:sec:Visualisation}
   %% ===========================
   
-  To display results of a the calculations made, the tracks of all particles can be displayed as well as the geometry setup itself. This can be done interactively after running the program, though the faster approach is to use *.mac files, standardly the vis.mac file. Here, different parameters can be changed and simple visualisation settings like viewing angles and zooms can be chosen.
+  To display results of a the calculations made, the tracks of all particles can be displayed as well as the geometry setup itself. This can be done interactively after running the program, though the faster approach is to use *.mac files, standardly the vis.mac file. Here, different parameters can be changed and simple visualisation settings like viewing angles and zooms can be chosen. For an example of a vis.mac file see annex \ref{ch:annex:sec:vis.mac}. \\
+  Included are
+  \begin{itemize}
+  	\item 
+  \end{itemize}
+
   
   
   %% ===========================
@@ -101,6 +106,7 @@
   For comparing the simulation to real data, of all the events generated, those hitting modules were counted. Each event containing at least one hit is written into a file for further analysis. To do so, the functions UserSteppingAction inheriting from G4UserSteppingAction, EndOfEventAction inheriting from G4UserEventAction and EndOfRunAction inheriting from G4UserRunAction are used.  They are handing the information up from function to function. 
   At the end of a run, the results of every single event are written to a file called hitOutputAll while those containing only such events in which the muon hit the spectrometer and at least one of the muon modules are written to the file hitOutput.
   This made it possible to compare the rates of the single modules, showing that the generator works fine. furthermore, it allowed for a estimation of muons hitting the modules compared to the total of inciding muons.
+  This work should now be continued: The simulation of cosmic muons with the right angular distribution can be used to 
   
   
   
