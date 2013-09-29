@@ -24,25 +24,48 @@
   \label{fig:ORCA:script}
 \end{figure}
 \clearpage
-\section{Connection scheme DAQ}
-\
-\begin{table}
+\section{Connection scheme DAQ \& high voltage settings}
+
+    \begin{table}[h]
+  \centering
+  	\begin{tabular}{|c|c|c|c|c|c|}
+  	\hline
+  		V0 & I0 & I1 & V1 & Ramp Up & Ramp Down\\
+  		\hline
+  		\SI{1.5}{\kilo\volt} or \SI{1.6}{\kilo\volt} & \SI{2000}{\milli\ampere} & & & \SI{50}{\volt} & \SI{100}{\volt}\\
+  		\hline
+  	\end{tabular}
+  	\caption[High voltage settings]{High voltage settings as used for the muon modules. Modules XX and XX are set to \SI{1.6}{\kilo\volt}.}
+  	\label{tab:HVSettings}
+  \end{table}
+\begin{table}[h]
   	\centering
   	\begin{tabular}{| l | c c | c c | c c | c c |}
   	\hline
   		Module	& 1A	& 1B	& 2A	& 2B	& 3A	& 3B	& 4A	& 4B 	\\
   		Card	& 3	& 3	& 3	& 3	& 6	& 6	& 6	& 6	\\
   		Channel	& 0	& 14	& 3	& 7	& 0	& 14	& 3	& 7	\\
+  		HV		& W0 & W1 & W2 & W3 & W4 & W5 & W6 & W7 \\
   		\hline \hline
   		Module	&5A	& 5B	& 6A	& 6B	& 7A	& 7B	& 8A	& 8B	\\
   		Card	& 6	& 6	& 8	& 8	& 8	& 8	& 8	& 8	\\
   		Channel	& 9	& 23	& 0	& 14	& 3	& 7	& 9	& 23	\\
+  		HV		& W8 & W9 & E0 & E1 & E2 & E3 & E4 & E5\\
   		\hline
   	\end{tabular}
+  	
   	\caption[Main spectrometer DAQ channel assignment]{Assignment of main spectrometer module sides to FLT cards and their channels.}
   	\label{tab:connectionsModulesCards}
   \end{table}
+  \begin{figure}[H]
+	\centering
+  	\includegraphics[width = \textwidth]{graphics/muonModules/mainSpec/FLTback.png}
+  	\caption[FLT connector card]{One of the connector cards used at the muon DAQ. The overlayn numbers correspond to the channels accessed via the corresponding connector. Note the non trivial behaviour on le left end. The white labels A, B and C mark the channels used for connecting the muon modules.}
+  	\label{fig:FLTback}
+  \end{figure}
+  
 
+\clearpage
 % 
 % \begin{figure}
 % \centering
@@ -172,7 +195,6 @@
 			mos00160711 &\\
 			\hline
 		\end{tabularx}
-		
 \end{table}
 
 % \begin{figure}
@@ -222,25 +244,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Monitor spectrometer field setup and analysis}
 \label{ch:annex:sec:A3}
-For all settings see \ref{tab:analysis:nonAxiallySymmetricField}, line 1.
-\begin{figure}[h]
+\begin{figure}
 \centering
 
 		\centerline{\includegraphics[width = 1.3\linewidth]{graphics/analysis/monSpec/fieldSimulation/AB.eps} }
 	
 	\caption[Asymmetric field \SI{50}{\ampere}]{Flux tube for a \SI{50}{\ampere} detector solenoid, \SI{-8}{\ampere} outer central air coil current.}
 	\label{fig:ABf}
-\end{figure}
 
-\begin{figure}
 \centering
 	\includegraphics[width = 0.9\textwidth]{graphics/analysis/monSpec/AB.eps}
-	\caption[\SI{50}{\ampere} loops]{}
+	\caption[\SI{50}{\ampere} loops]{Source solenoid off, detector solenoid at \SI{25}{\ampere}. A peak in time is visible at \SI{1.8}{\micro\second}. }
 	\label{fig:AB}
 \end{figure}
+
 \clearpage
-
-
 
 \begin{figure}
 \centering

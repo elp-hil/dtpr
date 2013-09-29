@@ -337,6 +337,11 @@ F.M. Fränkle, L.~Bornschein, G.~Drexlin, et~al.
 {{Howe},~M.~A. }{\em{et al.}}
 \newblock {\em TUNL Progress Report}, XLVIII:179, 2009.
 
+\bibitem{norman}
+Norman Haussmann.
+\newblock \url{http://www.katrin.kit.edu/publikationen/dth-Haussmann.pdf},
+  2013.
+
 \bibitem{scintillatorManual}
 Saint-Gobain Crystals.
 \newblock Premium plastic scintillators.
@@ -345,9 +350,45 @@ Saint-Gobain Crystals.
   2005.
 \newblock [Online; accessed 11-07-2013].
 
+\bibitem{photomultiplier}
+Philips Components.
+\newblock {\em photomultiplier tubes - principles and application}.
+\newblock 1990.
+
+\bibitem{geant}
+S.~Agostinelli, J.~Allison, K.~Amako, et~al.
+\newblock Geant4 - a simulation toolkit.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 506(3):250
+  -- 303, 2003.
+
+\bibitem{mainSpecGeometry}
+Benjamin Jung.
+\newblock Simulation des myon-induzierten untergrundes und dessen
+  speicherwahrscheinlichkeit am katrin hauptspektrometer, 2011.
+
+\bibitem{DTArlinghaus}
+Henrik Arlinghaus.
+\newblock Investigation of the muon-induced secondary electron background in
+  the katrin experiment.
+\newblock
+  \url{http://www.uni-muenster.de/Physik.KP/AGWeinheimer/Files/theses/Diplom_Henrik_Arlinghaus.pdf},
+  2009.
+\newblock [Online; accessed 21-08-2013].
+
+\bibitem{distro}
+S.I. Klimushin, E.V. Bugaev, and Igor~A. Sokalski.
+\newblock {On the parametrization of atmospheric muon angular flux underwater}.
+\newblock {\em Phys.Rev.}, D64:014016, 2001.
+
 \bibitem{KevinWierman}
 Kevin Wierman.
 \newblock personal conversation, 2013.
+
+\bibitem{muonFlux}
+W.-M. Yao et~al.
+\newblock Review of particle physics.
+\newblock {\em J. Phys. G 33}, 2006.
 
 \bibitem{permeability}
 Myer Kutz.
@@ -371,18 +412,27 @@ Manfred Klemann.
 \newblock \url{http://www.wetter.com/wetter_aktuell/rueckblick/?id=DE0005309},
   2012.
 
+\bibitem{fluxVariation}
+N.~{Ramesh}, M.~{Hawron}, C.~{Martin}, and A.~{Bachri}.
+\newblock {Flux Variation of Cosmic Muons}.
+\newblock {\em ArXiv e-prints}, March 2012.
+
 \bibitem{proposalM12}
 M.~Asda.
 \newblock Katrin sds measurements - proposal m12.
 \newblock \url{http://www.katrin.kit.edu}, 2013.
 
-\bibitem{DTArlinghaus}
-Henrik Arlinghaus.
-\newblock Investigation of the muon-induced secondary electron background in
-  the katrin experiment.
+\bibitem{M6Proposal}
+T.~J. Corona, F.M. Fraenkle, B.~Leiber, et~al.
+\newblock M6 - secondary emission at zero electric tank potential.
 \newblock
-  \url{http://www.uni-muenster.de/Physik.KP/AGWeinheimer/Files/theses/Diplom_Henrik_Arlinghaus.pdf},
-  2009.
-\newblock [Online; accessed 21-08-2013].
+  \url{https://nuserv.uni-muenster.de/svn/katrin/SDS_commissioning/CommissioningDocument/M6/}.
+
+\bibitem{transformer}
+Andreas Kosmider.
+\newblock Tritium retention techniques in the katrin transport section and
+  commissioning of its dps2-f cryostat.
+\newblock \url{http://digbib.ubka.uni-karlsruhe.de/volltexte/1000028959}, 2012.
+\newblock [Online, accessed 26-09-2013].
 
 \end{thebibliography}

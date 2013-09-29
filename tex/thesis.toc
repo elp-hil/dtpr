@@ -19,63 +19,56 @@
 \contentsline {subsection}{\numberline {2.2.7}Solenoids, LFCS and EMCS system}{23}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Background sources}{23}{subsection.2.2.8}
 \contentsline {chapter}{\numberline {3}Muon detection system}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data aquisition crate}{27}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}First level trigger cards}{27}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.1}Data aquisition crate}{28}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}First level trigger cards}{28}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Second level trigger cards}{28}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Orca control}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Run control}{29}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}File handling}{29}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Software Gains and Thresholds}{29}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Scripting}{29}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Orca Fit}{30}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Scintillator modules}{30}{section.3.3}
+\contentsline {section}{\numberline {3.3}Scintillator modules}{29}{section.3.3}
 \contentsline {section}{\numberline {3.4}Photomultipliers}{30}{section.3.4}
-\contentsline {section}{\numberline {3.5}Gains, Thresholds and Acceleration Voltages}{30}{section.3.5}
+\contentsline {section}{\numberline {3.5}Gains, Thresholds and Acceleration Voltages}{31}{section.3.5}
 \contentsline {chapter}{\numberline {4}Analysis software}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data structure}{35}{section.4.1}
 \contentsline {section}{\numberline {4.2}Search Algorithms}{36}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Frequency Search}{37}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Incremental Search}{37}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Member Functions of the class {\bf run}}{37}{section.4.3}
-\contentsline {paragraph}{Constructor run()}{37}{section*.41}
-\contentsline {paragraph}{Destructor ~run()}{37}{section*.43}
-\contentsline {paragraph}{getRun()}{38}{section*.44}
-\contentsline {paragraph}{getLocalRun()}{38}{section*.45}
-\contentsline {paragraph}{detectCoincidences()}{38}{section*.46}
-\contentsline {paragraph}{channelCoincidences()}{38}{section*.47}
-\contentsline {paragraph}{loopOverSides()}{39}{section*.48}
-\contentsline {paragraph}{panelCoincidences()}{39}{section*.49}
-\contentsline {paragraph}{findSmallest()}{39}{section*.50}
-\contentsline {paragraph}{TOFHist()}{39}{section*.51}
-\contentsline {paragraph}{TOFMuonDet()}{39}{section*.52}
-\contentsline {paragraph}{determineEfficiency}{40}{section*.53}
-\contentsline {paragraph}{getSize()}{40}{section*.54}
-\contentsline {paragraph}{readVetoEventData(), readDetectorData() and readMOSDetectorData()}{40}{section*.55}
-\contentsline {chapter}{\numberline {5}Comissioning measurements and analysis}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Finding the best filter settings}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Moun module's rates}{43}{section.5.2}
-\contentsline {section}{\numberline {5.3}Modules in high magnetic fields}{43}{section.5.3}
-\contentsline {section}{\numberline {5.4}Module Stability}{44}{section.5.4}
-\contentsline {section}{\numberline {5.5}Module Efficiency}{45}{section.5.5}
-\contentsline {section}{\numberline {5.6}Photo Multiplier Tube Test with $^{90}$Sr source}{47}{section.5.6}
-\contentsline {section}{\numberline {5.7}Synchronisation of moun module and FPD DAQs}{48}{section.5.7}
-\contentsline {section}{\numberline {5.8}Coincidence Search between Muon- and Detector Events}{52}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Monitor Spectrometer}{54}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Main Spectrometer}{56}{subsection.5.8.2}
-\contentsline {chapter}{\numberline {6}Simulation of muon induced background}{63}{chapter.6}
-\contentsline {section}{\numberline {6.1}Geant4}{63}{section.6.1}
-\contentsline {section}{\numberline {6.2}Geometry setup}{64}{section.6.2}
-\contentsline {section}{\numberline {6.3}Muon generator}{64}{section.6.3}
-\contentsline {section}{\numberline {6.4}Visualisation - the vis.mac file}{64}{section.6.4}
-\contentsline {section}{\numberline {6.5}Hit counter}{66}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusion}{67}{chapter.7}
-\contentsline {chapter}{\numberline {8}Outlook}{69}{chapter.8}
-\contentsline {chapter}{Bibliography}{71}{section*.84}
-\contentsline {chapter}{Annex}{76}{chapter*.86}
-\contentsline {section}{\numberline {A}ORCA air coil script}{76}{section.8.1}
-\contentsline {section}{\numberline {B}Connection scheme DAQ}{77}{section.8.2}
-\contentsline {section}{\numberline {C}Weather data Christmas 2012}{77}{section.8.3}
-\contentsline {section}{\numberline {D}Monitor spectrometer settings}{78}{section.8.4}
-\contentsline {section}{\numberline {E}Monitor spectrometer field setup and analysis}{79}{section.8.5}
-\contentsline {section}{\numberline {F}Main spectrometer analysis}{90}{section.8.6}
-\contentsline {section}{\numberline {G}A vis.mac file}{90}{section.8.7}
+\contentsline {paragraph}{Constructor run()}{37}{section*.35}
+\contentsline {paragraph}{Destructor ~run()}{37}{section*.36}
+\contentsline {paragraph}{getRun()}{39}{section*.37}
+\contentsline {paragraph}{getLocalRun()}{39}{section*.38}
+\contentsline {paragraph}{detectCoincidences()}{39}{section*.39}
+\contentsline {paragraph}{channelCoincidences()}{39}{section*.40}
+\contentsline {paragraph}{loopOverSides()}{39}{section*.41}
+\contentsline {paragraph}{panelCoincidences()}{39}{section*.42}
+\contentsline {paragraph}{findSmallest()}{40}{section*.43}
+\contentsline {paragraph}{TOFHist()}{40}{section*.44}
+\contentsline {paragraph}{TOFMuonDet()}{40}{section*.45}
+\contentsline {paragraph}{determineEfficiency}{40}{section*.46}
+\contentsline {paragraph}{getSize()}{41}{section*.47}
+\contentsline {paragraph}{readVetoEventData(), readDetectorData() and readMOSDetectorData()}{41}{section*.48}
+\contentsline {chapter}{\numberline {5}Simulation of Background Inducing Muons}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Geant4}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Geometry Setup}{44}{section.5.2}
+\contentsline {section}{\numberline {5.3}Muon Generator}{44}{section.5.3}
+\contentsline {section}{\numberline {5.4}Hit Counter}{45}{section.5.4}
+\contentsline {chapter}{\numberline {6}Comissioning measurements and analysis}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Finding the best filter settings}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Moun module's rates}{49}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modules in high magnetic fields}{49}{section.6.3}
+\contentsline {section}{\numberline {6.4}Module Stability}{50}{section.6.4}
+\contentsline {section}{\numberline {6.5}Module Efficiency}{51}{section.6.5}
+\contentsline {section}{\numberline {6.6}Photo Multiplier Tube Test with $^{90}$Sr source}{53}{section.6.6}
+\contentsline {section}{\numberline {6.7}Synchronisation of moun module and FPD DAQs}{54}{section.6.7}
+\contentsline {section}{\numberline {6.8}Coincidence Search between Muon- and Detector Events}{57}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Monitor Spectrometer}{60}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}Main Spectrometer}{62}{subsection.6.8.2}
+\contentsline {chapter}{\numberline {7}Conclusion \& Outlook}{69}{chapter.7}
+\contentsline {chapter}{Bibliography}{71}{section*.79}
+\contentsline {chapter}{Annex}{76}{chapter*.81}
+\contentsline {section}{\numberline {A}ORCA air coil script}{76}{section.7.1}
+\contentsline {section}{\numberline {B}Connection scheme DAQ \& high voltage settings}{77}{section.7.2}
+\contentsline {section}{\numberline {C}Weather data Christmas 2012}{78}{section.7.3}
+\contentsline {section}{\numberline {D}Monitor spectrometer settings}{79}{section.7.4}
+\contentsline {section}{\numberline {E}Monitor spectrometer field setup and analysis}{80}{section.7.5}
+\contentsline {section}{\numberline {F}Main spectrometer analysis}{90}{section.7.6}
+\contentsline {section}{\numberline {G}A vis.mac file}{90}{section.7.7}

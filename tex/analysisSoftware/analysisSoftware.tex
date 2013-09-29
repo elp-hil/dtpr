@@ -67,27 +67,32 @@
   \section{Search Algorithms}
   \label{ch:Analysis software:sec:Search algorithms}
   %% ===========================
-    To analyze data, at various points searches for events with a particular time stamp have to be performed. This was simplified by the time-sorted recording of events. A first implementation to search for coincident events was done on the base of average frequency and its standard deviation. This algorithm proved as fast and stable, though well applicable only for two sets of timed events. That is why an advanced incremental method has been created. The number of modules is now limited only by the physically available memory and the speed is even higher.
+    To analyze data, at various points searches for events with a particular time stamp have to be performed. The recorded events are time sorted. A first implementation to search for coincident events was done on the base of an average frequency and its standard deviation. This algorithm proved as fast and stable, though well applicable only for two sets of timed events. That is why an advanced incremental method has been created. The number of modules is now unlimited and the speed is even higher.
       %% ===========================
       \subsection{Frequency Search}
       \label{ch:Analysis software:sec:Search algorithms:subsec:Frequency Search}
       %% ===========================
-      As this algorithm was built to run on only two sets of data, it simply walks through one set incrementally and looks for corresponding data in the other. Latter is not done in a "dumb" way by incrementing through the second set as well, but by calculating the average frequency of events inside the set and performing an intelligent guess on that basis. If the guessed event shows a different time stamp, the algorithm will keep going forward or backward in time in steps of the frequency's standard deviation until the time stamp searched for is in between two steps. Lastly, simple incrementation is used to find out whether an event at the desired point in time exists or not.
+      As this algorithm was built to run on only two sets of data, it simply walks through one set incrementally and looks for corresponding data in the other. Latter is not done in the simplest way by incrementing through the second set as well, but by calculating the average frequency of events inside the set and performing an intelligent guess on that basis. If the guessed event has a different time stamp, the algorithm will keep going forward or backward in time in steps of the frequency's standard deviation until the time stamp searched for is in between two step points . Lastly, simple incrementation is used to find out whether an event at the desired point in time exists or not.
       \begin{figure}
-	\centering
-      	\includegraphics[width = 0.9\textwidth]{graphics/frequencySearch.eps}
-      	\caption[Frequency search algorithm]{An illustration of the search algorithm utilizing the average rate of the run analyzed. Based on that, a guess is made (marked in). If that guess is wrong, the algorithm increments the guess in units of the rates standard deviation.}
-      \end{figure}
+	\begin{minipage}{0.49\textwidth}
+		\centering
+      	\includegraphics[width = 0.9\textwidth]{graphics/search/frequencySearch.png}
+      	\caption[Frequency search algorithm]{An illustration of the frequency search algorithm. On the right, the events distributed with the average event frequency are shown. On the left, an arbitrary event distribution as it might occur in a measurement. the color of the connections show if the guess was too late and a backward search is started(red) or too early and a forward search is initiated (green). Grey connections are for direct hits.}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.49\textwidth}
+		\hspace{0.25 cm}
+      	\includegraphics[width = \textwidth]{graphics/search/incrementalSearch.png}
+      	\caption[Incremental search algorithm]{An illustration of the incremental search algorithm. Every column represents a vector of events for one module. Time increases downwards. Red cells are events inside a vector, the numbers define the point of storage. Two double hits are shown - modules 2/2 + 3/1 and 1/4 + 2/3.}
+      	\vspace{2.45 cm}
+      	\end{minipage}
+      \end{figure} 
       %% ===========================
       \subsection{Incremental Search}
       \label{ch:Analysis software:sec:Search algorithms:subsec: Incremental Search}
       %% ===========================
       While the frequency search increments solely one dataset, the incremental search steps through all the event tress, incrementing the one with the smallest time stamp. It then compares all events to each other, writes out the coincident ones, if any, and goes on incrementing the next smallest stamp. This assures the finding of all coincident events while keeping the speed very high.
-      \begin{figure}
-	\centering
-      	\includegraphics[width = 0.9 \textwidth]{graphics/incrementalSearch.eps}
-      	\caption[Incremental search algorithm]{All modules are stepped through, the one with the earliest time stamp is incremented. Then, all times are compared to each other.}
-      \end{figure} 
+
   %% ===========================
   \section{Member Functions of the class {\bf run}}
   \label{ch:Analysis software:sec:methods of the class run}
@@ -97,17 +102,17 @@
     \paragraph{Constructor run()}
     \label{ch:Analysis software:sec:methods of the class run:subsec:Constructor}
     %% ===========================  
-    Whenever a new instance of "run" is created, the constructor is called. Arguments to be passed are a KaLi::KLRunIdentifier, basically a string distinctively naming the run to be analyzed, such as "myo00000001", a instance of KaLi::KLDataManger, a class handling the download of the Files form IPE-servers and a toggle variable telling the constructor which data to read via the member function getRun() and what member functions to call afterwards:
-    \begin{figure}
-    \caption*{\bf Toggle Choices}
+    Whenever a new instance of "run" is created, the constructor is called. Arguments to be passed are a KaLi::KLRunIdentifier, basically a string distinctively naming the run to be analyzed, such as "myo00000001", a instance of KaLi::KLDataManger, a class handling the download of the Files form IPE-servers and a toggle variable telling the constructor which data to read via the member function getRun() and what member functions to call afterwards.
+    {\bf Toggle Choices}
     	\begin{itemize}
     		\item {\bf 0:} Data is downloaded and both muon data and detector data are stored
     		\item {\bf 1:} Data is downloaded and only detector data is stored
     		\item {\bf 2:} Data is downloaded and only muon data is stored
     		\item {\bf 3:} Data is read from local file system, only muon data is stored
     		\item {\bf  10:} Monitor spectromer data is read. Different card and channel configurations are used.
+    	
     	\end{itemize}
-    \end{figure}
+
     
     %% ===========================
     \paragraph{Destructor ~run()}

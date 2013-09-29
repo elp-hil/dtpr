@@ -720,8 +720,6 @@ pages = "58 - 60",
 
 year = "2006",
 
-note = "<ce:title>International Workshop of Nuclear Physics 27th course</ce:title> <ce:subtitle>Neutrinos in Cosmology, in Astro, Particle and Nuclear Physics</ce:subtitle> <xocs:full-name>Ettore Majorana Center for Scientific Culture</xocs:full-name> ",
-
 issn = "0146-6410",
 
 doi = "http://dx.doi.org/10.1016/j.ppnp.2005.11.011",
@@ -790,7 +788,7 @@ note = "[Online, accesse 18-09-2013]"
 }
 
 @MISC{
-magneticMirroring,
+magneticMirror,
 author = "Lyndsay",
 year = 2006,
 howpublished = "\url{http://www.astro.gla.ac.uk/users/lyndsay/TEACHING/NLPII/Lecture4_06.pdf}",
@@ -819,36 +817,76 @@ publisher = "Karl Thiemig",
 year = "1975"
 }
 
-@article{CMS,
-title = "Observation of a new boson at a mass of 125 GeV with the \{CMS\} experiment at the \{LHC\} ",
-journal = "Physics Letters B ",
-volume = "716",
-number = "1",
-pages = "30 - 61",
-year = "2012",
-note = "",
-issn = "0370-2693",
-doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.021",
-url = "http://www.sciencedirect.com/science/article/pii/S0370269312008581",
-author = "S. Chatrchyan and V. Khachatryan and A.M. Sirunyan and others",
-keywords = "\{CMS\}",
-keywords = "Physics",
-keywords = "Higgs "
-}
+@article{Planck,
+      author         = "Ade, P.A.R. and others",
+      title          = "{Planck 2013 results. XVI. Cosmological parameters}",
+      collaboration  = "Planck Collaboration",
+      year           = "2013",
+      eprint         = "1303.5076",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1303.5076;%%",
+}
 
-@article{ATLAS,
-title = "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC ",
-journal = "Physics Letters B ",
-volume = "716",
-number = "1",
-pages = "1 - 29",
-year = "2012",
-note = "",
-issn = "0370-2693",
-doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.020",
-url = "http://www.sciencedirect.com/science/article/pii/S037026931200857X",
-author = "G. Aad and T. Abajyan and B. Abbott and others"
-}
+@article{CMS,
+
+title = "Observation of a new boson at a mass of 125 GeV with the \{CMS\} experiment at the \{LHC\} ",
+
+journal = "Physics Letters B ",
+
+volume = "716",
+
+number = "1",
+
+pages = "30 - 61",
+
+year = "2012",
+
+note = "",
+
+issn = "0370-2693",
+
+doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.021",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0370269312008581",
+
+author = "S. Chatrchyan and V. Khachatryan and A.M. Sirunyan and others",
+
+keywords = "\{CMS\}",
+
+keywords = "Physics",
+
+keywords = "Higgs "
+
+}
+
+
+@article{ATLAS,
+
+title = "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC ",
+
+journal = "Physics Letters B ",
+
+volume = "716",
+
+number = "1",
+
+pages = "1 - 29",
+
+year = "2012",
+
+note = "",
+
+issn = "0370-2693",
+
+doi = "http://dx.doi.org/10.1016/j.physletb.2012.08.020",
+
+url = "http://www.sciencedirect.com/science/article/pii/S037026931200857X",
+
+author = "G. Aad and T. Abajyan and B. Abbott and others"
+
+}
+
 
 @article{iceCube,
       author         = "Aartsen, M.G. and others",
@@ -878,4 +916,137 @@ author = "G. Aad and T. Abajyan and B. Abbott and others"
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.IM",
       SLACcitation   = "%%CITATION = ARXIV:1104.1607;%%",
+}
+
+@article{dayaBay2,
+  author={Zhou Bin and Ruan Xi-Chao and Nie Yang-Bo and Zhou Zu-Ying and others},
+  title={A study of antineutrino spectra from spent nuclear fuel at Daya Bay},
+  journal={Chinese Physics C},
+  volume={36},
+  number={1},
+  pages={1},
+  url={http://stacks.iop.org/1674-1137/36/i=1/a=001},
+  year={2012}
+}
+
+@article{homestake,
+      author         = "Davis, R.",
+      title          = "{A review of the Homestake solar neutrino experiment}",
+      journal        = "Prog.Part.Nucl.Phys.",
+      volume         = "32",
+      pages          = "13-32",
+      doi            = "10.1016/0146-6410(94)90004-3",
+      year           = "1994",
+      SLACcitation   = "%%CITATION = PPNPD,32,13;%%"
+}
+@book{shielding,
+  title={Classical Electrodynamics},
+  author={Tsang, T.},
+  isbn={9789810230418},
+  lccn={98196670},
+  page = "80",
+  series={Advanced Series on Theoretical Physical Sciences},
+  url={http://books.google.de/books?id=KQe5QJ9PJwMC},
+  year={1997},
+  publisher={World Scientific}
+}
+@book{permeability,
+title = "Eshbach's Handbook of Engineering Fundamanetals",
+author = "Myer Kutz", 
+year = "2009",
+pages = "1320",
+publisher = "Wiley"
+}
+
+@MISC{
+M6Proposal,
+title = "M6 - Secondary Emission At Zero Electric
+Tank Potential",
+howpublished = "\url{https://nuserv.uni-muenster.de/svn/katrin/SDS_commissioning/CommissioningDocument/M6/}",
+author = {Corona, T. J. and Fraenkle, F.M. and Leiber, B. and others}
+}
+
+@MISC{
+transformer,
+title = "Tritium Retention Techniques in the KATRIN Transport Section and Commissioning of its DPS2-F Cryostat",
+author = "Andreas Kosmider",
+year = "2012",
+howpublished = "\url{http://digbib.ubka.uni-karlsruhe.de/volltexte/1000028959}",
+note = "[Online, accessed 26-09-2013]"
+}
+
+@article{geant,
+title = "Geant4 - a simulation toolkit ",
+journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
+volume = "506",
+number = "3",
+pages = "250 - 303",
+year = "2003",
+note = "",
+issn = "0168-9002",
+doi = "http://dx.doi.org/10.1016/S0168-9002(03)01368-8",
+url = "http://www.sciencedirect.com/science/article/pii/S0168900203013688",
+author = "Agostinelli, S. and Allison, J. and Amako, K. and others"
+}
+
+@THESIS{norman,
+author = "Norman Haussmann",
+year = "2013",
+school = "KIT",
+howpublished = "\url{http://www.katrin.kit.edu/publikationen/dth-Haussmann.pdf}",
+}
+
+@article{distro,
+      author         = "Klimushin, S.I. and Bugaev, E.V. and Sokalski, Igor A.",
+      title          = "{On the parametrization of atmospheric muon angular flux
+                        underwater}",
+      journal        = "Phys.Rev.",
+      volume         = "D64",
+      pages          = "014016",
+      doi            = "10.1103/PhysRevD.64.014016",
+      year           = "2001",
+      eprint         = "hep-ph/0012032",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0012032;%%",
+}
+@misc{
+solidAngle,
+author = {Harald Schroeer},
+year = 2006,
+howpublished = "\url{http://www.rzuser.uni-heidelberg.de/~c07/s57/dt.pdf}"
+}
+
+@book{
+photomultiplier,
+title = "photomultiplier tubes - principles and application",
+author = "Philips Components",
+year = "1990"
+
+}
+
+@ARTICLE{fluxVariation,
+   author = {{Ramesh}, N. and {Hawron}, M. and {Martin}, C. and {Bachri}, A.
+	},
+    title = "{Flux Variation of Cosmic Muons}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1203.0101},
+ primaryClass = "physics.ins-det",
+ keywords = {Physics - Instrumentation and Detectors},
+     year = 2012,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1203.0101R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@thesis{
+mainSpecGeometry,
+title = "Simulation des Myon-induzierten Untergrundes und dessen Speicherwahrscheinlichkeit am KATRIN Hauptspektrometer",
+author = "Benjamin Jung",
+school = KIT,
+year = "2011"
+
+
 }

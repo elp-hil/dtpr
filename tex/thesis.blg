@@ -3,63 +3,73 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: titlepage.aux
 A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: deutscheZusammenfassung.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: theKATRINexperiment/theKATRINexperiment.aux
 A level-1 auxiliary file: muonDetectionSystem/muonDetectionSystem.aux
 A level-1 auxiliary file: analysisSoftware/analysisSoftware.aux
-A level-1 auxiliary file: analysis/analysis.aux
 A level-1 auxiliary file: simulationSoftware/simulationSoftware.aux
+A level-1 auxiliary file: analysis/analysis.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: unsrt.bst
+A level-1 auxiliary file: danksagung.aux
 Database file #1: thesis.bib
 Warning--entry type for "DTArlinghaus" isn't style-file defined
 --line 111 of file thesis.bib
 Warning--entry type for "radonGoerhard" isn't style-file defined
 --line 337 of file thesis.bib
+Warning--entry type for "norman" isn't style-file defined
+--line 1983 of file thesis.bib
+Warning--entry type for "mainSpecGeometry" isn't style-file defined
+--line 2089 of file thesis.bib
+Warning--string name "kit" is undefined
+--line 2095 of file thesis.bib
+Warning--I didn't find a database entry for "nancy"
 Warning--empty journal in fermi
 Warning--empty journal in Planck
 Warning--empty publisher in Hayakawa
 Warning--empty journal in letterOfIntent
 Warning--empty title in How09
-You've used 62 entries,
+Warning--empty publisher in photomultiplier
+You've used 71 entries,
             1791 wiz_defined-function locations,
-            840 strings with 13591 characters,
-and the built_in function-call counts, 11324 in all, are:
-= -- 984
-> -- 461
+            885 strings with 14875 characters,
+and the built_in function-call counts, 12834 in all, are:
+= -- 1102
+> -- 538
 < -- 2
-+ -- 186
-- -- 124
-* -- 585
-:= -- 1858
-add.period$ -- 205
-call.type$ -- 62
-change.case$ -- 52
++ -- 216
+- -- 145
+* -- 656
+:= -- 2107
+add.period$ -- 231
+call.type$ -- 71
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 486
-empty$ -- 1232
-format.name$ -- 124
-if$ -- 2567
+cite$ -- 77
+duplicate$ -- 550
+empty$ -- 1399
+format.name$ -- 145
+if$ -- 2906
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 48
-newline$ -- 330
-num.names$ -- 62
-pop$ -- 219
+int.to.str$ -- 71
+missing$ -- 54
+newline$ -- 374
+num.names$ -- 71
+pop$ -- 259
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 191
+skip$ -- 221
 stack$ -- 0
-substring$ -- 497
-swap$ -- 71
+substring$ -- 542
+swap$ -- 80
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 90
-width$ -- 64
-write$ -- 687
-(There were 7 warnings)
+warning$ -- 6
+while$ -- 101
+width$ -- 73
+write$ -- 775
+(There were 12 warnings)

@@ -1,21 +1,22 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 1.1}{\ignorespaces Neutrino parameters}}{9}{table.caption.9}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 3.1}{\ignorespaces High voltage settings}}{26}{table.caption.22}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces Energy resolution dependant on filter setting}}{43}{table.caption.58}
-\contentsline {table}{\numberline {\relax 5.2}{\ignorespaces LFCS settings stability measurement}}{45}{table.caption.60}
-\contentsline {table}{\numberline {\relax 5.3}{\ignorespaces Synchronization test Settings}}{51}{table.caption.70}
-\contentsline {table}{\numberline {\relax 5.4}{\ignorespaces Asymmetric magnetic field measurements}}{54}{table.caption.71}
-\contentsline {table}{\numberline {\relax 5.5}{\ignorespaces Non axially-symmetric magnetic field measurements}}{55}{table.caption.72}
-\contentsline {table}{\numberline {\relax 5.6}{\ignorespaces Main spectrometer runs}}{58}{table.caption.74}
-\contentsline {table}{\numberline {\relax 5.7}{\ignorespaces Main spectrometer magnnetic field settings}}{58}{table.caption.75}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 6.1}{\ignorespaces Angular distribution coefficients}}{65}{table.caption.83}
+\contentsline {table}{\numberline {\relax 1.1}{\ignorespaces Neutrino parameters}}{9}{table.caption.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Main spectrometer DAQ channel assignment}}{77}{table.caption.88}
-\contentsline {table}{\numberline {C.2}{\ignorespaces Temperature and pressure Rheinstetten}}{77}{table.caption.89}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces Angular distribution coefficients}}{45}{table.caption.51}
+\contentsline {table}{\numberline {\relax 5.2}{\ignorespaces Simulation comparison}}{46}{table.caption.52}
+\contentsline {table}{\numberline {\relax 5.3}{\ignorespaces Single \& Multi side event ratio}}{46}{table.caption.53}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {\relax 6.1}{\ignorespaces Energy resolution dependant on filter setting}}{49}{table.caption.56}
+\contentsline {table}{\numberline {\relax 6.2}{\ignorespaces LFCS settings stability measurement}}{51}{table.caption.58}
+\contentsline {table}{\numberline {\relax 6.3}{\ignorespaces Synchronization test Settings}}{59}{table.caption.68}
+\contentsline {table}{\numberline {\relax 6.4}{\ignorespaces Asymmetric magnetic field measurements}}{60}{table.caption.69}
+\contentsline {table}{\numberline {\relax 6.5}{\ignorespaces Non axially-symmetric magnetic field measurements}}{61}{table.caption.70}
+\contentsline {table}{\numberline {\relax 6.6}{\ignorespaces Main spectrometer runs}}{64}{table.caption.72}
+\contentsline {table}{\numberline {\relax 6.7}{\ignorespaces Main spectrometer magnnetic field settings}}{64}{table.caption.73}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces High voltage settings}}{77}{table.caption.83}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Main spectrometer DAQ channel assignment}}{77}{table.caption.84}
+\contentsline {table}{\numberline {C.3}{\ignorespaces Temperature and pressure Rheinstetten}}{78}{table.caption.86}
