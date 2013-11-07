@@ -23,6 +23,16 @@ K.~Kodama, N.~Ushida, C.~Andreopoulos, et~al.
 \newblock Observation of tau neutrino interactions.
 \newblock {\em Physics Letters B}, 504(3):218 -- 224, 2001.
 
+\bibitem{Grupen}
+Claus Grupen.
+\newblock {\em Astroparticle Physics}.
+\newblock Springer, Berlin [u.a.], 1. ed. edition, 2005.
+
+\bibitem{fraenkle}
+F.~M. Fraenkle.
+\newblock Background investigations of the katrin pre-spectrometer.
+\newblock \url{http://digbib.ubka.uni-karlsruhe.de/volltexte/1000019392}, 2010.
+
 \bibitem{bethgeKernphysik}
 Bethge and Walter.
 \newblock {\em Kernphysik}.
@@ -53,21 +63,28 @@ W.~Rodejohann.
   2013.
 \newblock [Online, accessed 05-09-2013].
 
+\bibitem{povh}
+Bogdan Povh, Klaus Rith, Christoph Scholz, and Frank Zetsche, editors.
+\newblock {\em Teilchen und Kerne : Eine Einfuehrung in die physikalischen
+  Konzepte}.
+\newblock Springer-LehrbuchSpringerLink : Bücher. Springer Berlin Heidelberg,
+  Berlin, Heidelberg, 8 edition, 2009.
+
 \bibitem{Antares}
 M.~Ageron et~al.
 \newblock {ANTARES: the first undersea neutrino telescope}.
 \newblock {\em Nucl.Instrum.Meth.}, A656:11--38, 2011.
-
-\bibitem{iceCube}
-M.G. Aartsen et~al.
-\newblock {Measurement of the Atmospheric $\nu_e$ flux in IceCube}.
-\newblock {\em Phys.Rev.Lett.}, 110:151105, 2013.
 
 \bibitem{PhysRevLett.110.181802}
 K.~et~al Abe.
 \newblock Evidence for the appearance of atmospheric tau neutrinos in
   super-kamiokande.
 \newblock {\em Phys. Rev. Lett.}, 110:181802, May 2013.
+
+\bibitem{iceCube}
+M.G. Aartsen et~al.
+\newblock {Measurement of the Atmospheric $\nu_e$ flux in IceCube}.
+\newblock {\em Phys.Rev.Lett.}, 110:151105, 2013.
 
 \bibitem{dayaBay2}
 Zhou Bin, Ruan Xi-Chao, Nie Yang-Bo, Zhou Zu-Ying, et~al.
@@ -78,6 +95,14 @@ Zhou Bin, Ruan Xi-Chao, Nie Yang-Bo, Zhou Zu-Ying, et~al.
 M.~Maltoni, T.~Schwetz, M.~A. T\'ortola, and J.~W.~F. Valle.
 \newblock Status of three-neutrino oscillations after the sno-salt data.
 \newblock {\em Phys. Rev. D}, 68:113010, Dec 2003.
+
+\bibitem{neutrinoMassScheme}
+scienceblogs.com.
+\newblock Neutino mass hierarchy.
+\newblock
+  \url{http://scienceblogs.com/startswithabang/files/2012/01/mass-hierarchy.jpg},
+  2012.
+\newblock [Online; accessed 21-08-2013].
 
 \bibitem{homestake}
 R.~Davis.
@@ -142,11 +167,6 @@ Todor Stanev.
 Anais Schaeffer.
 \newblock \url{http://cds.cern.ch/record/1345733/files/Cosmic_image.jpg}, 2013.
 \newblock [Online; accessed 01-09-2013].
-
-\bibitem{Grupen}
-Claus Grupen.
-\newblock {\em Astroparticle Physics}.
-\newblock Springer, Berlin [u.a.], 1. ed. edition, 2005.
 
 \bibitem{Hayakawa}
 S.~{Hayakawa}.
@@ -335,6 +355,7 @@ F.M. Fränkle, L.~Bornschein, G.~Drexlin, et~al.
 
 \bibitem{How09}
 {{Howe},~M.~A. }{\em{et al.}}
+\newblock Tunl progress report.
 \newblock {\em TUNL Progress Report}, XLVIII:179, 2009.
 
 \bibitem{norman}
@@ -350,10 +371,22 @@ Saint-Gobain Crystals.
   2005.
 \newblock [Online; accessed 11-07-2013].
 
+\bibitem{reichenbacher}
+J.~Reichenbacher, 1997.
+
 \bibitem{photomultiplier}
 Philips Components.
 \newblock {\em photomultiplier tubes - principles and application}.
 \newblock 1990.
+
+\bibitem{root}
+I.~Antcheva, M.~Ballintijn, B.~Bellenot, et~al.
+\newblock \{ROOT\} — a c++ framework for petabyte data storage, statistical
+  analysis and visualization.
+\newblock {\em Computer Physics Communications}, 180(12):2499 -- 2512, 2009.
+\newblock <ce:title>40 \{YEARS\} \{OF\} CPC: A celebratory issue focused on
+  quality software for high performance, grid and novel computing
+  architectures</ce:title>.
 
 \bibitem{geant}
 S.~Agostinelli, J.~Allison, K.~Amako, et~al.
@@ -390,6 +423,12 @@ W.-M. Yao et~al.
 \newblock Review of particle physics.
 \newblock {\em J. Phys. G 33}, 2006.
 
+\bibitem{nancy}
+Nancy Wandkowsky.
+\newblock Study of background and transmission properties of the katrin
+  spectrometers.
+\newblock \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d847562/phd-wandkowsky.pdf}.
+
 \bibitem{permeability}
 Myer Kutz.
 \newblock {\em Eshbach's Handbook of Engineering Fundamanetals}.
@@ -416,6 +455,12 @@ Manfred Klemann.
 N.~{Ramesh}, M.~{Hawron}, C.~{Martin}, and A.~{Bachri}.
 \newblock {Flux Variation of Cosmic Muons}.
 \newblock {\em ArXiv e-prints}, March 2012.
+
+\bibitem{sanshiro}
+Near-time / real-time analysis tools for the detector system.
+\newblock
+  \url{http://fuzzy.fzk.de/bscw/bscw.cgi/d751550/95-TRP-5364-S6-SEnomotoanshiro.pdf},
+  2012.
 
 \bibitem{proposalM12}
 M.~Asda.

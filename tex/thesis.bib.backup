@@ -1047,6 +1047,24 @@ title = "Simulation des Myon-induzierten Untergrundes und dessen Speicherwahrsch
 author = "Benjamin Jung",
 school = KIT,
 year = "2011"
+}
 
+@article{
+muonFlux,
+author = "W.-M.  Yao  and others",
+title = "Review  of  Particle  Physics",
+year = "2006",
+journal = "J.  Phys.  G  33",
+howpublished = "\url{http://pdg.lbl.gov}"
+}
 
+@book{povh,
+title = {Teilchen und Kerne : Eine Einführung in die physikalischen Konzepte},
+series = {Springer-LehrbuchSpringerLink : Bücher},
+editor = {Povh, Bogdan and Rith, Klaus and Scholz, Christoph and Zetsche, Frank},
+address = {Berlin, Heidelberg},
+publisher = {Springer Berlin Heidelberg},
+year = {2009},
+edition = {8},
+howpublished = "URL = {http://dx.doi.org/10.1007/978-3-540-68080-2}"
 }
